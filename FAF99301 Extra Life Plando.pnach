@@ -2459,8 +2459,8 @@ patch=1,EE,01C6BF3C,extended,00000007
 patch=1,EE,E0040F05,extended,0032BAE0
 patch=1,EE,E0030052,extended,0032BAE8
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
-patch=1,EE,E0010302,extended,01C6C01C// If Max HP Slot 4 = 302
-patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 4 = 770
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
 
 
 //----- Land of Dragons -----
