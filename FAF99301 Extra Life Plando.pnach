@@ -33,7 +33,7 @@ patch=1,EE,11D18DE2,extended,00000002// Hi-Potion
 // Beast's Castle Lantern
 patch=1,EE,E0020C05,extended,0032BAE0
 patch=1,EE,E0010002,extended,0032BAE8
-patch=1,EE,11D48FA6,extended,0000420C
+patch=1,EE,11D48FA6,extended,00004208
 // Urn Practice (Story)
 patch=1,EE,E0030006,extended,0032BAE0
 patch=1,EE,E002008C,extended,0032BAE4
@@ -1339,10 +1339,10 @@ patch=1,EE,11C5BA5C,extended,0000013E// Dusk (1st Wave; Back-Left)
 patch=1,EE,11C5BA9C,extended,0000013E// Dusk (1st Wave; Back-Right)
 patch=1,EE,11C5BADC,extended,00000138// Dancer (1st Wave)
 patch=1,EE,11C5BB1C,extended,00000138// Dancer (1st Wave; Back-Middle)
-patch=1,EE,11C5BB5C,extended,00000000// Sniper (4th Wave; Right)
-patch=1,EE,11C5BB9C,extended,00000000// Sniper (4th Wave; Mid-Right)
-patch=1,EE,11C5BBDC,extended,00000000// Sniper (4th Wave; Mid-Left)
-patch=1,EE,11C5BC1C,extended,00000000// Sniper (4th Wave; Left)
+patch=1,EE,11C5BB5C,extended,00000137// Sniper (4th Wave; Right)
+patch=1,EE,11C5BB9C,extended,00000137// Sniper (4th Wave; Mid-Right)
+patch=1,EE,11C5BBDC,extended,00000137// Sniper (4th Wave; Mid-Left)
+patch=1,EE,11C5BC1C,extended,00000137// Sniper (4th Wave; Left)
 //Restoration Site Nobodies Fight
 patch=1,EE,E0101204,extended,0032BAE0//
 patch=1,EE,E00F0049,extended,0032BAE8//
