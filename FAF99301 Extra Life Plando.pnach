@@ -2438,8 +2438,8 @@ patch=1,EE,01C6BDB4,extended,000001F4
 patch=1,EE,01C6BDB0,extended,000001F4
 //Dancer Marker Fix
 patch=1,EE,E0030305,extended,0032BAE0
-patch=1,EE,E0020045,extended,0032BAE8
-patch=1,EE,E0010000,extended,01C6BDB0
+patch=1,EE,E0020016,extended,0032BAE8
+patch=1,EE,E0010003,extended,01C98F0C
 patch=1,EE,01C98F0C,extended,00000004
 //Dark Thorn Fight
 patch=1,EE,E0080505,extended,0032BAE0
