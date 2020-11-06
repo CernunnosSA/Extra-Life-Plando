@@ -1,0 +1,69 @@
+--Armors
+Elven Bandana: Air Combo Boost
+Divine Bandana: Air Combo Boost
+Protect Belt: Protect
+Gaia Belt: Protera
+Power Band: Combo Boost
+Buster Band: Combo Boost
+Cosmic Belt: Protega
+Fire Bangle: Fire Boost
+Fira Bangle: Fire Boost
+Firaga Bangle: Fire Boost
+Firagun Bangle: Fire Boost
+Blizzard Armlet: Blizzard Boost
+Blizzara Armlet: Blizzard Boost
+Blizzaga Armlet: Blizzard Boost
+Blizzagun Armlet: Blizzard Boost
+Thunder Trinket: Thunder Boost
+Thundara Trinket: Thunder Boost
+Thundaga Trinket: Thunder Boost
+Thundagun Trinket: Thunder Boost
+Shock Charm: No EXP
+Shock Charm+: No EXP
+Shadow Anklet: Drive Boost
+Dark Anklet: Drive Boost
+Midnight Anklet: Drive Boost
+Chaos Anklet: Drive Boost
+Abas Chain: Finishing Plus
+Aegis Chain: Finishing Plus
+Acrisius: Finishing Plus
+Acrisius+: Finishing Plus
+Cosmic Chain: Finishing Plus
+Petite Ribbon: No EXP
+Ribbon: No EXP
+Grand Ribbon: No EXP
+
+--Accessories
+Ability Ring: Protect
+Engineer's Ring: Protect
+Technician's Ring: Protera
+Skill Ring: Aerial Finish
+Skillful Ring: Magnet Splash
+Expert's Ring: Protera
+Master's Ring: Protega
+Cosmic Ring: Second Chance
+Executive's Ring: Finishing Plus
+Sardonyx Ring: Fire Boost
+Tourmaline Ring: Damage Control
+Aquamarine Ring: Blizzard Boost
+Garnet Ring: Item Boost
+Diamond Ring: Thunder Boost
+Silver Ring: MP Haste
+Gold Ring: MP Haste
+Platinum Ring: MP Hastera
+Mythril Ring: MP Hastera
+Orichalcum Ring: MP Hastega
+Soldier Earring: Auto Valor
+Fencer Earring: Combo Boost
+Mage Earring: Auto Wisdom
+Slayer Earring: MP Hastega
+Medal: Form Boost
+Moon Amulet: Auto Master
+Star Charm: Trinity Limit
+Cosmic Arts: Once More
+Shadow Archive: Scan
+Shadow Archive+: Scan
+Full Bloom: Damage Control
+Full Bloom+: Damage Control
+Draw Ring: Draw
+Lucky Ring: Lucky Lucky
