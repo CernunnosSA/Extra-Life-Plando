@@ -807,9 +807,9 @@ patch=1,EE,11C56568,extended,00000338
 patch=1,EE,11C565A8,extended,00000338
 patch=1,EE,11C565E8,extended,00000338
 // Boat Pete
-patch=1,EE,E01E020D,extended,0032BAE0
-patch=1,EE,E01D0034,extended,0032BAE4
-patch=1,EE,E01C0034,extended,0032BAE8
+patch=1,EE,E01F020D,extended,0032BAE0
+patch=1,EE,E01E0034,extended,0032BAE4
+patch=1,EE,E01D0034,extended,0032BAE8
 patch=1,EE,00347D34,extended,000000A4
 patch=1,EE,01CBAE6C,extended,00000004 // Yuffie NOT a Boss
 patch=1,EE,01CBAE0C,extended,00000004 // Tifa NOT a Boss
@@ -838,6 +838,8 @@ patch=1,EE,11C6BB4C,extended,000000FF // Tifa Max
 patch=1,EE,11C6BB48,extended,000000FF // Tifa Current
 patch=1,EE,11C6C01C,extended,000000FF // Yuffie Max
 patch=1,EE,11C6C018,extended,000000FF // Yuffie Current
+patch=1,EE,2032F098,extended,12121200 // Solo Fight
+
 // Final Pete
 patch=1,EE,E017030D,extended,0032BAE0
 patch=1,EE,E0160035,extended,0032BAE4
@@ -1996,12 +1998,12 @@ patch=1,EE,E0021306,extended,0032BAE0
 patch=1,EE,E00100C9,extended,0032BAE8
 patch=1,EE,11C5BF7C,extended,00000051// Axel 2
 //Hades Cup Boss Fight
-patch=1,EE,E0051306,extended,0032BAE0
-patch=1,EE,E00400CA,extended,0032BAE8
+patch=1,EE,E0041306,extended,0032BAE0
+patch=1,EE,E00300CA,extended,0032BAE8
 patch=1,EE,11C5C0F0,extended,000006C4// Piglet (Hercules)
 patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
-patch=1,EE,4032F064,extended,00130001//
-patch=1,EE,12121200,extended,00000000// Solo Fight
+patch=1,EE,2032F078,extended,12121200// Solo Fight
+
 
 //----- Agrabah -----
 //Chests
@@ -3664,8 +3666,6 @@ patch=1,EE,0032EB00,extended,00000005// Doom Clock
 patch=1,EE,E0020013,extended,0032DF76// If TP1
 patch=1,EE,E001C680,extended,0032DF74// If TP2
 patch=1,EE,0032EB00,extended,00000006// Doom Clock
-
-//All doors open
 
 //One Door closed
 patch=1,EE,E0020001,extended,0032EB00// DC = 1
