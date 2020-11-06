@@ -2454,11 +2454,11 @@ patch=1,EE,E0080F05,extended,0032BAE0
 patch=1,EE,E0070052,extended,0032BAE8
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
 patch=1,EE,E0010302,extended,01C6C4EC// If Max HP Slot 2 = 770
-patch=1,EE,11C6C4EC,extended,00000000// HP Gate = 0HP
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
 patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 3 = 770
 patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 4 = 770
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010302,extended,01C6C01C// If Max HP Slot 4 = 770
+patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
 
 
 //----- Land of Dragons -----
@@ -2749,11 +2749,10 @@ patch=1,EE,21D11224,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D11228,extended,00000250 // Replacement Reward #2: Replacement Reward #1:Garden of Assemblage Map
 
 //Enemy Replacement
-//The World of Nothing (Cylinder Lasers) Fight (Possible but needs a lot of work)
-
 //The World of Nothing (Energy Core) Fight
-patch=1,EE,E0131912,extended,0032BAE0
-patch=1,EE,E0120046,extended,0032BAE8
+patch=1,EE,E0141912,extended,0032BAE0
+patch=1,EE,E0130046,extended,0032BAE8
+patch=1,EE,2032F0AC,extended,12121200// Solo Fight
 patch=1,EE,11C5B890,extended,00000135// Assassin (1st Wave)
 patch=1,EE,11C5B8D0,extended,0000013E// Dusk (1st Wave)
 patch=1,EE,11C5B910,extended,0000013E// Dusk (1st Wave)
