@@ -21,7 +21,7 @@ patch=1,EE,E0010001,extended,0032BAE8
 patch=1,EE,1032E020,extended,000001F0 // Mysterious Abyss
 //Critical Bonus
 patch=1,EE,11D18DDE,extended,0000008A// Scan
-patch=1,EE,11D18DDC,extended,00000002// Hi-Potion
+patch=1,EE,11D18DDC,extended,00000233// Limit Form
 patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE0,extended,00000002// Hi-Potion
@@ -30,10 +30,10 @@ patch=1,EE,11D18DE2,extended,00000002// Hi-Potion
 //-----------------------------------------
 //                Misc. Codes
 //------------------------------------
-// Beast's Castle Lantern
+//Cogsworth Inf. Grip
 patch=1,EE,E0020C05,extended,0032BAE0
 patch=1,EE,E0010002,extended,0032BAE8
-patch=1,EE,11D48FA6,extended,0000420C
+patch=1,EE,11D48FA6,extended,00004208
 // Urn Practice (Story)
 patch=1,EE,E0030006,extended,0032BAE0
 patch=1,EE,E002008C,extended,0032BAE4
@@ -402,7 +402,7 @@ patch=1,EE,E0061402,extended,0032BAE0
 patch=1,EE,E0050089,extended,0032BAE4
 patch=1,EE,E0040089,extended,0032BAE8
 patch=1,EE,11C5AF88,extended,000008FA// Tifa
-patch=1,EE,E0020017,extended,01C6C4E8// Reduce HP
+patch=1,EE,E0020017,extended,01C6C4E8// Increase HP
 patch=1,EE,21C6C4E8,extended,00000190
 patch=1,EE,21C6C4EC,extended,00000190
 
@@ -524,7 +524,7 @@ patch=1,EE,11C56530,extended,0000015F // Cerberus
 patch=1,EE,E0070911,extended,0032BAE0
 patch=1,EE,E006003A,extended,0032BAE8
 patch=1,EE,11C4FCC4,extended,000008F9// Sark -> Cloud
-patch=1,EE,11C4FD04,extended,000000DB// MCP NPC -> Wyvern
+patch=1,EE,11C4FD04,extended,00000022// MCP NPC -> You Know Who
 patch=1,EE,11C4FD44,extended,00000002// Trick Ghost Back-Left
 patch=1,EE,11C4FD84,extended,00000002// Trick Ghost Front-Left
 patch=1,EE,11C4FDC4,extended,00000002// Trick Ghost Front-Right
@@ -622,10 +622,8 @@ patch=1,EE,11C583E4,extended,00000134 // Dragoon
 
 //Boss Replacement
 // Marluxia Safety
-patch=1,EE,E004050C,extended,0032BAE0
-patch=1,EE,E0010166,extended,01CE0B6A
+patch=1,EE,E002050C,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan from Marluxia battle
-patch=1,EE,E0010166,extended,01CE0B6C
 patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy from Marluxia battle
 // Marluxia
 patch=1,EE,E00B2604,extended,0032BAE0
@@ -802,69 +800,72 @@ patch=1,EE,11C6BB48,extended,000000FF // Hostile Program B Current
 patch=1,EE,11C6BB4C,extended,000000FF // Hostile Program B Max
 patch=1,EE,11C6BB50,extended,00000000 // Hostile Program B HP-Gate-1
 // Revert Yuffie/Tifa to Bosses
-patch=1,EE,E005020D,extended,0032BAE0
+patch=1,EE,E006020D,extended,0032BAE0
+patch=1,EE,E0050004,extended,01CBAE6C
 patch=1,EE,01CBAE6C,extended,00000003
 patch=1,EE,01CBAE0C,extended,00000003
 patch=1,EE,11C56568,extended,00000338
 patch=1,EE,11C565A8,extended,00000338
 patch=1,EE,11C565E8,extended,00000338
 // Boat Pete
-patch=1,EE,E01E020D,extended,0032BAE0
-patch=1,EE,E01D0034,extended,0032BAE4
-patch=1,EE,E01C0034,extended,0032BAE8
-patch=1,EE,00347D34,extended,000000A4
+patch=1,EE,E01F020D,extended,0032BAE0
+patch=1,EE,E01E0034,extended,0032BAE4
+patch=1,EE,E01D0034,extended,0032BAE8
+patch=1,EE,2032F098,extended,12121200 // Solo Fight
+patch=1,EE,00347D34,extended,000000A4 // Olympus Music
 patch=1,EE,01CBAE6C,extended,00000004 // Yuffie NOT a Boss
 patch=1,EE,01CBAE0C,extended,00000004 // Tifa NOT a Boss
 patch=1,EE,11C56568,extended,000008F9 // Cloud
-patch=1,EE,11C6BF38,extended,0000000F // Cloud STR
-patch=1,EE,11C6BF3C,extended,00000008 // Cloud DEF
-patch=1,EE,21C6BF58,extended,00323264 // Cloud Resists 1 (100% Thunder, 50% Blizzard/Fire)
-patch=1,EE,21C6BF5C,extended,006419FF // Cloud Resists 2 (75% Light, -155% Dark)
+patch=1,EE,11C6C1A0,extended,0000000F // Cloud STR
+patch=1,EE,11C6C1A4,extended,00000008 // Cloud DEF
+patch=1,EE,21C6C1C0,extended,00323264 // Cloud Resists 1 (100% Thunder, 50% Blizzard/Fire)
+patch=1,EE,21C6C1C4,extended,006419FF // Cloud Resists 2 (75% Light, -155% Dark)
 patch=1,EE,11C565A8,extended,000008FA // Tifa
-patch=1,EE,11C6BCD0,extended,0000000A // Tifa STR
-patch=1,EE,11C6BCD4,extended,00000005 // Tifa DEF
-patch=1,EE,21C6BCF0,extended,96323264 // Tifa Resists 1 (-50% Thunder, 50% Blizzard/Fire)
-patch=1,EE,21C6BCF4,extended,00641900 // Tifa Resists 2 (75% Light, 100% Dark)
+patch=1,EE,11C6C408,extended,0000000A // Tifa STR
+patch=1,EE,11C6C40C,extended,00000005 // Tifa DEF
+patch=1,EE,21C6C428,extended,96323264 // Tifa Resists 1 (-50% Thunder, 50% Blizzard/Fire)
+patch=1,EE,21C6C42C,extended,00641900 // Tifa Resists 2 (75% Light, 100% Dark)
 patch=1,EE,11C565E8,extended,000008FB // Yuffie
-patch=1,EE,11C6C1A0,extended,00000005 // Yuffie STR
-patch=1,EE,11C6C1A4,extended,00000005 // Yuffie DEF
-patch=1,EE,21C6C1C0,extended,32009664 // Yuffie Resists 1 (50% Thunder, 100% Blizzard, -50% Fire)
-patch=1,EE,21C6C1C4,extended,00641932 // Yuffie Resists 2 (75% Light, 50% Dark)
+patch=1,EE,11C6C670,extended,00000005 // Yuffie STR
+patch=1,EE,11C6C674,extended,00000005 // Yuffie DEF
+patch=1,EE,21C6C690,extended,32009664 // Yuffie Resists 1 (50% Thunder, 100% Blizzard, -50% Fire)
+patch=1,EE,21C6C694,extended,00641932 // Yuffie Resists 2 (75% Light, 50% Dark)
 patch=1,EE,11C56F28,extended,00000000 // Remove Steamboat
 patch=1,EE,11C56EE8,extended,00000000 // Remove Cornerstone
 patch=1,EE,11C56EA8,extended,00000000 // Remove Pete
-patch=1,EE,E0060126,extended,01C6BDB4 // Set HP
-patch=1,EE,11C6BDB4,extended,000000FF // Cloud Max
-patch=1,EE,11C6BDB0,extended,000000FF // Cloud Current
-patch=1,EE,11C6BB4C,extended,000000FF // Tifa Max
-patch=1,EE,11C6BB48,extended,000000FF // Tifa Current
-patch=1,EE,11C6C01C,extended,000000FF // Yuffie Max
-patch=1,EE,11C6C018,extended,000000FF // Yuffie Current
+patch=1,EE,E0060031,extended,01C6C018 // Set HP
+patch=1,EE,11C6C018,extended,000000FF // Cloud Current
+patch=1,EE,11C6C01C,extended,000000FF // Cloud Max
+patch=1,EE,11C6C280,extended,000000FF // Tifa Current
+patch=1,EE,11C6C284,extended,000000FF // Tifa Max
+patch=1,EE,11C6C4E8,extended,000000FF // Yuffie Current
+patch=1,EE,11C6C4EC,extended,000000FF // Yuffie Max
 // Final Pete
-patch=1,EE,E017030D,extended,0032BAE0
-patch=1,EE,E0160035,extended,0032BAE4
-patch=1,EE,E0150035,extended,0032BAE8
-patch=1,EE,00347D34,extended,00000054
-patch=1,EE,01CA298C,extended,00000004
+patch=1,EE,E018030D,extended,0032BAE0
+patch=1,EE,E0170035,extended,0032BAE4
+patch=1,EE,E0160035,extended,0032BAE8
+patch=1,EE,00347D34,extended,00000054 // Music
+patch=1,EE,01CA298C,extended,00000004 // Volcanic Lord NOT a Boss
 patch=1,EE,11C55BF0,extended,0000040B // Volcanic Lord
-patch=1,EE,11C6BF38,extended,0000000A // Volcanic Lord STR
-patch=1,EE,11C6BF3C,extended,0000000A // Volcanic Lord DEF
-patch=1,EE,21C6BF58,extended,0A96000A // Volcanic Lord Resists 1 (90% Thunder/Physical, -50% Blizzard, 100% Fire)
-patch=1,EE,21C6BF5C,extended,00640000 // Volcanic Lord Resists 2 (100% Light/Dark)
+patch=1,EE,11C6C408,extended,0000000A // Volcanic Lord STR
+patch=1,EE,11C6C40C,extended,0000000A // Volcanic Lord DEF
+patch=1,EE,21C6C428,extended,0A96000A // Volcanic Lord Resists 1 (90% Thunder/Physical, -50% Blizzard, 100% Fire)
+patch=1,EE,21C6C42C,extended,00640000 // Volcanic Lord Resists 2 (100% Light/Dark)
 patch=1,EE,11C55C30,extended,0000040C // Blizzard Lord
-patch=1,EE,11C6C1A0,extended,0000000A // Blizzard Lord STR
-patch=1,EE,11C6BF3C,extended,0000000A // Blizzard Lord DEF
-patch=1,EE,21C6C1C0,extended,0A00960A // Blizzard Lord Resists 1 (90% Thunder/Physical, -50% Fire, 100% Blizzard)
-patch=1,EE,21C6C1C4,extended,00640000 // Blizzard Lord Resists 2 (100% Light/Dark)
-patch=1,EE,E0060188,extended,01C6C01C
-patch=1,EE,11C6C018,extended,000001FF // Blizzard Lord HP
-patch=1,EE,11C6C01C,extended,000001FF
-patch=1,EE,11C6C020,extended,00000000
-patch=1,EE,11C6BDB0,extended,000001FF // Volcanic Lord HP
-patch=1,EE,11C6BDB4,extended,000001FF
-patch=1,EE,11C6BDB8,extended,00000000
+patch=1,EE,11C6C670,extended,0000000A // Blizzard Lord STR
+patch=1,EE,11C6B674,extended,0000000A // Blizzard Lord DEF
+patch=1,EE,21C6C690,extended,0A00960A // Blizzard Lord Resists 1 (90% Thunder/Physical, -50% Fire, 100% Blizzard)
+patch=1,EE,21C6C694,extended,00640000 // Blizzard Lord Resists 2 (100% Light/Dark)
+patch=1,EE,E0060188,extended,01C6C280 // Set HP
+patch=1,EE,11C6C280,extended,000001FF // Volcanic Lord Current
+patch=1,EE,11C6C284,extended,000001FF // Volcanic Lord Max
+patch=1,EE,11C6C288,extended,00000000 // Volcanic Lord HP Gate
+patch=1,EE,11C6C4E8,extended,000001FF // Blizzard Lord Current
+patch=1,EE,11C6C4EC,extended,000001FF // Blizzard Lord Max
+patch=1,EE,11C6C4F0,extended,00000000 // Blizzard Lord HP Gate
 patch=1,EE,E0010000,extended,01C6C018 // When Blizzard Lord dies
 patch=1,EE,01CA298C,extended,00000003 // Revert Volcanic Lord into boss
+patch=1,EE,2032F098,extended,12121200 // Solo Fight
 
 
 //----- Port Royal -----
@@ -1231,7 +1232,7 @@ patch=1,EE,11CDFF46,extended,00000057 // Borough, AP Boost is now Magnet
 patch=1,EE,11CDFF52,extended,00000111 // Borough, Hi-Potion is now Retaliating Slash
 patch=1,EE,11CDFF5E,extended,00000166 // Borough, Mythril Shard is now Serenity Stone
 patch=1,EE,11CDFF6A,extended,00000079 // Borough, Dark Shard is now Cave of Wonders Map
-patch=1,EE,11CDFF76,extended,00000238 // Postern, Castle Perimeter Map is now Auto Limit
+patch=1,EE,11CDFF76,extended,0000024A // Postern, Castle Perimeter Map is now Dark Remembrance Map
 patch=1,EE,11CDFF82,extended,0000014E // Postern, Mythril Gem is now Lucid Stone
 patch=1,EE,11CDFF8E,extended,000001ED // Postern, AP Boost is now Decisive Pumpkin
 patch=1,EE,11CDFF9A,extended,0000018A // Corridors, Mythril Stone is now Negative Combo
@@ -1339,10 +1340,10 @@ patch=1,EE,11C5BA5C,extended,0000013E// Dusk (1st Wave; Back-Left)
 patch=1,EE,11C5BA9C,extended,0000013E// Dusk (1st Wave; Back-Right)
 patch=1,EE,11C5BADC,extended,00000138// Dancer (1st Wave)
 patch=1,EE,11C5BB1C,extended,00000138// Dancer (1st Wave; Back-Middle)
-patch=1,EE,11C5BB5C,extended,00000000// Sniper (4th Wave; Right)
-patch=1,EE,11C5BB9C,extended,00000000// Sniper (4th Wave; Mid-Right)
-patch=1,EE,11C5BBDC,extended,00000000// Sniper (4th Wave; Mid-Left)
-patch=1,EE,11C5BC1C,extended,00000000// Sniper (4th Wave; Left)
+patch=1,EE,11C5BB5C,extended,00000137// Sniper (4th Wave; Right)
+patch=1,EE,11C5BB9C,extended,00000137// Sniper (4th Wave; Mid-Right)
+patch=1,EE,11C5BBDC,extended,00000137// Sniper (4th Wave; Mid-Left)
+patch=1,EE,11C5BC1C,extended,00000137// Sniper (4th Wave; Left)
 //Restoration Site Nobodies Fight
 patch=1,EE,E0101204,extended,0032BAE0//
 patch=1,EE,E00F0049,extended,0032BAE8//
@@ -1477,7 +1478,7 @@ patch=1,EE,11C4DD9C,extended,00000078// NeoShadow (4th Wave)
 //Ravine Trail Heartless 4
 patch=1,EE,E02A1004,extended,0032BAE0//
 patch=1,EE,E0290041,extended,0032BAE8//
-patch=1,EE,11C4E664,extended,00000688// Cloud (Ally)
+patch=1,EE,11C4E664,extended,00000001// Cloud (Ally) -> Fat Bandit
 patch=1,EE,11C4DFC0,extended,00000132// Surveillance Bot (1st Wave; Back-Right)
 patch=1,EE,11C4E000,extended,00000078// NeoShadow (1st Wave; Mid-Left)
 patch=1,EE,11C4E040,extended,00000078// NeoShadow (1st Wave; Front-Left)
@@ -1525,18 +1526,11 @@ patch=1,EE,11D48EE8,extended,000000FF//
 
 //Boss Replacement
 //Demyx II
-patch=1,EE,E0020404,extended,0032BAE0//
-patch=1,EE,E0010037,extended,0032BAE8//
+patch=1,EE,E0060404,extended,0032BAE0//
+patch=1,EE,E0050037,extended,0032BAE8//
 patch=1,EE,11C4CE7C,extended,000008F9// Cloud
-//Demyx No Party
-patch=1,EE,E0030404,extended,0032BAE0//
-patch=1,EE,E0020037,extended,0032BAE8//
-patch=1,EE,4032F064,extended,00130001
-patch=1,EE,595F5A00,extended,00000000
-//Cloud HP
-patch=1,EE,E0040404,extended,0032BAE0//
-patch=1,EE,E0030037,extended,0032BAE8//
-patch=1,EE,E0020218,extended,01C6C4EC
+patch=1,EE,2032F070,extended,12121200// Solo Fight
+patch=1,EE,E0020218,extended,01C6C4EC// Cloud's HP
 patch=1,EE,11C6C4EC,extended,000007D0// Max HP
 patch=1,EE,11C6C4E8,extended,000007D0// Current HP
 //Sephiroth (NPC) (This has to be Sephiroth for the RC but can be changed for goofs.)
@@ -1998,12 +1992,12 @@ patch=1,EE,E0021306,extended,0032BAE0
 patch=1,EE,E00100C9,extended,0032BAE8
 patch=1,EE,11C5BF7C,extended,00000051// Axel 2
 //Hades Cup Boss Fight
-patch=1,EE,E0051306,extended,0032BAE0
-patch=1,EE,E00400CA,extended,0032BAE8
+patch=1,EE,E0041306,extended,0032BAE0
+patch=1,EE,E00300CA,extended,0032BAE8
+patch=1,EE,2032F078,extended,12121200// Solo Fight
 patch=1,EE,11C5C0F0,extended,000006C4// Piglet (Hercules)
 patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
-patch=1,EE,4032F064,extended,00130001//
-patch=1,EE,12121200,extended,00000000// Solo Fight
+
 
 //----- Agrabah -----
 //Chests
@@ -2206,11 +2200,6 @@ patch=1,EE,11C6C01C,extended,00000190// Max HP
 patch=1,EE,11C6C018,extended,00000190// Current HP
 patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscnee Fix
 patch=1,EE,0035DE20,extended,000000B5
-//Genie Jafar Fight (you have to use thunder) (kira)
-patch=1,EE,E0030507,extended,0032BAE0
-patch=1,EE,E002003E,extended,0032BAE8
-patch=1,EE,11C56A28,extended,0000085C// armor xemnas 1
-patch=1,EE,11C56A48,extended,00000001
 
 //----- Halloween Town -----
 //Chests
@@ -2412,8 +2401,8 @@ patch=1,EE,11C50310,extended,00000727// Hot Rod (3rd Wave; Right)
 
 //Boss Replacement
 //Thresholder Fight (Lies!!!!!)
-patch=1,EE,E0120B05,extended,0032BAE0
-patch=1,EE,E0110048,extended,0032BAE8
+patch=1,EE,E0180B05,extended,0032BAE0
+patch=1,EE,E0170048,extended,0032BAE8
 patch=1,EE,11C55204,extended,00000161// Thresholder
 patch=1,EE,11C55244,extended,00000164// Possessor
 patch=1,EE,11C552B0,extended,000005DF// Gargoyle Warrior (1st Wave; Right)
@@ -2428,38 +2417,64 @@ patch=1,EE,11C554B0,extended,000005DE// Shadow (3rd Wave; Back-Left)
 patch=1,EE,11C554F0,extended,000005DE// Magnum Loader (3rd Wave; Back-Right)
 patch=1,EE,11C55530,extended,000005DE// Magnum Loader(3rd Wave; Front-Middle)
 patch=1,EE,11C55570,extended,000005DE// Magnum Loader (3rd Wave; Back-Middle)
-patch=1,EE,E0020089,extended,01C6BDB4// Thresholder HP
+patch=1,EE,E0020089,extended,01C6C284// Set HP Slot 3
+patch=1,EE,11C6C284,extended,000000FA
+patch=1,EE,11C6C280,extended,000000FA
+patch=1,EE,E0020089,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,11C6C01C,extended,000000FA
+patch=1,EE,11C6C018,extended,000000FA
+patch=1,EE,E0020089,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB4,extended,000000FA
 patch=1,EE,21C6BDB0,extended,000000FA
 //Beast (Boss)
-patch=1,EE,E0070305,extended,0032BAE0
-patch=1,EE,E0060045,extended,0032BAE8
+patch=1,EE,E00D0305,extended,0032BAE0
+patch=1,EE,E00C0045,extended,0032BAE8
 patch=1,EE,01C98F0C,extended,00000003// Dancer Boss Marker
 patch=1,EE,11C4CBA0,extended,00000138// Dancer (Beast)
 patch=1,EE,11C4CBE0,extended,000008F6// Water Clone (Cogsworth) (ally)
-patch=1,EE,E002003F,extended,01C6BDB4// Dancer's HP
-patch=1,EE,01C6BDB4,extended,000001F4
-patch=1,EE,01C6BDB0,extended,000001F4
+patch=1,EE,E002003F,extended,01C6C284// Set HP Slot 3
+patch=1,EE,11C6C284,extended,000001F4
+patch=1,EE,11C6C280,extended,000001F4
+patch=1,EE,E002003F,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,11C6C01C,extended,000001F4
+patch=1,EE,11C6C018,extended,000001F4
+patch=1,EE,E002003F,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB4,extended,000000F4
+patch=1,EE,21C6BDB0,extended,000000F4
 //Dancer Marker Fix
 patch=1,EE,E0030305,extended,0032BAE0
 patch=1,EE,E0020016,extended,0032BAE8
 patch=1,EE,E0010003,extended,01C98F0C
 patch=1,EE,01C98F0C,extended,00000004
 //Dark Thorn Fight
-patch=1,EE,E0080505,extended,0032BAE0
-patch=1,EE,E007004F,extended,0032BAE8
+patch=1,EE,E0120505,extended,0032BAE0
+patch=1,EE,E011004F,extended,0032BAE8
 patch=1,EE,11C5A16C,extended,0000001F// Cogsworth (Chandelier) (Dark Thorn)
 patch=1,EE,11C5A4D4,extended,000002CE// Beast (Dark Thorn)
-patch=1,EE,E004009C,extended,01C6BDB4// Beast's HP
-patch=1,EE,11C6BDB4,extended,0000012C
-patch=1,EE,11C6BDB0,extended,0000012C
+patch=1,EE,E004009C,extended,01C6C284// Set HP Slot 3
+patch=1,EE,11C6C284,extended,0000012C
+patch=1,EE,11C6C280,extended,0000012C
+patch=1,EE,01C6C408,extended,0000001E
+patch=1,EE,01C6C40C,extended,00000007
+patch=1,EE,E004009C,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,11C6C01C,extended,0000012C
+patch=1,EE,11C6C018,extended,0000012C
 patch=1,EE,01C6BF38,extended,0000001E
 patch=1,EE,01C6BF3C,extended,00000007
+patch=1,EE,E004009C,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,11C6BDB4,extended,0000012C
+patch=1,EE,11C6BDB0,extended,0000012C
+patch=1,EE,01C6BDD0,extended,0000001E
+patch=1,EE,01C6BDD4,extended,00000007
 // Xaldin (Normal)
-patch=1,EE,E0040F05,extended,0032BAE0
-patch=1,EE,E0030052,extended,0032BAE8
+patch=1,EE,E0080F05,extended,0032BAE0
+patch=1,EE,E0070052,extended,0032BAE8
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
-patch=1,EE,E0010302,extended,01C6C01C// If Max HP Slot 4 = 302
+patch=1,EE,E0010302,extended,01C6C4EC// If Max HP Slot 2 = 770
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 3 = 770
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010302,extended,01C6C01C// If Max HP Slot 4 = 770
 patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
 
 
@@ -2474,7 +2489,7 @@ patch=1,EE,11CDF766,extended,00000003 // Mountain Trail, Lightning Shard is now 
 patch=1,EE,11CDF772,extended,00000019 // Mountain Trail, Recovery Recipe is now Ukulele Charm
 patch=1,EE,11CDF77E,extended,0000017A // Mountain Trail, Ether is now Frost Shard
 patch=1,EE,11CDF78A,extended,0000014C // Mountain Trail, Mythril Shard is now Power Crystal
-patch=1,EE,11CDF796,extended,00000233 // Village Cave, AP Boost is now Limit Form
+patch=1,EE,11CDF796,extended,0000007B // Village Cave, AP Boost is now Undersea Kingdom Map
 patch=1,EE,11CDF7A2,extended,00000112 // Village Cave, Dark Shard is now Drive Recovery
 patch=1,EE,11CDF7AE,extended,00000002 // Ridge, Frost Shard is now Hi-Potion
 patch=1,EE,11CDF7BA,extended,0000010C // Ridge, AP Boost is now Counterguard
@@ -2643,18 +2658,30 @@ patch=1,EE,E0020001,extended,0032BAE8
 patch=1,EE,11C4C714,extended,00000428// (Shan Yu)
 patch=1,EE,11C4C678,extended,00000022// (Emperor)
 //Shan Yu Fight
-patch=1,EE,E00B0908,extended,0032BAE0
-patch=1,EE,E00A004B,extended,0032BAE8
+patch=1,EE,E0170908,extended,0032BAE0
+patch=1,EE,E016004B,extended,0032BAE8
 patch=1,EE,11C4BEB0,extended,00000137// Sniper (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136// Samurai(Shan Yu)
 patch=1,EE,11C98EAC,extended,00000003// Sniper Marker
 patch=1,EE,11C98E4C,extended,00000003// Samurai Marker
-patch=1,EE,E0020037,extended,01C6BDB4// Sniper's HP
-patch=1,EE,11C6BDB4,extended,0000015E// Max HP
+patch=1,EE,E0050037,extended,01C6C4EC// Set HP Slot 2 
+patch=1,EE,E0040037,extended,01C6C284// Set HP Slot 3
+patch=1,EE,11C6C4EC,extended,0000015E// Sniper Max HP
+patch=1,EE,11C6C4E8,extended,0000015E// Current HP
+patch=1,EE,11C6C284,extended,0000015E// Samurai Max HP
+patch=1,EE,11C6C280,extended,0000015E// Current HP
+patch=1,EE,E0050037,extended,01C6C284// Set HP Slot 2
+patch=1,EE,E0040037,extended,01C6C01C// Set HP Slot 3
+patch=1,EE,11C6C284,extended,0000015E// Sniper Max HP
+patch=1,EE,11C6C280,extended,0000015E// Current HP
+patch=1,EE,11C6C01C,extended,0000015E// Samurai Max HP
+patch=1,EE,11C6C018,extended,0000015E// Current HP
+patch=1,EE,E0050037,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,E0040037,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,11C6C01C,extended,0000015E// Sniper Max HP
+patch=1,EE,11C6C018,extended,0000015E// Current HP
+patch=1,EE,11C6BDB4,extended,0000015E// Samurai Max HP
 patch=1,EE,11C6BDB0,extended,0000015E// Current HP
-patch=1,EE,E0020037,extended,01C6BB48// Samurai's HP
-patch=1,EE,11C6BB48,extended,0000015E// Max HP
-patch=1,EE,11C6BB4C,extended,0000015E// Current HP
 //Samurai and Sniper Marker Fix
 patch=1,EE,E0030908,extended,0032BAE0
 patch=1,EE,E0020069,extended,0032BAE8
@@ -2670,18 +2697,42 @@ patch=1,EE,E0020016,extended,0032BAE8
 patch=1,EE,11C4F7E0,extended,00000022// You know what it is (Emperor)
 patch=1,EE,11C4F884,extended,00000872// Tiny Head Pooh (Shang)
 //Storm Rider Fight
-patch=1,EE,E0110808,extended,0032BAE0
-patch=1,EE,E010004F,extended,0032BAE8
+patch=1,EE,E0290808,extended,0032BAE0
+patch=1,EE,E028004F,extended,0032BAE8
 patch=1,EE,11C4D450,extended,00000049// (RC)
 patch=1,EE,11C4D490,extended,00000049// (RC)
 patch=1,EE,11C4D4D0,extended,00000049// (RC)
 patch=1,EE,11C4D324,extended,0000040C// (Storm Rider)
-patch=1,EE,E0020260,extended,01C6C01C// Blizzard Lord's HP
-patch=1,EE,11C6C01C,extended,000003E8// Max HP
-patch=1,EE,11C6C018,extended,000003E8// Current HP
-patch=1,EE,E008007A,extended,01C6BDB4// 3 Crimson Jazzes' HP
-patch=1,EE,E007007A,extended,01C6BB4C
-patch=1,EE,E006007A,extended,01C6B8E4
+patch=1,EE,E00B0260,extended,01C6C4EC// Set HP Slot 2
+patch=1,EE,E00A007A,extended,01C6C284// Set HP Slot 3,4,5
+patch=1,EE,E009007A,extended,01C6C01C
+patch=1,EE,E008007A,extended,01C6BDB4
+patch=1,EE,11C6C4EC,extended,000003E8// Blizz Max HP
+patch=1,EE,11C6C4EC,extended,000003E8// Blizz Current HP
+patch=1,EE,11C6C284,extended,000000C8
+patch=1,EE,11C6C280,extended,000000C8
+patch=1,EE,11C6C01C,extended,000000C8
+patch=1,EE,11C6C018,extended,000000C8
+patch=1,EE,11C6BDB4,extended,000000C8
+patch=1,EE,11C6BDB0,extended,000000C8
+patch=1,EE,E00B0260,extended,01C6C284// Set HP Slot 3
+patch=1,EE,E00A007A,extended,01C6C01C// Set HP Slot 4,5,6
+patch=1,EE,E009007A,extended,01C6BDB4
+patch=1,EE,E008007A,extended,01C6BB4C
+patch=1,EE,11C6C284,extended,000003E8// Blizz Max HP
+patch=1,EE,11C6C280,extended,000003E8// Blizz Current HP
+patch=1,EE,11C6C01C,extended,000000C8
+patch=1,EE,11C6C018,extended,000000C8
+patch=1,EE,11C6BDB4,extended,000000C8
+patch=1,EE,11C6BDB0,extended,000000C8
+patch=1,EE,11C6BB4C,extended,000000C8
+patch=1,EE,11C6BB48,extended,000000C8
+patch=1,EE,E00B0260,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,E00A007A,extended,01C6BDB4// Set HP Slot 5,6,7
+patch=1,EE,E009007A,extended,01C6BB4C
+patch=1,EE,E008007A,extended,01C6B8E4
+patch=1,EE,11C6C01C,extended,000003E8// Blizz Max HP
+patch=1,EE,11C6C018,extended,000003E8// Blizz Current HP
 patch=1,EE,11C6BDB4,extended,000000C8
 patch=1,EE,11C6BB4C,extended,000000C8
 patch=1,EE,11C6B8E4,extended,000000C8
@@ -2692,7 +2743,8 @@ patch=1,EE,11C6B8E0,extended,000000C8
 
 //----- The World That Never Was -----
 //Chests
-patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
+patch=1,EE,11CE0402,extended,00000134 // Fragment Crossing, Mythril Stone is now Cosmic Chain. USE ONLY ON LAST RESORT!!!!!
+//patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
 patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
 patch=1,EE,11CE041A,extended,00000113 // Fragment Crossing, AP Boost is now High Drive Recovery
 patch=1,EE,11CE0426,extended,00000116 // Fragment Crossing, Orichalcum is now Defense Boost
@@ -2751,17 +2803,10 @@ patch=1,EE,21D11224,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D11228,extended,00000250 // Replacement Reward #2: Replacement Reward #1:Garden of Assemblage Map
 
 //Enemy Replacement
-//The World of Nothing (Cylinder Lasers) Fight (Possible but needs a lot of work)
-//patch=1,EE,E0061A12,extended,0032BAE0
-//patch=1,EE,E0050045,extended,0032BAE8
-//patch=1,EE,11C5C118,extended,00000130// Dusk (1st Platform; 1st Nobody)
-//patch=1,EE,11C5C158,extended,00000130// Dusk (1st Platform; 2nd Nobody)
-//patch=1,EE,11C5C198,extended,00000130// Dusk (1st Platform; 3rd Nobody)
-//patch=1,EE,11C5C1D8,extended,00000130// Dusk (1st Platform; 4th Nobody)
-//patch=1,EE,11C5C218,extended,00000130// Dusk (1st Platform; 5th Nobody)
 //The World of Nothing (Energy Core) Fight
-patch=1,EE,E0131912,extended,0032BAE0
-patch=1,EE,E0120046,extended,0032BAE8
+patch=1,EE,E0141912,extended,0032BAE0
+patch=1,EE,E0130046,extended,0032BAE8
+patch=1,EE,2032F0AC,extended,12121200// Solo Fight
 patch=1,EE,11C5B890,extended,00000135// Assassin (1st Wave)
 patch=1,EE,11C5B8D0,extended,0000013E// Dusk (1st Wave)
 patch=1,EE,11C5B910,extended,0000013E// Dusk (1st Wave)
@@ -2791,10 +2836,24 @@ patch=1,EE,E0020E12,extended,0032BAE0
 patch=1,EE,E001003A,extended,0032BAE8
 patch=1,EE,11C5358C,extended,00000951// Roxas
 //Saix (Normal)
-patch=1,EE,E0020F12,extended,0032BAE0
-patch=1,EE,E0010038,extended,0032BAE8
+patch=1,EE,E0170F12,extended,0032BAE0
+patch=1,EE,E0160038,extended,0032BAE8
 patch=1,EE,11C520AC,extended,000008F8// Leon
-patch=1,EE,E006015E,extended,01C6C01C// Leon's Stats
+patch=1,EE,E006015E,extended,01C6C4EC// Set Stats Slot 2
+patch=1,EE,11C6C4EC,extended,000007D0//
+patch=1,EE,11C6C4E8,extended,000007D0//
+patch=1,EE,01C6C670,extended,0000002D// Str
+patch=1,EE,01C6C674,extended,0000001E// Def
+patch=1,EE,21C6C690,extended,1E1E1E1E// Res. 1
+patch=1,EE,21C6C694,extended,00641919// Res. 2
+patch=1,EE,E006015E,extended,01C6C284// Set Stats Slot 3
+patch=1,EE,11C6C284,extended,000007D0//
+patch=1,EE,11C6C280,extended,000007D0//
+patch=1,EE,21C6C408,extended,0000002D// Str
+patch=1,EE,21C6C40C,extended,0000001E// Def
+patch=1,EE,21C6C428,extended,1E1E1E1E// Res. 1
+patch=1,EE,21C6C42C,extended,00641919// Res. 2
+patch=1,EE,E006015E,extended,01C6C01C// Set Stats Slot 4
 patch=1,EE,11C6C01C,extended,000007D0//
 patch=1,EE,11C6C018,extended,000007D0//
 patch=1,EE,01C6C1A0,extended,0000002D// Str
@@ -3062,7 +3121,7 @@ patch=1,EE,21CDEE80,extended,00646464
 // Firagun Bangle
 patch=1,EE,11CDEE86,extended,00000198 // Fire Boost
 patch=1,EE,21CDEE88,extended,00000000
-patch=1,EE,21CDEE8C,extended,64C80064 // 100% Fire Resist, -100% Blizzard Resist
+patch=1,EE,21CDEE8C,extended,64C80164 // 99% Fire Resist, -100% Blizzard Resist
 patch=1,EE,21CDEE90,extended,00646464
 // Blizzard Armlet
 patch=1,EE,11CDEE96,extended,00000199 // Blizzard Boost
@@ -3082,7 +3141,7 @@ patch=1,EE,21CDEEC0,extended,00646464
 // Blizzagun Armlet
 patch=1,EE,11CDEEC6,extended,00000199 // Blizzard Boost
 patch=1,EE,21CDEEC8,extended,00000000
-patch=1,EE,21CDEECC,extended,6400C864 // 100% Blizzard Resist, -100% Fire Resist
+patch=1,EE,21CDEECC,extended,6401C864 // 99% Blizzard Resist, -100% Fire Resist
 patch=1,EE,21CDEED0,extended,00646464
 // Thunder Trinket
 patch=1,EE,11CDEED6,extended,0000019A // Thunder Boost
@@ -3102,7 +3161,7 @@ patch=1,EE,21CDEF00,extended,006464AF // -75% Dark Resist
 // Thundagun Trinket
 patch=1,EE,11CDEF06,extended,0000019A // Thunder Boost
 patch=1,EE,21CDEF08,extended,00000000
-patch=1,EE,21CDEF0C,extended,00646464 // 100% Thunder Resist
+patch=1,EE,21CDEF0C,extended,01646464 // 99% Thunder Resist
 patch=1,EE,21CDEF10,extended,006464C8 // -100% Dark Resist
 // Shock Charm
 patch=1,EE,11CDEE26,extended,00000194 // No XP
@@ -3133,7 +3192,7 @@ patch=1,EE,21CDEF40,extended,00646419 // 75% Dark Resist
 patch=1,EE,11CDEF46,extended,0000018D // Drive Boost
 patch=1,EE,21CDEF48,extended,00000000
 patch=1,EE,21CDEF4C,extended,C8646464 // -100% Thunder Resist
-patch=1,EE,21CDEF50,extended,00646400 // 100% Dark Resist
+patch=1,EE,21CDEF50,extended,00646401 // 99% Dark Resist
 // Abas Chain
 patch=1,EE,11CDEF56,extended,00000189 // Finishing Plus
 patch=1,EE,21CDEF58,extended,00030000 // +3 DEF
@@ -3172,7 +3231,7 @@ patch=1,EE,21CDEF90,extended,00226464 // 66% Resist ALL (unlisted)
 // Grand Ribbon
 patch=1,EE,11CDEE46,extended,00000194 // No XP
 patch=1,EE,21CDEE48,extended,000F0000 // +15 DEF
-patch=1,EE,21CDEE4C,extended,64646400 // 100% Physical Resist (unlisted)
+patch=1,EE,21CDEE4C,extended,64646401 // 99% Physical Resist (unlisted)
 patch=1,EE,21CDEE50,extended,00016464 // 99% Resist ALL (unlisted)
 
 //----- Accessories -----
@@ -3580,7 +3639,7 @@ patch=1,EE,11D1A27E,extended,00000044 // Wisdom LV5, Quick Run LV 2 is now Divin
 patch=1,EE,11D1A286,extended,0000003A // Wisdom LV6, MP Haste is now Shadow Archive+
 patch=1,EE,11D1A28E,extended,000001E7 // Wisdom LV7, Quick Run LV 3 is now Circle of Life
 
-patch=1,EE,11D1A29E,extended,00000233 // Limit LV2, Auto Limit is now Limit Form
+patch=1,EE,11D1A29E,extended,0000024E // Limit LV2, Auto Limit is now Depths of Remembrance Map
 patch=1,EE,11D1A2A6,extended,0000012F // Limit LV3, Dodge Roll LV 1 is now Acrisius
 patch=1,EE,11D1A2AE,extended,00000024 // Limit LV4, Draw is now Star Charm
 patch=1,EE,11D1A2B6,extended,00000132 // Limit LV5, Dodge Roll LV 2 is now Petite Ribbon
@@ -3673,90 +3732,38 @@ patch=1,EE,E0020013,extended,0032DF76// If TP1
 patch=1,EE,E001C680,extended,0032DF74// If TP2
 patch=1,EE,0032EB00,extended,00000006// Doom Clock
 
-//All doors open
-patch=1,EE,E00E0000,extended,0032EB00// DC = 0
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
-patch=1,EE,11C5A5F4,extended,000009C3// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
-patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
 //One Door closed
-patch=1,EE,E00E0001,extended,0032EB00// DC = 1
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,E0020001,extended,0032EB00// DC = 1
+patch=1,EE,E0011A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
-patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Two Doors closed
-patch=1,EE,E00E0002,extended,0032EB00// DC = 2
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,E0030002,extended,0032EB00// DC = 2
+patch=1,EE,E0021A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Four Doors closed
-patch=1,EE,E00E0003,extended,0032EB00// DC = 3
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,E0050003,extended,0032EB00// DC = 3
+patch=1,EE,E0041A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
 patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Six Doors closed
-patch=1,EE,E00E0004,extended,0032EB00// DC = 4
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
+patch=1,EE,E0070004,extended,0032EB00// DC = 4
+patch=1,EE,E0061A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
 patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
 patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Ten Doors closed
-patch=1,EE,E00E0005,extended,0032EB00// DC = 5
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
+patch=1,EE,E00B0005,extended,0032EB00// DC = 5
+patch=1,EE,E00A1A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
 patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
 patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
@@ -3765,13 +3772,12 @@ patch=1,EE,11C5A634,extended,000009C1// Twilight Town Door
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
 patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
 patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //12 Doors closed
-patch=1,EE,E00E0006,extended,0032EB00// DC = 6
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
+patch=1,EE,E00D0006,extended,0032EB00// DC = 6
+patch=1,EE,E00C1A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A774,extended,000009C1// Data Twilight Town Door
 patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
 patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
@@ -3784,4 +3790,3 @@ patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
 patch=1,EE,11C5A534,extended,000009C1// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
