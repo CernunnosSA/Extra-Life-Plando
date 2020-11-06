@@ -2200,11 +2200,6 @@ patch=1,EE,11C6C01C,extended,00000190// Max HP
 patch=1,EE,11C6C018,extended,00000190// Current HP
 patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscnee Fix
 patch=1,EE,0035DE20,extended,000000B5
-//Genie Jafar Fight (you have to use thunder) (kira)
-patch=1,EE,E0030507,extended,0032BAE0
-patch=1,EE,E002003E,extended,0032BAE8
-patch=1,EE,11C56A28,extended,0000085C// armor xemnas 1
-patch=1,EE,11C56A48,extended,00000001
 
 //----- Halloween Town -----
 //Chests
@@ -2748,7 +2743,8 @@ patch=1,EE,11C6B8E0,extended,000000C8
 
 //----- The World That Never Was -----
 //Chests
-patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
+patch=1,EE,11CE0402,extended,00000134 // Fragment Crossing, Mythril Stone is now Cosmic Chain. USE ONLY ON LAST RESORT!!!!!
+//patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
 patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
 patch=1,EE,11CE041A,extended,00000113 // Fragment Crossing, AP Boost is now High Drive Recovery
 patch=1,EE,11CE0426,extended,00000116 // Fragment Crossing, Orichalcum is now Defense Boost
@@ -3125,7 +3121,7 @@ patch=1,EE,21CDEE80,extended,00646464
 // Firagun Bangle
 patch=1,EE,11CDEE86,extended,00000198 // Fire Boost
 patch=1,EE,21CDEE88,extended,00000000
-patch=1,EE,21CDEE8C,extended,64C80064 // 100% Fire Resist, -100% Blizzard Resist
+patch=1,EE,21CDEE8C,extended,64C80164 // 99% Fire Resist, -100% Blizzard Resist
 patch=1,EE,21CDEE90,extended,00646464
 // Blizzard Armlet
 patch=1,EE,11CDEE96,extended,00000199 // Blizzard Boost
@@ -3145,7 +3141,7 @@ patch=1,EE,21CDEEC0,extended,00646464
 // Blizzagun Armlet
 patch=1,EE,11CDEEC6,extended,00000199 // Blizzard Boost
 patch=1,EE,21CDEEC8,extended,00000000
-patch=1,EE,21CDEECC,extended,6400C864 // 100% Blizzard Resist, -100% Fire Resist
+patch=1,EE,21CDEECC,extended,6401C864 // 99% Blizzard Resist, -100% Fire Resist
 patch=1,EE,21CDEED0,extended,00646464
 // Thunder Trinket
 patch=1,EE,11CDEED6,extended,0000019A // Thunder Boost
@@ -3165,7 +3161,7 @@ patch=1,EE,21CDEF00,extended,006464AF // -75% Dark Resist
 // Thundagun Trinket
 patch=1,EE,11CDEF06,extended,0000019A // Thunder Boost
 patch=1,EE,21CDEF08,extended,00000000
-patch=1,EE,21CDEF0C,extended,00646464 // 100% Thunder Resist
+patch=1,EE,21CDEF0C,extended,01646464 // 99% Thunder Resist
 patch=1,EE,21CDEF10,extended,006464C8 // -100% Dark Resist
 // Shock Charm
 patch=1,EE,11CDEE26,extended,00000194 // No XP
@@ -3196,7 +3192,7 @@ patch=1,EE,21CDEF40,extended,00646419 // 75% Dark Resist
 patch=1,EE,11CDEF46,extended,0000018D // Drive Boost
 patch=1,EE,21CDEF48,extended,00000000
 patch=1,EE,21CDEF4C,extended,C8646464 // -100% Thunder Resist
-patch=1,EE,21CDEF50,extended,00646400 // 100% Dark Resist
+patch=1,EE,21CDEF50,extended,00646401 // 99% Dark Resist
 // Abas Chain
 patch=1,EE,11CDEF56,extended,00000189 // Finishing Plus
 patch=1,EE,21CDEF58,extended,00030000 // +3 DEF
@@ -3235,7 +3231,7 @@ patch=1,EE,21CDEF90,extended,00226464 // 66% Resist ALL (unlisted)
 // Grand Ribbon
 patch=1,EE,11CDEE46,extended,00000194 // No XP
 patch=1,EE,21CDEE48,extended,000F0000 // +15 DEF
-patch=1,EE,21CDEE4C,extended,64646400 // 100% Physical Resist (unlisted)
+patch=1,EE,21CDEE4C,extended,64646401 // 99% Physical Resist (unlisted)
 patch=1,EE,21CDEE50,extended,00016464 // 99% Resist ALL (unlisted)
 
 //----- Accessories -----
