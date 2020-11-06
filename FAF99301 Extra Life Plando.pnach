@@ -402,7 +402,7 @@ patch=1,EE,E0061402,extended,0032BAE0
 patch=1,EE,E0050089,extended,0032BAE4
 patch=1,EE,E0040089,extended,0032BAE8
 patch=1,EE,11C5AF88,extended,000008FA// Tifa
-patch=1,EE,E0020017,extended,01C6C4E8// Reduce HP
+patch=1,EE,E0020017,extended,01C6C4E8// Increase HP
 patch=1,EE,21C6C4E8,extended,00000190
 patch=1,EE,21C6C4EC,extended,00000190
 
@@ -2450,9 +2450,13 @@ patch=1,EE,11C6BDB0,extended,0000012C
 patch=1,EE,01C6BF38,extended,0000001E
 patch=1,EE,01C6BF3C,extended,00000007
 // Xaldin (Normal)
-patch=1,EE,E0040F05,extended,0032BAE0
-patch=1,EE,E0030052,extended,0032BAE8
+patch=1,EE,E0080F05,extended,0032BAE0
+patch=1,EE,E0070052,extended,0032BAE8
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
+patch=1,EE,E0010302,extended,01C6C4EC// If Max HP Slot 2 = 770
+patch=1,EE,11C6C4EC,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 3 = 770
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
 patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 4 = 770
 patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
 
