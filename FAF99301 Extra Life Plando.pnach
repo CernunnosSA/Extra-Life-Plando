@@ -622,10 +622,8 @@ patch=1,EE,11C583E4,extended,00000134 // Dragoon
 
 //Boss Replacement
 // Marluxia Safety
-patch=1,EE,E004050C,extended,0032BAE0
-patch=1,EE,E0010166,extended,01CE0B6A
+patch=1,EE,E002050C,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan from Marluxia battle
-patch=1,EE,E0010166,extended,01CE0B6C
 patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy from Marluxia battle
 // Marluxia
 patch=1,EE,E00B2604,extended,0032BAE0
@@ -2752,13 +2750,7 @@ patch=1,EE,21D11228,extended,00000250 // Replacement Reward #2: Replacement Rewa
 
 //Enemy Replacement
 //The World of Nothing (Cylinder Lasers) Fight (Possible but needs a lot of work)
-//patch=1,EE,E0061A12,extended,0032BAE0
-//patch=1,EE,E0050045,extended,0032BAE8
-//patch=1,EE,11C5C118,extended,00000130// Dusk (1st Platform; 1st Nobody)
-//patch=1,EE,11C5C158,extended,00000130// Dusk (1st Platform; 2nd Nobody)
-//patch=1,EE,11C5C198,extended,00000130// Dusk (1st Platform; 3rd Nobody)
-//patch=1,EE,11C5C1D8,extended,00000130// Dusk (1st Platform; 4th Nobody)
-//patch=1,EE,11C5C218,extended,00000130// Dusk (1st Platform; 5th Nobody)
+
 //The World of Nothing (Energy Core) Fight
 patch=1,EE,E0131912,extended,0032BAE0
 patch=1,EE,E0120046,extended,0032BAE8
@@ -2791,8 +2783,8 @@ patch=1,EE,E0020E12,extended,0032BAE0
 patch=1,EE,E001003A,extended,0032BAE8
 patch=1,EE,11C5358C,extended,00000951// Roxas
 //Saix (Normal)
-patch=1,EE,E0020F12,extended,0032BAE0
-patch=1,EE,E0010038,extended,0032BAE8
+patch=1,EE,E0090F12,extended,0032BAE0
+patch=1,EE,E0080038,extended,0032BAE8
 patch=1,EE,11C520AC,extended,000008F8// Leon
 patch=1,EE,E006015E,extended,01C6C01C// Leon's Stats
 patch=1,EE,11C6C01C,extended,000007D0//
@@ -3674,89 +3666,39 @@ patch=1,EE,E001C680,extended,0032DF74// If TP2
 patch=1,EE,0032EB00,extended,00000006// Doom Clock
 
 //All doors open
-patch=1,EE,E00E0000,extended,0032EB00// DC = 0
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
-patch=1,EE,11C5A5F4,extended,000009C3// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
-patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //One Door closed
-patch=1,EE,E00E0001,extended,0032EB00// DC = 1
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,E0020001,extended,0032EB00// DC = 1
+patch=1,EE,E0011A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
-patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Two Doors closed
-patch=1,EE,E00E0002,extended,0032EB00// DC = 2
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,E0030002,extended,0032EB00// DC = 2
+patch=1,EE,E0021A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Four Doors closed
-patch=1,EE,E00E0003,extended,0032EB00// DC = 3
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,E0050003,extended,0032EB00// DC = 3
+patch=1,EE,E0041A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
 patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Six Doors closed
-patch=1,EE,E00E0004,extended,0032EB00// DC = 4
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
+patch=1,EE,E0070004,extended,0032EB00// DC = 4
+patch=1,EE,E0061A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
 patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
 patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //Ten Doors closed
-patch=1,EE,E00E0005,extended,0032EB00// DC = 5
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
+patch=1,EE,E00B0005,extended,0032EB00// DC = 5
+patch=1,EE,E00A1A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
 patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
 patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
@@ -3765,13 +3707,12 @@ patch=1,EE,11C5A634,extended,000009C1// Twilight Town Door
 patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
 patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
 patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+
 //12 Doors closed
-patch=1,EE,E00E0006,extended,0032EB00// DC = 6
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
+patch=1,EE,E00D0006,extended,0032EB00// DC = 6
+patch=1,EE,E00C1A04,extended,0032BAE0// In GoA
 patch=1,EE,11C5A774,extended,000009C1// Data Twilight Town Door
 patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
 patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
@@ -3784,4 +3725,3 @@ patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
 patch=1,EE,11C5A534,extended,000009C1// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
