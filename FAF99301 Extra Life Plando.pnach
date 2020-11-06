@@ -1900,7 +1900,7 @@ patch=1,EE,21D11158,extended,000001D0 // Replacement Reward #2: Replacement Rewa
 //Enemy Replacement
 //Hades Escape
 patch=1,EE,E01B0506,extended,0032BAE0
-patch=1,EE,E01A0003,extended,0032BAE8
+patch=1,EE,E01A006F,extended,0032BAE8
 patch=1,EE,11C591FC,extended,000008FB// Yuffie (Valley of the Dead)
 patch=1,EE,11C59268,extended,00000012// Driller Mole
 patch=1,EE,11C592A8,extended,00000012// Driller Mole
