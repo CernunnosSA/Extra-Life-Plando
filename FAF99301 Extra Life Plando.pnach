@@ -832,6 +832,7 @@ patch=1,EE,21C6C694,extended,00641932 // Yuffie Resists 2 (75% Light, 50% Dark)
 patch=1,EE,11C56F28,extended,00000000 // Remove Steamboat
 patch=1,EE,11C56EE8,extended,00000000 // Remove Cornerstone
 patch=1,EE,11C56EA8,extended,00000000 // Remove Pete
+patch=1,EE,E0060031,extended,01C6C018 // Set HP
 patch=1,EE,11C6C018,extended,000000FF // Cloud Current
 patch=1,EE,11C6C01C,extended,000000FF // Cloud Max
 patch=1,EE,11C6C280,extended,000000FF // Tifa Current
@@ -1477,7 +1478,7 @@ patch=1,EE,11C4DD9C,extended,00000078// NeoShadow (4th Wave)
 //Ravine Trail Heartless 4
 patch=1,EE,E02A1004,extended,0032BAE0//
 patch=1,EE,E0290041,extended,0032BAE8//
-patch=1,EE,11C4E664,extended,00000688// Cloud (Ally)
+patch=1,EE,11C4E664,extended,00000001// Cloud (Ally) -> Fat Bandit
 patch=1,EE,11C4DFC0,extended,00000132// Surveillance Bot (1st Wave; Back-Right)
 patch=1,EE,11C4E000,extended,00000078// NeoShadow (1st Wave; Mid-Left)
 patch=1,EE,11C4E040,extended,00000078// NeoShadow (1st Wave; Front-Left)
