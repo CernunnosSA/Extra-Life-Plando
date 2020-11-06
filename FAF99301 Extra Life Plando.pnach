@@ -761,11 +761,13 @@ patch=1,EE,11C57C88,extended,00000004 // Hook Bat
 
 //Boss Replacement
 // Ensure Puzzle Pieces aren't Hostile Programs before Pete on Continue
-patch=1,EE,E005010D,extended,0032BAE0
-patch=1,EE,E0040001,extended,0032BAE4
-patch=1,EE,E0030000,extended,0032BAE6
-patch=1,EE,E0020001,extended,0032BAE8
+patch=1,EE,E007010D,extended,0032BAE0
+patch=1,EE,E0060001,extended,0032BAE4
+patch=1,EE,E0050000,extended,0032BAE6
+patch=1,EE,E0040001,extended,0032BAE8
+patch=1,EE,E00104B8,extended,01C56BB0
 patch=1,EE,11C56BB0,extended,00000988
+patch=1,EE,E00104B8,extended,01C56B70
 patch=1,EE,11C56B70,extended,00000988
 // Past Pete
 patch=1,EE,E01C010D,extended,0032BAE0
