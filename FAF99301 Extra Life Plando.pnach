@@ -1525,18 +1525,11 @@ patch=1,EE,11D48EE8,extended,000000FF//
 
 //Boss Replacement
 //Demyx II
-patch=1,EE,E0020404,extended,0032BAE0//
-patch=1,EE,E0010037,extended,0032BAE8//
+patch=1,EE,E0060404,extended,0032BAE0//
+patch=1,EE,E0050037,extended,0032BAE8//
 patch=1,EE,11C4CE7C,extended,000008F9// Cloud
-//Demyx No Party
-patch=1,EE,E0030404,extended,0032BAE0//
-patch=1,EE,E0020037,extended,0032BAE8//
-patch=1,EE,4032F064,extended,00130001
-patch=1,EE,595F5A00,extended,00000000
-//Cloud HP
-patch=1,EE,E0040404,extended,0032BAE0//
-patch=1,EE,E0030037,extended,0032BAE8//
-patch=1,EE,E0020218,extended,01C6C4EC
+patch=1,EE,2032F070,extended,12121200// Solo Fight
+patch=1,EE,E0020218,extended,01C6C4EC// Cloud's HP
 patch=1,EE,11C6C4EC,extended,000007D0// Max HP
 patch=1,EE,11C6C4E8,extended,000007D0// Current HP
 //Sephiroth (NPC) (This has to be Sephiroth for the RC but can be changed for goofs.)
