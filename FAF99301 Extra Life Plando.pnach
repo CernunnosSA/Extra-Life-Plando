@@ -299,9 +299,9 @@ patch=1,EE,11CE0222,extended,0000021A // Mansion Basement Corridor, Hi-Potion is
 
 //Popups
 patch=1,EE,11CE0636,extended,000001DF // Twilight Town Map, Twilight Town Map is now Ultimate Recipe
-patch=1,EE,11CE0606,extended,00000174 // Munny Pouch (Olette), Munny Pouch (Olette) is now Cursed Medallion
-patch=1,EE,11CE0612,extended,00000041 // Champion Belt, Champion Belt is now Draw Ring
-patch=1,EE,11CE061E,extended,00000041 // Medal, Medal is now Draw Ring
+patch=1,EE,11CE0606,extended,00000041 // Munny Pouch (Olette), Munny Pouch (Olette) is now Draw Ring
+patch=1,EE,11CE0612,extended,00000007 // Champion Belt, Champion Belt is now Mega-Elixir
+patch=1,EE,11CE061E,extended,00000174 // Medal, Medal is now Cursed Medallion
 patch=1,EE,11CE062A,extended,00000046 // "The Struggle" Trophy, "The Struggle" Trophy is now Buster Band
 patch=1,EE,11CE0642,extended,000001E1 // Namine's Sketches, Namine's Sketches is now Hidden Dragon
 patch=1,EE,11CE064E,extended,00000058 // Mansion Map, Mansion Map is now Reflect
