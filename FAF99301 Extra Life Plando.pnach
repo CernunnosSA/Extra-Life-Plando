@@ -1032,10 +1032,9 @@ patch=1,EE,11C431CC,extended,00000764// Mickey (Medallion Chest)
 patch=1,EE,11C4320C,extended,00000000// (Group of Medallions)
 patch=1,EE,11C4318C,extended,000005D0// The Experiment(Grim Reaper)
 //GR Party
-patch=1,EE,E0030110,extended,0032BAE0
-patch=1,EE,E0020036,extended,0032BAE8
-patch=1,EE,4032F064,extended,00130001// Solo Fight
-patch=1,EE,120A1200,extended,2032F070// Solo Fight
+patch=1,EE,E0020110,extended,0032BAE0
+patch=1,EE,E0010036,extended,0032BAE8
+patch=1,EE,2032F0A4,extended,12121200 // solo fight
 
 //Normal Enemy Replacement
 //Town
