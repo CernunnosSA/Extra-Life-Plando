@@ -2744,9 +2744,9 @@ patch=1,EE,E0020001,extended,0032BAE8
 patch=1,EE,11C4C714,extended,00000428// (Shan Yu)
 patch=1,EE,11C4C678,extended,00000022// (Emperor)
 //Shan Yu Fight
-patch=1,EE,E0120908,extended,0032BAE0
-patch=1,EE,E011004B,extended,0032BAE4
-patch=1,EE,E010004B,extended,0032BAE8
+patch=1,EE,E0150908,extended,0032BAE0
+patch=1,EE,E014004B,extended,0032BAE4
+patch=1,EE,E013004B,extended,0032BAE8
 patch=1,EE,11C4BEB0,extended,00000137// Sniper (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136// Samurai(Shan Yu)
 patch=1,EE,11C98EAC,extended,00000003// Sniper Marker
