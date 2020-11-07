@@ -908,6 +908,7 @@ patch=1,EE,E018030D,extended,0032BAE0
 patch=1,EE,E0170035,extended,0032BAE4
 patch=1,EE,E0160035,extended,0032BAE8
 patch=1,EE,00347D34,extended,00000054 // Music
+patch=1,EE,2032F08C,extended,12121200 // Solo Fight
 patch=1,EE,01CA298C,extended,00000004 // Volcanic Lord NOT a Boss
 patch=1,EE,11C55BF0,extended,0000040B // Volcanic Lord
 patch=1,EE,11C6C408,extended,0000000A // Volcanic Lord STR
@@ -928,7 +929,6 @@ patch=1,EE,11C6C4EC,extended,000001FF // Blizzard Lord Max
 patch=1,EE,11C6C4F0,extended,00000000 // Blizzard Lord HP Gate
 patch=1,EE,E0010000,extended,01C6C018 // When Blizzard Lord dies
 patch=1,EE,01CA298C,extended,00000003 // Revert Volcanic Lord into boss
-patch=1,EE,2032F08C,extended,12121200 // Solo Fight
 
 
 //----- Port Royal -----
