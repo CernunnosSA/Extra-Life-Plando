@@ -20,12 +20,12 @@ patch=1,EE,E0020001,extended,0032BAE6
 patch=1,EE,E0010001,extended,0032BAE8
 patch=1,EE,1032E020,extended,000001F0 // Mysterious Abyss
 //Critical Bonus
-patch=1,EE,11D18DDE,extended,0000008A// Scan
 patch=1,EE,11D18DDC,extended,00000233// Limit Form
-patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
-patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
+patch=1,EE,11D18DDE,extended,0000008A// Scan
 patch=1,EE,11D18DE0,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE2,extended,00000002// Hi-Potion
+patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
+patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
 
 //-----------------------------------------
 //                Misc. Codes
@@ -530,26 +530,17 @@ patch=1,EE,11C4FD84,extended,00000002// Trick Ghost Front-Left
 patch=1,EE,11C4FDC4,extended,00000002// Trick Ghost Front-Right
 patch=1,EE,11C4FE04,extended,00000002// Trick Ghost Back-Right
 //Sark (Giant)
-patch=1,EE,E0040911,extended,0032BAE0
-patch=1,EE,E003003B,extended,0032BAE8
+patch=1,EE,E00A0911,extended,0032BAE0
+patch=1,EE,E009003B,extended,0032BAE8
 patch=1,EE,11C4FF38,extended,00000000// Remove MCP Walls
 patch=1,EE,11C4FFB8,extended,00000728// Sark Giant -> Cannon Gun
 patch=1,EE,11C4FF78,extended,00000015// MCP Boss -> Shan Yu
-//Slot 2
-patch=1,EE,E0030911,extended,0032BAE0
-patch=1,EE,E002003B,extended,0032BAE8
-patch=1,EE,21C6C690,extended,00000000// God Mode
-patch=1,EE,21C6C694,extended,00000000// God Mode
-//Slot 3
-patch=1,EE,E0030911,extended,0032BAE0
-patch=1,EE,E002003B,extended,0032BAE8
-patch=1,EE,21C6C428,extended,00000000// God Mode
-patch=1,EE,21C6C42C,extended,00000000// God Mode
-//Slot 4
-patch=1,EE,E0030911,extended,0032BAE0
-patch=1,EE,E002003B,extended,0032BAE8
-patch=1,EE,21C6C1C0,extended,00000000// God Mode
-patch=1,EE,21C6C1C4,extended,00000000// God Mode
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode Slot 2
+patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode Slot 3
+patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode Slot 4
+patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
 
 //----- Disney Castle -----
 //Chests
@@ -1016,25 +1007,19 @@ patch=1,EE,11C43058,extended,00000137// Sniper  (Right)
 patch=1,EE,E0010B10,extended,0032BAE0
 patch=1,EE,21C9902C,extended,00000004
 //Grim Reaper I
-patch=1,EE,E0031210,extended,0032BAE0
-patch=1,EE,E0020055,extended,0032BAE8
+patch=1,EE,E0051210,extended,0032BAE0
+patch=1,EE,E0040055,extended,0032BAE8
 patch=1,EE,11C5BA78,extended,0000013C// Sorcerer
 patch=1,EE,21C9902C,extended,00000003// Boss Identifier
-//GR1 Cutscene Fix
-patch=1,EE,E0031210,extended,0032BAE0
-patch=1,EE,E0020055,extended,0032BAE8
 patch=1,EE,E0010028,extended,0035DE20// GR1 Cutscene Skip
 patch=1,EE,0035DE20,extended,000000B5
 //Grim Reaper 2
-patch=1,EE,E0040110,extended,0032BAE0
-patch=1,EE,E0030036,extended,0032BAE8
+patch=1,EE,E0050110,extended,0032BAE0
+patch=1,EE,E0040036,extended,0032BAE8
+patch=1,EE,2032F0A4,extended,12121200// Solo Fight
 patch=1,EE,11C431CC,extended,00000764// Mickey (Medallion Chest)
 patch=1,EE,11C4320C,extended,00000000// (Group of Medallions)
 patch=1,EE,11C4318C,extended,000005D0// The Experiment(Grim Reaper)
-//GR Party
-patch=1,EE,E0020110,extended,0032BAE0
-patch=1,EE,E0010036,extended,0032BAE8
-patch=1,EE,2032F0A4,extended,12121200 // solo fight
 
 //Normal Enemy Replacement
 //Town
@@ -1317,17 +1302,6 @@ patch=1,EE,11C4C134,extended,0000013E// Dusk (Front-Middle)
 patch=1,EE,11C4C174,extended,00000134// Dragoon
 patch=1,EE,11C4C1B4,extended,0000013E// Dusk (Back-Right)
 patch=1,EE,11C4C1F4,extended,0000013E// Dusk (Back-Left)
-//Disable Limit Form
-patch=1,EE,E0040804,extended,0032BAE0//
-patch=1,EE,E0030001,extended,0032BAE4//
-patch=1,EE,E0020001,extended,0032BAE6//
-patch=1,EE,E0010001,extended,0032BAE8//
-patch=1,EE,0032F1FA,extended,00000000// Limit Form Disabled
-//Enable Limit Form
-patch=1,EE,E0030D04,extended,0032BAE0//
-patch=1,EE,E0020003,extended,0032BAE4//
-patch=1,EE,E0010008,extended,0032BAE8//
-patch=1,EE,0032F1FA,extended,00000008// Limit Form Enabled
 //Bailey Nobodies Fight
 patch=1,EE,E01B0804,extended,0032BAE0//
 patch=1,EE,E01A0034,extended,0032BAE8//
@@ -1357,6 +1331,17 @@ patch=1,EE,11C46070,extended,00000078// NeoShadow (4th Wave; Right)
 patch=1,EE,E00200BA,extended,01C6C284// Bailey Gate HP Increase
 patch=1,EE,01C6C284,extended,000000FF
 patch=1,EE,01C6C280,extended,000000FF
+//Disable Limit Form before Bailey (and during)
+patch=1,EE,E0040804,extended,0032BAE0//
+patch=1,EE,E0030001,extended,0032BAE4//
+patch=1,EE,E0020001,extended,0032BAE6//
+patch=1,EE,E0010001,extended,0032BAE8//
+patch=1,EE,0032F1FA,extended,00000000// Limit Form Disabled
+//Enable Limit Form after Bailey
+patch=1,EE,E0030D04,extended,0032BAE0//
+patch=1,EE,E0020003,extended,0032BAE4//
+patch=1,EE,E0010008,extended,0032BAE8//
+patch=1,EE,0032F1FA,extended,00000008// Limit Form Enabled
 //Corridors Fight
 patch=1,EE,E0121404,extended,0032BAE0//
 patch=1,EE,E0110056,extended,0032BAE8//
@@ -1559,11 +1544,10 @@ patch=1,EE,11D48EE8,extended,000000FF//
 
 //Boss Replacement
 //Demyx II
-patch=1,EE,E0070404,extended,0032BAE0//
-patch=1,EE,E0060037,extended,0032BAE8//
+patch=1,EE,E0060404,extended,0032BAE0//
+patch=1,EE,E0050037,extended,0032BAE8//
 patch=1,EE,11C4CE7C,extended,000008F9// Cloud
-patch=1,EE,4032F064,extended,00130001// Solo Fight
-patch=1,EE,12121200,extended,2032F070// Solo Fight
+patch=1,EE,2032F070,extended,12121200// Solo Fight
 patch=1,EE,E0020218,extended,01C6C4EC// Cloud's HP
 patch=1,EE,11C6C4EC,extended,000007D0// Max HP
 patch=1,EE,11C6C4E8,extended,000007D0// Current HP
@@ -2225,34 +2209,21 @@ patch=1,EE,11C50EF8,extended,00000049// Crimson Jazz (2nd Wave)
 
 //Boss Replacement
 //Volcano and Blizzard Lord Fight
-patch=1,EE,E0050307,extended,0032BAE0
-patch=1,EE,E004003B,extended,0032BAE8
+patch=1,EE,E0080307,extended,0032BAE0
+patch=1,EE,E007003B,extended,0032BAE8
 patch=1,EE,11C32934,extended,0000090F// Pete Boss
 patch=1,EE,11C32974,extended,00000647// Pete TR
-patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscnee Fix
+patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscene Fix
 patch=1,EE,0035DE20,extended,000000B5
-//Old Timey Pete HP Blocks
-//Slot 2
-patch=1,EE,E0040307,extended,0032BAE0
-patch=1,EE,E003003B,extended,0032BAE8
-patch=1,EE,E0020087,extended,01C6C4EC// Old Timey Pete's HP
+patch=1,EE,E0020087,extended,01C6C4EC// Old Timey Pete's HP Slot 2
 patch=1,EE,11C6C4EC,extended,00000190// Max HP
 patch=1,EE,11C6C4E8,extended,00000190// Current HP
-//Slot 3
-patch=1,EE,E0040307,extended,0032BAE0
-patch=1,EE,E003003B,extended,0032BAE8
-patch=1,EE,E0020087,extended,01C6C284// Old Timey Pete's HP
+patch=1,EE,E0020087,extended,01C6C284// Old Timey Pete's HP Slot 3
 patch=1,EE,11C6C284,extended,00000190// Max HP
 patch=1,EE,11C6C280,extended,00000190// Current HP
-//Slot 4
-patch=1,EE,E0040307,extended,0032BAE0
-patch=1,EE,E003003B,extended,0032BAE8
-patch=1,EE,E0020087,extended,01C6C01C// Old Timey Pete's HP
+patch=1,EE,E0020087,extended,01C6C01C// Old Timey Pete's HP Slot 4
 patch=1,EE,11C6C01C,extended,00000190// Max HP
 patch=1,EE,11C6C018,extended,00000190// Current HP
-//Slot 5
-patch=1,EE,E0040307,extended,0032BAE0
-patch=1,EE,E003003B,extended,0032BAE8
 patch=1,EE,E0020087,extended,01C6BDB4// Old Timey Pete's HP
 patch=1,EE,11C6BDB4,extended,00000190// Max HP
 patch=1,EE,11C6BDB0,extended,00000190// Current HP
