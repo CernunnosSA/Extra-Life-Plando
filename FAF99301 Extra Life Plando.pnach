@@ -927,7 +927,7 @@ patch=1,EE,11C6C4EC,extended,000001FF // Blizzard Lord Max
 patch=1,EE,11C6C4F0,extended,00000000 // Blizzard Lord HP Gate
 patch=1,EE,E0010000,extended,01C6C018 // When Blizzard Lord dies
 patch=1,EE,01CA298C,extended,00000003 // Revert Volcanic Lord into boss
-patch=1,EE,2032F098,extended,12121200 // Solo Fight
+patch=1,EE,2032F08C,extended,12121200 // Solo Fight
 
 
 //----- Port Royal -----
@@ -1074,7 +1074,7 @@ patch=1,EE,0035DE20,extended,000000B5
 //Grim Reaper 2
 patch=1,EE,E0050110,extended,0032BAE0
 patch=1,EE,E0040036,extended,0032BAE8
-patch=1,EE,2032F0A4,extended,12121200// Solo Fight
+patch=1,EE,2032F0A0,extended,12121200// Solo Fight
 patch=1,EE,11C431CC,extended,00000764// Mickey (Medallion Chest)
 patch=1,EE,11C4320C,extended,00000000// (Group of Medallions)
 patch=1,EE,11C4318C,extended,000005D0// The Experiment(Grim Reaper)
@@ -1605,7 +1605,7 @@ patch=1,EE,11D48EE8,extended,000000FF//
 patch=1,EE,E0060404,extended,0032BAE0//
 patch=1,EE,E0050037,extended,0032BAE8//
 patch=1,EE,11C4CE7C,extended,000008F9// Butt
-patch=1,EE,2032F070,extended,12121200// Solo Fight
+patch=1,EE,2032F074,extended,12121200// Solo Fight
 patch=1,EE,E0020218,extended,01C6C4EC// Butt's HP
 patch=1,EE,11C6C4EC,extended,000007D0// Max HP
 patch=1,EE,11C6C4E8,extended,000007D0// Current HP
@@ -2070,7 +2070,7 @@ patch=1,EE,11C5BF7C,extended,00000051// Axel 2
 //Hades Cup Boss Fight
 patch=1,EE,E0041306,extended,0032BAE0
 patch=1,EE,E00300CA,extended,0032BAE8
-patch=1,EE,2032F078,extended,12121200// Solo Fight
+patch=1,EE,2032F07C,extended,12121200// Solo Fight
 patch=1,EE,11C5C0F0,extended,000006C4// Piglet (Hercules)
 patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
 
@@ -2642,9 +2642,10 @@ patch=1,EE,11C5B39C,extended,0000000D
 patch=1,EE,11C5B3DC,extended,0000000D
 patch=1,EE,11C5B41C,extended,00000966
 // Mission 2
-patch=1,EE,E00E0208,extended,0032BAE0
-patch=1,EE,E00D0050,extended,0032BAE4
-patch=1,EE,E00C0050,extended,0032BAE8
+patch=1,EE,E00F0208,extended,0032BAE0
+patch=1,EE,E00E0050,extended,0032BAE4
+patch=1,EE,E00D0050,extended,0032BAE8
+patch=1,EE,2032F084,extended,12128300 // Sora and Ping only
 patch=1,EE,11C5B760,extended,00000004
 patch=1,EE,11C5B7A0,extended,00000004
 patch=1,EE,11C5B7E0,extended,00000004
