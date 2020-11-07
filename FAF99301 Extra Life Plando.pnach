@@ -860,15 +860,13 @@ patch=1,EE,11C6BCD4,extended,00000006
 patch=1,EE,21C6BCF0,extended,00646464
 patch=1,EE,21C6BCF4,extended,00646464
 // Revert from FF7 fight
-patch=1,EE,E009020D,extended,0032BAE0
-patch=1,EE,E0080034,extended,1032BAE4
+patch=1,EE,E007020D,extended,0032BAE0
+patch=1,EE,E0060034,extended,1032BAE4
+patch=1,EE,E0050004,extended,01CBAE6C
 patch=1,EE,01CBAE6C,extended,00000003 //Yuffie a Boss
 patch=1,EE,01CBAE0C,extended,00000003 //Tifa a Boss
-patch=1,EE,E00108F9,extended,01C56568 //Enemies -> Chests
 patch=1,EE,11C56568,extended,00000338
-patch=1,EE,E00108FA,extended,01C565A8
 patch=1,EE,11C565A8,extended,00000338
-patch=1,EE,E00108FB,extended,01C565E8
 patch=1,EE,11C565E8,extended,00000338
 // Boat Pete
 patch=1,EE,E01F020D,extended,0032BAE0
