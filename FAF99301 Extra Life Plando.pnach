@@ -1886,14 +1886,6 @@ patch=1,EE,E0030037,extended,0032BAE8
 patch=1,EE,11C5A74C,extended,00000162// Dark Thorn
 patch=1,EE,E0010001,extended,01C6C018// Dark Thorn HP 1->0
 patch=1,EE,01C6C018,extended,00000000
-//Groundshaker
-patch=1,EE,E0060F0A,extended,0032BAE0
-patch=1,EE,E005003B,extended,0032BAE4
-patch=1,EE,E004003B,extended,0032BAE8
-patch=1,EE,11C59F80,extended,0000040B// Volcano Lord
-patch=1,EE,E00202B0,extended,01C6C284// Increase HP
-patch=1,EE,21C6C284,extended,000005DC
-patch=1,EE,21C6C280,extended,000005DC
 
 
 //----- Olympus Coliseum -----
