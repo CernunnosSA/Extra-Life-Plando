@@ -2979,7 +2979,7 @@ patch=1,EE,11CDFAAE,extended,00000186 // The Spooky Cave, AP Boost is now Combo 
 patch=1,EE,11CDFABA,extended,00000187 // The Spooky Cave, Orichalcum is now Air Combo Boost
 patch=1,EE,11CDFAC6,extended,00000187 // The Spooky Cave, Guard Recipe is now Air Combo Boost
 patch=1,EE,11CDFAD2,extended,00000188 // The Spooky Cave, Mythril Crystal is now Reaction Boost
-patch=1,EE,11CDFADE,extended,00000188 // The Spooky Cave, AP Boost is now Reaction Boost
+patch=1,EE,11CDFADE,extended,00000192 // The Spooky Cave, AP Boost is now Leaf Bracer
 patch=1,EE,11CDFAEA,extended,00000117 // Starry Hill, Cosmic Ring is now AP Boost
 patch=1,EE,11CDFAF6,extended,00000117 // Starry Hill, Style Recipe is now AP Boost
 
