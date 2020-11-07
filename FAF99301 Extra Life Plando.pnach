@@ -2763,6 +2763,9 @@ patch=1,EE,11C6C01C,extended,0000015E
 patch=1,EE,E0020037,extended,01C6BDB4 // Sniper or Samurai in Slot 5
 patch=1,EE,11C6BDB0,extended,0000015E
 patch=1,EE,11C6BDB4,extended,0000015E
+patch=1,EE,E0020037,extended,01C6BB4C // Sniper or Samurai in Slot 6
+patch=1,EE,11C6BB48,extended,0000015E
+patch=1,EE,11C6BB4C,extended,0000015E
 //Samurai and Sniper Marker Fix
 patch=1,EE,E0030908,extended,0032BAE0
 patch=1,EE,E0020069,extended,0032BAE8
