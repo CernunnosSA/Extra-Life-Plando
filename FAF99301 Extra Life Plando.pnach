@@ -945,7 +945,7 @@ patch=1,EE,11CDFEB6,extended,00000032 // Powder Store, AP Boost is now Detection
 patch=1,EE,11CDFEC2,extended,00000002 // Moonlight Nook, Mythril Shard is now Hi-Potion
 patch=1,EE,11CDFECE,extended,0000017C // Moonlight Nook, Serenity Gem is now Frost Gem
 patch=1,EE,11CDFEDA,extended,0000017B // Moonlight Nook, Power Stone is now Frost Stone
-patch=1,EE,11CDFEE6,extended,00000182 // The Interceptor's Hold, Feather Charm is now Auto Wisdom
+patch=1,EE,11CDFEE6,extended,00000196 // The Interceptor's Hold, Feather Charm is now Jackpot
 patch=1,EE,11CDFEF2,extended,00000112 // Seadrift Keep, AP Boost is now Drive Recovery
 patch=1,EE,11CDFEFE,extended,00000114 // Seadrift Keep, Orichalcum is now Power Boost
 patch=1,EE,11CDFF0A,extended,00000115 // Seadrift Keep, Meteor Staff is now Magic Boost
@@ -1645,7 +1645,7 @@ patch=1,EE,11CE05FA,extended,00000234 // Garden of Assemblage, Proof of Nonexist
 // Transport to Remembrance Nobodies III
 patch=1,EE,11D11242,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11244,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11248,extended,00000007 // Replacement Reward #2: Replacement Reward #1:Mega-Elixir
+patch=1,EE,21D11248,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
 
 //Enemy Replacement
 
@@ -1863,11 +1863,11 @@ patch=1,EE,21D10BD8,extended,000000AD // Replacement Reward #2: Replacement Rewa
 // Hyenas II
 patch=1,EE,11D10ED2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10ED4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10ED8,extended,00000001 // Replacement Reward #2: Replacement Reward #1:Potion
+patch=1,EE,21D10ED8,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
 // Groundshaker
 patch=1,EE,11D10C12,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10C14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10C18,extended,00000001 // Replacement Reward #2: Replacement Reward #1:Potion
+patch=1,EE,21D10C18,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
 
 //Enemy Replacement
 //Elephant Graveyard Heartless
@@ -1890,7 +1890,7 @@ patch=1,EE,01C6C018,extended,00000000
 
 //----- Olympus Coliseum -----
 //Chests
-patch=1,EE,11CDFB02,extended,00000196 // Underworld Entrance, Power Boost is now Jackpot
+patch=1,EE,11CDFB02,extended,00000182 // Underworld Entrance, Power Boost is now Auto Wisdom
 patch=1,EE,11CDFB0E,extended,00000006 // Passage, Mythril Shard is now Mega-Ether
 patch=1,EE,11CDFB1A,extended,00000083 // Passage, Mythril Stone is now Tent
 patch=1,EE,11CDFB26,extended,0000019B // Passage, Ether is now Item Boost
