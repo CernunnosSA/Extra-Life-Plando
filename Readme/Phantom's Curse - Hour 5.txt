@@ -9,7 +9,6 @@ Land of Dragons
 -Ansem Report 6
 -Hero's Crest
 -Ukulele Charm
--Limit Form
 
 Olympus Coliseum
 -Oathkeeper
@@ -47,7 +46,6 @@ Disney Castle + Timeless River
 Hollow Bastion
 -Magnet Element
 -Ansem Report 4
--Auto Limit (Form)
 -Decisive Pumpkin
 -Torn Page
 -Thunder Element
