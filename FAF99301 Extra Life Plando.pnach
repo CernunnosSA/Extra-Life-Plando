@@ -370,11 +370,12 @@ patch=1,EE,11C26D24,extended,00000754// Shadow Roxas
 patch=1,EE,11C26D64,extended,0000013E// Dusk Left
 patch=1,EE,11C26DA4,extended,0000013E// Dusk Right
 //Setzer (Struggle Tournament)
-patch=1,EE,E0040502,extended,0032BAE0
-patch=1,EE,E0030058,extended,0032BAE4
-patch=1,EE,E0020058,extended,0032BAE8
+patch=1,EE,E0050502,extended,0032BAE0
+patch=1,EE,E0040058,extended,0032BAE4
+patch=1,EE,E0030058,extended,0032BAE8
 patch=1,EE,11C2700C,extended,000008FB// Yuffie
-patch=1,EE,01C6C4E8,extended,00000035// Inf. HP
+patch=1,EE,21C6C4E8,extended,00000D48// Inf. HP
+patch=1,EE,21C6C4EC,extended,00000D48// Inf. HP
 //Back Alley Nobodies
 patch=1,EE,E0050302,extended,0032BAE0
 patch=1,EE,E0040049,extended,0032BAE4
@@ -429,7 +430,7 @@ patch=1,EE,11CDFD8A,extended,00000001 // Central Computer Core, Central Computer
 //Popups
 // Space Paranoids
 patch=1,EE,11CE0816,extended,0000007D // Photon Debugger, Photon Debugger is now 100 Acre Wood Map
-patch=1,EE,11CE0A62,extended,00000148 // Larxene (Absent Silhouettes), Cloaked Thunder is now Lightning Crystal
+patch=1,EE,11CE0A62,extended,00000117 // Larxene (Absent Silhouttes), Cloaked Thunder is now AP Boost
 patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Shock Charm
 
 //Bonus Rewards
@@ -532,16 +533,19 @@ patch=1,EE,11C4FD84,extended,00000002// Trick Ghost Front-Left
 patch=1,EE,11C4FDC4,extended,00000002// Trick Ghost Front-Right
 patch=1,EE,11C4FE04,extended,00000002// Trick Ghost Back-Right
 //Sark (Giant)
-patch=1,EE,E00A0911,extended,0032BAE0
-patch=1,EE,E009003B,extended,0032BAE8
+patch=1,EE,E00D0911,extended,0032BAE0
+patch=1,EE,E00C003B,extended,0032BAE8
 patch=1,EE,11C4FF38,extended,00000000// Remove MCP Walls
 patch=1,EE,11C4FFB8,extended,00000728// Sark Giant -> Cannon Gun
 patch=1,EE,11C4FF78,extended,00000015// MCP Boss -> Shan Yu
-patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode Slot 2
+patch=1,EE,E0020041,extended,01C6C4EC// If Max HP Slot 2 = 65
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
-patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode Slot 3
+patch=1,EE,E0020041,extended,01C6C284// If Max HP Slot 3 = 65
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
-patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode Slot 4
+patch=1,EE,E0020041,extended,01C6C01C// If Max HP Slot 4 = 65
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
 
 //----- Disney Castle -----
@@ -559,8 +563,8 @@ patch=1,EE,11CDFA06,extended,00000235 // Library, Torn Pages is now Dodge Roll L
 patch=1,EE,11CE0756,extended,000001E5 // Disney Castle Map, Disney Castle Map is now Monochrome
 patch=1,EE,11CE0B16,extended,00000058 // Proof of Connection, Proof of Connection is now Reflect
 patch=1,EE,11CE0B22,extended,00000003 // Manifest Illusion, Manifest Illusion is now Ether
-patch=1,EE,11CE0A6E,extended,00000129 // Dark Anklet
-patch=1,EE,11CE0AAA,extended,000001EA // Rumbling Rose
+patch=1,EE,11CE0A6E,extended,000001EA // Marluxia (Absent Silhouttes), Eternal Blossom is now Rumbling Rose
+patch=1,EE,11CE0AAA,extended,00000040 // Marluxia (Data), Lost Illusion is now Full Bloom
 
 //Bonus Rewards
 // Escort Queen Minnie
@@ -1073,7 +1077,7 @@ patch=1,EE,0035DE20,extended,000000B5
 //Grim Reaper 2
 patch=1,EE,E0050110,extended,0032BAE0
 patch=1,EE,E0040036,extended,0032BAE8
-patch=1,EE,2032F0A0,extended,12121200// Solo Fight
+patch=1,EE,2032F0A4,extended,12121200// Solo Fight
 patch=1,EE,11C431CC,extended,00000764// Mickey (Medallion Chest)
 patch=1,EE,11C4320C,extended,00000000// (Group of Medallions)
 patch=1,EE,11C4318C,extended,000005D0// The Experiment(Grim Reaper)
@@ -1400,8 +1404,9 @@ patch=1,EE,E0020003,extended,0032BAE4//
 patch=1,EE,E0010008,extended,0032BAE8//
 patch=1,EE,0032F1FA,extended,00000008// Limit Form Enabled
 //Corridors Fight
-patch=1,EE,E0121404,extended,0032BAE0//
-patch=1,EE,E0110056,extended,0032BAE8//
+patch=1,EE,E0131404,extended,0032BAE0//
+patch=1,EE,E0120056,extended,0032BAE8//
+patch=1,EE,2032F074,extended,12121200// Solo Fight
 patch=1,EE,11C5B780,extended,00000077// Wight Knight (1st Wave; Front-Left)
 patch=1,EE,11C5B7C0,extended,00000077// Wight Knight (1st Wave; Front-Right)
 patch=1,EE,11C5B800,extended,0000007A// Morning Star (1st Wave; Front-Middle)
@@ -1920,7 +1925,7 @@ patch=1,EE,11CE0726,extended,0000002A // Hero's Crest, Hero's Crest is now Oathk
 patch=1,EE,11CE0882,extended,00000146 // Auron's Statue, Auron's Statue is now Lightning Stone
 patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twilight Crystal
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
-patch=1,EE,11CE0A92,extended,00000117 // Zexion (Data), Lost Illusion is now AP Boost
+patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
 // Olympus Cups
 patch=1,EE,11CE073E,extended,00000257 // Protect Belt (Pain & Panic Cup), Protect Belt is now Executive's Ring
 patch=1,EE,11CE074A,extended,00000116 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Defense Boost
@@ -1960,7 +1965,7 @@ patch=1,EE,21D10888,extended,00000140 // Replacement Reward #2: Replacement Rewa
 // Zexion (Absent Silhouette)
 patch=1,EE,11D11152,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11154,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11158,extended,000001D0 // Replacement Reward #2: Replacement Reward #1:Road to Discovery
+patch=1,EE,21D11158,extended,012901D0 // Replacement Reward #2:Dark Anklet Replacement Reward #1:Road to Discovery
 
 //Enemy Replacement
 //Hades Escape
@@ -2040,8 +2045,9 @@ patch=1,EE,E002006E,extended,01C6C284// Yuffie's HP
 patch=1,EE,11C6C284,extended,0000015E// 350HP
 patch=1,EE,11C6C280,extended,0000015E// 350HP
 //Pete Fight (Olympus Coliseum; Part II)
-patch=1,EE,E0090806,extended,0032BAE0
-patch=1,EE,E0080074,extended,0032BAE8
+patch=1,EE,E00A0806,extended,0032BAE0
+patch=1,EE,E0090074,extended,0032BAE8
+patch=1,EE,2032F07C,extended,12121200// Solo Fight
 patch=1,EE,11C4FB08,extended,000005CE// Prison Keeper
 patch=1,EE,11C4FB48,extended,000006C2// Eeyore (Ally)
 patch=1,EE,11C4FBB4,extended,00000170// Gargoyle Warrior (Front-Left)
@@ -2099,8 +2105,8 @@ patch=1,EE,11CDF952,extended,00000004 // Ruined Chamber, Ruins Map is now Elixir
 patch=1,EE,11CE0792,extended,000001EC // Agrabah Map, Agrabah Map is now Wishing Lamp
 patch=1,EE,11CE079E,extended,00000115 // Lamp Charm, Lamp Charm is now Magic Boost
 patch=1,EE,11CE08B2,extended,00000004 // Wishing Lamp, Wishing Lamp is now Elixir
-patch=1,EE,11CE0A4A,extended,00000007 // Lexaeus (Absent Silhouettes), Strength Beyond Strength is now Mega-Elixir
-patch=1,EE,11CE0A86,extended,00000007 // Lexaeus (Data), Lost Illusion is now Mega-Elixir
+patch=1,EE,11CE0A4A,extended,00000114 // Lexaeus (Absent Silhouttes), Strength Beyond Strength is now Power Boost
+patch=1,EE,11CE0A86,extended,00000222 // Lexaeus (Data), Lost Illusion is now Centurion+
 
 //Bonus Rewards
 // Escort Abu
@@ -2299,7 +2305,7 @@ patch=1,EE,11CE07AA,extended,0000014F // Magnet, Magnet is now Lucid Gem
 patch=1,EE,11CE08BE,extended,00000176 // Present, Present is now Decoy Presents
 patch=1,EE,11CE08CA,extended,000001EE // Decoy Presents, Decoy Presents is now Sleeping Lion
 patch=1,EE,11CE08D6,extended,000000EC // Decisive Pumpkin, Decisive Pumpkin is now Secret Ansem's Report 11
-patch=1,EE,11CE0A3E,extended,0000020C // Vexen (Absent Silhouettes), Road to Discovery is now Promise Charm
+patch=1,EE,11CE0A3E,extended,00000116 // Vexen (Absent Silhouttes), Road to Discovery is now Defense Boost
 patch=1,EE,11CE0A7A,extended,00000229 // Vexen (Data), Lost Illusion is now Frozen Pride+
 
 //Bonus Rewards
@@ -2322,7 +2328,7 @@ patch=1,EE,21D10A68,extended,00000000 // Replacement Reward #2: Replacement Rewa
 // Vexen (Absent Silhouette)
 patch=1,EE,11D110F2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D110F4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D110F8,extended,00000016 // Replacement Reward #2: Replacement Reward #1:Blizzard
+patch=1,EE,21D110F8,extended,020C0016 // Replacement Reward #2:Promise Charm Replacement Reward #1:Blizzard
 
 //Enemy Replacement
 //Halloween Town Square Heartless (Replaced Trick Ghosts [0002, 0723] with Wight Knights until I figure out why they don't spawn)
