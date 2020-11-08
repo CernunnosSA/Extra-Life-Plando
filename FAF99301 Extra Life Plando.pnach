@@ -2571,7 +2571,7 @@ patch=1,EE,11CDF766,extended,00000003 // Mountain Trail, Lightning Shard is now 
 patch=1,EE,11CDF772,extended,00000019 // Mountain Trail, Recovery Recipe is now Ukulele Charm
 patch=1,EE,11CDF77E,extended,0000017A // Mountain Trail, Ether is now Frost Shard
 patch=1,EE,11CDF78A,extended,0000014C // Mountain Trail, Mythril Shard is now Power Crystal
-patch=1,EE,11CDF796,extended,0000007B // Village Cave, AP Boost is now Undersea Kingdom Map
+patch=1,EE,11CDF796,extended,0000024E // Village Cave, AP Boost is now Depths of Remembrance Map
 patch=1,EE,11CDF7A2,extended,00000112 // Village Cave, Dark Shard is now Drive Recovery
 patch=1,EE,11CDF7AE,extended,00000002 // Ridge, Frost Shard is now Hi-Potion
 patch=1,EE,11CDF7BA,extended,0000010C // Ridge, AP Boost is now Counterguard
@@ -3699,9 +3699,9 @@ patch=1,EE,2032F210,extended,0098967F// Max Exp
 patch=1,EE,11D1A1F6,extended,00000114 // Summon LV2, Power Boost
 patch=1,EE,11D1A1FE,extended,00000115 // Summon LV3, Magic Boost
 patch=1,EE,11D1A206,extended,00000116 // Summon LV4, Defense Boost
-patch=1,EE,11D1A20E,extended,00000116 // Summon LV5, Defense Boost
+patch=1,EE,11D1A20E,extended,00000114 // Summon LV5, Power Boost
 patch=1,EE,11D1A216,extended,00000115 // Summon LV6, Magic Boost
-patch=1,EE,11D1A21E,extended,00000114 // Summon LV7, Power Boost
+patch=1,EE,11D1A21E,extended,00000038 // Summon LV7, Cosmic Arts
 
 
 patch=1,EE,11D1A22E,extended,0000001A // Valor LV2, Auto Valor is now Valor Form
@@ -3718,11 +3718,11 @@ patch=1,EE,11D1A27E,extended,00000044 // Wisdom LV5, Quick Run LV 2 is now Divin
 patch=1,EE,11D1A286,extended,0000003A // Wisdom LV6, MP Haste is now Shadow Archive+
 patch=1,EE,11D1A28E,extended,000001E7 // Wisdom LV7, Quick Run LV 3 is now Circle of Life
 
-patch=1,EE,11D1A29E,extended,0000024E // Limit LV2, Auto Limit is now Depths of Remembrance Map
+patch=1,EE,11D1A29E,extended,0000007B // Limit LV2, Auto Limit is now Undersea Kingdom Map
 patch=1,EE,11D1A2A6,extended,0000012F // Limit LV3, Dodge Roll LV 1 is now Acrisius
 patch=1,EE,11D1A2AE,extended,00000024 // Limit LV4, Draw is now Star Charm
 patch=1,EE,11D1A2B6,extended,00000132 // Limit LV5, Dodge Roll LV 2 is now Petite Ribbon
-patch=1,EE,11D1A2BE,extended,00000038 // Limit LV6, Lucky Lucky is now Cosmic Arts
+patch=1,EE,11D1A2BE,extended,00000034 // Limit LV6, Lucky Lucky is now Cosmic Ring
 patch=1,EE,11D1A2C6,extended,0000002B // Limit LV7, Dodge Roll LV 3 is now Oblivion
 
 patch=1,EE,11D1A2D6,extended,0000001F // Master LV2, Auto Master is now Master Form
