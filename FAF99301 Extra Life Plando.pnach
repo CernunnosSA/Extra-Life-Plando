@@ -2822,8 +2822,8 @@ patch=1,EE,11C6B8E0,extended,000000C8
 
 //----- The World That Never Was -----
 //Chests
-patch=1,EE,11CE0402,extended,00000134 // Fragment Crossing, Mythril Stone is now Cosmic Chain. USE ONLY ON LAST RESORT!!!!!
-//patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
+//patch=1,EE,11CE0402,extended,00000134 // Fragment Crossing, Mythril Stone is now Cosmic Chain. USE ONLY ON LAST RESORT!!!!!
+patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
 patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
 patch=1,EE,11CE041A,extended,00000113 // Fragment Crossing, AP Boost is now High Drive Recovery
 patch=1,EE,11CE0426,extended,00000116 // Fragment Crossing, Orichalcum is now Defense Boost
@@ -2833,7 +2833,7 @@ patch=1,EE,11CE044A,extended,0000010A // Memory's Skyscraper, Mythril Stone is n
 patch=1,EE,11CE0456,extended,0000010F // The Brink of Despair, Dark City Map is now Horizontal Slash
 patch=1,EE,11CE0462,extended,00000117 // The Brink of Despair, Orichalum+ is now AP Boost
 patch=1,EE,11CE046E,extended,00000007 // Nothing's Call, Mythril Gem is now Mega-Elixir
-patch=1,EE,11CE047A,extended,00000007 // Nothing's Call, Orichalcum is now Mega-Elixir
+patch=1,EE,11CE047A,extended,00000134 // Nothing's Call, Orichalcum is now Cosmic Chain
 patch=1,EE,11CE0486,extended,000001EB // Twilight's View, Cosmic Belt is now Guardian Soul
 patch=1,EE,11CE0492,extended,00000189 // Naught's Skyway, Mythril Gem is now Finishing Plus
 patch=1,EE,11CE049E,extended,0000018C // Naught's Skyway, Orichalcum is now Damage Drive
@@ -3678,20 +3678,20 @@ patch=1,EE,11D0BCD2,extended,00000000 // Shield Reward: Empty
 patch=1,EE,11D0BCD4,extended,00000000 // Staff Reward: Empty
 //Cosmic Chain is Equipped then EXP = MAX
 //Armor Slot 1
-patch=1,EE,E0010134,extended,0032E034// Armor Slot 1
-patch=1,EE,2032F210,extended,0098967F// Max Exp
+//patch=1,EE,E0010134,extended,0032E034// Armor Slot 1
+//patch=1,EE,2032F210,extended,0098967F// Max Exp
 //Armor Slot 2
-patch=1,EE,E0010136,extended,0032E034// Armor Slot 2
-patch=1,EE,2032F210,extended,0098967F// Max Exp
+//patch=1,EE,E0010136,extended,0032E034// Armor Slot 2
+//patch=1,EE,2032F210,extended,0098967F// Max Exp
 //Armor Slot 3
-patch=1,EE,E0010138,extended,0032E034// Armor Slot 3
-patch=1,EE,2032F210,extended,0098967F// Max Exp
+//patch=1,EE,E0010138,extended,0032E034// Armor Slot 3
+//patch=1,EE,2032F210,extended,0098967F// Max Exp
 //Armor Slot 4
-patch=1,EE,E001013A,extended,0032E034// Armor Slot 4
-patch=1,EE,2032F210,extended,0098967F// Max Exp
+//patch=1,EE,E001013A,extended,0032E034// Armor Slot 4
+//patch=1,EE,2032F210,extended,0098967F// Max Exp
 //Armor Slot 5
-patch=1,EE,E001013C,extended,0032E034// Armor Slot 5
-patch=1,EE,2032F210,extended,0098967F// Max Exp
+//patch=1,EE,E001013C,extended,0032E034// Armor Slot 5
+//patch=1,EE,2032F210,extended,0098967F// Max Exp
 
 //-----------------------------------------
 //                Drive Forms & Summons
