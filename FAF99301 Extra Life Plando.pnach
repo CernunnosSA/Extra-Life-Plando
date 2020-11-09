@@ -378,9 +378,10 @@ patch=1,EE,E0020D48,extended,21C6C4EC// If max HP is less than 3400
 patch=1,EE,21C6C4E8,extended,00000D48//
 patch=1,EE,21C6C4EC,extended,00000D48//
 //Back Alley Nobodies
-patch=1,EE,E0050302,extended,0032BAE0
-patch=1,EE,E0040049,extended,0032BAE4
-patch=1,EE,E0030049,extended,0032BAE8
+patch=1,EE,E0060302,extended,0032BAE0
+patch=1,EE,E0050049,extended,0032BAE4
+patch=1,EE,E0040049,extended,0032BAE8
+patch=1,EE,11C5313C,extended,00000022// Someone who's not watching
 patch=1,EE,11C50104,extended,00000135// Assassin
 patch=1,EE,11C50144,extended,00000137// Sniper(Back)
 patch=1,EE,11C50184,extended,00000137// Sniper(Right)
