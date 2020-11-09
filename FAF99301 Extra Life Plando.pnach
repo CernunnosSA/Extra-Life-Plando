@@ -1,4 +1,6 @@
-﻿//-----------------------------------------
+﻿//Cloud has been renamed to Butt
+
+//-----------------------------------------
 //                Game Start Codes
 //------------------------------------
 //Starting Stats
@@ -368,11 +370,12 @@ patch=1,EE,11C26D24,extended,00000754// Shadow Roxas
 patch=1,EE,11C26D64,extended,0000013E// Dusk Left
 patch=1,EE,11C26DA4,extended,0000013E// Dusk Right
 //Setzer (Struggle Tournament)
-patch=1,EE,E0040502,extended,0032BAE0
-patch=1,EE,E0030058,extended,0032BAE4
-patch=1,EE,E0020058,extended,0032BAE8
+patch=1,EE,E0050502,extended,0032BAE0
+patch=1,EE,E0040058,extended,0032BAE4
+patch=1,EE,E0030058,extended,0032BAE8
 patch=1,EE,11C2700C,extended,000008FB// Yuffie
-patch=1,EE,01C6C4E8,extended,00000035// Inf. HP
+patch=1,EE,21C6C4E8,extended,00000D48// Inf. HP
+patch=1,EE,21C6C4EC,extended,00000D48// Inf. HP
 //Back Alley Nobodies
 patch=1,EE,E0050302,extended,0032BAE0
 patch=1,EE,E0040049,extended,0032BAE4
@@ -427,7 +430,7 @@ patch=1,EE,11CDFD8A,extended,00000001 // Central Computer Core, Central Computer
 //Popups
 // Space Paranoids
 patch=1,EE,11CE0816,extended,0000007D // Photon Debugger, Photon Debugger is now 100 Acre Wood Map
-patch=1,EE,11CE0A62,extended,00000148 // Larxene (Absent Silhouettes), Cloaked Thunder is now Lightning Crystal
+patch=1,EE,11CE0A62,extended,00000117 // Larxene (Absent Silhouttes), Cloaked Thunder is now AP Boost
 patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Shock Charm
 
 //Bonus Rewards
@@ -523,23 +526,26 @@ patch=1,EE,11C56530,extended,0000015F // Cerberus
 //Sark (Normal)
 patch=1,EE,E0070911,extended,0032BAE0
 patch=1,EE,E006003A,extended,0032BAE8
-patch=1,EE,11C4FCC4,extended,000008F9// Sark -> Cloud
+patch=1,EE,11C4FCC4,extended,000008F9// Sark -> Butt
 patch=1,EE,11C4FD04,extended,00000022// MCP NPC -> You Know Who
 patch=1,EE,11C4FD44,extended,00000002// Trick Ghost Back-Left
 patch=1,EE,11C4FD84,extended,00000002// Trick Ghost Front-Left
 patch=1,EE,11C4FDC4,extended,00000002// Trick Ghost Front-Right
 patch=1,EE,11C4FE04,extended,00000002// Trick Ghost Back-Right
 //Sark (Giant)
-patch=1,EE,E00A0911,extended,0032BAE0
-patch=1,EE,E009003B,extended,0032BAE8
+patch=1,EE,E00D0911,extended,0032BAE0
+patch=1,EE,E00C003B,extended,0032BAE8
 patch=1,EE,11C4FF38,extended,00000000// Remove MCP Walls
 patch=1,EE,11C4FFB8,extended,00000728// Sark Giant -> Cannon Gun
 patch=1,EE,11C4FF78,extended,00000015// MCP Boss -> Shan Yu
-patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode Slot 2
+patch=1,EE,E0020041,extended,01C6C4EC// If Max HP Slot 2 = 65
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
-patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode Slot 3
+patch=1,EE,E0020041,extended,01C6C284// If Max HP Slot 3 = 65
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
-patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode Slot 4
+patch=1,EE,E0020041,extended,01C6C01C// If Max HP Slot 4 = 65
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
 
 //----- Disney Castle -----
@@ -557,8 +563,8 @@ patch=1,EE,11CDFA06,extended,00000235 // Library, Torn Pages is now Dodge Roll L
 patch=1,EE,11CE0756,extended,000001E5 // Disney Castle Map, Disney Castle Map is now Monochrome
 patch=1,EE,11CE0B16,extended,00000058 // Proof of Connection, Proof of Connection is now Reflect
 patch=1,EE,11CE0B22,extended,00000003 // Manifest Illusion, Manifest Illusion is now Ether
-patch=1,EE,11CE0A6E,extended,00000129 // Dark Anklet
-patch=1,EE,11CE0AAA,extended,000001EA // Rumbling Rose
+patch=1,EE,11CE0A6E,extended,000001EA // Marluxia (Absent Silhouttes), Eternal Blossom is now Rumbling Rose
+patch=1,EE,11CE0AAA,extended,00000040 // Marluxia (Data), Lost Illusion is now Full Bloom
 
 //Bonus Rewards
 // Escort Queen Minnie
@@ -774,40 +780,95 @@ patch=1,EE,11C56BB0,extended,00000988
 patch=1,EE,E00104B8,extended,01C56B70
 patch=1,EE,11C56B70,extended,00000988
 // Past Pete
-patch=1,EE,E01C010D,extended,0032BAE0
-patch=1,EE,E01B003A,extended,0032BAE4
-patch=1,EE,E01A003A,extended,0032BAE8
+patch=1,EE,E052010D,extended,0032BAE0
+patch=1,EE,E051003A,extended,0032BAE4
+patch=1,EE,E050003A,extended,0032BAE8
 patch=1,EE,01CA4EAC,extended,00000004 // Make Hostile Program a normal enemy
 patch=1,EE,10347D34,extended,0000006E // The Encounter
 patch=1,EE,11C576B4,extended,0000035E // Sark (was Pete)
-patch=1,EE,11C6C1A4,extended,00000008 // Sark DEF
-patch=1,EE,11C6C1A0,extended,00000010 // Sark STR
-patch=1,EE,21C6C1C0,extended,00323264 // Sark Resists 1 (100% Thunder, 50% Blizzard/Fire)
-patch=1,EE,21C6C1C4,extended,00643232 // Sark Resists 2 (50% Light/Dark)
 patch=1,EE,11C56BB0,extended,000004B8 // Hostile Program A (was Puzzle Piece by pier)                        
-patch=1,EE,11C6BF3C,extended,00000006 // Hostile Program A DEF
-patch=1,EE,11C6BF38,extended,00000005 // Hostile Program A STR
-patch=1,EE,21C6BF58,extended,00646464 // Hostile Program A Resists 1 (100% Thunder)
-patch=1,EE,21C6BF5C,extended,00646464 // Hostile Program A Resists 2 (neutral)
 patch=1,EE,11C56B70,extended,000004B8 // Hostile Program B (was Puzzle Piece above tree)
-patch=1,EE,11C6BCD4,extended,00000006 // Hostile Program B DEF
-patch=1,EE,11C6BCD0,extended,00000005 // Hostile Program B STR
-patch=1,EE,21C6BCF0,extended,00646464 // Hostile Program B Resists 1 (100% Thunder)
-patch=1,EE,21C6BCF4,extended,00646464 // Hostile Program B Resists 2 (neutral)
-patch=1,EE,E00800F5,extended,01C6C01C // Set HP
-patch=1,EE,11C6C018,extended,000001FF // Sark Current
-patch=1,EE,11C6C01C,extended,000001FF // Sark Max
-patch=1,EE,11C6BDB0,extended,000000FF // Hostile Program A Current
-patch=1,EE,11C6BDB4,extended,000000FF // Hostile Program A Max
-patch=1,EE,11C6BDB8,extended,00000000 // Hostile Program A HP-Gate-1
-patch=1,EE,11C6BB48,extended,000000FF // Hostile Program B Current
-patch=1,EE,11C6BB4C,extended,000000FF // Hostile Program B Max
-patch=1,EE,11C6BB50,extended,00000000 // Hostile Program B HP-Gate-1
-// Revert Yuffie/Tifa to Bosses
-patch=1,EE,E006020D,extended,0032BAE0
+patch=1,EE,E00600F5,extended,01C6C4EC // Sark in Slot 2
+patch=1,EE,11C6C4E8,extended,000001FF
+patch=1,EE,11C6C4EC,extended,000001FF
+patch=1,EE,11C6C670,extended,00000010
+patch=1,EE,11C6C674,extended,00000008
+patch=1,EE,21C6C690,extended,00323264
+patch=1,EE,21C6C694,extended,00643232
+patch=1,EE,E00600F5,extended,01C6C284 // Sark in Slot 3
+patch=1,EE,11C6C280,extended,000001FF
+patch=1,EE,11C6C284,extended,000001FF
+patch=1,EE,11C6C408,extended,00000010
+patch=1,EE,11C6C40C,extended,00000008
+patch=1,EE,21C6C428,extended,00323264
+patch=1,EE,21C6C42C,extended,00643232
+patch=1,EE,E00600F5,extended,01C6C01C // Sark in Slot 4
+patch=1,EE,11C6C018,extended,000001FF
+patch=1,EE,11C6C01C,extended,000001FF
+patch=1,EE,11C6C1A0,extended,00000010
+patch=1,EE,11C6C1A4,extended,00000008
+patch=1,EE,21C6C1C0,extended,00323264
+patch=1,EE,21C6C1C4,extended,00643232
+patch=1,EE,E00600F5,extended,01C6BDB4 // Sark in Slot 5
+patch=1,EE,11C6BDB0,extended,000001FF
+patch=1,EE,11C6BDB4,extended,000001FF
+patch=1,EE,11C6BF38,extended,00000010
+patch=1,EE,11C6BF3C,extended,00000008
+patch=1,EE,21C6BF58,extended,00323264
+patch=1,EE,21C6BF5C,extended,00643232
+patch=1,EE,E00600F5,extended,01C6BB4C // Sark in Slot 6
+patch=1,EE,11C6BB48,extended,000001FF
+patch=1,EE,11C6BB4C,extended,000001FF
+patch=1,EE,11C6BCD0,extended,00000010
+patch=1,EE,11C6BCD4,extended,00000008
+patch=1,EE,21C6BCF0,extended,00323264
+patch=1,EE,21C6BCF4,extended,00643232
+patch=1,EE,E00702DF,extended,01C6C4EC // Hostile Program in Slot 2
+patch=1,EE,11C6C4E8,extended,000000FF
+patch=1,EE,11C6C4EC,extended,000000FF
+patch=1,EE,11C6C4F0,extended,00000000
+patch=1,EE,11C6C670,extended,00000005
+patch=1,EE,11C6C674,extended,00000006
+patch=1,EE,21C6C690,extended,00646464
+patch=1,EE,21C6C694,extended,00646464
+patch=1,EE,E00702DF,extended,01C6C284 // Hostile Program in Slot 3
+patch=1,EE,11C6C280,extended,000000FF
+patch=1,EE,11C6C284,extended,000000FF
+patch=1,EE,11C6C288,extended,00000000
+patch=1,EE,11C6C408,extended,00000005
+patch=1,EE,11C6C40C,extended,00000006
+patch=1,EE,21C6C428,extended,00646464
+patch=1,EE,21C6C42C,extended,00646464
+patch=1,EE,E00702DF,extended,01C6C01C // Hostile Program in Slot 4
+patch=1,EE,11C6C018,extended,000000FF
+patch=1,EE,11C6C01C,extended,000000FF
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,00000005
+patch=1,EE,11C6C1A4,extended,00000006
+patch=1,EE,21C6C1C0,extended,00646464
+patch=1,EE,21C6C1C4,extended,00646464
+patch=1,EE,E00702DF,extended,01C6BDB4 // Hostile Program in Slot 5
+patch=1,EE,11C6BDB0,extended,000000FF
+patch=1,EE,11C6BDB4,extended,000000FF
+patch=1,EE,11C6BFB8,extended,00000000
+patch=1,EE,11C6BF38,extended,00000005
+patch=1,EE,11C6BF3C,extended,00000006
+patch=1,EE,21C6BF58,extended,00646464
+patch=1,EE,21C6BF5C,extended,00646464
+patch=1,EE,E00702DF,extended,01C6BB4C // Hostile Program in Slot 6
+patch=1,EE,11C6BB48,extended,000000FF
+patch=1,EE,11C6BB4C,extended,000000FF
+patch=1,EE,11C6BB50,extended,00000000
+patch=1,EE,11C6BCD0,extended,00000005
+patch=1,EE,11C6BCD4,extended,00000006
+patch=1,EE,21C6BCF0,extended,00646464
+patch=1,EE,21C6BCF4,extended,00646464
+// Revert from FF7 fight
+patch=1,EE,E007020D,extended,0032BAE0
+patch=1,EE,E0060034,extended,1032BAE4
 patch=1,EE,E0050004,extended,01CBAE6C
-patch=1,EE,01CBAE6C,extended,00000003
-patch=1,EE,01CBAE0C,extended,00000003
+patch=1,EE,01CBAE6C,extended,00000003 //Yuffie a Boss
+patch=1,EE,01CBAE0C,extended,00000003 //Tifa a Boss
 patch=1,EE,11C56568,extended,00000338
 patch=1,EE,11C565A8,extended,00000338
 patch=1,EE,11C565E8,extended,00000338
@@ -819,11 +880,11 @@ patch=1,EE,2032F098,extended,12121200 // Solo Fight
 patch=1,EE,00347D34,extended,000000A4 // Olympus Music
 patch=1,EE,01CBAE6C,extended,00000004 // Yuffie NOT a Boss
 patch=1,EE,01CBAE0C,extended,00000004 // Tifa NOT a Boss
-patch=1,EE,11C56568,extended,000008F9 // Cloud
-patch=1,EE,11C6C1A0,extended,0000000F // Cloud STR
-patch=1,EE,11C6C1A4,extended,00000008 // Cloud DEF
-patch=1,EE,21C6C1C0,extended,00323264 // Cloud Resists 1 (100% Thunder, 50% Blizzard/Fire)
-patch=1,EE,21C6C1C4,extended,006419FF // Cloud Resists 2 (75% Light, -155% Dark)
+patch=1,EE,11C56568,extended,000008F9 // Butt
+patch=1,EE,11C6C1A0,extended,0000000F // Butt STR
+patch=1,EE,11C6C1A4,extended,00000008 // Butt DEF
+patch=1,EE,21C6C1C0,extended,00323264 // Butt Resists 1 (100% Thunder, 50% Blizzard/Fire)
+patch=1,EE,21C6C1C4,extended,006419FF // Butt Resists 2 (75% Light, -155% Dark)
 patch=1,EE,11C565A8,extended,000008FA // Tifa
 patch=1,EE,11C6C408,extended,0000000A // Tifa STR
 patch=1,EE,11C6C40C,extended,00000005 // Tifa DEF
@@ -838,8 +899,8 @@ patch=1,EE,11C56F28,extended,00000000 // Remove Steamboat
 patch=1,EE,11C56EE8,extended,00000000 // Remove Cornerstone
 patch=1,EE,11C56EA8,extended,00000000 // Remove Pete
 patch=1,EE,E0060031,extended,01C6C018 // Set HP
-patch=1,EE,11C6C018,extended,000000FF // Cloud Current
-patch=1,EE,11C6C01C,extended,000000FF // Cloud Max
+patch=1,EE,11C6C018,extended,000000FF // Butt Current
+patch=1,EE,11C6C01C,extended,000000FF // Butt Max
 patch=1,EE,11C6C280,extended,000000FF // Tifa Current
 patch=1,EE,11C6C284,extended,000000FF // Tifa Max
 patch=1,EE,11C6C4E8,extended,000000FF // Yuffie Current
@@ -849,6 +910,7 @@ patch=1,EE,E018030D,extended,0032BAE0
 patch=1,EE,E0170035,extended,0032BAE4
 patch=1,EE,E0160035,extended,0032BAE8
 patch=1,EE,00347D34,extended,00000054 // Music
+patch=1,EE,2032F098,extended,12121200 // Solo Fight
 patch=1,EE,01CA298C,extended,00000004 // Volcanic Lord NOT a Boss
 patch=1,EE,11C55BF0,extended,0000040B // Volcanic Lord
 patch=1,EE,11C6C408,extended,0000000A // Volcanic Lord STR
@@ -869,7 +931,6 @@ patch=1,EE,11C6C4EC,extended,000001FF // Blizzard Lord Max
 patch=1,EE,11C6C4F0,extended,00000000 // Blizzard Lord HP Gate
 patch=1,EE,E0010000,extended,01C6C018 // When Blizzard Lord dies
 patch=1,EE,01CA298C,extended,00000003 // Revert Volcanic Lord into boss
-patch=1,EE,2032F098,extended,12121200 // Solo Fight
 
 
 //----- Port Royal -----
@@ -888,7 +949,7 @@ patch=1,EE,11CDFEB6,extended,00000032 // Powder Store, AP Boost is now Detection
 patch=1,EE,11CDFEC2,extended,00000002 // Moonlight Nook, Mythril Shard is now Hi-Potion
 patch=1,EE,11CDFECE,extended,0000017C // Moonlight Nook, Serenity Gem is now Frost Gem
 patch=1,EE,11CDFEDA,extended,0000017B // Moonlight Nook, Power Stone is now Frost Stone
-patch=1,EE,11CDFEE6,extended,00000182 // The Interceptor's Hold, Feather Charm is now Auto Wisdom
+patch=1,EE,11CDFEE6,extended,00000196 // The Interceptor's Hold, Feather Charm is now Jackpot
 patch=1,EE,11CDFEF2,extended,00000112 // Seadrift Keep, AP Boost is now Drive Recovery
 patch=1,EE,11CDFEFE,extended,00000114 // Seadrift Keep, Orichalcum is now Power Boost
 patch=1,EE,11CDFF0A,extended,00000115 // Seadrift Keep, Meteor Staff is now Magic Boost
@@ -1010,7 +1071,7 @@ patch=1,EE,21C9902C,extended,00000004
 patch=1,EE,E0051210,extended,0032BAE0
 patch=1,EE,E0040055,extended,0032BAE8
 patch=1,EE,11C5BA78,extended,0000013C// Sorcerer
-patch=1,EE,21C9902C,extended,00000003// Boss Identifier
+patch=1,EE,21C9902C,extended,00000003// Sorcerer Marker
 patch=1,EE,E0010028,extended,0035DE20// GR1 Cutscene Skip
 patch=1,EE,0035DE20,extended,000000B5
 //Grim Reaper 2
@@ -1343,8 +1404,9 @@ patch=1,EE,E0020003,extended,0032BAE4//
 patch=1,EE,E0010008,extended,0032BAE8//
 patch=1,EE,0032F1FA,extended,00000008// Limit Form Enabled
 //Corridors Fight
-patch=1,EE,E0121404,extended,0032BAE0//
-patch=1,EE,E0110056,extended,0032BAE8//
+patch=1,EE,E0131404,extended,0032BAE0//
+patch=1,EE,E0120056,extended,0032BAE8//
+patch=1,EE,2032F074,extended,12121200// Solo Fight
 patch=1,EE,11C5B780,extended,00000077// Wight Knight (1st Wave; Front-Left)
 patch=1,EE,11C5B7C0,extended,00000077// Wight Knight (1st Wave; Front-Right)
 patch=1,EE,11C5B800,extended,0000007A// Morning Star (1st Wave; Front-Middle)
@@ -1496,7 +1558,7 @@ patch=1,EE,11C4DD9C,extended,00000078// NeoShadow (4th Wave)
 //Ravine Trail Heartless 4
 patch=1,EE,E02A1004,extended,0032BAE0//
 patch=1,EE,E0290041,extended,0032BAE8//
-patch=1,EE,11C4E664,extended,00000001// Cloud (Ally) -> Fat Bandit
+patch=1,EE,11C4E664,extended,00000001// Butt (Ally) -> Fat Bandit
 patch=1,EE,11C4DFC0,extended,00000132// Surveillance Bot (1st Wave; Back-Right)
 patch=1,EE,11C4E000,extended,00000078// NeoShadow (1st Wave; Mid-Left)
 patch=1,EE,11C4E040,extended,00000078// NeoShadow (1st Wave; Front-Left)
@@ -1546,9 +1608,9 @@ patch=1,EE,11D48EE8,extended,000000FF//
 //Demyx II
 patch=1,EE,E0060404,extended,0032BAE0//
 patch=1,EE,E0050037,extended,0032BAE8//
-patch=1,EE,11C4CE7C,extended,000008F9// Cloud
-patch=1,EE,2032F070,extended,12121200// Solo Fight
-patch=1,EE,E0020218,extended,01C6C4EC// Cloud's HP
+patch=1,EE,11C4CE7C,extended,000008F9// Butt
+patch=1,EE,2032F074,extended,12121200// Solo Fight
+patch=1,EE,E0020218,extended,01C6C4EC// Butt's HP
 patch=1,EE,11C6C4EC,extended,000007D0// Max HP
 patch=1,EE,11C6C4E8,extended,000007D0// Current HP
 //Sephiroth (NPC) (This has to be Sephiroth for the RC but can be changed for goofs.)
@@ -1588,7 +1650,7 @@ patch=1,EE,11CE05FA,extended,00000234 // Garden of Assemblage, Proof of Nonexist
 // Transport to Remembrance Nobodies III
 patch=1,EE,11D11242,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11244,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11248,extended,00000007 // Replacement Reward #2: Replacement Reward #1:Mega-Elixir
+patch=1,EE,21D11248,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
 
 //Enemy Replacement
 
@@ -1806,11 +1868,11 @@ patch=1,EE,21D10BD8,extended,000000AD // Replacement Reward #2: Replacement Rewa
 // Hyenas II
 patch=1,EE,11D10ED2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10ED4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10ED8,extended,00000001 // Replacement Reward #2: Replacement Reward #1:Potion
+patch=1,EE,21D10ED8,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
 // Groundshaker
 patch=1,EE,11D10C12,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10C14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10C18,extended,00000001 // Replacement Reward #2: Replacement Reward #1:Potion
+patch=1,EE,21D10C18,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
 
 //Enemy Replacement
 //Elephant Graveyard Heartless
@@ -1829,19 +1891,11 @@ patch=1,EE,E0030037,extended,0032BAE8
 patch=1,EE,11C5A74C,extended,00000162// Dark Thorn
 patch=1,EE,E0010001,extended,01C6C018// Dark Thorn HP 1->0
 patch=1,EE,01C6C018,extended,00000000
-//Groundshaker
-patch=1,EE,E0060F0A,extended,0032BAE0
-patch=1,EE,E005003B,extended,0032BAE4
-patch=1,EE,E004003B,extended,0032BAE8
-patch=1,EE,11C59F80,extended,0000040B// Volcano Lord
-patch=1,EE,E00202B0,extended,01C6C284// Increase HP
-patch=1,EE,21C6C284,extended,000005DC
-patch=1,EE,21C6C280,extended,000005DC
 
 
 //----- Olympus Coliseum -----
 //Chests
-patch=1,EE,11CDFB02,extended,00000196 // Underworld Entrance, Power Boost is now Jackpot
+patch=1,EE,11CDFB02,extended,00000182 // Underworld Entrance, Power Boost is now Auto Wisdom
 patch=1,EE,11CDFB0E,extended,00000006 // Passage, Mythril Shard is now Mega-Ether
 patch=1,EE,11CDFB1A,extended,00000083 // Passage, Mythril Stone is now Tent
 patch=1,EE,11CDFB26,extended,0000019B // Passage, Ether is now Item Boost
@@ -1871,7 +1925,7 @@ patch=1,EE,11CE0726,extended,0000002A // Hero's Crest, Hero's Crest is now Oathk
 patch=1,EE,11CE0882,extended,00000146 // Auron's Statue, Auron's Statue is now Lightning Stone
 patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twilight Crystal
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
-patch=1,EE,11CE0A92,extended,00000117 // Zexion (Data), Lost Illusion is now AP Boost
+patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
 // Olympus Cups
 patch=1,EE,11CE073E,extended,00000257 // Protect Belt (Pain & Panic Cup), Protect Belt is now Executive's Ring
 patch=1,EE,11CE074A,extended,00000116 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Defense Boost
@@ -1911,7 +1965,7 @@ patch=1,EE,21D10888,extended,00000140 // Replacement Reward #2: Replacement Rewa
 // Zexion (Absent Silhouette)
 patch=1,EE,11D11152,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11154,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11158,extended,000001D0 // Replacement Reward #2: Replacement Reward #1:Road to Discovery
+patch=1,EE,21D11158,extended,012901D0 // Replacement Reward #2:Dark Anklet Replacement Reward #1:Road to Discovery
 
 //Enemy Replacement
 //Hades Escape
@@ -1991,8 +2045,9 @@ patch=1,EE,E002006E,extended,01C6C284// Yuffie's HP
 patch=1,EE,11C6C284,extended,0000015E// 350HP
 patch=1,EE,11C6C280,extended,0000015E// 350HP
 //Pete Fight (Olympus Coliseum; Part II)
-patch=1,EE,E0090806,extended,0032BAE0
-patch=1,EE,E0080074,extended,0032BAE8
+patch=1,EE,E00A0806,extended,0032BAE0
+patch=1,EE,E0090074,extended,0032BAE8
+patch=1,EE,2032F07C,extended,12121200// Solo Fight
 patch=1,EE,11C4FB08,extended,000005CE// Prison Keeper
 patch=1,EE,11C4FB48,extended,000006C2// Eeyore (Ally)
 patch=1,EE,11C4FBB4,extended,00000170// Gargoyle Warrior (Front-Left)
@@ -2012,7 +2067,7 @@ patch=1,EE,11C5BF7C,extended,00000051// Axel 2
 //Hades Cup Boss Fight
 patch=1,EE,E0041306,extended,0032BAE0
 patch=1,EE,E00300CA,extended,0032BAE8
-patch=1,EE,2032F078,extended,12121200// Solo Fight
+patch=1,EE,2032F07C,extended,12121200// Solo Fight
 patch=1,EE,11C5C0F0,extended,000006C4// Piglet (Hercules)
 patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
 
@@ -2050,8 +2105,8 @@ patch=1,EE,11CDF952,extended,00000004 // Ruined Chamber, Ruins Map is now Elixir
 patch=1,EE,11CE0792,extended,000001EC // Agrabah Map, Agrabah Map is now Wishing Lamp
 patch=1,EE,11CE079E,extended,00000115 // Lamp Charm, Lamp Charm is now Magic Boost
 patch=1,EE,11CE08B2,extended,00000004 // Wishing Lamp, Wishing Lamp is now Elixir
-patch=1,EE,11CE0A4A,extended,00000007 // Lexaeus (Absent Silhouettes), Strength Beyond Strength is now Mega-Elixir
-patch=1,EE,11CE0A86,extended,00000007 // Lexaeus (Data), Lost Illusion is now Mega-Elixir
+patch=1,EE,11CE0A4A,extended,00000114 // Lexaeus (Absent Silhouttes), Strength Beyond Strength is now Power Boost
+patch=1,EE,11CE0A86,extended,00000222 // Lexaeus (Data), Lost Illusion is now Centurion+
 
 //Bonus Rewards
 // Escort Abu
@@ -2250,7 +2305,7 @@ patch=1,EE,11CE07AA,extended,0000014F // Magnet, Magnet is now Lucid Gem
 patch=1,EE,11CE08BE,extended,00000176 // Present, Present is now Decoy Presents
 patch=1,EE,11CE08CA,extended,000001EE // Decoy Presents, Decoy Presents is now Sleeping Lion
 patch=1,EE,11CE08D6,extended,000000EC // Decisive Pumpkin, Decisive Pumpkin is now Secret Ansem's Report 11
-patch=1,EE,11CE0A3E,extended,0000020C // Vexen (Absent Silhouettes), Road to Discovery is now Promise Charm
+patch=1,EE,11CE0A3E,extended,00000116 // Vexen (Absent Silhouttes), Road to Discovery is now Defense Boost
 patch=1,EE,11CE0A7A,extended,00000229 // Vexen (Data), Lost Illusion is now Frozen Pride+
 
 //Bonus Rewards
@@ -2273,7 +2328,7 @@ patch=1,EE,21D10A68,extended,00000000 // Replacement Reward #2: Replacement Rewa
 // Vexen (Absent Silhouette)
 patch=1,EE,11D110F2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D110F4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D110F8,extended,00000016 // Replacement Reward #2: Replacement Reward #1:Blizzard
+patch=1,EE,21D110F8,extended,020C0016 // Replacement Reward #2:Promise Charm Replacement Reward #1:Blizzard
 
 //Enemy Replacement
 //Halloween Town Square Heartless (Replaced Trick Ghosts [0002, 0723] with Wight Knights until I figure out why they don't spawn)
@@ -2516,7 +2571,7 @@ patch=1,EE,11CDF766,extended,00000003 // Mountain Trail, Lightning Shard is now 
 patch=1,EE,11CDF772,extended,00000019 // Mountain Trail, Recovery Recipe is now Ukulele Charm
 patch=1,EE,11CDF77E,extended,0000017A // Mountain Trail, Ether is now Frost Shard
 patch=1,EE,11CDF78A,extended,0000014C // Mountain Trail, Mythril Shard is now Power Crystal
-patch=1,EE,11CDF796,extended,0000007B // Village Cave, AP Boost is now Undersea Kingdom Map
+patch=1,EE,11CDF796,extended,0000024E // Village Cave, AP Boost is now Depths of Remembrance Map
 patch=1,EE,11CDF7A2,extended,00000112 // Village Cave, Dark Shard is now Drive Recovery
 patch=1,EE,11CDF7AE,extended,00000002 // Ridge, Frost Shard is now Hi-Potion
 patch=1,EE,11CDF7BA,extended,0000010C // Ridge, AP Boost is now Counterguard
@@ -2584,9 +2639,10 @@ patch=1,EE,11C5B39C,extended,0000000D
 patch=1,EE,11C5B3DC,extended,0000000D
 patch=1,EE,11C5B41C,extended,00000966
 // Mission 2
-patch=1,EE,E00E0208,extended,0032BAE0
-patch=1,EE,E00D0050,extended,0032BAE4
-patch=1,EE,E00C0050,extended,0032BAE8
+patch=1,EE,E00F0208,extended,0032BAE0
+patch=1,EE,E00E0050,extended,0032BAE4
+patch=1,EE,E00D0050,extended,0032BAE8
+patch=1,EE,2032F084,extended,12128300 // Sora and Ping only
 patch=1,EE,11C5B760,extended,00000004
 patch=1,EE,11C5B7A0,extended,00000004
 patch=1,EE,11C5B7E0,extended,00000004
@@ -2612,9 +2668,10 @@ patch=1,EE,11C49644,extended,00000008
 patch=1,EE,11C49684,extended,00000965
 patch=1,EE,11C496C4,extended,00000008
 // Mountain Trail
-patch=1,EE,E0150308,extended,0032BAE0
-patch=1,EE,E0140047,extended,0032BAE4
-patch=1,EE,E0130047,extended,0032BAE8
+patch=1,EE,E0160308,extended,0032BAE0
+patch=1,EE,E0150047,extended,0032BAE4
+patch=1,EE,E0140047,extended,0032BAE8
+patch=1,EE,2032F084,extended,12121200 // Solo Fight
 patch=1,EE,11C58528,extended,0000007B // Wave 1
 patch=1,EE,11C58568,extended,0000007B
 patch=1,EE,11C585A8,extended,00000048
@@ -2685,30 +2742,25 @@ patch=1,EE,E0020001,extended,0032BAE8
 patch=1,EE,11C4C714,extended,00000428// (Shan Yu)
 patch=1,EE,11C4C678,extended,00000022// (Emperor)
 //Shan Yu Fight
-patch=1,EE,E0170908,extended,0032BAE0
-patch=1,EE,E016004B,extended,0032BAE8
+patch=1,EE,E0120908,extended,0032BAE0
+patch=1,EE,E011004B,extended,0032BAE4
+patch=1,EE,E010004B,extended,0032BAE8
 patch=1,EE,11C4BEB0,extended,00000137// Sniper (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136// Samurai(Shan Yu)
 patch=1,EE,11C98EAC,extended,00000003// Sniper Marker
 patch=1,EE,11C98E4C,extended,00000003// Samurai Marker
-patch=1,EE,E0050037,extended,01C6C4EC// Set HP Slot 2 
-patch=1,EE,E0040037,extended,01C6C284// Set HP Slot 3
-patch=1,EE,11C6C4EC,extended,0000015E// Sniper Max HP
-patch=1,EE,11C6C4E8,extended,0000015E// Current HP
-patch=1,EE,11C6C284,extended,0000015E// Samurai Max HP
-patch=1,EE,11C6C280,extended,0000015E// Current HP
-patch=1,EE,E0050037,extended,01C6C284// Set HP Slot 2
-patch=1,EE,E0040037,extended,01C6C01C// Set HP Slot 3
-patch=1,EE,11C6C284,extended,0000015E// Sniper Max HP
-patch=1,EE,11C6C280,extended,0000015E// Current HP
-patch=1,EE,11C6C01C,extended,0000015E// Samurai Max HP
-patch=1,EE,11C6C018,extended,0000015E// Current HP
-patch=1,EE,E0050037,extended,01C6C01C// Set HP Slot 4
-patch=1,EE,E0040037,extended,01C6BDB4// Set HP Slot 5
-patch=1,EE,11C6C01C,extended,0000015E// Sniper Max HP
-patch=1,EE,11C6C018,extended,0000015E// Current HP
-patch=1,EE,11C6BDB4,extended,0000015E// Samurai Max HP
-patch=1,EE,11C6BDB0,extended,0000015E// Current HP
+patch=1,EE,E0020037,extended,01C6C284 // Sniper or Samurai in Slot 3
+patch=1,EE,11C6C280,extended,0000015E
+patch=1,EE,11C6C284,extended,0000015E
+patch=1,EE,E0020037,extended,01C6C01C // Sniper or Samurai in Slot 4
+patch=1,EE,11C6C018,extended,0000015E
+patch=1,EE,11C6C01C,extended,0000015E
+patch=1,EE,E0020037,extended,01C6BDB4 // Sniper or Samurai in Slot 5
+patch=1,EE,11C6BDB0,extended,0000015E
+patch=1,EE,11C6BDB4,extended,0000015E
+patch=1,EE,E0020037,extended,01C6BB4C // Sniper or Samurai in Slot 6
+patch=1,EE,11C6BB48,extended,0000015E
+patch=1,EE,11C6BB4C,extended,0000015E
 //Samurai and Sniper Marker Fix
 patch=1,EE,E0030908,extended,0032BAE0
 patch=1,EE,E0020069,extended,0032BAE8
@@ -2735,7 +2787,7 @@ patch=1,EE,E00A007A,extended,01C6C284// Set HP Slot 3,4,5
 patch=1,EE,E009007A,extended,01C6C01C
 patch=1,EE,E008007A,extended,01C6BDB4
 patch=1,EE,11C6C4EC,extended,000003E8// Blizz Max HP
-patch=1,EE,11C6C4EC,extended,000003E8// Blizz Current HP
+patch=1,EE,11C6C4E8,extended,000003E8// Blizz Current HP
 patch=1,EE,11C6C284,extended,000000C8
 patch=1,EE,11C6C280,extended,000000C8
 patch=1,EE,11C6C01C,extended,000000C8
@@ -2927,7 +2979,7 @@ patch=1,EE,11CDFAAE,extended,00000186 // The Spooky Cave, AP Boost is now Combo 
 patch=1,EE,11CDFABA,extended,00000187 // The Spooky Cave, Orichalcum is now Air Combo Boost
 patch=1,EE,11CDFAC6,extended,00000187 // The Spooky Cave, Guard Recipe is now Air Combo Boost
 patch=1,EE,11CDFAD2,extended,00000188 // The Spooky Cave, Mythril Crystal is now Reaction Boost
-patch=1,EE,11CDFADE,extended,00000188 // The Spooky Cave, AP Boost is now Reaction Boost
+patch=1,EE,11CDFADE,extended,00000192 // The Spooky Cave, AP Boost is now Leaf Bracer
 patch=1,EE,11CDFAEA,extended,00000117 // Starry Hill, Cosmic Ring is now AP Boost
 patch=1,EE,11CDFAF6,extended,00000117 // Starry Hill, Style Recipe is now AP Boost
 
@@ -3647,9 +3699,9 @@ patch=1,EE,2032F210,extended,0098967F// Max Exp
 patch=1,EE,11D1A1F6,extended,00000114 // Summon LV2, Power Boost
 patch=1,EE,11D1A1FE,extended,00000115 // Summon LV3, Magic Boost
 patch=1,EE,11D1A206,extended,00000116 // Summon LV4, Defense Boost
-patch=1,EE,11D1A20E,extended,00000116 // Summon LV5, Defense Boost
+patch=1,EE,11D1A20E,extended,00000114 // Summon LV5, Power Boost
 patch=1,EE,11D1A216,extended,00000115 // Summon LV6, Magic Boost
-patch=1,EE,11D1A21E,extended,00000114 // Summon LV7, Power Boost
+patch=1,EE,11D1A21E,extended,00000038 // Summon LV7, Cosmic Arts
 
 
 patch=1,EE,11D1A22E,extended,0000001A // Valor LV2, Auto Valor is now Valor Form
@@ -3666,11 +3718,11 @@ patch=1,EE,11D1A27E,extended,00000044 // Wisdom LV5, Quick Run LV 2 is now Divin
 patch=1,EE,11D1A286,extended,0000003A // Wisdom LV6, MP Haste is now Shadow Archive+
 patch=1,EE,11D1A28E,extended,000001E7 // Wisdom LV7, Quick Run LV 3 is now Circle of Life
 
-patch=1,EE,11D1A29E,extended,0000024E // Limit LV2, Auto Limit is now Depths of Remembrance Map
+patch=1,EE,11D1A29E,extended,0000007B // Limit LV2, Auto Limit is now Undersea Kingdom Map
 patch=1,EE,11D1A2A6,extended,0000012F // Limit LV3, Dodge Roll LV 1 is now Acrisius
 patch=1,EE,11D1A2AE,extended,00000024 // Limit LV4, Draw is now Star Charm
 patch=1,EE,11D1A2B6,extended,00000132 // Limit LV5, Dodge Roll LV 2 is now Petite Ribbon
-patch=1,EE,11D1A2BE,extended,00000038 // Limit LV6, Lucky Lucky is now Cosmic Arts
+patch=1,EE,11D1A2BE,extended,00000034 // Limit LV6, Lucky Lucky is now Cosmic Ring
 patch=1,EE,11D1A2C6,extended,0000002B // Limit LV7, Dodge Roll LV 3 is now Oblivion
 
 patch=1,EE,11D1A2D6,extended,0000001F // Master LV2, Auto Master is now Master Form
