@@ -1,4 +1,4 @@
-//Cloud has been renamed to Butt
+﻿//Cloud has been renamed to Butt
 
 //-----------------------------------------
 //                Game Start Codes
@@ -370,16 +370,18 @@ patch=1,EE,11C26D24,extended,00000754// Shadow Roxas
 patch=1,EE,11C26D64,extended,0000013E// Dusk Left
 patch=1,EE,11C26DA4,extended,0000013E// Dusk Right
 //Setzer (Struggle Tournament)
-patch=1,EE,E0050502,extended,0032BAE0
-patch=1,EE,E0040058,extended,0032BAE4
-patch=1,EE,E0030058,extended,0032BAE8
+patch=1,EE,E0060502,extended,0032BAE0
+patch=1,EE,E0050058,extended,0032BAE4
+patch=1,EE,E0040058,extended,0032BAE8
 patch=1,EE,11C2700C,extended,000008FB// Yuffie
-patch=1,EE,21C6C4E8,extended,00000D48// Inf. HP
-patch=1,EE,21C6C4EC,extended,00000D48// Inf. HP
+patch=1,EE,E0020D48,extended,21C6C4EC// If max HP is less than 3400
+patch=1,EE,21C6C4E8,extended,00000D48//
+patch=1,EE,21C6C4EC,extended,00000D48//
 //Back Alley Nobodies
-patch=1,EE,E0050302,extended,0032BAE0
-patch=1,EE,E0040049,extended,0032BAE4
-patch=1,EE,E0030049,extended,0032BAE8
+patch=1,EE,E0060302,extended,0032BAE0
+patch=1,EE,E0050049,extended,0032BAE4
+patch=1,EE,E0040049,extended,0032BAE8
+patch=1,EE,11C5313C,extended,00000022// Someone who's not watching
 patch=1,EE,11C50104,extended,00000135// Assassin
 patch=1,EE,11C50144,extended,00000137// Sniper(Back)
 patch=1,EE,11C50184,extended,00000137// Sniper(Right)
@@ -2264,8 +2266,8 @@ patch=1,EE,11C50EF8,extended,00000049// Crimson Jazz (2nd Wave)
 
 //Boss Replacement
 //Volcano and Blizzard Lord Fight
-patch=1,EE,E0080307,extended,0032BAE0
-patch=1,EE,E007003B,extended,0032BAE8
+patch=1,EE,E0110307,extended,0032BAE0
+patch=1,EE,E010003B,extended,0032BAE8
 patch=1,EE,11C32934,extended,0000090F// Pete Boss
 patch=1,EE,11C32974,extended,00000647// Pete TR
 patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscene Fix
@@ -2571,7 +2573,7 @@ patch=1,EE,11CDF766,extended,00000003 // Mountain Trail, Lightning Shard is now 
 patch=1,EE,11CDF772,extended,00000019 // Mountain Trail, Recovery Recipe is now Ukulele Charm
 patch=1,EE,11CDF77E,extended,0000017A // Mountain Trail, Ether is now Frost Shard
 patch=1,EE,11CDF78A,extended,0000014C // Mountain Trail, Mythril Shard is now Power Crystal
-patch=1,EE,11CDF796,extended,0000007B // Village Cave, AP Boost is now Undersea Kingdom Map
+patch=1,EE,11CDF796,extended,0000024E // Village Cave, AP Boost is now Depths of Remembrance Map
 patch=1,EE,11CDF7A2,extended,00000112 // Village Cave, Dark Shard is now Drive Recovery
 patch=1,EE,11CDF7AE,extended,00000002 // Ridge, Frost Shard is now Hi-Potion
 patch=1,EE,11CDF7BA,extended,0000010C // Ridge, AP Boost is now Counterguard
@@ -2822,8 +2824,7 @@ patch=1,EE,11C6B8E0,extended,000000C8
 
 //----- The World That Never Was -----
 //Chests
-patch=1,EE,11CE0402,extended,00000134 // Fragment Crossing, Mythril Stone is now Cosmic Chain. USE ONLY ON LAST RESORT!!!!!
-//patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
+patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
 patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
 patch=1,EE,11CE041A,extended,00000113 // Fragment Crossing, AP Boost is now High Drive Recovery
 patch=1,EE,11CE0426,extended,00000116 // Fragment Crossing, Orichalcum is now Defense Boost
@@ -2833,7 +2834,7 @@ patch=1,EE,11CE044A,extended,0000010A // Memory's Skyscraper, Mythril Stone is n
 patch=1,EE,11CE0456,extended,0000010F // The Brink of Despair, Dark City Map is now Horizontal Slash
 patch=1,EE,11CE0462,extended,00000117 // The Brink of Despair, Orichalum+ is now AP Boost
 patch=1,EE,11CE046E,extended,00000007 // Nothing's Call, Mythril Gem is now Mega-Elixir
-patch=1,EE,11CE047A,extended,00000007 // Nothing's Call, Orichalcum is now Mega-Elixir
+patch=1,EE,11CE047A,extended,00000134 // Nothing's Call, Orichalcum is now Cosmic Chain
 patch=1,EE,11CE0486,extended,000001EB // Twilight's View, Cosmic Belt is now Guardian Soul
 patch=1,EE,11CE0492,extended,00000189 // Naught's Skyway, Mythril Gem is now Finishing Plus
 patch=1,EE,11CE049E,extended,0000018C // Naught's Skyway, Orichalcum is now Damage Drive
@@ -3676,22 +3677,6 @@ patch=1,EE,11D0BBF4,extended,00000000 // Staff Reward: Empty
 patch=1,EE,11D0BCD0,extended,00000000 // Sword Reward: Empty
 patch=1,EE,11D0BCD2,extended,00000000 // Shield Reward: Empty
 patch=1,EE,11D0BCD4,extended,00000000 // Staff Reward: Empty
-//Cosmic Chain is Equipped then EXP = MAX
-//Armor Slot 1
-patch=1,EE,E0010134,extended,0032E034// Armor Slot 1
-patch=1,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 2
-patch=1,EE,E0010136,extended,0032E034// Armor Slot 2
-patch=1,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 3
-patch=1,EE,E0010138,extended,0032E034// Armor Slot 3
-patch=1,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 4
-patch=1,EE,E001013A,extended,0032E034// Armor Slot 4
-patch=1,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 5
-patch=1,EE,E001013C,extended,0032E034// Armor Slot 5
-patch=1,EE,2032F210,extended,0098967F// Max Exp
 
 //-----------------------------------------
 //                Drive Forms & Summons
@@ -3699,9 +3684,9 @@ patch=1,EE,2032F210,extended,0098967F// Max Exp
 patch=1,EE,11D1A1F6,extended,00000114 // Summon LV2, Power Boost
 patch=1,EE,11D1A1FE,extended,00000115 // Summon LV3, Magic Boost
 patch=1,EE,11D1A206,extended,00000116 // Summon LV4, Defense Boost
-patch=1,EE,11D1A20E,extended,00000116 // Summon LV5, Defense Boost
+patch=1,EE,11D1A20E,extended,00000114 // Summon LV5, Power Boost
 patch=1,EE,11D1A216,extended,00000115 // Summon LV6, Magic Boost
-patch=1,EE,11D1A21E,extended,00000114 // Summon LV7, Power Boost
+patch=1,EE,11D1A21E,extended,00000038 // Summon LV7, Cosmic Arts
 
 
 patch=1,EE,11D1A22E,extended,0000001A // Valor LV2, Auto Valor is now Valor Form
@@ -3718,11 +3703,11 @@ patch=1,EE,11D1A27E,extended,00000044 // Wisdom LV5, Quick Run LV 2 is now Divin
 patch=1,EE,11D1A286,extended,0000003A // Wisdom LV6, MP Haste is now Shadow Archive+
 patch=1,EE,11D1A28E,extended,000001E7 // Wisdom LV7, Quick Run LV 3 is now Circle of Life
 
-patch=1,EE,11D1A29E,extended,0000024E // Limit LV2, Auto Limit is now Depths of Remembrance Map
+patch=1,EE,11D1A29E,extended,0000007B // Limit LV2, Auto Limit is now Undersea Kingdom Map
 patch=1,EE,11D1A2A6,extended,0000012F // Limit LV3, Dodge Roll LV 1 is now Acrisius
 patch=1,EE,11D1A2AE,extended,00000024 // Limit LV4, Draw is now Star Charm
 patch=1,EE,11D1A2B6,extended,00000132 // Limit LV5, Dodge Roll LV 2 is now Petite Ribbon
-patch=1,EE,11D1A2BE,extended,00000038 // Limit LV6, Lucky Lucky is now Cosmic Arts
+patch=1,EE,11D1A2BE,extended,00000034 // Limit LV6, Lucky Lucky is now Cosmic Ring
 patch=1,EE,11D1A2C6,extended,0000002B // Limit LV7, Dodge Roll LV 3 is now Oblivion
 
 patch=1,EE,11D1A2D6,extended,0000001F // Master LV2, Auto Master is now Master Form
@@ -3869,3 +3854,14 @@ patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
 patch=1,EE,11C5A534,extended,000009C1// Halloween Town Door
 patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
 patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
+
+//-----------------------------------------
+//                Debug Codes
+//------------------------------------
+//Stop Doom Clock
+patch=0,EE,2032DF74,extended,00000000
+//Mysterious Abyss Broken Stats
+patch=0,EE,21CDF568,extended,00A0A0A0 // 160 str, mag, def
+//Enter Atlantica then EXP = MAX
+patch=1,EE,E0010B00,extended,0032BADF // If in Atlantica
+patch=0,EE,2032F210,extended,0098967F // Max Exp
