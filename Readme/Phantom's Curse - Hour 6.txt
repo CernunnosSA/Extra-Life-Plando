@@ -57,6 +57,7 @@ Disney Castle + Timeless River
 -Reflect Element
 -Fantasia
 -Goofy Tornado
+-Guard
 
 Hollow Bastion
 -Magnet Element
