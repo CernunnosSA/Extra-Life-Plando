@@ -1,5 +1,9 @@
-# Extra-Life-Plando
+# Phantom's Curse Vanilla To-Do List:
 
-Should've done this sooner -_-
+- Make Chonky Bois chonkier in Timed Agrabah Fight?
 
-The Google Doc is being left up with all of its commented (and buggy) glory if anyone wanna tinker with the cut contents
+# Phantom's Curse Final Mix To-Do List:
+
+- Make Chonky Bois chonkier in Timed Agrabah Fight?
+- Randomize Doors Closing
+- Rebalance the Difficulty (maybe changing the battle lv to be higher over time)
