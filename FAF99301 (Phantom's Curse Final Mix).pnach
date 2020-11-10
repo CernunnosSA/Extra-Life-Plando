@@ -3862,20 +3862,6 @@ patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
 patch=0,EE,2032DF74,extended,00000000
 //Mysterious Abyss Broken Stats
 patch=0,EE,21CDF568,extended,00A0A0A0 // 160 str, mag, def
-//Cosmic Chain is Equipped then EXP = MAX
-patch=0,EE,11CE0402,extended,00000134 // Fragment Crossing, Mythril Stone is now Cosmic Chain.
-//Armor Slot 1
-patch=0,EE,E0010134,extended,0032E034// Armor Slot 1
-patch=0,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 2
-patch=0,EE,E0010136,extended,0032E034// Armor Slot 2
-patch=0,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 3
-patch=0,EE,E0010138,extended,0032E034// Armor Slot 3
-patch=0,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 4
-patch=0,EE,E001013A,extended,0032E034// Armor Slot 4
-patch=0,EE,2032F210,extended,0098967F// Max Exp
-//Armor Slot 5
-patch=0,EE,E001013C,extended,0032E034// Armor Slot 5
-patch=0,EE,2032F210,extended,0098967F// Max Exp
+//Enter Atlantica then EXP = MAX
+patch=1,EE,E0010B00,extended,0032BADF // If in Atlantica
+patch=0,EE,2032F210,extended,0098967F // Max Exp
