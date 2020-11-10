@@ -1,8 +1,8 @@
-# Extra-Life-Plando Vanilla To-Do List:
+# Phantom's Curse Vanilla To-Do List:
 
 - Make Chonky Bois chonkier in Timed Agrabah Fight?
 
-# Extra-Life-Plando Final Mix To-Do List:
+# Phantom's Curse Final Mix To-Do List:
 
 - Make Chonky Bois chonkier in Timed Agrabah Fight?
 - Randomize Doors Closing
