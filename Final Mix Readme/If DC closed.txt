@@ -1,6 +1,6 @@
 Disney Castle and Timeless River have been swallowed by the darkness. The following rewards are forever out of reach...
--Monochrome
+-Monochrome (Aerial Sweep)
 -Blizzard Element
 -Fire Element
--Rumbling Rose
+-Rumbling Rose (Horizontal Slash)
 -Reflect Element (Shared with another location...)
