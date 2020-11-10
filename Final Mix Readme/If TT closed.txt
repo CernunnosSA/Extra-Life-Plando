@@ -1,7 +1,7 @@
 Twilight Town has been swallowed by the darkness. The following rewards are forever out of reach...
--Follow the Wind
+-Follow the Wind (Reaction Boost)
 -Torn Page
 -Final Form
--Winner's Proof
+-Winner's Proof (Finishing Plus)
 -Thunder Element
--Photon Debugger
+-Photon Debugger (Explosion)
