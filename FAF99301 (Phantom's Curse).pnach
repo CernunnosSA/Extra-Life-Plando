@@ -3681,13 +3681,12 @@ patch=1,EE,11D0BCD4,extended,00000000 // Staff Reward: Empty
 //-----------------------------------------
 //                Drive Forms & Summons
 //------------------------------------
-patch=1,EE,11D1A1F6,extended,00000114 // Summon LV2, Power Boost
-patch=1,EE,11D1A1FE,extended,00000115 // Summon LV3, Magic Boost
-patch=1,EE,11D1A206,extended,00000116 // Summon LV4, Defense Boost
-patch=1,EE,11D1A20E,extended,00000114 // Summon LV5, Power Boost
-patch=1,EE,11D1A216,extended,00000115 // Summon LV6, Magic Boost
-patch=1,EE,11D1A21E,extended,00000038 // Summon LV7, Cosmic Arts
-
+patch=1,EE,11D1A1EE,extended,00000114 // Summon LV2, Power Boost
+patch=1,EE,11D1A1F6,extended,00000115 // Summon LV3, Magic Boost
+patch=1,EE,11D1A2FE,extended,00000116 // Summon LV4, Defense Boost
+patch=1,EE,11D1A206,extended,00000114 // Summon LV5, Power Boost
+patch=1,EE,11D1A20E,extended,00000115 // Summon LV6, Magic Boost
+patch=1,EE,11D1A216,extended,00000038 // Summon LV7, Cosmic Arts
 
 patch=1,EE,11D1A22E,extended,0000001A // Valor LV2, Auto Valor is now Valor Form
 patch=1,EE,11D1A236,extended,00000045 // Valor LV3, High Jump LV 1 is now Power Band
@@ -3723,7 +3722,6 @@ patch=1,EE,11D1A31E,extended,00000035 // Final LV4, Form Boost is now Medal
 patch=1,EE,11D1A326,extended,00000130 // Final LV5, Glide LV 2 is now Ribbon
 patch=1,EE,11D1A32E,extended,00000257 // Final LV6, Form Boost is now Executive's Ring
 patch=1,EE,11D1A336,extended,000001F4 // Final LV7, Glide LV 3 is now Ultima Weapon
-
 
 //5x Drive Exp
 patch=1,EE,11D1A1F0,extended,00000001
