@@ -4,23 +4,18 @@
 //                Game Start Codes
 //------------------------------------
 //Starting Stats
-patch=1,EE,E0080003,extended,0032DFC8
-patch=1,EE,E0072002,extended,0032BAE0
-patch=1,EE,E0060001,extended,0032BAE4
-patch=1,EE,E0050001,extended,0032BAE6
-patch=1,EE,E0040001,extended,0032BAE8
+patch=1,EE,E0090003,extended,0032DFC8
+patch=1,EE,E0082002,extended,0032BAE0
+patch=1,EE,E0070001,extended,0032BAE4
+patch=1,EE,E0060001,extended,0032BAE6
+patch=1,EE,E0050001,extended,0032BAE8
 patch=1,EE,01C6C754,extended,0000002D// 45HP
 patch=1,EE,01C6C750,extended,0000002D// 45HP
 patch=1,EE,01C6C8D4,extended,0000002D// 45MP
 patch=1,EE,01C6C8D0,extended,0000002D// 45MP
+patch=1,EE,1032E020,extended,000001F0// Mysterious Abyss
 //Starting Stats
 patch=1,EE,21D0B6AC,extended,00030303//AP/Def/Mag/Str
-// Starting Keyblade
-patch=1,EE,E0042002,extended,0032BAE0
-patch=1,EE,E0030001,extended,0032BAE4
-patch=1,EE,E0020001,extended,0032BAE6
-patch=1,EE,E0010001,extended,0032BAE8
-patch=1,EE,1032E020,extended,000001F0 // Mysterious Abyss
 //Critical Bonus
 patch=1,EE,11D18DDC,extended,00000233// Limit Form
 patch=1,EE,11D18DDE,extended,0000008A// Scan
@@ -1602,9 +1597,10 @@ patch=1,EE,11C4EA88,extended,0000013E// Dusk
 patch=1,EE,11C4EAC8,extended,0000013E// Dusk
 patch=1,EE,11C4EB08,extended,0000013E// Dusk
 //1k Heartless Required Kills 255
-patch=1,EE,E0021104,extended,0032BAE0//
-patch=1,EE,E0010042,extended,0032BAE8//
+patch=1,EE,E0031104,extended,0032BAE0//
+patch=1,EE,E0020042,extended,0032BAE8//
 patch=1,EE,11D48EE8,extended,000000FF//
+patch=1,EE,11CA7EA8,extended,00000556// Add Thrusters
 
 //Boss Replacement
 //Demyx II
@@ -2181,6 +2177,7 @@ patch=1,EE,11C5B3A8,extended,0000000C// Luna Bandit (4th Wave; Mid-Left)
 patch=1,EE,11C5B3E8,extended,0000000B// Fortuneteller (4th Wave; Middle)
 patch=1,EE,11C5B494,extended,00000001// Fat Bandit(5th Wave; Right)
 patch=1,EE,11C5B4D4,extended,0000000B// Fortuneteller (5th Wave; Left)
+
 //The Cave of Wonders: Treasure Room Heartless
 patch=1,EE,E0330A07,extended,0032BAE0
 patch=1,EE,E032003A,extended,0032BAE8
