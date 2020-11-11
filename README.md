@@ -1,12 +1,10 @@
 # Phantom's Curse Vanilla To-Do List:
 
 - Make Chonky Bois chonkier in Timed Agrabah Fight?
-- Make Rapid Thrusters always appear in 1000 Fight?
 
 # Phantom's Curse Final Mix To-Do List:
 
 - Make Chonky Bois chonkier in Timed Agrabah Fight?
-- Make Rapid Thrusters always appear on 1000 Fight?
 - Add duplicate items on other worlds
 - Randomize Doors Closing
 - Make Battle Lv higher over time
