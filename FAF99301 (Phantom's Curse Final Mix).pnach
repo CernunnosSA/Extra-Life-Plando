@@ -3762,101 +3762,93 @@ patch=1,EE,11D1A330,extended,00000020
 //        	Closed Door Timer
 //------------------------------------
 // 0032EB00 = Door Flag
-// TP 1 = 0032DF76
-// TP 2 = 0032DF74
-//
+// TP 1 = 0032DF76 //Time Played 1
+// TP 2 = 0032DF74 //Time Played 2
 //  RC == 0032F200
-//  P1 == 0032F202
-//  P2 == 0032F204
-//  P3 == 0032F206
-//  P4 == 0032F208
-//  P5 == 0032F20A
-//  P6 == 0032F20C
-//  P7 == 0032F20E
-//  P8 == 0032F210
-//  P9 == 0032F212
+// P 1 == 0032F202
+// P 2 == 0032F204
+// P 3 == 0032F206
+// P 4 == 0032F208
+// P 5 == 0032F20A
+// P 6 == 0032F20C
+// P 7 == 0032F20E
+// P 8 == 0032F210
+// P 9 == 0032F212
 // P10 == 0032F214
 
-//{ Doom Clock
-	// Doom Clock 1 == 0:30
-	patch=1,EE,E0020001,extended,0032DF76// If TP1
-	patch=1,EE,E001A5E0,extended,0032DF74// If TP2
-	patch=1,EE,0032EB00,extended,00000001// Doom Clock
-	
-	// Doom Clock 2 == 1:00
-	patch=1,EE,E0020003,extended,0032DF76// If TP1
-	patch=1,EE,E0014BC0,extended,0032DF74// If TP2
-	patch=1,EE,0032EB00,extended,00000002// Doom Clock
-	
-	// Doom Clock 3 == 1:30
-	patch=1,EE,E0020004,extended,0032DF76// If TP1
-	patch=1,EE,E001F1A0,extended,0032DF74// If TP2
-	patch=1,EE,0032EB00,extended,00000003// Doom Clock
-	
-	// Doom Clock 4 == 2:00
-	patch=1,EE,E0020006,extended,0032DF76// If TP1
-	patch=1,EE,E0019780,extended,0032DF74// If TP2
-	patch=1,EE,0032EB00,extended,00000004// Doom Clock
-	
-	// Doom Clock 5 == 2:30
-	patch=1,EE,E0020008,extended,0032DF76// If TP1
-	patch=1,EE,E0013D60,extended,0032DF74// If TP2
-	patch=1,EE,0032EB00,extended,00000005// Doom Clock
-	
-	// Doom Clock 6 == 3:00
-	patch=1,EE,E0020009,extended,0032DF76// If TP1
-	patch=1,EE,E001E340,extended,0032DF74// If TP2
-	patch=1,EE,0032EB00,extended,00000006// Doom Clock
-//}
+// Doom Clock
+// Doom Clock 1 == 0:30
+patch=1,EE,E0020001,extended,0032DF76// If TP1
+patch=1,EE,E001A5E0,extended,0032DF74// If TP2
+patch=1,EE,0032EB00,extended,00000001// Doom Clock
+// Doom Clock 2 == 1:00
+patch=1,EE,E0020003,extended,0032DF76// If TP1
+patch=1,EE,E0014BC0,extended,0032DF74// If TP2
+patch=1,EE,0032EB00,extended,00000002// Doom Clock
+// Doom Clock 3 == 1:30
+patch=1,EE,E0020004,extended,0032DF76// If TP1
+patch=1,EE,E001F1A0,extended,0032DF74// If TP2
+patch=1,EE,0032EB00,extended,00000003// Doom Clock
+// Doom Clock 4 == 2:00
+patch=1,EE,E0020006,extended,0032DF76// If TP1
+patch=1,EE,E0019780,extended,0032DF74// If TP2
+patch=1,EE,0032EB00,extended,00000004// Doom Clock
+// Doom Clock 5 == 2:30
+patch=1,EE,E0020008,extended,0032DF76// If TP1
+patch=1,EE,E0013D60,extended,0032DF74// If TP2
+patch=1,EE,0032EB00,extended,00000005// Doom Clock
+// Doom Clock 6 == 3:00
+patch=1,EE,E0020009,extended,0032DF76// If TP1
+patch=1,EE,E001E340,extended,0032DF74// If TP2
+patch=1,EE,0032EB00,extended,00000006// Doom Clock
 
-//{ Battle Level
-	patch=1,EE,2032F254,extended,00000002
-	// Doom Clock == 0
-	patch=1,EE,E0020000,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,1E1E1E1E,extended,00000000 //  BL30
-	// Doom Clock == 1
-	patch=1,EE,E0020001,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,28282828,extended,00000000 // BL40
-	// Doom Clock == 2
-	patch=1,EE,E0020002,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,32323232,extended,00000000 // BL50
-	// Doom Clock == 3
-	patch=1,EE,E0020003,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,3C3C3C3C,extended,00000000 // BL60
-	// Doom Clock == 4
-	patch=1,EE,E0020004,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,46464646,extended,00000000 // BL70
-	// Doom Clock == 5
-	patch=1,EE,E0020005,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,50505050,extended,00000000 // BL80
-	// Doom Clock == 6
-	patch=1,EE,E0020006,extended,0032EB00
-	patch=1,EE,41D11290,extended,00050001
-	patch=1,EE,62626262,extended,00000000 // BL98 (0x63 wasn't working for some reason)
-//}
+// Battle Level
+patch=1,EE,2032F254,extended,00000001 // BL Bitmask
+// Doom Clock == 0
+patch=1,EE,E0020000,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,1E1E1E1E,extended,00000000 // BL30
+// Doom Clock == 1
+patch=1,EE,E0020001,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,28282828,extended,00000000 // BL40
+// Doom Clock == 2
+patch=1,EE,E0020002,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,32323232,extended,00000000 // BL50
+// Doom Clock == 3
+patch=1,EE,E0020003,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,3C3C3C3C,extended,00000000 // BL60
+// Doom Clock == 4
+patch=1,EE,E0020004,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,46464646,extended,00000000 // BL70
+// Doom Clock == 5
+patch=1,EE,E0020005,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,50505050,extended,00000000 // BL80
+// Doom Clock == 6
+patch=1,EE,E0020006,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,63636363,extended,00000000 // BL99
 
-//{ All doors open
-	//patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-	//patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-	//patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-	//patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-	//patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-	//patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-	//patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
-	//patch=1,EE,11C5A5F4,extended,000009C3// Pride Lands Door
-	//patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-	//patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-	//patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-	//patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
-	//patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
-	//patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
-//}
+// Doom Counter == 0
+patch=1,EE,E00E0000,extended,0032EB00//DC = 0
+patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
+patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
+patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
+patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
+patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
+patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
+patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
+patch=1,EE,11C5A5F4,extended,000009C3// Pride Lands Door
+patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
+patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
+patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
+patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
+patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
+patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
 
 //{ Rolling Counter
 	patch=1,EE,E001000D,extended,140000C0 // IF RC != 0x0D
@@ -6170,30 +6162,28 @@ patch=1,EE,11D1A330,extended,00000020
 	//}
 //}
 
-//{ Doom Counter == 6
-	patch=1,EE,E00E0006,extended,0032EB00// DC = 6
-	patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-	patch=1,EE,11C5A774,extended,000009C1// Data Twilight Town Door
-	patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
-	patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
-	patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
-	patch=1,EE,11C5A674,extended,000009C1// Hollow Bastion Door
-	patch=1,EE,11C5A634,extended,000009C1// Twilight Town Door
-	patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
-	patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
-	patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
-	patch=1,EE,11C5A534,extended,000009C1// Halloween Town Door
-	patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
-	patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
-//}
+// Doom Counter == 6
+patch=1,EE,E00E0006,extended,0032EB00// DC = 6
+patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
+patch=1,EE,11C5A774,extended,000009C1// Data Twilight Town Door
+patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
+patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
+patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
+patch=1,EE,11C5A674,extended,000009C1// Hollow Bastion Door
+patch=1,EE,11C5A634,extended,000009C1// Twilight Town Door
+patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
+patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
+patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
+patch=1,EE,11C5A534,extended,000009C1// Halloween Town Door
+patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
+patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
 
 //-----------------------------------------
 //                Debug Codes
 //------------------------------------
-//Stop Doom Clock
-patch=0,EE,2032DF74,extended,00000000
-//Mysterious Abyss Broken Stats
-patch=0,EE,21CDF568,extended,00A0A0A0 // 160 str, mag, def
 //Enter Atlantica then EXP = MAX
-patch=1,EE,E0010B00,extended,0032BADF // If in Atlantica
+patch=1,EE,E0040B00,extended,0032BADF // If in Atlantica
 patch=0,EE,2032F210,extended,0098967F // Max Exp
+patch=0,EE,21CDF568,extended,00A0A0A0 // Mysterious Abyss 160 Str, Mag, Def
+patch=0,EE,21CDF570,extended,00016464 // 99% ALL Resist
+patch=0,EE,2032DF74,extended,00000000 // Reset Doom Clock
