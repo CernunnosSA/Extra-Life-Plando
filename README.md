@@ -6,8 +6,7 @@
 
 - Make Chonky Bois chonkier in Timed Agrabah Fight?
 - Add duplicate items on other worlds
-- Randomize Doors Closing
-- Make Battle Lv higher over time
+- Test if Battle Levels' difficulty is fine
 - Make a specific Battle Lv for some battles (number in brackets should be the original Battle Lv)
   - STT Tifa (3)
   - SP Shan Yu + Cannon Gun (45)
