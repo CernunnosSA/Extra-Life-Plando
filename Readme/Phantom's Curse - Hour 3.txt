@@ -6,9 +6,12 @@ Pride Lands
 -Ansem Report 1
 
 Land of Dragons
--Ansem Report 6
 -Hero's Crest
 -Ukulele Charm
+-Ansem Report 6
+-Goofy Turbo
+-Tornado Fusion
+-Counterguard
 
 Olympus Coliseum
 -Auto Wisdom
@@ -16,8 +19,11 @@ Olympus Coliseum
 -Fatal Crest
 -Blizzard Element
 -Reflect Element
+-Finishing Leap
 
 Beast's Castle
 -Auto Valor
 -Once More
+-Donald Fire
+-Guard Break
 

@@ -1,14 +1,16 @@
 The clock chimes five times. The following are forever lost to darkness.
-
 Pride Lands
 -Thunder Element
 -Two Become One
 -Ansem Report 1
 
 Land of Dragons
--Ansem Report 6
 -Hero's Crest
 -Ukulele Charm
+-Ansem Report 6
+-Goofy Turbo
+-Tornado Fusion
+-Counterguard
 
 Olympus Coliseum
 -Auto Wisdom
@@ -16,20 +18,29 @@ Olympus Coliseum
 -Fatal Crest
 -Blizzard Element
 -Reflect Element
+-Finishing Leap
 
 Beast's Castle
 -Auto Valor
 -Once More
+-Donald Fire
+-Guard Break
 
 Port Royal
 -Wisdom Form
 -Lamp Charm
+-Teamwork
+-Flare Force
+-Upper Slash
 
 Agrabah
 -Wishing Lamp
 -Torn Page
 -Auto Master
 -Fire Element
+-Donald Blizzard
+-Slapshot
+-Aerial Spiral
 
 Space Paranoids
 -Ansem Report 2
@@ -43,6 +54,9 @@ Disney Castle + Timeless River
 -Ansem Report 9
 -Rumbling Rose
 -Reflect Element
+-Fantasia
+-Goofy Tornado
+-Guard
 
 Hollow Bastion
 -Magnet Element
@@ -55,6 +69,10 @@ Hollow Bastion
 -Bond of Flame
 -Auto Final
 -Ansem Report 8
+-Retaliating Slash
+-Slide Dash
+-Aerial Sweep
+-Aerial Finish
 
 Twilight Town
 -Follow the Wind
@@ -65,8 +83,9 @@ Twilight Town
 -Winner's Proof
 -Thunder Element
 -Photon Debugger
-
-
+-Trinity Limit
+-Magnet Burst
+-Aerial Dive
 
 100 Acre Wood (if missed 3 Torn Pages)
 -Cure Element
