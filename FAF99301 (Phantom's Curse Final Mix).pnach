@@ -59,6 +59,30 @@ patch=1,EE,21D48EFC,extended,00000009
 patch=1,EE,E0020909,extended,0032BAE0
 patch=1,EE,E001003D,extended,0032BAE4
 patch=1,EE,20349DE8,extended,00000000
+// Atlantica Tutorial
+patch=1,EE,E002020B,extended,0032BAE0
+patch=1,EE,E001003F,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00000001
+// Finny Fun
+patch=1,EE,E002040B,extended,0032BAE0
+patch=1,EE,E0010040,extended,0032BAE4
+patch=1,EE,2035DAD4,extended,00000000
+// Part of Your World
+patch=1,EE,E002010B,extended,0032BAE0
+patch=1,EE,E0010033,extended,0032BAE4
+patch=1,EE,2035DAC8,extended,00000005
+// Unda Da Sea
+patch=1,EE,E002030B,extended,0032BAE0
+patch=1,EE,E0010035,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00002710
+// Ursula's Revenge
+patch=1,EE,E002090B,extended,0032BAE0
+patch=1,EE,E0010041,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00002710
+// A New Day is Dawning
+patch=1,EE,E002040B,extended,0032BAE0
+patch=1,EE,E0010037,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00007530
 //Shorter Day 5
 patch=1,EE,E0100B02,extended,0032BAE0
 patch=1,EE,E00F0032,extended,0032BAE2
@@ -1329,7 +1353,7 @@ patch=1,EE,11CE083A,extended,00000243 // Picture, Picture is now Remembrance Cry
 patch=1,EE,11CE0936,extended,00000003 // Sleeping Lion, Sleeping Lion is now Ether
 patch=1,EE,11CE0942,extended,00000007 // Fenrir, Fenrir is now Mega-Elixir
 patch=1,EE,11CE0B3A,extended,00000007 // Proof of Peace, Proof of Peace is now Mega-Elixir
-patch=1,EE,11CE0B2E,extended,00000007 // Winner's Proof, Winner's Proof is now Mega-Elixir
+patch=1,EE,11CE0B2E,extended,0000017F // Winner's Proof, Winner's Proof is now Baseball Charm
 patch=1,EE,11CE0AB6,extended,00000116 // Demyx (Data), AP Boost is now Defense Boost
 
 //Bonus Rewards
@@ -1925,15 +1949,15 @@ patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twi
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
 patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
 // Olympus Cups
-patch=1,EE,11CE073E,extended,00000257 // Protect Belt (Pain & Panic Cup), Protect Belt is now Executive's Ring
-patch=1,EE,11CE074A,extended,00000116 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Defense Boost
-patch=1,EE,11CE07CE,extended,00000001 // Rising Dragon (Cerberus Cup), Rising Dragon is now Potion
-patch=1,EE,11CE07DA,extended,00000001 // Serenity Crystal (Cerberus Cup), Serenity Crystal is now Potion
-patch=1,EE,11CE089A,extended,000001F8 // Genji Shield (Titan Cup), Genji Shield is now Save The King+
-patch=1,EE,11CE08A6,extended,000001F7 // Skillful Ring (Titan Cup), Skillful Ring is now Save The Queen+
-patch=1,EE,11CE094E,extended,00000001 // Fatal Crest (Goddess of Fate Cup), Fatal Crest is now Potion
-patch=1,EE,11CE095A,extended,00000001 // Orichalcum+ (Goddess of Fate Cup), Orichalcum+ is now Potion
-patch=1,EE,11CE0996,extended,00000001 // Hades Cup, Hades Cup Trophy is now Potion
+patch=1,EE,11CE073E,extended,00000007 // Protect Belt (Pain & Panic Cup), Protect Belt is now Mega-Elixir
+patch=1,EE,11CE074A,extended,00000007 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Mega-Elixir
+patch=1,EE,11CE07CE,extended,00000007 // Rising Dragon (Cerberus Cup), Rising Dragon is now Mega-Elixir
+patch=1,EE,11CE07DA,extended,00000007 // Serenity Crystal (Cerberus Cup), Serenity Crystal is now Mega-Elixir
+patch=1,EE,11CE089A,extended,00000007 // Genji Shield (Titan Cup), Genji Shield is now Mega-Elixir
+patch=1,EE,11CE08A6,extended,00000007 // Skillful Ring (Titan Cup), Skillful Ring is now Mega-Elixir
+patch=1,EE,11CE094E,extended,00000007 // Fatal Crest (Goddess of Fate Cup), Fatal Crest is now Mega-Elixir
+patch=1,EE,11CE095A,extended,00000007 // Orichalcum+ (Goddess of Fate Cup), Orichalcum+ is now Mega-Elixir
+patch=1,EE,11CE0996,extended,00000007 // Hades Cup, Hades Cup Trophy is now Mega-Elixir
 
 //Bonus Rewards
 // Cerberus
@@ -2986,6 +3010,13 @@ patch=1,EE,11CE0912,extended,000000EE // Spooky Cave Map, Spooky Cave Map is now
 patch=1,EE,11CE091E,extended,0000016A // Cure, Cure is now Munny Pouch (Olette)
 patch=1,EE,11CE092A,extended,00000217 // Orichalcum+, Orichalcum+ is now Munny Pouch (Mickey)
 
+
+//----- Atlantica -----
+// Popups
+patch=1,EE,11CE0846,extended,00000116 // Undersea Kingdom Map, Undersea Kingdom Map is now Defense Boost
+patch=1,EE,11CE08E2,extended,00000257 // Mysterious Abyss, Mysterious Abyss is now Executive's Ring
+patch=1,EE,11CE08EE,extended,000001F8 // Blizzard, Blizzard is now Save The King+
+patch=1,EE,11CE08FA,extended,000001F7 // Orichalcum+, Orichalcum+ is now Save The Queen+
 
 
 //-----------------------------------------
