@@ -5,3 +5,5 @@ Olympus Coliseum has been swallowed by the darkness. The following rewards are f
 -Blizzard Element
 -Reflect Element
 -Finishing Leap
+-Thunder Element (duplicate spell)
+-Feather Charm (duplicate summon)
