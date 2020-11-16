@@ -3882,7 +3882,7 @@ patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
 patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
 
 //{ Rolling Counter
-	patch=1,EE,E001000D,extended,140000C0 // IF RC != 0x0D
+	patch=1,EE,E001000D,extended,1032F200 // IF RC != 0x0D
 	patch=1,EE,30000001,extended,0032F200 // RC++
 	patch=1,EE,E001000D,extended,0032F200 // IF RC == 0x0D
 	patch=1,EE,0032F200,extended,00000000 // RC == 0x00
