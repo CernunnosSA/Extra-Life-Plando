@@ -1,13 +1,11 @@
 # Phantom's Curse Vanilla To-Do List:
 
-- Make Chonky Bois chonkier in Timed Agrabah Fight?
+None! We should be ready for release!
 
 # Phantom's Curse Final Mix To-Do List:
 
-- Make Chonky Bois chonkier in Timed Agrabah Fight?
-- Add duplicate items on other worlds
 - Test if Battle Levels' difficulty is fine
-- Make a specific Battle Lv for some battles (number in brackets should be the original Battle Lv)
+- Make a specific Battle Lv/conditionals for some battles (number in brackets should be the original Battle Lv)
   - STT Tifa (3)
   - SP Shan Yu + Cannon Gun (45)
   - TR Sark + Hostile Programs (18)
