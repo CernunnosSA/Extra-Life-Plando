@@ -59,6 +59,30 @@ patch=1,EE,21D48EFC,extended,00000009
 patch=1,EE,E0020909,extended,0032BAE0
 patch=1,EE,E001003D,extended,0032BAE4
 patch=1,EE,20349DE8,extended,00000000
+// Atlantica Tutorial
+patch=1,EE,E002020B,extended,0032BAE0
+patch=1,EE,E001003F,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00000001
+// Finny Fun
+patch=1,EE,E002040B,extended,0032BAE0
+patch=1,EE,E0010040,extended,0032BAE4
+patch=1,EE,2035DAD4,extended,00000000
+// Part of Your World
+patch=1,EE,E002010B,extended,0032BAE0
+patch=1,EE,E0010033,extended,0032BAE4
+patch=1,EE,2035DAC8,extended,00000005
+// Unda Da Sea
+patch=1,EE,E002030B,extended,0032BAE0
+patch=1,EE,E0010035,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00002710
+// Ursula's Revenge
+patch=1,EE,E002090B,extended,0032BAE0
+patch=1,EE,E0010041,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00002710
+// A New Day is Dawning
+patch=1,EE,E002040B,extended,0032BAE0
+patch=1,EE,E0010037,extended,0032BAE4
+patch=1,EE,2035DAC4,extended,00007530
 //Shorter Day 5
 patch=1,EE,E0100B02,extended,0032BAE0
 patch=1,EE,E00F0032,extended,0032BAE2
@@ -427,7 +451,7 @@ patch=1,EE,11CDFD8A,extended,00000001 // Central Computer Core, Central Computer
 //Popups
 // Space Paranoids
 patch=1,EE,11CE0816,extended,0000007D // Photon Debugger, Photon Debugger is now 100 Acre Wood Map
-patch=1,EE,11CE0A62,extended,00000117 // Larxene (Absent Silhouttes), Cloaked Thunder is now AP Boost
+patch=1,EE,11CE0A62,extended,00000016 // Larxene (Absent Silhouttes), Cloaked Thunder is now Blizzard
 patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Shock Charm
 
 //Bonus Rewards
@@ -1329,7 +1353,7 @@ patch=1,EE,11CE083A,extended,00000243 // Picture, Picture is now Remembrance Cry
 patch=1,EE,11CE0936,extended,00000003 // Sleeping Lion, Sleeping Lion is now Ether
 patch=1,EE,11CE0942,extended,00000007 // Fenrir, Fenrir is now Mega-Elixir
 patch=1,EE,11CE0B3A,extended,00000007 // Proof of Peace, Proof of Peace is now Mega-Elixir
-patch=1,EE,11CE0B2E,extended,00000007 // Winner's Proof, Winner's Proof is now Mega-Elixir
+patch=1,EE,11CE0B2E,extended,0000017F // Winner's Proof, Winner's Proof is now Baseball Charm
 patch=1,EE,11CE0AB6,extended,00000116 // Demyx (Data), AP Boost is now Defense Boost
 
 //Bonus Rewards
@@ -1870,7 +1894,7 @@ patch=1,EE,21D10ED8,extended,00070007 // Replacement Reward #2:Mega-Elixir Repla
 // Groundshaker
 patch=1,EE,11D10C12,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10C14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10C18,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
+patch=1,EE,21D10C18,extended,0007009F // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Lamp Charm
 
 //Enemy Replacement
 //Elephant Graveyard Heartless
@@ -1925,15 +1949,15 @@ patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twi
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
 patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
 // Olympus Cups
-patch=1,EE,11CE073E,extended,00000257 // Protect Belt (Pain & Panic Cup), Protect Belt is now Executive's Ring
-patch=1,EE,11CE074A,extended,00000116 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Defense Boost
-patch=1,EE,11CE07CE,extended,00000001 // Rising Dragon (Cerberus Cup), Rising Dragon is now Potion
-patch=1,EE,11CE07DA,extended,00000001 // Serenity Crystal (Cerberus Cup), Serenity Crystal is now Potion
-patch=1,EE,11CE089A,extended,000001F8 // Genji Shield (Titan Cup), Genji Shield is now Save The King+
-patch=1,EE,11CE08A6,extended,000001F7 // Skillful Ring (Titan Cup), Skillful Ring is now Save The Queen+
-patch=1,EE,11CE094E,extended,00000001 // Fatal Crest (Goddess of Fate Cup), Fatal Crest is now Potion
-patch=1,EE,11CE095A,extended,00000001 // Orichalcum+ (Goddess of Fate Cup), Orichalcum+ is now Potion
-patch=1,EE,11CE0996,extended,00000001 // Hades Cup, Hades Cup Trophy is now Potion
+patch=1,EE,11CE073E,extended,00000007 // Protect Belt (Pain & Panic Cup), Protect Belt is now Mega-Elixir
+patch=1,EE,11CE074A,extended,00000007 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Mega-Elixir
+patch=1,EE,11CE07CE,extended,00000007 // Rising Dragon (Cerberus Cup), Rising Dragon is now Mega-Elixir
+patch=1,EE,11CE07DA,extended,00000007 // Serenity Crystal (Cerberus Cup), Serenity Crystal is now Mega-Elixir
+patch=1,EE,11CE089A,extended,00000007 // Genji Shield (Titan Cup), Genji Shield is now Mega-Elixir
+patch=1,EE,11CE08A6,extended,00000007 // Skillful Ring (Titan Cup), Skillful Ring is now Mega-Elixir
+patch=1,EE,11CE094E,extended,00000007 // Fatal Crest (Goddess of Fate Cup), Fatal Crest is now Mega-Elixir
+patch=1,EE,11CE095A,extended,00000007 // Orichalcum+ (Goddess of Fate Cup), Orichalcum+ is now Mega-Elixir
+patch=1,EE,11CE0996,extended,00000007 // Hades Cup, Hades Cup Trophy is now Mega-Elixir
 
 //Bonus Rewards
 // Cerberus
@@ -1959,11 +1983,11 @@ patch=1,EE,21D10858,extended,00000148 // Replacement Reward #2: Replacement Rewa
 // Hades
 patch=1,EE,11D10882,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10884,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10888,extended,00000140 // Replacement Reward #2: Replacement Reward #1:Blazing Crystal
+patch=1,EE,21D10888,extended,000700A0 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Feather Charm
 // Zexion (Absent Silhouette)
 patch=1,EE,11D11152,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11154,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11158,extended,012901D0 // Replacement Reward #2:Dark Anklet Replacement Reward #1:Road to Discovery
+patch=1,EE,21D11158,extended,01290017 // Replacement Reward #2:Dark Anklet Replacement Reward #1:Thunder
 
 //Enemy Replacement
 //Hades Escape
@@ -2102,7 +2126,7 @@ patch=1,EE,11CDF952,extended,00000004 // Ruined Chamber, Ruins Map is now Elixir
 //Popups
 patch=1,EE,11CE0792,extended,000001EC // Agrabah Map, Agrabah Map is now Wishing Lamp
 patch=1,EE,11CE079E,extended,00000115 // Lamp Charm, Lamp Charm is now Magic Boost
-patch=1,EE,11CE08B2,extended,00000004 // Wishing Lamp, Wishing Lamp is now Elixir
+patch=1,EE,11CE08B2,extended,00000019 // Wishing Lamp, Wishing Lamp is now Ukulele Charm
 patch=1,EE,11CE0A4A,extended,00000114 // Lexaeus (Absent Silhouttes), Strength Beyond Strength is now Power Boost
 patch=1,EE,11CE0A86,extended,00000222 // Lexaeus (Data), Lost Illusion is now Centurion+
 
@@ -2126,7 +2150,7 @@ patch=1,EE,21D10978,extended,00000000 // Replacement Reward #2: Replacement Rewa
 // Lexaeus (Absent Silhouette)
 patch=1,EE,11D11122,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11124,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11128,extended,00000007 // Replacement Reward #2: Replacement Reward #1:Mega-Elixir
+patch=1,EE,21D11128,extended,00570007 // Replacement Reward #2:Magnet Replacement Reward #1:Mega-Elixir
 
 //Enemy Replacement
 //Agrabah Heartless
@@ -2418,7 +2442,7 @@ patch=1,EE,11CDFCE2,extended,0000019C // The Beast's Room, Blazing Shard is now 
 patch=1,EE,11CE06F6,extended,00000005 // Cure, Cure is now Mega-Potion
 patch=1,EE,11CE0852,extended,0000011F // Rumbling Rose, Rumbling Rose is now Blizzara Armlet
 patch=1,EE,11CE085E,extended,00000022 // Castle Walls Map, Castle Walls Map is now Master's Ring
-patch=1,EE,11CE09C6,extended,000001C2 // Xaldin, Secret Ansem's Report 4 is now Recovery Recipe
+patch=1,EE,11CE09C6,extended,00000015 // Xaldin, Secret Ansem's Report 4 is now Fire
 patch=1,EE,11CE0AC2,extended,00000117 // Xaldin (Data), Defense Boost is now AP Boost
 
 //Bonus Rewards
@@ -2849,7 +2873,7 @@ patch=1,EE,11CE09F6,extended,00000115 // Roxas, Secret Ansem's Report 8 is now M
 patch=1,EE,11CE0A02,extended,00000117 // Luxord, Secret Ansem's Report 9 is now AP Boost
 patch=1,EE,11CE0A1A,extended,00000117 // Before Xemnas 1, Secret Ansem's Report 11 is now AP Boost
 patch=1,EE,11CE0A26,extended,00000116 // Saix, Secret Ansem's Report 12 is now Defense Boost
-patch=1,EE,11CE0A32,extended,00000114 // Xemnas 1, Secret Ansem's Report 13 is now Power Boost
+patch=1,EE,11CE0A32,extended,0000020C // Xemnas 1, Secret Ansem's Report 13 is now Promise Charm
 patch=1,EE,11CE0ADA,extended,00000114 // Xemnas (Data), Power Boost is now Power Boost
 
 //Bonus Rewards
@@ -2872,7 +2896,7 @@ patch=1,EE,21D10B68,extended,00000116 // Replacement Reward #2: Replacement Rewa
 // Xemnas
 patch=1,EE,11D10B92,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D10B94,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10B98,extended,00000115 // Replacement Reward #2: Replacement Reward #1:Magic Boost
+patch=1,EE,21D10B98,extended,01140115 // Replacement Reward #2:Power Boost Replacement Reward #1:Magic Boost
 // Final Xemnas
 patch=1,EE,11D11222,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11224,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -2986,6 +3010,13 @@ patch=1,EE,11CE0912,extended,000000EE // Spooky Cave Map, Spooky Cave Map is now
 patch=1,EE,11CE091E,extended,0000016A // Cure, Cure is now Munny Pouch (Olette)
 patch=1,EE,11CE092A,extended,00000217 // Orichalcum+, Orichalcum+ is now Munny Pouch (Mickey)
 
+
+//----- Atlantica -----
+// Popups
+patch=1,EE,11CE0846,extended,00000116 // Undersea Kingdom Map, Undersea Kingdom Map is now Defense Boost
+patch=1,EE,11CE08E2,extended,00000257 // Mysterious Abyss, Mysterious Abyss is now Executive's Ring
+patch=1,EE,11CE08EE,extended,000001F8 // Blizzard, Blizzard is now Save The King+
+patch=1,EE,11CE08FA,extended,000001F7 // Orichalcum+, Orichalcum+ is now Save The Queen+
 
 
 //-----------------------------------------
