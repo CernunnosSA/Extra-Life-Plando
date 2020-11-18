@@ -488,6 +488,8 @@ patch=1,EE,11CDFD8A,extended,00000001 // Central Computer Core, Central Computer
 patch=1,EE,11CE0816,extended,0000007D // Photon Debugger, Photon Debugger is now 100 Acre Wood Map
 patch=1,EE,11CE0A62,extended,00000016 // Larxene (Absent Silhouttes), Cloaked Thunder is now Blizzard
 patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Shock Charm
+patch=1,EE,E001000F,extended,0032D4D0 // Larxene AS Defeated
+patch=1,EE,11CE0A9E,extended,0000009D // Larxene (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Dataspace Computers
@@ -621,6 +623,8 @@ patch=1,EE,11CE0B16,extended,00000058 // Proof of Connection, Proof of Connectio
 patch=1,EE,11CE0B22,extended,00000003 // Manifest Illusion, Manifest Illusion is now Ether
 patch=1,EE,11CE0A6E,extended,000001EA // Marluxia (Absent Silhouttes), Eternal Blossom is now Rumbling Rose
 patch=1,EE,11CE0AAA,extended,00000040 // Marluxia (Data), Lost Illusion is now Full Bloom
+patch=1,EE,E001000F,extended,0032CD5C // Marluxia AS Defeated
+patch=1,EE,11CE0AAA,extended,0000009D // Marluxia (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Escort Queen Minnie
@@ -1019,7 +1023,7 @@ patch=1,EE,11CE0786,extended,0000009F // Follow the Wind, Follow the Wind is now
 patch=1,EE,11CE086A,extended,00000080 // Cursed Medallion, Cursed Medallion is now Kanga's House Map
 patch=1,EE,11CE0876,extended,0000014F // Ship Graveyard Map, Ship Graveyard Map is now Lucid Gem
 patch=1,EE,11CE09DE,extended,00000006 // Grim Reaper 2, Secret Ansem's Report 6 is now Mega-Ether
-patch=1,EE,11CE0AFE,extended,00000115 // Luxord (Data), AP Boost is now Magic Boost
+patch=1,EE,11CE0AFE,extended,0000009D // Luxord (Data), AP Boost is now Grand Ribbon
 
 //Bonus Rewards
 // The Interceptor Pirates
@@ -1389,7 +1393,7 @@ patch=1,EE,11CE0936,extended,00000003 // Sleeping Lion, Sleeping Lion is now Eth
 patch=1,EE,11CE0942,extended,00000007 // Fenrir, Fenrir is now Mega-Elixir
 patch=1,EE,11CE0B3A,extended,00000007 // Proof of Peace, Proof of Peace is now Mega-Elixir
 patch=1,EE,11CE0B2E,extended,0000017F // Winner's Proof, Winner's Proof is now Baseball Charm
-patch=1,EE,11CE0AB6,extended,00000116 // Demyx (Data), AP Boost is now Defense Boost
+patch=1,EE,11CE0AB6,extended,0000009D // Demyx (Data), AP Boost is now Grand Ribbon
 
 //Bonus Rewards
 // Bailey Nobodies
@@ -1765,7 +1769,7 @@ patch=1,EE,11CE07FE,extended,00000017 // Limit Form, Limit Form is now Thunder
 patch=1,EE,11CE0966,extended,00000115 // Bond of Flame, Bond of Flame is now Magic Boost
 patch=1,EE,11CE09AE,extended,000000ED // Station Plaza Nobodies, Secret Ansem's Report 2 is now Secret Ansem's Report 12
 patch=1,EE,11CE0A0E,extended,000001DB // Twilight Town 3, Secret Ansem's Report 10 is now Style Recipe
-patch=1,EE,11CE0ACE,extended,00000115 // Axel (Data), Magic Boost is now Magic Boost
+patch=1,EE,11CE0ACE,extended,0000009D // Axel (Data), Magic Boost is now Grand Ribbon
 
 //Bonus Rewards
 // The Old Mansion Nobodies
@@ -2134,6 +2138,8 @@ patch=1,EE,11CE0882,extended,00000146 // Auron's Statue, Auron's Statue is now L
 patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twilight Crystal
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
 patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
+patch=1,EE,E001000F,extended,0032C44A // Zexion AS Defeated
+patch=1,EE,11CE0A92,extended,0000009D // Zexion (Data), Lost Illusion is now Grand Ribbon
 // Olympus Cups
 patch=1,EE,11CE073E,extended,00000007 // Protect Belt (Pain & Panic Cup), Protect Belt is now Mega-Elixir
 patch=1,EE,11CE074A,extended,00000007 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Mega-Elixir
@@ -2315,6 +2321,8 @@ patch=1,EE,11CE079E,extended,00000115 // Lamp Charm, Lamp Charm is now Magic Boo
 patch=1,EE,11CE08B2,extended,00000019 // Wishing Lamp, Wishing Lamp is now Ukulele Charm
 patch=1,EE,11CE0A4A,extended,00000114 // Lexaeus (Absent Silhouttes), Strength Beyond Strength is now Power Boost
 patch=1,EE,11CE0A86,extended,00000222 // Lexaeus (Data), Lost Illusion is now Centurion+
+patch=1,EE,E001000F,extended,0032C5DC // Lexaeus AS Defeated
+patch=1,EE,11CE0A86,extended,0000009D // Lexaeus (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Escort Abu
@@ -2515,6 +2523,8 @@ patch=1,EE,11CE08CA,extended,000001EE // Decoy Presents, Decoy Presents is now S
 patch=1,EE,11CE08D6,extended,000000EC // Decisive Pumpkin, Decisive Pumpkin is now Secret Ansem's Report 11
 patch=1,EE,11CE0A3E,extended,00000116 // Vexen (Absent Silhouttes), Road to Discovery is now Defense Boost
 patch=1,EE,11CE0A7A,extended,00000229 // Vexen (Data), Lost Illusion is now Frozen Pride+
+patch=1,EE,E001000F,extended,0032BF38 // Vexen AS Defeated
+patch=1,EE,11CE0A7A,extended,0000009D // Vexen (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Prison Keeper
@@ -2629,7 +2639,7 @@ patch=1,EE,11CE06F6,extended,00000005 // Cure, Cure is now Mega-Potion
 patch=1,EE,11CE0852,extended,0000011F // Rumbling Rose, Rumbling Rose is now Blizzara Armlet
 patch=1,EE,11CE085E,extended,00000022 // Castle Walls Map, Castle Walls Map is now Master's Ring
 patch=1,EE,11CE09C6,extended,00000015 // Xaldin, Secret Ansem's Report 4 is now Fire
-patch=1,EE,11CE0AC2,extended,00000117 // Xaldin (Data), Defense Boost is now AP Boost
+patch=1,EE,11CE0AC2,extended,0000009D // Xaldin (Data), Defense Boost is now Grand Ribbon
 
 //Bonus Rewards
 // Thresholder
@@ -2797,7 +2807,7 @@ patch=1,EE,11CE06D2,extended,00000112 // Encampment Area Map, Encampment Area Ma
 patch=1,EE,11CE06C6,extended,00000114 // AP Boost (Missions), AP Boost is now Power Boost
 patch=1,EE,11CE06DE,extended,000001E4 // Village Area Map, Village Area Map is now Hero's Crest
 patch=1,EE,11CE06EA,extended,000001FF // Hidden Dragon, Hidden Dragon is now Oasis Map
-patch=1,EE,11CE0AE6,extended,00000116 // Xigbar (Data), Defense Boost is now Defense Boost
+patch=1,EE,11CE0AE6,extended,0000009D // Xigbar (Data), Defense Boost is now Grand Ribbon
 
 //Bonus Rewards
 // Village Cave Heartless
@@ -3060,7 +3070,7 @@ patch=1,EE,11CE0A02,extended,00000117 // Luxord, Secret Ansem's Report 9 is now 
 patch=1,EE,11CE0A1A,extended,00000117 // Before Xemnas 1, Secret Ansem's Report 11 is now AP Boost
 patch=1,EE,11CE0A26,extended,00000116 // Saix, Secret Ansem's Report 12 is now Defense Boost
 patch=1,EE,11CE0A32,extended,0000020C // Xemnas 1, Secret Ansem's Report 13 is now Promise Charm
-patch=1,EE,11CE0ADA,extended,00000114 // Xemnas (Data), Power Boost is now Power Boost
+patch=1,EE,11CE0ADA,extended,0000009D // Xemnas (Data), Power Boost is now Grand Ribbon
 
 //Bonus Rewards
 // Roxas
@@ -3082,7 +3092,7 @@ patch=1,EE,21D10B68,extended,00000116 // Replacement Reward #2: Replacement Rewa
 // Xemnas
 patch=1,EE,11D10B92,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D10B94,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10B98,extended,01140115 // Replacement Reward #2:Power Boost Replacement Reward #1:Magic Boost
+patch=1,EE,21D10B98,extended,00000115 // Replacement Reward #2: Replacement Reward #1:Magic Boost
 // Final Xemnas
 patch=1,EE,11D11222,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11224,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
