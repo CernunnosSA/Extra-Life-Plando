@@ -295,6 +295,37 @@ patch=1,EE,E0020107,extended,0032EF06
 patch=1,EE,1032EF0C,extended,0000806D
 patch=1,EE,1032EF1E,extended,00000000
 
+// Battle Level
+patch=1,EE,2032F254,extended,00000001 // BL Bitmask
+// Doom Clock == 0
+patch=1,EE,E0020000,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,1E1E1E1E,extended,00000000 // BL30
+// Doom Clock == 1
+patch=1,EE,E0020001,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,28282828,extended,00000000 // BL40
+// Doom Clock == 2
+patch=1,EE,E0020002,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,32323232,extended,00000000 // BL50
+// Doom Clock == 3
+patch=1,EE,E0020003,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,3C3C3C3C,extended,00000000 // BL60
+// Doom Clock == 4
+patch=1,EE,E0020004,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,46464646,extended,00000000 // BL70
+// Doom Clock == 5
+patch=1,EE,E0020005,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,50505050,extended,00000000 // BL80
+// Doom Clock == 6
+patch=1,EE,E0020006,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,63636363,extended,00000000 // BL99
+
 
 //-----------------------------------------
 //                Worlds
@@ -1898,14 +1929,165 @@ patch=1,EE,21D10C18,extended,0007009F // Replacement Reward #2:Mega-Elixir Repla
 
 //Enemy Replacement
 //Elephant Graveyard Heartless
-patch=1,EE,E005050A,extended,0032BAE0
-patch=1,EE,E0040038,extended,0032BAE4
-patch=1,EE,E0030038,extended,0032BAE8
-patch=1,EE,11C4EC14,extended,0000000F// Living Bone (Left)
-patch=1,EE,11C4EC34,extended,00000001// Living Bone (Left AI) [Headless&Shaman]
-patch=1,EE,11C4EC54,extended,00000076// Wight Knight (Right)
+patch=1,EE,E033050A,extended,0032BAE0
+patch=1,EE,E0320038,extended,0032BAE4
+patch=1,EE,E0310038,extended,0032BAE8
+patch=1,EE,01D1129A,extended,00000032 // BL50 to adjust damage scaling in enemies favor
+patch=1,EE,01CA9EEC,extended,00000004 // Set The Experiment to normal enemy
+patch=1,EE,00347D34,extended,00000072 // Tension Rising (Twilight Thorn, Beast, OC Demyx)
+patch=1,EE,11C4EC14,extended,000005D0 // The Experiment
+patch=1,EE,11C4EC54,extended,00000000 // Nothing
+patch=1,EE,21C6C1C0,extended,19191964
+patch=1,EE,21C6C1C4,extended,00649619
+patch=1,EE,E0060000,extended,0032EB00 // Doom Clock == 0
+patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
+patch=1,EE,11C6C018,extended,000002BC // Slot 4
+patch=1,EE,11C6C01C,extended,000002BC
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,00000014
+patch=1,EE,11C6C1A4,extended,0000000A
+patch=1,EE,E0060001,extended,0032EB00 // Doom Clock == 1
+patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
+patch=1,EE,11C6C018,extended,000003E8 // Slot 4
+patch=1,EE,11C6C01C,extended,000003E8
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,00000020
+patch=1,EE,11C6C1A4,extended,00000011
+patch=1,EE,E0060002,extended,0032EB00 // Doom Clock == 2
+patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
+patch=1,EE,11C6C018,extended,000005DD // Slot 4
+patch=1,EE,11C6C01C,extended,000005DD
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,0000002D
+patch=1,EE,11C6C1A4,extended,00000018
+patch=1,EE,E0060003,extended,0032EB00 // Doom Clock == 3
+patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
+patch=1,EE,11C6C018,extended,00000708 // Slot 4
+patch=1,EE,11C6C01C,extended,00000708
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,00000036
+patch=1,EE,11C6C1A4,extended,0000001D
+patch=1,EE,E0060004,extended,0032EB00 // Doom Clock == 4
+patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
+patch=1,EE,11C6C018,extended,000007D0 // Slot 4
+patch=1,EE,11C6C01C,extended,000007D0
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,0000003E
+patch=1,EE,11C6C1A4,extended,00000024
+patch=1,EE,E0060005,extended,0032EB00 // Doom Clock == 5 (Only scaling to DC5 since it doesn't change much to be in a world at DC6)
+patch=1,EE,E00505DC,extended,01C6C01C // No Summons or Forms makes slot placement consistent in PL
+patch=1,EE,11C6C018,extended,000009C4 // Slot 4
+patch=1,EE,11C6C01C,extended,000009C4
+patch=1,EE,11C6C020,extended,00000000
+patch=1,EE,11C6C1A0,extended,00000045
+patch=1,EE,11C6C1A4,extended,0000002B
+// Experiment Cleanup
+patch=1,EE,E003050A,extended,0032BAE0 // Cutscene
+patch=1,EE,E0020032,extended,0032BAE2 // After
+patch=1,EE,E0010001,extended,0032BAE6 // Fight
+patch=1,EE,01CA9EEC,extended,00000003 // Experiment to Boss
 
 //Boss Replacement
+// Hyenas 1
+// Slot 4 == Timon/Pumba (Adjust HP?)
+// Slot 5 == Shenzi (Low STR, High Resists, Neutral DEF, Mid HP)
+// Slot 6 == Banzai (High STR, Neutral Resists, Low DEF, Low HP)
+// Slot 7 == Ed (Neutral STR, Low Resists, High DEF, High HP)
+patch=1,EE,E05E020A,extended,0032BAE0
+patch=1,EE,E05D0033,extended,0032BAE4
+patch=1,EE,E05C0033,extended,0032BAE8
+patch=1,EE,01D1129A,extended,00000032
+patch=1,EE,00347D34,extended,00000045 // Deep Anxiety (Cavern of Remembrance Battle)
+patch=1,EE,21C6BF58,extended,1919197D // Slot 5 (Shenzi) Resist 1
+patch=1,EE,21C6BF5C,extended,00641919 // Slot 5 (Shenzi) Resist 2
+patch=1,EE,21C6BCF0,extended,64646464 // Slot 6 (Banzai) Resist 1
+patch=1,EE,21C6BCF4,extended,00647D64 // Slot 6 (Banzai) Resist 2
+patch=1,EE,21C6BA88,extended,96969632 // Slot 7 (Ed) Resist 1
+patch=1,EE,21C6BA8C,extended,00649696 // Slot 7 (Ed) Resist 2
+patch=1,EE,E00D0000,extended,0032EB00 // Doom Clock == 0
+patch=1,EE,E00C01F4,extended,01C6BB4C
+patch=1,EE,11C6BDB0,extended,000001F4 // Slot 5 (Shenzi) Current HP
+patch=1,EE,11C6BDB4,extended,000001F4 // Slot 5 (Shenzi) Max HP
+patch=1,EE,11C6BF38,extended,00000004 // Slot 5 (Shenzi) STR
+patch=1,EE,11C6BF3C,extended,0000000A // Slot 5 (Shenzi) DEF
+patch=1,EE,11C6BB48,extended,0000015E // Slot 6 (Banzai) Current HP
+patch=1,EE,11C6BB4C,extended,0000015E // Slot 6 (Banzai) Max HP
+patch=1,EE,11C6BCD0,extended,00000010 // Slot 6 (Banzai) STR
+patch=1,EE,11C6BCD4,extended,00000004 // Slot 6 (Banzai) DEF
+patch=1,EE,11C6B8E0,extended,0000028A // Slot 7 (Ed) Current HP
+patch=1,EE,11C6B8E4,extended,0000028A // Slot 7 (Ed) Max HP
+patch=1,EE,11C6BA68,extended,0000000A // Slot 7 (Ed) STR
+patch=1,EE,11C6BA6C,extended,00000010 // Slot 7 (Ed) DEF
+patch=1,EE,E00D0001,extended,0032EB00 // Doom Clock == 1
+patch=1,EE,E00C01F4,extended,01C6BB4C
+patch=1,EE,11C6BDB0,extended,0000028A // Slot 5 (Shenzi) Current HP
+patch=1,EE,11C6BDB4,extended,0000028A // Slot 5 (Shenzi) Max HP
+patch=1,EE,11C6BF38,extended,0000000A // Slot 5 (Shenzi) STR
+patch=1,EE,11C6BF3C,extended,00000010 // Slot 5 (Shenzi) DEF
+patch=1,EE,11C6BB48,extended,000001F5 // Slot 6 (Banzai) Current HP
+patch=1,EE,11C6BB4C,extended,000001F5 // Slot 6 (Banzai) Max HP
+patch=1,EE,11C6BCD0,extended,00000016 // Slot 6 (Banzai) STR
+patch=1,EE,11C6BCD4,extended,0000000A // Slot 6 (Banzai) DEF
+patch=1,EE,11C6B8E0,extended,00000320 // Slot 7 (Ed) Current HP
+patch=1,EE,11C6B8E4,extended,00000320 // Slot 7 (Ed) Max HP
+patch=1,EE,11C6BA68,extended,00000010 // Slot 7 (Ed) STR
+patch=1,EE,11C6BA6C,extended,00000016 // Slot 7 (Ed) DEF
+patch=1,EE,E00D0002,extended,0032EB00 // Doom Clock == 2
+patch=1,EE,E00C01F4,extended,01C6BB4C
+patch=1,EE,11C6BDB0,extended,00000320 // Slot 5 (Shenzi) Current HP
+patch=1,EE,11C6BDB4,extended,00000320 // Slot 5 (Shenzi) Max HP
+patch=1,EE,11C6BF38,extended,00000010 // Slot 5 (Shenzi) STR
+patch=1,EE,11C6BF3C,extended,00000016 // Slot 5 (Shenzi) DEF
+patch=1,EE,11C6BB48,extended,0000028A // Slot 6 (Banzai) Current HP
+patch=1,EE,11C6BB4C,extended,0000028A // Slot 6 (Banzai) Max HP
+patch=1,EE,11C6BCD0,extended,0000001C // Slot 6 (Banzai) STR
+patch=1,EE,11C6BCD4,extended,00000010 // Slot 6 (Banzai) DEF
+patch=1,EE,11C6B8E0,extended,000003B6 // Slot 7 (Ed) Current HP
+patch=1,EE,11C6B8E4,extended,000003B6 // Slot 7 (Ed) Max HP
+patch=1,EE,11C6BA68,extended,00000016 // Slot 7 (Ed) STR
+patch=1,EE,11C6BA6C,extended,0000001C // Slot 7 (Ed) DEF
+patch=1,EE,E00D0003,extended,0032EB00 // Doom Clock == 3
+patch=1,EE,E00C01F4,extended,01C6BB4C
+patch=1,EE,11C6BDB0,extended,000003B6 // Slot 5 (Shenzi) Current HP
+patch=1,EE,11C6BDB4,extended,000003B6 // Slot 5 (Shenzi) Max HP
+patch=1,EE,11C6BF38,extended,00000016 // Slot 5 (Shenzi) STR
+patch=1,EE,11C6BF3C,extended,0000001C // Slot 5 (Shenzi) DEF
+patch=1,EE,11C6BB48,extended,00000320 // Slot 6 (Banzai) Current HP
+patch=1,EE,11C6BB4C,extended,00000320 // Slot 6 (Banzai) Max HP
+patch=1,EE,11C6BCD0,extended,00000022 // Slot 6 (Banzai) STR
+patch=1,EE,11C6BCD4,extended,00000016 // Slot 6 (Banzai) DEF
+patch=1,EE,11C6B8E0,extended,0000044C // Slot 7 (Ed) Current HP
+patch=1,EE,11C6B8E4,extended,0000044C // Slot 7 (Ed) Max HP
+patch=1,EE,11C6BA68,extended,0000001C // Slot 7 (Ed) STR
+patch=1,EE,11C6BA6C,extended,00000022 // Slot 7 (Ed) DEF
+patch=1,EE,E00D0004,extended,0032EB00 // Doom Clock == 4
+patch=1,EE,E00C01F4,extended,01C6BB4C
+patch=1,EE,11C6BDB0,extended,0000044C // Slot 5 (Shenzi) Current HP
+patch=1,EE,11C6BDB4,extended,0000044C // Slot 5 (Shenzi) Max HP
+patch=1,EE,11C6BF38,extended,0000001C // Slot 5 (Shenzi) STR
+patch=1,EE,11C6BF3C,extended,00000022 // Slot 5 (Shenzi) DEF
+patch=1,EE,11C6BB48,extended,000003B6 // Slot 6 (Banzai) Current HP
+patch=1,EE,11C6BB4C,extended,000003B6 // Slot 6 (Banzai) Max HP
+patch=1,EE,11C6BCD0,extended,00000028 // Slot 6 (Banzai) STR
+patch=1,EE,11C6BCD4,extended,0000001C // Slot 6 (Banzai) DEF
+patch=1,EE,11C6B8E0,extended,000004E2 // Slot 7 (Ed) Current HP
+patch=1,EE,11C6B8E4,extended,000004E2 // Slot 7 (Ed) Max HP
+patch=1,EE,11C6BA68,extended,00000022 // Slot 7 (Ed) STR
+patch=1,EE,11C6BA6C,extended,00000028 // Slot 7 (Ed) DEF
+patch=1,EE,E00D0005,extended,0032EB00 // Doom Clock == 5
+patch=1,EE,E00C01F4,extended,01C6BB4C
+patch=1,EE,11C6BDB0,extended,000004E2 // Slot 5 (Shenzi) Current HP
+patch=1,EE,11C6BDB4,extended,000004E2 // Slot 5 (Shenzi) Max HP
+patch=1,EE,11C6BF38,extended,00000022 // Slot 5 (Shenzi) STR
+patch=1,EE,11C6BF3C,extended,00000028 // Slot 5 (Shenzi) DEF
+patch=1,EE,11C6BB48,extended,0000044C // Slot 6 (Banzai) Current HP
+patch=1,EE,11C6BB4C,extended,0000044C // Slot 6 (Banzai) Max HP
+patch=1,EE,11C6BCD0,extended,0000002E // Slot 6 (Banzai) STR
+patch=1,EE,11C6BCD4,extended,00000022 // Slot 6 (Banzai) DEF
+patch=1,EE,11C6B8E0,extended,00000578 // Slot 7 (Ed) Current HP
+patch=1,EE,11C6B8E4,extended,00000578 // Slot 7 (Ed) Max HP
+patch=1,EE,11C6BA68,extended,00000028 // Slot 7 (Ed) STR
+patch=1,EE,11C6BA6C,extended,0000002E // Slot 7 (Ed) DEF
 //Scar (Potential soft lock at 1 HP, but tested a couple times and it was ok)
 patch=1,EE,E0050E0A,extended,0032BAE0
 patch=1,EE,E0040037,extended,0032BAE4
@@ -3832,37 +4014,6 @@ patch=1,EE,0032EB00,extended,00000005// Doom Clock
 patch=1,EE,E0020009,extended,0032DF76// If TP1
 patch=1,EE,E001E340,extended,0032DF74// If TP2
 patch=1,EE,0032EB00,extended,00000006// Doom Clock
-
-// Battle Level
-patch=1,EE,2032F254,extended,00000001 // BL Bitmask
-// Doom Clock == 0
-patch=1,EE,E0020000,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,1E1E1E1E,extended,00000000 // BL30
-// Doom Clock == 1
-patch=1,EE,E0020001,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,28282828,extended,00000000 // BL40
-// Doom Clock == 2
-patch=1,EE,E0020002,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,32323232,extended,00000000 // BL50
-// Doom Clock == 3
-patch=1,EE,E0020003,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,3C3C3C3C,extended,00000000 // BL60
-// Doom Clock == 4
-patch=1,EE,E0020004,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,46464646,extended,00000000 // BL70
-// Doom Clock == 5
-patch=1,EE,E0020005,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,50505050,extended,00000000 // BL80
-// Doom Clock == 6
-patch=1,EE,E0020006,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,63636363,extended,00000000 // BL99
 
 // Doom Counter == 0
 patch=1,EE,E00E0000,extended,0032EB00//DC = 0
