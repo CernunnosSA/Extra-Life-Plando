@@ -15,7 +15,7 @@ patch=1,EE,01C6C8D4,extended,0000002D// 45MP
 patch=1,EE,01C6C8D0,extended,0000002D// 45MP
 patch=1,EE,1032E020,extended,000001F0// Mysterious Abyss
 //Starting Stats
-patch=1,EE,21D0B6AC,extended,00030303//AP/Def/Mag/Str
+patch=1,EE,21D0B6AC,extended,00030303// AP/Def/Mag/Str
 //Critical Bonus
 patch=1,EE,11D18DDC,extended,00000233// Limit Form
 patch=1,EE,11D18DDE,extended,0000008A// Scan
@@ -23,6 +23,41 @@ patch=1,EE,11D18DE0,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE2,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE6,extended,00000002// Hi-Potion
 patch=1,EE,11D18DE8,extended,00000002// Hi-Potion
+
+
+//-----------------------------------------
+//                Battle Level
+//------------------------------------
+patch=1,EE,2032F254,extended,00000001 // BL Bitmask
+// Doom Clock == 0
+patch=1,EE,E0020000,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,1E1E1E1E,extended,00000000 // BL30
+// Doom Clock == 1
+patch=1,EE,E0020001,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,28282828,extended,00000000 // BL40
+// Doom Clock == 2
+patch=1,EE,E0020002,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,32323232,extended,00000000 // BL50
+// Doom Clock == 3
+patch=1,EE,E0020003,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,3C3C3C3C,extended,00000000 // BL60
+// Doom Clock == 4
+patch=1,EE,E0020004,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,46464646,extended,00000000 // BL70
+// Doom Clock == 5
+patch=1,EE,E0020005,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,50505050,extended,00000000 // BL80
+// Doom Clock == 6
+patch=1,EE,E0020006,extended,0032EB00
+patch=1,EE,41D11290,extended,00050001
+patch=1,EE,63636363,extended,00000000 // BL99
+
 
 //-----------------------------------------
 //                Misc. Codes
@@ -294,37 +329,6 @@ patch=1,EE,1036E5D0,extended,0000006D
 patch=1,EE,E0020107,extended,0032EF06
 patch=1,EE,1032EF0C,extended,0000806D
 patch=1,EE,1032EF1E,extended,00000000
-
-// Battle Level
-patch=1,EE,2032F254,extended,00000001 // BL Bitmask
-// Doom Clock == 0
-patch=1,EE,E0020000,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,1E1E1E1E,extended,00000000 // BL30
-// Doom Clock == 1
-patch=1,EE,E0020001,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,28282828,extended,00000000 // BL40
-// Doom Clock == 2
-patch=1,EE,E0020002,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,32323232,extended,00000000 // BL50
-// Doom Clock == 3
-patch=1,EE,E0020003,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,3C3C3C3C,extended,00000000 // BL60
-// Doom Clock == 4
-patch=1,EE,E0020004,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,46464646,extended,00000000 // BL70
-// Doom Clock == 5
-patch=1,EE,E0020005,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,50505050,extended,00000000 // BL80
-// Doom Clock == 6
-patch=1,EE,E0020006,extended,0032EB00
-patch=1,EE,41D11290,extended,00050001
-patch=1,EE,63636363,extended,00000000 // BL99
 
 
 //-----------------------------------------
