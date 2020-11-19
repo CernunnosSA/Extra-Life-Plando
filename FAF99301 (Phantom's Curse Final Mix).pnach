@@ -3573,7 +3573,7 @@ patch=1,EE,21CDEE48,extended,000F0000 // +15 DEF
 patch=1,EE,21CDEE4C,extended,64646401 // 99% Physical Resist (unlisted)
 patch=1,EE,21CDEE50,extended,00016464 // 99% Resist ALL (unlisted)
 
------ Accessories -----
+//----- Accessories -----
 // Ability Ring
 patch=1,EE,11CDEFD6,extended,00000254 // Protect
 patch=1,EE,21CDEFD8,extended,05010001 // +1 STR, +1 DEF, +5 AP
