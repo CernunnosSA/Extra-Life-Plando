@@ -1,3 +1,5 @@
+Originally created for WoC:DJPRS' 24-hour Extra Life stream.
+
 1234567890num: Project organization and code fix ups
 Cernunnos: Disney Castle and Timeless River changes, code fix ups
 Corey: Majority of the code creator and code fix ups
