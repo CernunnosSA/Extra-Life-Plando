@@ -3579,187 +3579,187 @@ patch=1,EE,11CDEFD6,extended,00000254 // Protect
 patch=1,EE,21CDEFD8,extended,05010001 // +1 STR, +1 DEF, +5 AP
 patch=1,EE,21CDEFDC,extended,64646464
 patch=1,EE,21CDEFE0,extended,00646464
-patch=1,EE,21CDDD96,extended,0000D00B
+patch=1,EE,11CDDD96,extended,0000D00B
 // Engineer's Ring
 patch=1,EE,11CDEFE6,extended,00000254 // Protect
 patch=1,EE,21CDEFE8,extended,05010002 // +2 STR, +1 DEF, +5 AP
 patch=1,EE,21CDEFEC,extended,64646464
 patch=1,EE,21CDEFF0,extended,00646464
-patch=1,EE,21CDDDAE,extended,0000D00B
+patch=1,EE,11CDDDAE,extended,0000D00B
 // Technician's Ring
 patch=1,EE,11CDEFF6,extended,00000255 // Protera
 patch=1,EE,21CDEFF8,extended,05020003 // +3 STR, +2 DEF, +5 AP
 patch=1,EE,21CDEFFC,extended,64646464
 patch=1,EE,21CDF000,extended,00646464
-patch=1,EE,21CDDDC6,extended,0000D00D
+patch=1,EE,11CDDDC6,extended,0000D00D
 // Skill Ring
 patch=1,EE,11CDF0E6,extended,00000110 // Aerial Finish
 patch=1,EE,21CDF0E8,extended,00000000
 patch=1,EE,21CDF0EC,extended,64646464
 patch=1,EE,21CDF0F0,extended,00646464
-patch=1,EE,21CDDDDE,extended,0000B99F
+patch=1,EE,11CDDDDE,extended,0000B99F
 // Skillful Ring
 patch=1,EE,11CDF0F6,extended,00000231 // Magnet Splash
 patch=1,EE,21CDF0F8,extended,00000000
 patch=1,EE,21CDF0FC,extended,64646464
 patch=1,EE,21CDF100,extended,00646464
-patch=1,EE,21CDDDF6,extended,0000CE76
+patch=1,EE,11CDDDF6,extended,0000CE76
 // Expert's Ring
 patch=1,EE,11CDF006,extended,00000255 // Protera
 patch=1,EE,21CDF008,extended,05020004 // +4 STR, +2 DEF, +5 AP
 patch=1,EE,21CDF00C,extended,64646464
 patch=1,EE,21CDF010,extended,00646464
-patch=1,EE,21CDDE0E,extended,0000D00D
+patch=1,EE,11CDDE0E,extended,0000D00D
 // Master's Ring
 patch=1,EE,11CDF0B6,extended,00000256 // Protega
 patch=1,EE,21CDF0B8,extended,05030005 // +5 STR, +3 DEF, +5 AP
 patch=1,EE,21CDF0BC,extended,64646464
 patch=1,EE,21CDF0C0,extended,00646464
-patch=1,EE,21CDDE26,extended,0000D00F
+patch=1,EE,11CDDE26,extended,0000D00F
 // Cosmic Ring
 patch=1,EE,11CDF146,extended,0000019F // Second Chance
 patch=1,EE,21CDF148,extended,0A050505 // +5 STR, +5 MAG, +5 DEF, +10 AP
 patch=1,EE,21CDF14C,extended,64646464
 patch=1,EE,21CDF150,extended,00646464
-patch=1,EE,21CDDE3E,extended,0000BC06
+patch=1,EE,11CDDE3E,extended,0000BC06
 // Executive's Ring
 patch=1,EE,11CDF6F6,extended,0000010B // Finishing Plus
 patch=1,EE,21CDF6F8,extended,00000000
 patch=1,EE,21CDF6FC,extended,64646464
 patch=1,EE,21CDF700,extended,00646464
-patch=1,EE,21CDDE56,extended,0000BBDA
+patch=1,EE,11CDDE56,extended,0000BBDA
 // Sardonyx Ring
 patch=1,EE,11CDF016,extended,00000198 // Fire Boost
 patch=1,EE,21CDF018,extended,00000005 // +5 STR
 patch=1,EE,21CDF01C,extended,64645A64 // 10% Fire Resist
 patch=1,EE,21CDF020,extended,00646464
-patch=1,EE,21CDDE6E,extended,0000BBF8
+patch=1,EE,11CDDE6E,extended,0000BBF8
 // Tourmaline Ring
 patch=1,EE,11CDF026,extended,0000021E // Damage Control
 patch=1,EE,21CDF028,extended,00030000 // +3 DEF
 patch=1,EE,21CDF02C,extended,6464645A // 10% Physical Resist (unlisted)
 patch=1,EE,21CDF030,extended,00646464
-patch=1,EE,21CDDE86,extended,0000CE2E
+patch=1,EE,11CDDE86,extended,0000CE2E
 // Aquamarine Ring
 patch=1,EE,11CDF036,extended,00000199 // Blizzard Boost
 patch=1,EE,21CDF038,extended,00000500 // +5 MAG
 patch=1,EE,21CDF03C,extended,645A6464 // 10% Blizzard Resist
 patch=1,EE,21CDF040,extended,00646464
-patch=1,EE,21CDDE9E,extended,0000BBFA
+patch=1,EE,11CDDE9E,extended,0000BBFA
 // Garnet Ring
 patch=1,EE,11CDF046,extended,0000019B // Item Boost
 patch=1,EE,21CDF048,extended,00050000 // +5 DEF
 patch=1,EE,21CDF04C,extended,64646464
 patch=1,EE,21CDF050,extended,00645A64 // 10% Resist Light
-patch=1,EE,21CDDEB6,extended,0000BBFE
+patch=1,EE,11CDDEB6,extended,0000BBFE
 // Diamond Ring
 patch=1,EE,11CDF056,extended,0000019A // Thunder Boost
 patch=1,EE,21CDF058,extended,00000303 // +3 STR, +3 MAG
 patch=1,EE,21CDF05C,extended,5A646464 // 10% Thunder Resist
 patch=1,EE,21CDF060,extended,00646464
-patch=1,EE,21CDDECE,extended,0000BBFC
+patch=1,EE,11CDDECE,extended,0000BBFC
 // Silver Ring
 patch=1,EE,11CDF066,extended,0000019D // MP Haste
 patch=1,EE,21CDF068,extended,05010100 // +1 MAG, +1 DEF, +5 AP
 patch=1,EE,21CDF06C,extended,64646464
 patch=1,EE,21CDF070,extended,00646464
-patch=1,EE,21CDDEE6,extended,0000BC02
+patch=1,EE,11CDDEE6,extended,0000BC02
 // Gold Ring
 patch=1,EE,11CDF076,extended,0000019D // MP Haste
 patch=1,EE,21CDF078,extended,05010200 // +2 MAG, +1 DEF, +5 AP
 patch=1,EE,21CDF07C,extended,64646464
 patch=1,EE,21CDF080,extended,00646464
-patch=1,EE,21CDDEFE,extended,0000BC02
+patch=1,EE,11CDDEFE,extended,0000BC02
 // Platinum Ring
 patch=1,EE,11CDF086,extended,000001A5 // MP Hastera
 patch=1,EE,21CDF088,extended,05020300 // +3 MAG, +2 DEF, +5 AP
 patch=1,EE,21CDF08C,extended,64646464
 patch=1,EE,21CDF090,extended,00646464
-patch=1,EE,21CDDF16,extended,0000BC12
+patch=1,EE,11CDDF16,extended,0000BC12
 // Mythril Ring
 patch=1,EE,11CDF096,extended,000001A5 // MP Hastera
 patch=1,EE,21CDF098,extended,05020400 // +4 MAG, +2 DEF, +5 AP
 patch=1,EE,21CDF09C,extended,64646464
 patch=1,EE,21CDF0A0,extended,00646464
-patch=1,EE,21CDDF2E,extended,0000BC12
+patch=1,EE,11CDDF2E,extended,0000BC12
 // Orichalcum Ring
 patch=1,EE,11CDF0A6,extended,000001A6 // MP Hastega
 patch=1,EE,21CDF0A8,extended,05030500 // +5 MAG, +3 DEF, +5 AP
 patch=1,EE,21CDF0AC,extended,64646464
 patch=1,EE,21CDF0B0,extended,00646464
-patch=1,EE,21CDDF46,extended,0000BC14
+patch=1,EE,11CDDF46,extended,0000BC14
 // Soldier Earring
 patch=1,EE,11CDF106,extended,00000181 // Auto-Valor
 patch=1,EE,21CDF108,extended,00000005 // +5 STR
 patch=1,EE,21CDF10C,extended,64646455 // 15% Resist ALL (unlisted)
 patch=1,EE,21CDF110,extended,00646464
-patch=1,EE,21CDDF5E,extended,0000BBCA
+patch=1,EE,11CDDF5E,extended,0000BBCA
 // Fencer Earring
 patch=1,EE,11CDF116,extended,00000186 // Combo Boost
 patch=1,EE,21CDF118,extended,0500000A // +10 STR, +5 AP
 patch=1,EE,21CDF11C,extended,6464644B // 25% Physical Resist
 patch=1,EE,21CDF120,extended,00646464
-patch=1,EE,21CDDF76,extended,0000BBD4
+patch=1,EE,11CDDF76,extended,0000BBD4
 // Mage Earring
 patch=1,EE,11CDF126,extended,00000182 // Auto-Wisdom
 patch=1,EE,21CDF128,extended,00000500 // +5 MAG
 patch=1,EE,21CDF12C,extended,64646464
 patch=1,EE,21CDF130,extended,00556464 // 15% Resist ALL (Unlisted)
-patch=1,EE,21CDDF8E,extended,0000BBCC
+patch=1,EE,11CDDF8E,extended,0000BBCC
 // Slayer Earring
 patch=1,EE,11CDF136,extended,000001A6 // MP Hastega
 patch=1,EE,21CDF138,extended,05000A00 // +10 MAG, +5 AP
 patch=1,EE,21CDF13C,extended,64646464
 patch=1,EE,21CDF140,extended,004B6464 // 25% Resist ALL (unlisted)
-patch=1,EE,21CDDFA6,extended,0000BC14
+patch=1,EE,11CDDFA6,extended,0000BC14
 // Medal
 patch=1,EE,11CDF156,extended,0000018E // Form Boost
 patch=1,EE,21CDF158,extended,00000000
 patch=1,EE,21CDF15C,extended,64646464
 patch=1,EE,21CDF160,extended,0064645A // 10% Dark Resist
-patch=1,EE,21CDDFBE,extended,0000BBE4
+patch=1,EE,11CDDFBE,extended,0000BBE4
 // Moon Charm
 patch=1,EE,11CDF0C6,extended,00000183 // Auto-Master
 patch=1,EE,21CDF0C8,extended,00030303 // +3 STR, +3 MAG, +3 DEF
 patch=1,EE,21CDF0CC,extended,64646464
 patch=1,EE,21CDF0D0,extended,00646464
-patch=1,EE,21CDDFD6,extended,0000BBCE
+patch=1,EE,11CDDFD6,extended,0000BBCE
 // Star Charm
 patch=1,EE,11CDF0D6,extended,000000C6 // Trinity Limit
 patch=1,EE,21CDF0D8,extended,00040404 // +4 STR, +4 MAG, +4 DEF
 patch=1,EE,21CDF0DC,extended,64646464
 patch=1,EE,21CDF0E0,extended,00646464
-patch=1,EE,21CDDFEE,extended,0000B335
+patch=1,EE,11CDDFEE,extended,0000B335
 // Cosmic Arts
 patch=1,EE,11CDF166,extended,000001A0 // Once More
 patch=1,EE,21CDF168,extended,0A050505 // +5 STR, +5 MAG, +5 DEF, +10 AP
 patch=1,EE,21CDF16C,extended,64646464
 patch=1,EE,21CDF170,extended,00646464
-patch=1,EE,21CDE006,extended,0000BC08
+patch=1,EE,11CDE006,extended,0000BC08
 // Shadow Archive
 patch=1,EE,11CDF176,extended,0000008A // Scan
 patch=1,EE,21CDF178,extended,05020300 // +3 MAG, +2 DEF, +5 AP
 patch=1,EE,21CDF17C,extended,64646464
 patch=1,EE,21CDF180,extended,00646464
-patch=1,EE,21CDE01E,extended,00009F73
+patch=1,EE,11CDE01E,extended,00009F73
 // Shadow Archive+
 patch=1,EE,11CDF186,extended,0000008A // Scan
 patch=1,EE,21CDF188,extended,05030400 // +4 MAG, +3 DEF, +5 AP
 patch=1,EE,21CDF18C,extended,64646464
 patch=1,EE,21CDF190,extended,00646464
-patch=1,EE,21CDE036,extended,00009F73
+patch=1,EE,11CDE036,extended,00009F73
 // Full Bloom
 patch=1,EE,11CDF1A6,extended,0000021E // Damage Control
 patch=1,EE,21CDF1A8,extended,05020003 // +3 STR, +2 DEF, +5 AP
 patch=1,EE,21CDF1AC,extended,64646464
 patch=1,EE,21CDF1B0,extended,00646464
-patch=1,EE,21CDE04E,extended,0000CE2E
+patch=1,EE,11CDE04E,extended,0000CE2E
 // Full Bloom+
 patch=1,EE,11CDF1C6,extended,0000021E // Damage Control
 patch=1,EE,21CDF1C8,extended,05030004 // +4 STR, +3 DEF, +5 AP
 patch=1,EE,21CDF1CC,extended,64646464
 patch=1,EE,21CDF1D0,extended,00646464
-patch=1,EE,21CDE066,extended,0000CE2E
+patch=1,EE,11CDE066,extended,0000CE2E
 // Draw Ring
 patch=1,EE,11CDF1B6,extended,00000195 // Draw
 patch=1,EE,21CDF1B8,extended,0A000000 // +10 AP
