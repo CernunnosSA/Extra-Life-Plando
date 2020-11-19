@@ -1,8 +1,14 @@
+You awaken in the dead of night from a horrifying nightmare. The dreaded Phantom you encountered in the distant past at Neverland appeared before you and cast a terrifying curse, not on you or your friends, but on the various worlds themselves. 
+
+Dripping with sweat from the vivid nightmare, you journey forth with the memories of past adventures to explore and save these worlds just in case this nightmare was a premonition of things to come...
+
+*You better hurry. Time stops for no one, and when the clock chimes with each hour, a world shall fall to darkness forever.*
+
 -This Plando was designed with playing on Crit in mind.
 
 -Most Data fights are not required.
 
--2 former keyblade wielders hold the same reward, however one of them is significantly easier to defeat...
+-2 former keyblade wielders hold the same reward
 
 -Atlantica holds nothing but junk.
 
@@ -10,10 +16,12 @@
 
 -Auto Drive skills can be used to unlock Drive forms early.
 
--The worlds that previously fell to darkness will be vulnerable to being devoured early on.
+-Worlds that previously fell to darkness will be vulnerable to being devoured early on.
 
 -Digital worlds are more secure and will be devoured later on.
 
 -The world hidden within the darkness will never be devoured.
 
 -A special charm can be found after defeating a scholarly spirit that your friend from the dark had encountered.
+
+-Armor and Accessories have abilities. Abilities are listed in the item description.
