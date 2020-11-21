@@ -1,4 +1,4 @@
-﻿//Cloud has been renamed to Butt
+//Cloud has been renamed to Butt
 
 //-----------------------------------------
 //                Game Start Codes
@@ -1327,7 +1327,6 @@ patch=1,EE,11CE09A2,extended,00000150 // 1,000 Heartless, Secret Ansem's Report 
 patch=1,EE,11CE082E,extended,0000003F // Ice Cream, Ice Cream is now Lucky Ring
 patch=1,EE,11CE083A,extended,00000243 // Picture, Picture is now Remembrance Crystal
 patch=1,EE,11CE0936,extended,00000003 // Sleeping Lion, Sleeping Lion is now Ether
-patch=1,EE,11CE0942,extended,00000007 // Fenrir, Fenrir is now Mega-Elixir
 patch=1,EE,11CE0B3A,extended,00000007 // Proof of Peace, Proof of Peace is now Mega-Elixir
 patch=1,EE,11CE0B2E,extended,00000007 // Winner's Proof, Winner's Proof is now Mega-Elixir
 patch=1,EE,11CE0AB6,extended,00000116 // Demyx (Data), AP Boost is now Defense Boost
@@ -1345,10 +1344,6 @@ patch=1,EE,21D10BA8,extended,00000000 // Replacement Reward #2: Replacement Rewa
 patch=1,EE,11D11062,extended,00000006 // MP:0 HP:6
 patch=1,EE,21D11064,extended,01000000 // Armor Slot:+1 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D11068,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
-// Sephiroth
-patch=1,EE,11D10CD2,extended,00000000 // MP:0 HP:0
-patch=1,EE,21D10CD4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10CD8,extended,00000007 // Replacement Reward #2: Replacement Reward #1:Mega-Elixir
 
 //Enemy Replacement
 //Borough Nobodies Fight
@@ -3920,10 +3915,9 @@ patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
 //-----------------------------------------
 //                Debug Codes
 //------------------------------------
-//Stop Doom Clock
-patch=0,EE,2032DF74,extended,00000000
-//Mysterious Abyss Broken Stats
-patch=0,EE,21CDF568,extended,00A0A0A0 // 160 str, mag, def
 //Enter Atlantica then EXP = MAX
-patch=1,EE,E0010B00,extended,0032BADF // If in Atlantica
-patch=0,EE,2032F210,extended,0098967F // Max Exp
+//patch=1,EE,E0040B00,extended,0032BADF // If in Atlantica
+//patch=1,EE,2032F210,extended,0098967F // Max Exp
+//patch=1,EE,21CDF568,extended,00A0A0A0 // Mysterious Abyss 160 Str, Mag, Def
+//patch=1,EE,21CDF570,extended,00016464 // 99% ALL Resist
+//patch=1,EE,2032DF74,extended,00000000 // Reset Doom Clock
