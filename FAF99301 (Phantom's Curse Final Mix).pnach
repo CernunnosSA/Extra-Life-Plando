@@ -380,22 +380,24 @@ patch=1,EE,21D10CC8,extended,00970177 // Replacement Reward #2:Comet Staff Repla
 
 //Enemy Replacement
 //Dusk (1st Fight with Struggle Bat)
-patch=1,EE,E0040E02,extended,0032BAE0
-patch=1,EE,E003007F,extended,0032BAE4
-patch=1,EE,E002007F,extended,0032BAE8
+patch=1,EE,E0050E02,extended,0032BAE0
+patch=1,EE,E004007F,extended,0032BAE4
+patch=1,EE,E003007F,extended,0032BAE8
 patch=1,EE,11C443A4,extended,00000934// Anti Sora
-patch=1,EE,21C6C690,extended,00000000// Invincible
+patch=1,EE,21C6C690,extended,00000000// God Mode
+patch=1,EE,21C6C694,extended,00000000// God Mode
 //Dusk (1st Fight with Kingdom Key)
 patch=1,EE,E0030E02,extended,0032BAE0
 patch=1,EE,E0020080,extended,0032BAE4
 patch=1,EE,E0010080,extended,0032BAE8
 patch=1,EE,11C444D8,extended,00000078// Neo-Shadow
 //Dusk (3rd Day; Sandlot)
-patch=1,EE,E0040402,extended,0032BAE0
-patch=1,EE,E003004F,extended,0032BAE4
-patch=1,EE,E002004F,extended,0032BAE8
+patch=1,EE,E0050402,extended,0032BAE0
+patch=1,EE,E004004F,extended,0032BAE4
+patch=1,EE,E003004F,extended,0032BAE8
 patch=1,EE,11C36FF4,extended,00000135// Assassin
-patch=1,EE,21C6C690,extended,00000000// Invincible
+patch=1,EE,21C6C690,extended,00000000// God Mode
+patch=1,EE,21C6C694,extended,00000000// God Mode
 //Station of Serenity Nobodies
 patch=1,EE,E0052002,extended,0032BAE0
 patch=1,EE,E004009A,extended,0032BAE4
@@ -955,7 +957,7 @@ patch=1,EE,21C6C694,extended,00641932 // Yuffie Resists 2 (75% Light, 50% Dark)
 patch=1,EE,11C56F28,extended,00000000 // Remove Steamboat
 patch=1,EE,11C56EE8,extended,00000000 // Remove Cornerstone
 patch=1,EE,11C56EA8,extended,00000000 // Remove Pete
-patch=1,EE,E0060031,extended,01C6C018 // Set HP
+patch=1,EE,E0060031,extended,01C6C01C // Set HP
 patch=1,EE,11C6C018,extended,000000FF // Butt Current
 patch=1,EE,11C6C01C,extended,000000FF // Butt Max
 patch=1,EE,11C6C280,extended,000000FF // Tifa Current
@@ -979,7 +981,7 @@ patch=1,EE,11C6C670,extended,0000000A // Blizzard Lord STR
 patch=1,EE,11C6B674,extended,0000000A // Blizzard Lord DEF
 patch=1,EE,21C6C690,extended,0A00960A // Blizzard Lord Resists 1 (90% Thunder/Physical, -50% Fire, 100% Blizzard)
 patch=1,EE,21C6C694,extended,00640000 // Blizzard Lord Resists 2 (100% Light/Dark)
-patch=1,EE,E0060188,extended,01C6C280 // Set HP
+patch=1,EE,E0060188,extended,01C6C284 // Set HP
 patch=1,EE,11C6C280,extended,000001FF // Volcanic Lord Current
 patch=1,EE,11C6C284,extended,000001FF // Volcanic Lord Max
 patch=1,EE,11C6C288,extended,00000000 // Volcanic Lord HP Gate
