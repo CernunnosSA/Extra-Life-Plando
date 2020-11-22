@@ -349,7 +349,7 @@ patch=1,EE,11CE01F2,extended,00000131 // Mansion Foyer, Potion is now Champion B
 patch=1,EE,11CE01FE,extended,00000223 // Mansion Dining Room, Elven Bandana is now Plain Mushroom
 patch=1,EE,11CE020A,extended,00000005 // Mansion Dining Room, Potion is now Mega-Potion
 patch=1,EE,11CE0216,extended,00000020 // Mansion Library, Hi-Potion is now Torn Page
-patch=1,EE,11CE0222,extended,0000021A // Mansion Basement Corridor, Hi-Potion is now "The Struggle" Trophy
+patch=1,EE,11CE0222,extended,00000058 // Mansion Basement Corridor, Hi-Potion is now Reflect
 
 //Popups
 patch=1,EE,11CE0636,extended,000001DF // Twilight Town Map, Twilight Town Map is now Ultimate Recipe
@@ -358,7 +358,7 @@ patch=1,EE,11CE0612,extended,00000007 // Champion Belt, Champion Belt is now Meg
 patch=1,EE,11CE061E,extended,00000174 // Medal, Medal is now Cursed Medallion
 patch=1,EE,11CE062A,extended,00000046 // "The Struggle" Trophy, "The Struggle" Trophy is now Buster Band
 patch=1,EE,11CE0642,extended,000001E1 // Namine's Sketches, Namine's Sketches is now Hidden Dragon
-patch=1,EE,11CE064E,extended,00000058 // Mansion Map, Mansion Map is now Reflect
+patch=1,EE,11CE064E,extended,0000021A // Mansion Map, Mansion Map is now Comet Staff
 patch=1,EE,11CE0B0A,extended,00000058 // Roxas (Data), Magic Boost is now Reflect
 
 //Bonus Rewards
@@ -377,7 +377,7 @@ patch=1,EE,21D11278,extended,00000000 // Replacement Reward #2: Replacement Rewa
 // Axel II
 patch=1,EE,11D10CC2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10CC4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10CC8,extended,00970177 // Replacement Reward #2:Comet Staff Replacement Reward #1:Ice Cream
+patch=1,EE,21D10CC8,extended,021A0177 // Replacement Reward #2:"The Struggle" Trophy Replacement Reward #1:Ice Cream
 
 //Enemy Replacement
 //Dusk (1st Fight with Struggle Bat)
@@ -452,13 +452,34 @@ patch=1,EE,11C55CD4,extended,00000135// Assassin Wave2
 
 //Boss Replacement
 //Axel II
-patch=1,EE,E0061402,extended,0032BAE0
-patch=1,EE,E0050089,extended,0032BAE4
-patch=1,EE,E0040089,extended,0032BAE8
+patch=1,EE,E01B1402,extended,0032BAE0
+patch=1,EE,E01A0089,extended,0032BAE4
+patch=1,EE,E0190089,extended,0032BAE8
 patch=1,EE,11C5AF88,extended,000008FA// Tifa
-patch=1,EE,E0020017,extended,01C6C4E8// Increase HP
-patch=1,EE,21C6C4E8,extended,00000190
-patch=1,EE,21C6C4EC,extended,00000190
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E00201C0,extended,21C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000001C0
+patch=1,EE,21C6C4EC,extended,000001C0
+patch=1,EE,E0030001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E002024C,extended,21C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,0000024C
+patch=1,EE,21C6C4EC,extended,0000024C
+patch=1,EE,E0030002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E00202BC,extended,21C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000002BC
+patch=1,EE,21C6C4EC,extended,000002BC
+patch=1,EE,E0030003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E0020333,extended,21C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000333
+patch=1,EE,21C6C4EC,extended,00000333
+patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E00203A3,extended,21C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000003A3
+patch=1,EE,21C6C4EC,extended,000003A3
+patch=1,EE,E0030005,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E002041A,extended,21C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,0000041A
+patch=1,EE,21C6C4EC,extended,0000041A
 
 
 //----- Space Paranoids -----
