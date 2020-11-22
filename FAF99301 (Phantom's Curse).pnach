@@ -404,7 +404,7 @@ patch=1,EE,E0061402,extended,0032BAE0
 patch=1,EE,E0050089,extended,0032BAE4
 patch=1,EE,E0040089,extended,0032BAE8
 patch=1,EE,11C5AF88,extended,000008FA// Tifa
-patch=1,EE,E0020017,extended,01C6C4E8// Increase HP
+patch=1,EE,E0020017,extended,01C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000190
 patch=1,EE,21C6C4EC,extended,00000190
 
