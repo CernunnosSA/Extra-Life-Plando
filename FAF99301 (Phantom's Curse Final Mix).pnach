@@ -2093,13 +2093,66 @@ patch=1,EE,11C6B8E0,extended,00000578 // Slot 7 (Ed) Current HP
 patch=1,EE,11C6B8E4,extended,00000578 // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,00000028 // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,0000002E // Slot 7 (Ed) DEF
-//Scar (Potential soft lock at 1 HP, but tested a couple times and it was ok)
-patch=1,EE,E0050E0A,extended,0032BAE0
-patch=1,EE,E0040037,extended,0032BAE4
-patch=1,EE,E0030037,extended,0032BAE8
-patch=1,EE,11C5A74C,extended,00000162// Dark Thorn
-patch=1,EE,E0010001,extended,01C6C018// Dark Thorn HP 1->0
-patch=1,EE,01C6C018,extended,00000000
+//Scar
+patch=1,EE,E01B0E0A,extended,0032BAE0
+patch=1,EE,E01A0037,extended,0032BAE4
+patch=1,EE,E0190037,extended,0032BAE8
+patch=1,EE,11C5A74C,extended,000008F8 // Leon
+patch=1,EE,E0030000,extended,0032EB00 // Doom Clock == 0
+patch=1,EE,E0020218,extended,21C6C01C // Set HP
+patch=1,EE,21C6C018,extended,00000218
+patch=1,EE,21C6C01C,extended,00000218
+patch=1,EE,E0030001,extended,0032EB00 // Doom Clock == 1
+patch=1,EE,E00202A0,extended,21C6C01C // Set HP
+patch=1,EE,21C6C018,extended,000002A0
+patch=1,EE,21C6C01C,extended,000002A0
+patch=1,EE,E0030002,extended,0032EB00 // Doom Clock == 2
+patch=1,EE,E0020320,extended,21C6C01C // Set HP
+patch=1,EE,21C6C018,extended,00000320
+patch=1,EE,21C6C01C,extended,00000320
+patch=1,EE,E0030003,extended,0032EB00 // Doom Clock == 3
+patch=1,EE,E00203A8,extended,21C6C01C // Set HP
+patch=1,EE,21C6C018,extended,000003A8
+patch=1,EE,21C6C01C,extended,000003A8
+patch=1,EE,E0030004,extended,0032EB00 // Doom Clock == 4
+patch=1,EE,E0020428,extended,21C6C01C // Set HP
+patch=1,EE,21C6C018,extended,00000428
+patch=1,EE,21C6C01C,extended,00000428
+patch=1,EE,E0030005,extended,0032EB00 // Doom Clock == 5
+patch=1,EE,E00204B0,extended,21C6C01C // Set HP
+patch=1,EE,21C6C018,extended,000004B0
+patch=1,EE,21C6C01C,extended,000004B0
+//Groundshaker
+patch=1,EE,E01D0F0A,extended,0032BAE0
+patch=1,EE,E01C003B,extended,0032BAE4
+patch=1,EE,E01B003B,extended,0032BAE8
+patch=1,EE,11C59F80,extended,000006C9 // Saix
+patch=1,EE,E0010001,extended,01C6C280 // If HP = 1 -> HP = 0
+patch=1,EE,21C6C280,extended,00000000 // Saix normally can't be killed while berserk
+patch=1,EE,E0030000,extended,0032EB00 // Doom Clock == 0
+patch=1,EE,E0020043,extended,31C6C284 // Set HP
+patch=1,EE,21C6C280,extended,00000043
+patch=1,EE,21C6C284,extended,00000043
+patch=1,EE,E0030001,extended,0032EB00 // Doom Clock == 1
+patch=1,EE,E0020054,extended,31C6C284 // Set HP
+patch=1,EE,21C6C280,extended,00000054
+patch=1,EE,21C6C284,extended,00000054
+patch=1,EE,E0030002,extended,0032EB00 // Doom Clock == 2
+patch=1,EE,E0020064,extended,31C6C284 // Set HP
+patch=1,EE,21C6C280,extended,00000064
+patch=1,EE,21C6C284,extended,00000064
+patch=1,EE,E0030003,extended,0032EB00 // Doom Clock == 3
+patch=1,EE,E0020075,extended,31C6C284 // Set HP
+patch=1,EE,21C6C280,extended,00000075
+patch=1,EE,21C6C284,extended,00000075
+patch=1,EE,E0030004,extended,0032EB00 // Doom Clock == 4
+patch=1,EE,E0020085,extended,31C6C284 // Set HP
+patch=1,EE,21C6C280,extended,00000085
+patch=1,EE,21C6C284,extended,00000085
+patch=1,EE,E0030005,extended,0032EB00 // Doom Clock == 5
+patch=1,EE,E0020096,extended,31C6C284 // Set HP
+patch=1,EE,21C6C280,extended,00000096
+patch=1,EE,21C6C284,extended,00000096
 
 
 //----- Olympus Coliseum -----
