@@ -6,7 +6,6 @@ None! We should be ready for release!
 
 - Test if Battle Levels' difficulty is fine
 - Make a specific Battle Lv/conditionals for some battles (number in brackets should be the original Battle Lv)
-  - STT Tifa (3)
   - SP Shan Yu + Cannon Gun (45)
   - TR Sark + Hostile Programs (18)
   - TR Butt + Tifa + Yuffie (18)
