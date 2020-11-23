@@ -41,10 +41,6 @@ patch=1,EE,E0030006,extended,0032BAE0
 patch=1,EE,E002008D,extended,0032BAE4
 patch=1,EE,E0010000,extended,01D48EFC
 patch=1,EE,21D48EFC,extended,00000063
-// A Blustery Rescue (Story)
-patch=1,EE,E0020609,extended,0032BAE0
-patch=1,EE,E0010037,extended,0032BAE4
-patch=1,EE,20349DE8,extended,00000000
 // Hunny Slider (Story)
 patch=1,EE,E0020709,extended,0032BAE0
 patch=1,EE,E0010039,extended,0032BAE4
@@ -394,11 +390,6 @@ patch=1,EE,11C55C94,extended,00000135// Assassin Wave2
 patch=1,EE,11C55CD4,extended,00000135// Assassin Wave2
 
 //Boss Replacement
-//Axel I
-//patch=1,EE,E0030502,extended,0032BAE0
-//patch=1,EE,E0020057,extended,0032BAE4
-//patch=1,EE,E0010057,extended,0032BAE8
-//patch=1,EE,11C26ED8,extended,00000051// Axel 2
 //Axel II
 patch=1,EE,E0061402,extended,0032BAE0
 patch=1,EE,E0050089,extended,0032BAE4
@@ -827,7 +818,7 @@ patch=1,EE,11C6C4E8,extended,000000FF
 patch=1,EE,11C6C4EC,extended,000000FF
 patch=1,EE,11C6C4F0,extended,00000000
 patch=1,EE,11C6C670,extended,00000005
-patch=1,EE,11C6C674,extended,00000006
+patch=1,EE,11C6C674,extended,00000005
 patch=1,EE,21C6C690,extended,00646464
 patch=1,EE,21C6C694,extended,00646464
 patch=1,EE,E00702DF,extended,01C6C284 // Hostile Program in Slot 3
@@ -835,7 +826,7 @@ patch=1,EE,11C6C280,extended,000000FF
 patch=1,EE,11C6C284,extended,000000FF
 patch=1,EE,11C6C288,extended,00000000
 patch=1,EE,11C6C408,extended,00000005
-patch=1,EE,11C6C40C,extended,00000006
+patch=1,EE,11C6C40C,extended,00000005
 patch=1,EE,21C6C428,extended,00646464
 patch=1,EE,21C6C42C,extended,00646464
 patch=1,EE,E00702DF,extended,01C6C01C // Hostile Program in Slot 4
@@ -843,15 +834,15 @@ patch=1,EE,11C6C018,extended,000000FF
 patch=1,EE,11C6C01C,extended,000000FF
 patch=1,EE,11C6C020,extended,00000000
 patch=1,EE,11C6C1A0,extended,00000005
-patch=1,EE,11C6C1A4,extended,00000006
+patch=1,EE,11C6C1A4,extended,00000005
 patch=1,EE,21C6C1C0,extended,00646464
 patch=1,EE,21C6C1C4,extended,00646464
 patch=1,EE,E00702DF,extended,01C6BDB4 // Hostile Program in Slot 5
 patch=1,EE,11C6BDB0,extended,000000FF
 patch=1,EE,11C6BDB4,extended,000000FF
-patch=1,EE,11C6BFB8,extended,00000000
+patch=1,EE,11C6BDB8,extended,00000000
 patch=1,EE,11C6BF38,extended,00000005
-patch=1,EE,11C6BF3C,extended,00000006
+patch=1,EE,11C6BF3C,extended,00000005
 patch=1,EE,21C6BF58,extended,00646464
 patch=1,EE,21C6BF5C,extended,00646464
 patch=1,EE,E00702DF,extended,01C6BB4C // Hostile Program in Slot 6
@@ -859,7 +850,7 @@ patch=1,EE,11C6BB48,extended,000000FF
 patch=1,EE,11C6BB4C,extended,000000FF
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,11C6BCD0,extended,00000005
-patch=1,EE,11C6BCD4,extended,00000006
+patch=1,EE,11C6BCD4,extended,00000005
 patch=1,EE,21C6BCF0,extended,00646464
 patch=1,EE,21C6BCF4,extended,00646464
 // Revert from FF7 fight
@@ -1879,13 +1870,27 @@ patch=1,EE,11C4EC34,extended,00000001// Living Bone (Left AI) [Headless&Shaman]
 patch=1,EE,11C4EC54,extended,00000076// Wight Knight (Right)
 
 //Boss Replacement
-//Scar (Potential soft lock at 1 HP, but tested a couple times and it was ok)
-patch=1,EE,E0050E0A,extended,0032BAE0
-patch=1,EE,E0040037,extended,0032BAE4
-patch=1,EE,E0030037,extended,0032BAE8
-patch=1,EE,11C5A74C,extended,00000162// Dark Thorn
-patch=1,EE,E0010001,extended,01C6C018// Dark Thorn HP 1->0
-patch=1,EE,01C6C018,extended,00000000
+//Scar
+patch=1,EE,E00D0E0A,extended,0032BAE0
+patch=1,EE,E00C0037,extended,0032BAE4
+patch=1,EE,E00B0037,extended,0032BAE8
+patch=1,EE,01D1129A,extended,00000032
+patch=1,EE,11C5A74C,extended,00000139 // Berserker
+patch=1,EE,01C98F6C,extended,00000003 // Berserker is Boss
+patch=1,EE,01D12B4A,extended,00000000 // Berserker 0 EXP
+patch=1,EE,21C6C1C0,extended,32323264 // Slot 4 Resists 1
+patch=1,EE,21C6C1C4,extended,00643232 // Slot 4 Resists 2
+patch=1,EE,E00400FA,extended,01C6C01C
+patch=1,EE,11C6C018,extended,000001C2
+patch=1,EE,11C6C01C,extended,000001C2
+patch=1,EE,11C6C1A0,extended,0000002D
+patch=1,EE,11C6C1A0,extended,0000001A
+// Berserker Cleanup
+patch=1,EE,E004000A,extended,0032BAE0
+patch=1,EE,E0030000,extended,0032BAE4
+patch=1,EE,E0020005,extended,0032BAE8
+patch=1,EE,01C98F6C,extended,00000015 // Berserker is Large Enemy
+patch=1,EE,01D12B4A,extended,000000C8 // Berserker default EXP
 
 
 //----- Olympus Coliseum -----
@@ -2738,29 +2743,27 @@ patch=1,EE,E0020001,extended,0032BAE8
 patch=1,EE,11C4C714,extended,00000428// (Shan Yu)
 patch=1,EE,11C4C678,extended,00000022// (Emperor)
 //Shan Yu Fight
-patch=1,EE,E0120908,extended,0032BAE0
-patch=1,EE,E011004B,extended,0032BAE4
-patch=1,EE,E010004B,extended,0032BAE8
+patch=1,EE,E0110908,extended,0032BAE0
+patch=1,EE,E010004B,extended,0032BAE4
+patch=1,EE,E00F004B,extended,0032BAE8
 patch=1,EE,11C4BEB0,extended,00000137// Sniper (Hayabusa)
 patch=1,EE,11C4BE70,extended,00000136// Samurai(Shan Yu)
-patch=1,EE,11C98EAC,extended,00000003// Sniper Marker
 patch=1,EE,11C98E4C,extended,00000003// Samurai Marker
 patch=1,EE,E0020037,extended,01C6C284 // Sniper or Samurai in Slot 3
-patch=1,EE,11C6C280,extended,0000015E
-patch=1,EE,11C6C284,extended,0000015E
+patch=1,EE,11C6C280,extended,000001F4
+patch=1,EE,11C6C284,extended,000001F4
 patch=1,EE,E0020037,extended,01C6C01C // Sniper or Samurai in Slot 4
-patch=1,EE,11C6C018,extended,0000015E
-patch=1,EE,11C6C01C,extended,0000015E
+patch=1,EE,11C6C018,extended,000001F4
+patch=1,EE,11C6C01C,extended,000001F4
 patch=1,EE,E0020037,extended,01C6BDB4 // Sniper or Samurai in Slot 5
-patch=1,EE,11C6BDB0,extended,0000015E
-patch=1,EE,11C6BDB4,extended,0000015E
+patch=1,EE,11C6BDB0,extended,000001F4
+patch=1,EE,11C6BDB4,extended,000001F4
 patch=1,EE,E0020037,extended,01C6BB4C // Sniper or Samurai in Slot 6
-patch=1,EE,11C6BB48,extended,0000015E
-patch=1,EE,11C6BB4C,extended,0000015E
-//Samurai and Sniper Marker Fix
-patch=1,EE,E0030908,extended,0032BAE0
-patch=1,EE,E0020069,extended,0032BAE8
-patch=1,EE,11C98EAC,extended,00000004// Sniper Marker
+patch=1,EE,11C6BB48,extended,000001F4
+patch=1,EE,11C6BB4C,extended,000001F4
+//Samurai Marker Fix
+patch=1,EE,E0020908,extended,0032BAE0
+patch=1,EE,E0010069,extended,0032BAE8
 patch=1,EE,11C98E4C,extended,00000004// Samurai Marker
 //Remove Riku Thrusters
 patch=1,EE,E0020708,extended,0032BAE0
