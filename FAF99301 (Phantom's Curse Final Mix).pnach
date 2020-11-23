@@ -604,18 +604,70 @@ patch=1,EE,11C4FD84,extended,00000002// Trick Ghost Front-Left
 patch=1,EE,11C4FDC4,extended,00000002// Trick Ghost Front-Right
 patch=1,EE,11C4FE04,extended,00000002// Trick Ghost Back-Right
 //Sark (Giant)
-patch=1,EE,E00D0911,extended,0032BAE0
-patch=1,EE,E00C003B,extended,0032BAE8
+patch=1,EE,01D112A1,extended,00000050
+patch=1,EE,E0400911,extended,0032BAE0
+patch=1,EE,E03F003B,extended,0032BAE8
 patch=1,EE,11C4FF38,extended,00000000// Remove MCP Walls
 patch=1,EE,11C4FFB8,extended,00000728// Sark Giant -> Cannon Gun
 patch=1,EE,11C4FF78,extended,00000015// MCP Boss -> Shan Yu
-patch=1,EE,E0020041,extended,01C6C4EC// If Max HP Slot 2 = 65
+patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E002002F,extended,01C6C4EC// If Max HP Slot 2 = 47
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0020041,extended,01C6C284// If Max HP Slot 3 = 65
+patch=1,EE,E002002F,extended,01C6C284// If Max HP Slot 3 = 47
 patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0020041,extended,01C6C01C// If Max HP Slot 4 = 65
+patch=1,EE,E002002F,extended,01C6C01C// If Max HP Slot 4 = 47
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0090001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E002003B,extended,01C6C4EC// If Max HP Slot 2 = 59
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E002003B,extended,01C6C284// If Max HP Slot 3 = 59
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E002003B,extended,01C6C01C// If Max HP Slot 4 = 59
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0090002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E0020046,extended,01C6C4EC// If Max HP Slot 2 = 70
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0020046,extended,01C6C284// If Max HP Slot 3 = 70
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0020046,extended,01C6C01C// If Max HP Slot 4 = 70
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0090003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E0020052,extended,01C6C4EC// If Max HP Slot 2 = 82
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0020052,extended,01C6C284// If Max HP Slot 3 = 82
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0020052,extended,01C6C01C// If Max HP Slot 4 = 82
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0090004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E002005E,extended,01C6C4EC// If Max HP Slot 2 = 94
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E002005E,extended,01C6C284// If Max HP Slot 3 = 94
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E002005E,extended,01C6C01C// If Max HP Slot 4 = 94
+patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E0020069,extended,01C6C4EC// If Max HP Slot 2 = 105
+patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0020069,extended,01C6C284// If Max HP Slot 3 = 105
+patch=1,EE,21C6C428,extended,00000000// Cannon Gun God Mode
+patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
+patch=1,EE,E0020069,extended,01C6C01C// If Max HP Slot 4 = 105
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
 
@@ -4199,7 +4251,7 @@ patch=1,EE,11D1A2FE,extended,000001E9 // Master LV7, Aerial Dodge LV 3 is now Gu
 patch=1,EE,11D1A30E,extended,0000001D // Final LV2, Auto Final is now Final Form
 patch=1,EE,11D1A316,extended,00000131 // Final LV3, Glide LV 1 is now Champion Belt
 patch=1,EE,11D1A31E,extended,00000035 // Final LV4, Form Boost is now Medal
-patch=1,EE,11D1A326,extended,00000130 // Final LV5, Glide LV 2 is now Ribbon
+patch=1,EE,11D1A326,extended,00000132 // Final LV5, Glide LV 2 is now Petite Ribbon
 patch=1,EE,11D1A32E,extended,00000257 // Final LV6, Form Boost is now Executive's Ring
 patch=1,EE,11D1A336,extended,000001F4 // Final LV7, Glide LV 3 is now Ultima Weapon
 
