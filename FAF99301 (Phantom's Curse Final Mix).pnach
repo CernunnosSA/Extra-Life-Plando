@@ -1436,8 +1436,8 @@ patch=1,EE,11C4C174,extended,00000134// Dragoon
 patch=1,EE,11C4C1B4,extended,0000013E// Dusk (Back-Right)
 patch=1,EE,11C4C1F4,extended,0000013E// Dusk (Back-Left)
 //Bailey Nobodies Fight
-patch=1,EE,E01B0804,extended,0032BAE0//
-patch=1,EE,E01A0034,extended,0032BAE8//
+patch=1,EE,E0300804,extended,0032BAE0//
+patch=1,EE,E02F0034,extended,0032BAE8//
 patch=1,EE,11C45984,extended,0000061C// Leon (Ally)
 patch=1,EE,11C459F0,extended,00000008// Hammer Frame (1st Wave; Back-Middle)
 patch=1,EE,11C45A30,extended,00000008// Hammer Frame (1st Wave; Back-Right)
@@ -1461,9 +1461,30 @@ patch=1,EE,11C45FB0,extended,00000078// NeoShadow (4th Wave; Mid-Right)
 patch=1,EE,11C45FF0,extended,00000078// NeoShadow (4th Wave; Left)
 patch=1,EE,11C46030,extended,00000078// NeoShadow (4th Wave; Middle)
 patch=1,EE,11C46070,extended,00000078// NeoShadow (4th Wave; Right)
-patch=1,EE,E00200BA,extended,01C6C284// Bailey Gate HP Increase
-patch=1,EE,01C6C284,extended,000000FF
-patch=1,EE,01C6C280,extended,000000FF
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E0020233,extended,21C6C284// Bailey Gate HP Increase
+patch=1,EE,21C6C280,extended,00000233
+patch=1,EE,21C6C284,extended,00000233
+patch=1,EE,E0030001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E0020314,extended,21C6C284// Bailey Gate HP Increase
+patch=1,EE,21C6C280,extended,00000314
+patch=1,EE,21C6C284,extended,00000314
+patch=1,EE,E0030002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E0020348,extended,21C6C284// Bailey Gate HP Increase
+patch=1,EE,21C6C280,extended,00000348
+patch=1,EE,21C6C284,extended,00000348
+patch=1,EE,E0030003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E00203D7,extended,21C6C284// Bailey Gate HP Increase
+patch=1,EE,21C6C280,extended,000003D7
+patch=1,EE,21C6C284,extended,000003D7
+patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E002045D,extended,21C6C284// Bailey Gate HP Increase
+patch=1,EE,21C6C280,extended,0000045D
+patch=1,EE,21C6C284,extended,0000045D
+patch=1,EE,E0030005,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E00204EC,extended,21C6C284// Bailey Gate HP Increase
+patch=1,EE,21C6C280,extended,000004EC
+patch=1,EE,21C6C284,extended,000004EC
 //Disable Limit Form before Bailey (and during)
 patch=1,EE,E0040804,extended,0032BAE0//
 patch=1,EE,E0030001,extended,0032BAE4//
@@ -1617,7 +1638,7 @@ patch=1,EE,11C4D914,extended,00000001// Fat Bandit (3rd Wave)
 patch=1,EE,11C4DADC,extended,00000001// Fat Bandit (4th Wave)
 patch=1,EE,11C4DB1C,extended,00000001// Fat Bandit (4th Wave)
 patch=1,EE,11C4DB5C,extended,00000001// Fat Bandit (1st Wave; Back-Right)
-patch=1,EE,11C4DB9C,extended,00000012F// Large Body (1st Wave; Back-Left)
+patch=1,EE,11C4DB9C,extended,0000012F// Large Body (1st Wave; Back-Left)
 patch=1,EE,11C4DBDC,extended,0000012F// Large Body (4th Wave)
 patch=1,EE,11C4DC1C,extended,0000012F// Large Body (4th Wave)
 patch=1,EE,11C4DC5C,extended,00000078// NeoShadow (4th Wave)
@@ -1629,7 +1650,7 @@ patch=1,EE,11C4DD9C,extended,00000078// NeoShadow (4th Wave)
 //Ravine Trail Heartless 4
 patch=1,EE,E02A1004,extended,0032BAE0//
 patch=1,EE,E0290041,extended,0032BAE8//
-patch=1,EE,11C4E664,extended,00000001// Butt (Ally) -> Fat Bandit
+patch=1,EE,11C4E664,extended,00000934// Butt (Ally) -> Anti-Sora
 patch=1,EE,11C4DFC0,extended,00000132// Surveillance Bot (1st Wave; Back-Right)
 patch=1,EE,11C4E000,extended,00000078// NeoShadow (1st Wave; Mid-Left)
 patch=1,EE,11C4E040,extended,00000078// NeoShadow (1st Wave; Front-Left)
@@ -1669,22 +1690,44 @@ patch=1,EE,11C4EA08,extended,0000013E// Dusk
 patch=1,EE,11C4EA48,extended,0000013E// Dusk
 patch=1,EE,11C4EA88,extended,0000013E// Dusk
 patch=1,EE,11C4EAC8,extended,0000013E// Dusk
-patch=1,EE,11C4EB08,extended,0000013E// Dusk
+patch=1,EE,11C4EB08,extended,00000934// Anti-Sora
 //1k Heartless Required Kills 255
-patch=1,EE,E0031104,extended,0032BAE0//
-patch=1,EE,E0020042,extended,0032BAE8//
+patch=1,EE,E0041104,extended,0032BAE0//
+patch=1,EE,E0030042,extended,0032BAE8//
 patch=1,EE,11D48EE8,extended,000000FF//
 patch=1,EE,11CA7EA8,extended,00000556// Add Thrusters
+patch=1,EE,2032F074,extended,12020100// Add Dolan & Goffy
 
 //Boss Replacement
 //Demyx II
-patch=1,EE,E0060404,extended,0032BAE0//
-patch=1,EE,E0050037,extended,0032BAE8//
+patch=1,EE,E01B0404,extended,0032BAE0//
+patch=1,EE,E01A0037,extended,0032BAE8//
 patch=1,EE,11C4CE7C,extended,000008F9// Butt
 patch=1,EE,2032F074,extended,12121200// Solo Fight
-patch=1,EE,E0020218,extended,01C6C4EC// Butt's HP
-patch=1,EE,11C6C4EC,extended,000007D0// Max HP
-patch=1,EE,11C6C4E8,extended,000007D0// Current HP
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E0020218,extended,01C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000557
+patch=1,EE,21C6C4EC,extended,00000557
+patch=1,EE,E0030001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E00202A0,extended,01C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000006B2
+patch=1,EE,21C6C4EC,extended,000006B2
+patch=1,EE,E0030002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E0020320,extended,01C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000007F8
+patch=1,EE,21C6C4EC,extended,000007F8
+patch=1,EE,E0030003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E00203A8,extended,01C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000953
+patch=1,EE,21C6C4EC,extended,00000953
+patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E0020428,extended,01C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000A99
+patch=1,EE,21C6C4EC,extended,00000A99
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E00204B0,extended,01C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000BF4
+patch=1,EE,21C6C4EC,extended,00000BF4
 //Sephiroth (NPC) (This has to be Sephiroth for the RC but can be changed for goofs.)
 patch=1,EE,E0020104,extended,0032BAE0//
 patch=1,EE,E0010016,extended,0032BAE8//
