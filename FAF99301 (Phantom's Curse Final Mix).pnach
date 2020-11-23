@@ -4202,2391 +4202,2396 @@ patch=1,EE,11D1A330,extended,00000020
 //-----------------------------------------
 //        	Closed Door Timer
 //------------------------------------
-// 0032EB00 = Door Flag
-// TP 1 = 0032DF76 //Time Played 1
-// TP 2 = 0032DF74 //Time Played 2
-//  RC == 0032F200
-// P 1 == 0032F202
-// P 2 == 0032F204
-// P 3 == 0032F206
-// P 4 == 0032F208
-// P 5 == 0032F20A
-// P 6 == 0032F20C
-// P 7 == 0032F20E
-// P 8 == 0032F210
-// P 9 == 0032F212
-// P10 == 0032F214
+{
+	// 0032EB00 = Door Flag
+	// TP 1 = 0032DF76
+	// TP 2 = 0032DF74
+	//  RC == 01D19409
+	//  P1 == 01D1940A
+	//  P2 == 01D1940B
+	//  P3 == 01D1940C
+	//  P4 == 01D1940D
+	//  P5 == 01D1940E
+	//  P6 == 01D1940F
+	//  P7 == 01D19410
+	//  P8 == 01D19411
+	//  P9 == 01D19412
+	// P10 == 01D19413
 
-// Doom Clock
-// Doom Clock 1 == 0:30
-patch=1,EE,E0020001,extended,0032DF76// If TP1
-patch=1,EE,E001A5E0,extended,0032DF74// If TP2
-patch=1,EE,0032EB00,extended,00000001// Doom Clock
-// Doom Clock 2 == 1:00
-patch=1,EE,E0020003,extended,0032DF76// If TP1
-patch=1,EE,E0014BC0,extended,0032DF74// If TP2
-patch=1,EE,0032EB00,extended,00000002// Doom Clock
-// Doom Clock 3 == 1:30
-patch=1,EE,E0020004,extended,0032DF76// If TP1
-patch=1,EE,E001F1A0,extended,0032DF74// If TP2
-patch=1,EE,0032EB00,extended,00000003// Doom Clock
-// Doom Clock 4 == 2:00
-patch=1,EE,E0020006,extended,0032DF76// If TP1
-patch=1,EE,E0019780,extended,0032DF74// If TP2
-patch=1,EE,0032EB00,extended,00000004// Doom Clock
-// Doom Clock 5 == 2:30
-patch=1,EE,E0020008,extended,0032DF76// If TP1
-patch=1,EE,E0013D60,extended,0032DF74// If TP2
-patch=1,EE,0032EB00,extended,00000005// Doom Clock
-// Doom Clock 6 == 3:00
-patch=1,EE,E0020009,extended,0032DF76// If TP1
-patch=1,EE,E001E340,extended,0032DF74// If TP2
-patch=1,EE,0032EB00,extended,00000006// Doom Clock
+	//{ Doom Clock
+		// Doom Clock 1 == 0:30
+		patch=1,EE,E1020001,extended,0032DF76	// If TP1
+		patch=1,EE,E001A5E0,extended,0032DF74	// If TP2
+		patch=1,EE,0032EB00,extended,00000001	// Doom Clock
+		// Doom Clock 2 == 1:00
+		patch=1,EE,E1020003,extended,0032DF76	// If TP1
+		patch=1,EE,E0014BC0,extended,0032DF74	// If TP2
+		patch=1,EE,0032EB00,extended,00000002	// Doom Clock
+		// Doom Clock 3 == 1:30
+		patch=1,EE,E1020004,extended,0032DF76	// If TP1
+		patch=1,EE,E001F1A0,extended,0032DF74	// If TP2
+		patch=1,EE,0032EB00,extended,00000003	// Doom Clock
+		// Doom Clock 4 == 2:00
+		patch=1,EE,E1020006,extended,0032DF76	// If TP1
+		patch=1,EE,E0019780,extended,0032DF74	// If TP2
+		patch=1,EE,0032EB00,extended,00000004	// Doom Clock
+		// Doom Clock 5 == 2:30
+		patch=1,EE,E1020008,extended,0032DF76	// If TP1
+		patch=1,EE,E0013D60,extended,0032DF74	// If TP2
+		patch=1,EE,0032EB00,extended,00000005	// Doom Clock
+		// Doom Clock 6 == 3:00
+		patch=1,EE,E1020009,extended,0032DF76	// If TP1
+		patch=1,EE,E001E340,extended,0032DF74	// If TP2
+		patch=1,EE,0032EB00,extended,00000006	// Doom Clock
+	//}
 
-// Doom Counter == 0
-patch=1,EE,E00E0000,extended,0032EB00//DC = 0
-patch=1,EE,E00D1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C3// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C3// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C3// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C3// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C3// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C3// Twilight Town Door
-patch=1,EE,11C5A5F4,extended,000009C3// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C3// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C3// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C3// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C3// Beast's Castle Door
-patch=1,EE,11C5A4B4,extended,000009C3// Land of Dragons Door
-patch=1,EE,11C5A474,extended,000009C3// TWTNW Door
+	//{ All doors open
+		patch=1,EE,E00E1A04,extended,0032BAE0	// In GoA
+		patch=1,EE,E00D0000,extended,0032EB00   // IF Doom == 0x00
+		patch=1,EE,11C5A774,extended,000009C3	// Data Twilight Town Door
+		patch=1,EE,11C5A734,extended,000009C3	// Space Paranoids Door
+		patch=1,EE,11C5A6F4,extended,000009C3	// Disney Castle Door
+		patch=1,EE,11C5A6B4,extended,000009C3	// Port Royal Door
+		patch=1,EE,11C5A674,extended,000009C3	// Hollow Bastion Door
+		patch=1,EE,11C5A634,extended,000009C3	// Twilight Town Door
+		patch=1,EE,11C5A5F4,extended,000009C3	// Pride Lands Door
+		patch=1,EE,11C5A5B4,extended,000009C3	// Olympus Coliseum Door
+		patch=1,EE,11C5A574,extended,000009C3	// Agrabah Door
+		patch=1,EE,11C5A534,extended,000009C3	// Halloween Town Door
+		patch=1,EE,11C5A4F4,extended,000009C3	// Beast's Castle Door
+		patch=1,EE,11C5A4B4,extended,000009C3	// Land of Dragons Door
+		patch=1,EE,11C5A474,extended,000009C3	// TWTNW Door
+	//}
 
-//{ Rolling Counter
-	patch=1,EE,E001000D,extended,1032F200 // IF RC != 0x0D
-	patch=1,EE,30000001,extended,0032F200 // RC++
-	patch=1,EE,E001000D,extended,0032F200 // IF RC == 0x0D
-	patch=1,EE,0032F200,extended,00000000 // RC == 0x00
-//}
-//{ Set P1
-	patch=1,EE,E0030001,extended,0032EB00 // IF Doom == 0x01
-	patch=1,EE,E0020000,extended,0032F202 // IF P1 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F202,extended,00000000 // to P1
-//}
-//{ Set P2
-	patch=1,EE,E0030002,extended,0032EB00 // IF Doom == 0x02
-	patch=1,EE,E0020000,extended,0032F204 // IF P2 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F204,extended,00000000 // to P2
-	patch=1,EE,E0020001,extended,0032F202 // IF P2 == P1
-	patch=1,EE,E0010001,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F204
-	patch=1,EE,0032F204,extended,00000000
-//}
-//{ Set P3
-	patch=1,EE,E0030003,extended,0032EB00 // IF Doom == 0x03
-	patch=1,EE,E0020000,extended,0032F206 // IF P3 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F206,extended,00000000 // to P3
-	patch=1,EE,E0020001,extended,0032F202 // IF P3 == P1
-	patch=1,EE,E0010001,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P3 == P2
-	patch=1,EE,E0010001,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F206
-	patch=1,EE,0032F206,extended,00000000
-//}
-//{ Set P4
-	patch=1,EE,E0030003,extended,0032EB00 // IF Doom == 0x03
-	patch=1,EE,E0020000,extended,0032F208 // IF P4 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F208,extended,00000000 // to P4
-	patch=1,EE,E0020001,extended,0032F202 // IF P4 == P1
-	patch=1,EE,E0010001,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P4 == P2
-	patch=1,EE,E0010001,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P4 == P3
-	patch=1,EE,E0010001,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F208
-	patch=1,EE,0032F208,extended,00000000
-//}
-//{ Set P5
-	patch=1,EE,E0030004,extended,0032EB00 // IF Doom == 0x04
-	patch=1,EE,E0020000,extended,0032F20A // IF P5 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F20A,extended,00000000 // to P5
-	patch=1,EE,E0020001,extended,0032F202 // IF P5 == P1
-	patch=1,EE,E0010001,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P5 == P2
-	patch=1,EE,E0010001,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P5 == P3
-	patch=1,EE,E0010001,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020001,extended,0032F208 // IF P5 == P4
-	patch=1,EE,E0010001,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020002,extended,0032F208
-	patch=1,EE,E0010002,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020003,extended,0032F208
-	patch=1,EE,E0010003,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020004,extended,0032F208
-	patch=1,EE,E0010004,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020005,extended,0032F208
-	patch=1,EE,E0010005,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020006,extended,0032F208
-	patch=1,EE,E0010006,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020007,extended,0032F208
-	patch=1,EE,E0010007,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020008,extended,0032F208
-	patch=1,EE,E0010008,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E0020009,extended,0032F208
-	patch=1,EE,E0010009,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000A,extended,0032F208
-	patch=1,EE,E001000A,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000B,extended,0032F208
-	patch=1,EE,E001000B,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-	patch=1,EE,E002000C,extended,0032F208
-	patch=1,EE,E001000C,extended,0032F20A
-	patch=1,EE,0032F20A,extended,00000000
-//}
-//{ Set P6
-	patch=1,EE,E0030004,extended,0032EB00 // IF Doom == 0x04
-	patch=1,EE,E0020000,extended,0032F20C // IF P6 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F20C,extended,00000000 // to P6
-	patch=1,EE,E0020001,extended,0032F202 // IF P6 == P1
-	patch=1,EE,E0010001,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P6 == P2
-	patch=1,EE,E0010001,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P6 == P3
-	patch=1,EE,E0010001,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020001,extended,0032F208 // IF P6 == P4
-	patch=1,EE,E0010001,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020002,extended,0032F208
-	patch=1,EE,E0010002,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020003,extended,0032F208
-	patch=1,EE,E0010003,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020004,extended,0032F208
-	patch=1,EE,E0010004,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020005,extended,0032F208
-	patch=1,EE,E0010005,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020006,extended,0032F208
-	patch=1,EE,E0010006,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020007,extended,0032F208
-	patch=1,EE,E0010007,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020008,extended,0032F208
-	patch=1,EE,E0010008,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020009,extended,0032F208
-	patch=1,EE,E0010009,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000A,extended,0032F208
-	patch=1,EE,E001000A,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000B,extended,0032F208
-	patch=1,EE,E001000B,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000C,extended,0032F208
-	patch=1,EE,E001000C,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20A // IF P6 == P5
-	patch=1,EE,E0010001,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20A
-	patch=1,EE,E0010002,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20A
-	patch=1,EE,E0010003,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20A
-	patch=1,EE,E0010004,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20A
-	patch=1,EE,E0010005,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20A
-	patch=1,EE,E0010006,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20A
-	patch=1,EE,E0010007,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20A
-	patch=1,EE,E0010008,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20A
-	patch=1,EE,E0010009,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20A
-	patch=1,EE,E001000A,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20A
-	patch=1,EE,E001000B,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20A
-	patch=1,EE,E001000C,extended,0032F20C
-	patch=1,EE,0032F20C,extended,00000000
-//}
-//{ Set P7
-	patch=1,EE,E0030005,extended,0032EB00 // IF Doom == 0x05
-	patch=1,EE,E0020000,extended,0032F20E // IF P7 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F20E,extended,00000000 // to P7
-	patch=1,EE,E0020001,extended,0032F202 // IF P7 == P1
-	patch=1,EE,E0010001,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P7 == P2
-	patch=1,EE,E0010001,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P7 == P3
-	patch=1,EE,E0010001,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020001,extended,0032F208 // IF P7 == P4
-	patch=1,EE,E0010001,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020002,extended,0032F208
-	patch=1,EE,E0010002,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020003,extended,0032F208
-	patch=1,EE,E0010003,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020004,extended,0032F208
-	patch=1,EE,E0010004,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020005,extended,0032F208
-	patch=1,EE,E0010005,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020006,extended,0032F208
-	patch=1,EE,E0010006,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020007,extended,0032F208
-	patch=1,EE,E0010007,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020008,extended,0032F208
-	patch=1,EE,E0010008,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020009,extended,0032F208
-	patch=1,EE,E0010009,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000A,extended,0032F208
-	patch=1,EE,E001000A,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000B,extended,0032F208
-	patch=1,EE,E001000B,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000C,extended,0032F208
-	patch=1,EE,E001000C,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20A // IF P7 == P5
-	patch=1,EE,E0010001,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20A
-	patch=1,EE,E0010002,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20A
-	patch=1,EE,E0010003,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20A
-	patch=1,EE,E0010004,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20A
-	patch=1,EE,E0010005,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20A
-	patch=1,EE,E0010006,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20A
-	patch=1,EE,E0010007,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20A
-	patch=1,EE,E0010008,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20A
-	patch=1,EE,E0010009,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20A
-	patch=1,EE,E001000A,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20A
-	patch=1,EE,E001000B,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20A
-	patch=1,EE,E001000C,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20C // IF P7 == P6
-	patch=1,EE,E0010001,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20C
-	patch=1,EE,E0010002,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20C
-	patch=1,EE,E0010003,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20C
-	patch=1,EE,E0010004,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20C
-	patch=1,EE,E0010005,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20C
-	patch=1,EE,E0010006,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20C
-	patch=1,EE,E0010007,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20C
-	patch=1,EE,E0010008,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20C
-	patch=1,EE,E0010009,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20C
-	patch=1,EE,E001000A,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20C
-	patch=1,EE,E001000B,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20C
-	patch=1,EE,E001000C,extended,0032F20E
-	patch=1,EE,0032F20E,extended,00000000
-//}
-//{ Set P8
-	patch=1,EE,E0030005,extended,0032EB00 // IF Doom == 0x05
-	patch=1,EE,E0020000,extended,0032F210 // IF P8 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F210,extended,00000000 // to P8
-	patch=1,EE,E0020001,extended,0032F202 // IF P8 == P1
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P8 == P2
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P8 == P3
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020001,extended,0032F208 // IF P8 == P4
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F208
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F208
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F208
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F208
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F208
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F208
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F208
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F208
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F208
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F208
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F208
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20A // IF P8 == P5
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20A
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20A
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20A
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20A
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20A
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20A
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20A
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20A
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20A
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20A
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20A
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20C // IF P8 == P6
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20C
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20C
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20C
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20C
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20C
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20C
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20C
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20C
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20C
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20C
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20C
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20E // IF P8 == P7
-	patch=1,EE,E0010001,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20E
-	patch=1,EE,E0010002,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20E
-	patch=1,EE,E0010003,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20E
-	patch=1,EE,E0010004,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20E
-	patch=1,EE,E0010005,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20E
-	patch=1,EE,E0010006,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20E
-	patch=1,EE,E0010007,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20E
-	patch=1,EE,E0010008,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20E
-	patch=1,EE,E0010009,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20E
-	patch=1,EE,E001000A,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20E
-	patch=1,EE,E001000B,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20E
-	patch=1,EE,E001000C,extended,0032F210
-	patch=1,EE,0032F210,extended,00000000
-//}
-//{ Set P9
-	patch=1,EE,E0030005,extended,0032EB00 // IF Doom == 0x05
-	patch=1,EE,E0020000,extended,0032F212 // IF P9 == 0x00
-	patch=1,EE,5032F200,extended,00000001 // Copy RC
-	patch=1,EE,0032F212,extended,00000000 // to P9
-	patch=1,EE,E0020001,extended,0032F202 // IF P9 == P1
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P9 == P2
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P9 == P3
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F208 // IF P9 == P4
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F208
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F208
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F208
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F208
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F208
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F208
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F208
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F208
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F208
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F208
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F208
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20A // IF P9 == P5
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20A
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20A
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20A
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20A
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20A
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20A
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20A
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20A
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20A
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20A
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20A
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20C // IF P9 == P6
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20C
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20C
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20C
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20C
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20C
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20C
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20C
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20C
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20C
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20C
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20C
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20E // IF P9 == P7
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20E
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20E
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20E
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20E
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20E
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20E
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20E
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20E
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20E
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20E
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20E
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020001,extended,0032F210 // IF P9 == P8
-	patch=1,EE,E0010001,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020002,extended,0032F210
-	patch=1,EE,E0010002,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020003,extended,0032F210
-	patch=1,EE,E0010003,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020004,extended,0032F210
-	patch=1,EE,E0010004,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020005,extended,0032F210
-	patch=1,EE,E0010005,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020006,extended,0032F210
-	patch=1,EE,E0010006,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020007,extended,0032F210
-	patch=1,EE,E0010007,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020008,extended,0032F210
-	patch=1,EE,E0010008,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E0020009,extended,0032F210
-	patch=1,EE,E0010009,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000A,extended,0032F210
-	patch=1,EE,E001000A,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000B,extended,0032F210
-	patch=1,EE,E001000B,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-	patch=1,EE,E002000C,extended,0032F210
-	patch=1,EE,E001000C,extended,0032F212
-	patch=1,EE,0032F212,extended,00000000
-//}
-//{ Set P10
-	patch=1,EE,E0030005,extended,0032EB00 // IF Doom == 0x05
-	patch=1,EE,E0020000,extended,0032F214 // IF P10 == 0x00
-	patch=1,EE,5032F200S,extended,00000001 // Copy RC
-	patch=1,EE,0032F214,extended,00000000 // to P10
-	patch=1,EE,E0020001,extended,0032F202 // IF P10 == P1
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F202
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F202
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F202
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F202
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F202
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F202
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F202
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F202
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F202
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F202
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F202
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F204 // IF P10 == P2
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F204
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F204
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F204
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F204
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F204
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F204
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F204
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F204
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F204
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F204
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F204
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F206 // IF P10 == P3
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F206
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F206
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F206
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F206
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F206
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F206
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F206
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F206
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F206
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F206
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F206
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F208 // IF P10 == P4
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F208
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F208
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F208
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F208
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F208
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F208
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F208
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F208
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F208
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F208
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F208
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20A // IF P10 == P5
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20A
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20A
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20A
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20A
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20A
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20A
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20A
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20A
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20A
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20A
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20A
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20C // IF P10 == P6
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20C
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20C
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20C
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20C
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20C
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20C
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20C
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20C
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20C
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20C
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20C
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F20E // IF P10 == P7
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F20E
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F20E
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F20E
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F20E
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F20E
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F20E
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F20E
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F20E
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F20E
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F20E
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F20E
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F210 // IF P10 == P8
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F210
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F210
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F210
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F210
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F210
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F210
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F210
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F210
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F210
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F210
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F210
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020001,extended,0032F212 // IF P10 == P9
-	patch=1,EE,E0010001,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020002,extended,0032F212
-	patch=1,EE,E0010002,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020003,extended,0032F212
-	patch=1,EE,E0010003,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020004,extended,0032F212
-	patch=1,EE,E0010004,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020005,extended,0032F212
-	patch=1,EE,E0010005,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020006,extended,0032F212
-	patch=1,EE,E0010006,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020007,extended,0032F212
-	patch=1,EE,E0010007,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020008,extended,0032F212
-	patch=1,EE,E0010008,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E0020009,extended,0032F212
-	patch=1,EE,E0010009,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000A,extended,0032F212
-	patch=1,EE,E001000A,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000B,extended,0032F212
-	patch=1,EE,E001000B,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-	patch=1,EE,E002000C,extended,0032F212
-	patch=1,EE,E001000C,extended,0032F214
-	patch=1,EE,0032F214,extended,00000000
-//}
+	//{ Rolling Counter
+		patch=1,EE,E101000D,extended,11D19409 	// IF RC != 0x0D
+		patch=1,EE,30000001,extended,01D19409 	// RC++
+		patch=1,EE,E101000D,extended,01D19409 	// IF RC == 0x0D
+		patch=1,EE,01D19409,extended,00000000 	// RC == 0x00
+	//}
+	//{ Set P1
+		patch=1,EE,E1030001,extended,0032EB00 	// IF Doom == 0x01
+		patch=1,EE,E1020000,extended,01D1940A 	// IF P1 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D1940A,extended,00000000 	// to P1
+	//}
+	//{ Set P2
+		patch=1,EE,E1030002,extended,0032EB00 	// IF Doom == 0x02
+		patch=1,EE,E1020000,extended,01D1940B 	// IF P2 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D1940B,extended,00000000 	// to P2
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P2 == P1
+		patch=1,EE,E1010001,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D1940B
+		patch=1,EE,01D1940B,extended,00000000
+	//}
+	//{ Set P3
+		patch=1,EE,E1030003,extended,0032EB00 	// IF Doom == 0x03
+		patch=1,EE,E1020000,extended,01D1940C 	// IF P3 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D1940C,extended,00000000 	// to P3
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P3 == P1
+		patch=1,EE,E1010001,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P3 == P2
+		patch=1,EE,E1010001,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D1940C
+		patch=1,EE,01D1940C,extended,00000000
+	//}
+	//{ Set P4
+		patch=1,EE,E1030003,extended,0032EB00 	// IF Doom == 0x03
+		patch=1,EE,E1020000,extended,01D1940D 	// IF P4 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D1940D,extended,00000000 	// to P4
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P4 == P1
+		patch=1,EE,E1010001,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P4 == P2
+		patch=1,EE,E1010001,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P4 == P3
+		patch=1,EE,E1010001,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D1940D
+		patch=1,EE,01D1940D,extended,00000000
+	//}
+	//{ Set P5
+		patch=1,EE,E1030004,extended,0032EB00 	// IF Doom == 0x04
+		patch=1,EE,E1020000,extended,01D1940E 	// IF P5 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D1940E,extended,00000000 	// to P5
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P5 == P1
+		patch=1,EE,E1010001,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P5 == P2
+		patch=1,EE,E1010001,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P5 == P3
+		patch=1,EE,E1010001,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940D 	// IF P5 == P4
+		patch=1,EE,E1010001,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940D
+		patch=1,EE,E1010002,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940D
+		patch=1,EE,E1010003,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940D
+		patch=1,EE,E1010004,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940D
+		patch=1,EE,E1010005,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940D
+		patch=1,EE,E1010006,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940D
+		patch=1,EE,E1010007,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940D
+		patch=1,EE,E1010008,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940D
+		patch=1,EE,E1010009,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940D
+		patch=1,EE,E101000A,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940D
+		patch=1,EE,E101000B,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940D
+		patch=1,EE,E101000C,extended,01D1940E
+		patch=1,EE,01D1940E,extended,00000000
+	//}
+	//{ Set P6
+		patch=1,EE,E1030004,extended,0032EB00 	// IF Doom == 0x04
+		patch=1,EE,E1020000,extended,01D1940F 	// IF P6 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D1940F,extended,00000000 	// to P6
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P6 == P1
+		patch=1,EE,E1010001,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P6 == P2
+		patch=1,EE,E1010001,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P6 == P3
+		patch=1,EE,E1010001,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940D 	// IF P6 == P4
+		patch=1,EE,E1010001,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940D
+		patch=1,EE,E1010002,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940D
+		patch=1,EE,E1010003,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940D
+		patch=1,EE,E1010004,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940D
+		patch=1,EE,E1010005,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940D
+		patch=1,EE,E1010006,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940D
+		patch=1,EE,E1010007,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940D
+		patch=1,EE,E1010008,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940D
+		patch=1,EE,E1010009,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940D
+		patch=1,EE,E101000A,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940D
+		patch=1,EE,E101000B,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940D
+		patch=1,EE,E101000C,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940E 	// IF P6 == P5
+		patch=1,EE,E1010001,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940E
+		patch=1,EE,E1010002,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940E
+		patch=1,EE,E1010003,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940E
+		patch=1,EE,E1010004,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940E
+		patch=1,EE,E1010005,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940E
+		patch=1,EE,E1010006,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940E
+		patch=1,EE,E1010007,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940E
+		patch=1,EE,E1010008,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940E
+		patch=1,EE,E1010009,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940E
+		patch=1,EE,E101000A,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940E
+		patch=1,EE,E101000B,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940E
+		patch=1,EE,E101000C,extended,01D1940F
+		patch=1,EE,01D1940F,extended,00000000
+	//}
+	//{ Set P7
+		patch=1,EE,E1030005,extended,0032EB00 	// IF Doom == 0x05
+		patch=1,EE,E1020000,extended,01D19410 	// IF P7 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D19410,extended,00000000 	// to P7
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P7 == P1
+		patch=1,EE,E1010001,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P7 == P2
+		patch=1,EE,E1010001,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P7 == P3
+		patch=1,EE,E1010001,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940D 	// IF P7 == P4
+		patch=1,EE,E1010001,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940D
+		patch=1,EE,E1010002,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940D
+		patch=1,EE,E1010003,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940D
+		patch=1,EE,E1010004,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940D
+		patch=1,EE,E1010005,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940D
+		patch=1,EE,E1010006,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940D
+		patch=1,EE,E1010007,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940D
+		patch=1,EE,E1010008,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940D
+		patch=1,EE,E1010009,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940D
+		patch=1,EE,E101000A,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940D
+		patch=1,EE,E101000B,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940D
+		patch=1,EE,E101000C,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940E 	// IF P7 == P5
+		patch=1,EE,E1010001,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940E
+		patch=1,EE,E1010002,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940E
+		patch=1,EE,E1010003,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940E
+		patch=1,EE,E1010004,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940E
+		patch=1,EE,E1010005,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940E
+		patch=1,EE,E1010006,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940E
+		patch=1,EE,E1010007,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940E
+		patch=1,EE,E1010008,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940E
+		patch=1,EE,E1010009,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940E
+		patch=1,EE,E101000A,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940E
+		patch=1,EE,E101000B,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940E
+		patch=1,EE,E101000C,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940F 	// IF P7 == P6
+		patch=1,EE,E1010001,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940F
+		patch=1,EE,E1010002,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940F
+		patch=1,EE,E1010003,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940F
+		patch=1,EE,E1010004,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940F
+		patch=1,EE,E1010005,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940F
+		patch=1,EE,E1010006,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940F
+		patch=1,EE,E1010007,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940F
+		patch=1,EE,E1010008,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940F
+		patch=1,EE,E1010009,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940F
+		patch=1,EE,E101000A,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940F
+		patch=1,EE,E101000B,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940F
+		patch=1,EE,E101000C,extended,01D19410
+		patch=1,EE,01D19410,extended,00000000
+	//}
+	//{ Set P8
+		patch=1,EE,E1030005,extended,0032EB00 	// IF Doom == 0x05
+		patch=1,EE,E1020000,extended,01D19411 	// IF P8 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D19411,extended,00000000 	// to P8
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P8 == P1
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P8 == P2
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P8 == P3
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940D 	// IF P8 == P4
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940D
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940D
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940D
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940D
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940D
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940D
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940D
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940D
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940D
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940D
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940D
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940E 	// IF P8 == P5
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940E
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940E
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940E
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940E
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940E
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940E
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940E
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940E
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940E
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940E
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940E
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940F 	// IF P8 == P6
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940F
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940F
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940F
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940F
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940F
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940F
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940F
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940F
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940F
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940F
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940F
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020001,extended,01D19410 	// IF P8 == P7
+		patch=1,EE,E1010001,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020002,extended,01D19410
+		patch=1,EE,E1010002,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020003,extended,01D19410
+		patch=1,EE,E1010003,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020004,extended,01D19410
+		patch=1,EE,E1010004,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020005,extended,01D19410
+		patch=1,EE,E1010005,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020006,extended,01D19410
+		patch=1,EE,E1010006,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020007,extended,01D19410
+		patch=1,EE,E1010007,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020008,extended,01D19410
+		patch=1,EE,E1010008,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E1020009,extended,01D19410
+		patch=1,EE,E1010009,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000A,extended,01D19410
+		patch=1,EE,E101000A,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000B,extended,01D19410
+		patch=1,EE,E101000B,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+		patch=1,EE,E102000C,extended,01D19410
+		patch=1,EE,E101000C,extended,01D19411
+		patch=1,EE,01D19411,extended,00000000
+	//}
+	//{ Set P9
+		patch=1,EE,E1030005,extended,0032EB00 	// IF Doom == 0x05
+		patch=1,EE,E1020000,extended,01D19412 	// IF P9 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D19412,extended,00000000 	// to P9
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P9 == P1
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P9 == P2
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P9 == P3
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940D 	// IF P9 == P4
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940D
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940D
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940D
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940D
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940D
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940D
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940D
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940D
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940D
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940D
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940D
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940E 	// IF P9 == P5
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940E
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940E
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940E
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940E
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940E
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940E
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940E
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940E
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940E
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940E
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940E
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940F 	// IF P9 == P6
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940F
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940F
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940F
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940F
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940F
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940F
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940F
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940F
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940F
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940F
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940F
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D19410 	// IF P9 == P7
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D19410
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D19410
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D19410
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D19410
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D19410
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D19410
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D19410
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D19410
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D19410
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D19410
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D19410
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020001,extended,01D19411 	// IF P9 == P8
+		patch=1,EE,E1010001,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020002,extended,01D19411
+		patch=1,EE,E1010002,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020003,extended,01D19411
+		patch=1,EE,E1010003,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020004,extended,01D19411
+		patch=1,EE,E1010004,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020005,extended,01D19411
+		patch=1,EE,E1010005,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020006,extended,01D19411
+		patch=1,EE,E1010006,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020007,extended,01D19411
+		patch=1,EE,E1010007,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020008,extended,01D19411
+		patch=1,EE,E1010008,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E1020009,extended,01D19411
+		patch=1,EE,E1010009,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000A,extended,01D19411
+		patch=1,EE,E101000A,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000B,extended,01D19411
+		patch=1,EE,E101000B,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+		patch=1,EE,E102000C,extended,01D19411
+		patch=1,EE,E101000C,extended,01D19412
+		patch=1,EE,01D19412,extended,00000000
+	//}
+	//{ Set P10
+		patch=1,EE,E1030005,extended,0032EB00 	// IF Doom == 0x05
+		patch=1,EE,E1020000,extended,01D19413 	// IF P10 == 0x00
+		patch=1,EE,51D19409,extended,00000001 	// Copy RC
+		patch=1,EE,01D19413,extended,00000000 	// to P10
+		patch=1,EE,E1020001,extended,01D1940A 	// IF P10 == P1
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940A
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940A
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940A
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940A
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940A
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940A
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940A
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940A
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940A
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940A
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940A
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940B 	// IF P10 == P2
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940B
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940B
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940B
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940B
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940B
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940B
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940B
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940B
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940B
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940B
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940B
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940C 	// IF P10 == P3
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940C
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940C
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940C
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940C
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940C
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940C
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940C
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940C
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940C
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940C
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940C
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940D 	// IF P10 == P4
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940D
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940D
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940D
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940D
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940D
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940D
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940D
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940D
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940D
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940D
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940D
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940E 	// IF P10 == P5
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940E
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940E
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940E
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940E
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940E
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940E
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940E
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940E
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940E
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940E
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940E
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D1940F 	// IF P10 == P6
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D1940F
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D1940F
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D1940F
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D1940F
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D1940F
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D1940F
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D1940F
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D1940F
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D1940F
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D1940F
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D1940F
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D19410 	// IF P10 == P7
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D19410
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D19410
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D19410
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D19410
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D19410
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D19410
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D19410
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D19410
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D19410
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D19410
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D19410
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D19411 	// IF P10 == P8
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D19411
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D19411
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D19411
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D19411
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D19411
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D19411
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D19411
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D19411
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D19411
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D19411
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D19411
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020001,extended,01D19412 	// IF P10 == P9
+		patch=1,EE,E1010001,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020002,extended,01D19412
+		patch=1,EE,E1010002,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020003,extended,01D19412
+		patch=1,EE,E1010003,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020004,extended,01D19412
+		patch=1,EE,E1010004,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020005,extended,01D19412
+		patch=1,EE,E1010005,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020006,extended,01D19412
+		patch=1,EE,E1010006,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020007,extended,01D19412
+		patch=1,EE,E1010007,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020008,extended,01D19412
+		patch=1,EE,E1010008,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E1020009,extended,01D19412
+		patch=1,EE,E1010009,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000A,extended,01D19412
+		patch=1,EE,E101000A,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000B,extended,01D19412
+		patch=1,EE,E101000B,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+		patch=1,EE,E102000C,extended,01D19412
+		patch=1,EE,E101000C,extended,01D19413
+		patch=1,EE,01D19413,extended,00000000
+	//}
 
-//{ Lock STT
-	//{ P1
-		patch=1,EE,E0020001,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
+	//{ Lock STT
+		//{ P1
+			patch=1,EE,E1020001,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020001,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020001,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020001,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020001,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020001,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020001,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020001,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020001,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020001,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A774,extended,000009C1
+		//}
+	//}
+	//{ Lock SP
+		//{ P1
+			patch=1,EE,E1020002,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020002,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020002,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020002,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020002,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020002,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020002,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020002,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020002,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020002,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A734,extended,000009C1
+		//}
+	//}
+	//{ Lock DC
+		//{ P1
+			patch=1,EE,E1020003,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020003,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020003,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020003,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020003,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020003,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020003,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020003,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020003,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020003,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6F4,extended,000009C1
+		//}
+	//}
+	//{ Lock PR
+		//{ P1
+			patch=1,EE,E1020004,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020004,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020004,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020004,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020004,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020004,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020004,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020004,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020004,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020004,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A6B4,extended,000009C1
+		//}
+	//}
+	//{ Lock HB
+		//{ P1
+			patch=1,EE,E1020005,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020005,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020005,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020005,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020005,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020005,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020005,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020005,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020005,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020005,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A674,extended,000009C1
+		//}
+	//}
+	//{ Lock TT
+		//{ P1
+			patch=1,EE,E1020006,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020006,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020006,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020006,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020006,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020006,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020006,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020006,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020006,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020006,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A634,extended,000009C1
+		//}
+	//}
+	//{ Lock PL
+		//{ P1
+			patch=1,EE,E1020007,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020007,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020007,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020007,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020007,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020007,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020007,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020007,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020007,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020007,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5F4,extended,000009C1
+		//}
+	//}
+	//{ Lock OC
+		//{ P1
+			patch=1,EE,E1020008,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020008,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020008,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020008,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020008,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020008,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020008,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020008,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020008,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020008,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A5B4,extended,000009C1
+		//}
+	//}
+	//{ Lock AG
+		//{ P1
+			patch=1,EE,E1020009,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E1020009,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E1020009,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E1020009,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E1020009,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E1020009,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E1020009,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E1020009,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E1020009,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E1020009,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A574,extended,000009C1
+		//}
+	//}
+	//{ Lock HT
+		//{ P1
+			patch=1,EE,E102000A,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E102000A,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E102000A,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E102000A,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E102000A,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E102000A,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E102000A,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E102000A,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E102000A,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E102000A,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A534,extended,000009C1
+		//}
+	//}
+	//{ Lock BC
+		//{ P1
+			patch=1,EE,E102000B,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E102000B,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E102000B,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E102000B,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E102000B,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E102000B,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E102000B,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E102000B,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E102000B,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E102000B,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4F4,extended,000009C1
+		//}
+	//}
+	//{ Lock LoD
+		//{ P1
+			patch=1,EE,E102000C,extended,01D1940A
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P2
+			patch=1,EE,E102000C,extended,01D1940B
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P3
+			patch=1,EE,E102000C,extended,01D1940C
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P4
+			patch=1,EE,E102000C,extended,01D1940D
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P5
+			patch=1,EE,E102000C,extended,01D1940E
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P6
+			patch=1,EE,E102000C,extended,01D1940F
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P7
+			patch=1,EE,E102000C,extended,01D19410
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P8
+			patch=1,EE,E102000C,extended,01D19411
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P9
+			patch=1,EE,E102000C,extended,01D19412
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
+		//{ P10
+			patch=1,EE,E102000C,extended,01D19413
+			patch=1,EE,E0011A04,extended,0032BAE0
+			patch=1,EE,11C5A4B4,extended,000009C1
+		//}
 	//}
-	//{ P2
-		patch=1,EE,E0020001,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020001,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020001,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020001,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020001,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020001,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020001,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020001,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020001,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A774,extended,000009C1
-	//}
-//}
-//{ Lock SP
-	//{ P1
-		patch=1,EE,E0020002,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020002,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020002,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020002,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020002,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020002,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020002,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020002,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020002,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020002,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A734,extended,000009C1
-	//}
-//}
-//{ Lock DC
-	//{ P1
-		patch=1,EE,E0020003,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020003,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020003,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020003,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020003,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020003,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020003,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020003,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020003,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020003,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6F4,extended,000009C1
-	//}
-//}
-//{ Lock PR
-	//{ P1
-		patch=1,EE,E0020004,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020004,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020004,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020004,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020004,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020004,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020004,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020004,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020004,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020004,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A6B4,extended,000009C1
-	//}
-//}
-//{ Lock HB
-	//{ P1
-		patch=1,EE,E0020005,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020005,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020005,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020005,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020005,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020005,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020005,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020005,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020005,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020005,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A674,extended,000009C1
-	//}
-//}
-//{ Lock TT
-	//{ P1
-		patch=1,EE,E0020006,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020006,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020006,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020006,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020006,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020006,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020006,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020006,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020006,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020006,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A634,extended,000009C1
-	//}
-//}
-//{ Lock PL
-	//{ P1
-		patch=1,EE,E0020007,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020007,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020007,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020007,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020007,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020007,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020007,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020007,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020007,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020007,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5F4,extended,000009C1
-	//}
-//}
-//{ Lock OC
-	//{ P1
-		patch=1,EE,E0020008,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020008,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020008,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020008,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020008,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020008,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020008,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020008,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020008,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020008,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A5B4,extended,000009C1
-	//}
-//}
-//{ Lock AG
-	//{ P1
-		patch=1,EE,E0020009,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E0020009,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E0020009,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E0020009,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E0020009,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E0020009,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E0020009,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E0020009,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E0020009,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E0020009,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A574,extended,000009C1
-	//}
-//}
-//{ Lock HT
-	//{ P1
-		patch=1,EE,E002000A,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E002000A,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E002000A,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E002000A,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E002000A,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E002000A,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E002000A,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E002000A,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E002000A,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E002000A,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A534,extended,000009C1
-	//}
-//}
-//{ Lock BC
-	//{ P1
-		patch=1,EE,E002000B,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E002000B,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E002000B,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E002000B,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E002000B,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E002000B,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E002000B,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E002000B,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E002000B,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E002000B,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4F4,extended,000009C1
-	//}
-//}
-//{ Lock LoD
-	//{ P1
-		patch=1,EE,E002000C,extended,0032F202
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P2
-		patch=1,EE,E002000C,extended,0032F204
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P3
-		patch=1,EE,E002000C,extended,0032F206
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P4
-		patch=1,EE,E002000C,extended,0032F208
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P5
-		patch=1,EE,E002000C,extended,0032F20A
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P6
-		patch=1,EE,E002000C,extended,0032F20C
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P7
-		patch=1,EE,E002000C,extended,0032F20E
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P8
-		patch=1,EE,E002000C,extended,0032F210
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P9
-		patch=1,EE,E002000C,extended,0032F212
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-	//{ P10
-		patch=1,EE,E002000C,extended,0032F214
-		patch=1,EE,E00D1A04,extended,0032BAE0
-		patch=1,EE,11C5A4B4,extended,000009C1
-	//}
-//}
 
-// Doom Counter == 6
-patch=1,EE,E00D0006,extended,0032EB00// DC = 6
-patch=1,EE,E00C1A04,extended,0032BAE0// In GoA
-patch=1,EE,11C5A774,extended,000009C1// Data Twilight Town Door
-patch=1,EE,11C5A734,extended,000009C1// Space Paranoids Door
-patch=1,EE,11C5A6F4,extended,000009C1// Disney Castle Door
-patch=1,EE,11C5A6B4,extended,000009C1// Port Royal Door
-patch=1,EE,11C5A674,extended,000009C1// Hollow Bastion Door
-patch=1,EE,11C5A634,extended,000009C1// Twilight Town Door
-patch=1,EE,11C5A5F4,extended,000009C1// Pride Lands Door
-patch=1,EE,11C5A5B4,extended,000009C1// Olympus Coliseum Door
-patch=1,EE,11C5A574,extended,000009C1// Agrabah Door
-patch=1,EE,11C5A534,extended,000009C1// Halloween Town Door
-patch=1,EE,11C5A4F4,extended,000009C1// Beast's Castle Door
-patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
+	//{ Doom Counter == 6
+		patch=1,EE,E00D0006,extended,0032EB00	// IF Doom == 0x06
+		patch=1,EE,E00C1A04,extended,0032BAE0	// In GoA
+		patch=1,EE,11C5A774,extended,000009C1	// Data Twilight Town Door
+		patch=1,EE,11C5A734,extended,000009C1	// Space Paranoids Door
+		patch=1,EE,11C5A6F4,extended,000009C1	// Disney Castle Door
+		patch=1,EE,11C5A6B4,extended,000009C1	// Port Royal Door
+		patch=1,EE,11C5A674,extended,000009C1	// Hollow Bastion Door
+		patch=1,EE,11C5A634,extended,000009C1	// Twilight Town Door
+		patch=1,EE,11C5A5F4,extended,000009C1	// Pride Lands Door
+		patch=1,EE,11C5A5B4,extended,000009C1	// Olympus Coliseum Door
+		patch=1,EE,11C5A574,extended,000009C1	// Agrabah Door
+		patch=1,EE,11C5A534,extended,000009C1	// Halloween Town Door
+		patch=1,EE,11C5A4F4,extended,000009C1	// Beast's Castle Door
+		patch=1,EE,11C5A4B4,extended,000009C1	// Land of Dragons Door
+	//}
+//}
 
 //-----------------------------------------
 //                Debug Codes
