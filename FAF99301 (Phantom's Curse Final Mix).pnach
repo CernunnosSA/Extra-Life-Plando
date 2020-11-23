@@ -6596,14 +6596,12 @@ patch=1,EE,11D1A330,extended,00000020
 //-----------------------------------------
 //                Debug Codes
 //------------------------------------
-patch=1,EE,E10A000B,extended,0032BAE0 // If in Atlantica
+patch=1,EE,E108000B,extended,0032BAE0 // If in Atlantica
 patch=1,EE,2032F210,extended,0098967F // Max Exp
-patch=1,EE,2032DF74,extended,00000000 // Reset Doom Clock
-patch=1,EE,0032EB00,extended,00000000
-patch=1,EE,2032F202,extended,00000000
-patch=1,EE,2032F206,extended,00000000
-patch=1,EE,2032F20A,extended,00000000
-patch=1,EE,2032F20E,extended,00000000
-patch=1,EE,2032F212,extended,00000000
+patch=1,EE,2032DF74,extended,00000000 // Reset In Game Timer
+patch=1,EE,0032EB00,extended,00000000 // Reset Doom Clock
+patch=1,EE,21D1940A,extended,00000000
+patch=1,EE,21D1940E,extended,00000000
+patch=1,EE,11D19412,extended,00000000
 patch=1,EE,0032F195,extended,00000063 // 99 High Drive Recovery
 patch=1,EE,0032F0B6,extended,00000063 // 99 Megalixir
