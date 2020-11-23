@@ -604,7 +604,6 @@ patch=1,EE,11C4FD84,extended,00000002// Trick Ghost Front-Left
 patch=1,EE,11C4FDC4,extended,00000002// Trick Ghost Front-Right
 patch=1,EE,11C4FE04,extended,00000002// Trick Ghost Back-Right
 //Sark (Giant)
-patch=1,EE,01D112A1,extended,00000050
 patch=1,EE,E0400911,extended,0032BAE0
 patch=1,EE,E03F003B,extended,0032BAE8
 patch=1,EE,11C4FF38,extended,00000000// Remove MCP Walls
@@ -1818,7 +1817,7 @@ patch=1,EE,11CE05FA,extended,00000234 // Garden of Assemblage, Proof of Nonexist
 // Transport to Remembrance Nobodies III
 patch=1,EE,11D11242,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11244,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11248,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
+patch=1,EE,21D11248,extended,0007009D // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Grand Ribbon
 
 //Enemy Replacement
 
@@ -3445,10 +3444,10 @@ patch=1,EE,11CE092A,extended,00000217 // Orichalcum+, Orichalcum+ is now Munny P
 //----- Atlantica -----
 patch=1,EE,E004FFFF,extended,0032BAE0
 // Popups
-patch=1,EE,11CE0846,extended,00000116 // Undersea Kingdom Map, Undersea Kingdom Map is now Defense Boost
-patch=1,EE,11CE08E2,extended,00000257 // Mysterious Abyss, Mysterious Abyss is now Executive's Ring
-patch=1,EE,11CE08EE,extended,000001F8 // Blizzard, Blizzard is now Save The King+
-patch=1,EE,11CE08FA,extended,000001F7 // Orichalcum+, Orichalcum+ is now Save The Queen+
+patch=1,EE,11CE0846,extended,000001F7 // Undersea Kingdom Map, Undersea Kingdom Map is now Save The Queen+
+patch=1,EE,11CE08E2,extended,000001F8 // Mysterious Abyss, Mysterious Abyss is now Save The King+
+patch=1,EE,11CE08EE,extended,00000257 // Blizzard, Blizzard is now Executive's Ring
+patch=1,EE,11CE08FA,extended,00000190 // Orichalcum+, Orichalcum+ is now Ribbon
 
 
 //-----------------------------------------
