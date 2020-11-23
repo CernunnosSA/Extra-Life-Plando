@@ -365,7 +365,7 @@ patch=1,EE,21D10FA8,extended,0000021B // Replacement Reward #2: Replacement Rewa
 // Twilight Thorn
 patch=1,EE,11D10CB2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10CB4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10CB8,extended,01160169 // Replacement Reward #2:Defense Boost Replacement Reward #1:Orichalcum+
+patch=1,EE,21D10CB8,extended,00000169 // Replacement Reward #2: Replacement Reward #1:Orichalcum+
 // Axel I
 patch=1,EE,11D11272,extended,00000505 // MP:5 HP:5
 patch=1,EE,21D11274,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -2037,11 +2037,11 @@ patch=1,EE,21D10BD8,extended,000000AD // Replacement Reward #2: Replacement Rewa
 // Hyenas II
 patch=1,EE,11D10ED2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10ED4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10ED8,extended,00070007 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Mega-Elixir
+patch=1,EE,21D10ED8,extended,00000004 // Replacement Reward #2: Replacement Reward #1:Elixir
 // Groundshaker
 patch=1,EE,11D10C12,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10C14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10C18,extended,0007009F // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Lamp Charm
+patch=1,EE,21D10C18,extended,0000009F // Replacement Reward #2: Replacement Reward #1:Lamp Charm
 
 //Enemy Replacement
 //Elephant Graveyard Heartless
@@ -2337,7 +2337,7 @@ patch=1,EE,21D10858,extended,00000148 // Replacement Reward #2: Replacement Rewa
 // Hades
 patch=1,EE,11D10882,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10884,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10888,extended,000700A0 // Replacement Reward #2:Mega-Elixir Replacement Reward #1:Feather Charm
+patch=1,EE,21D10888,extended,000000A0 // Replacement Reward #2: Replacement Reward #1:Feather Charm
 // Zexion (Absent Silhouette)
 patch=1,EE,11D11152,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11154,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -2509,7 +2509,7 @@ patch=1,EE,11CDF952,extended,00000004 // Ruined Chamber, Ruins Map is now Elixir
 //Popups
 patch=1,EE,11CE0792,extended,000001EC // Agrabah Map, Agrabah Map is now Wishing Lamp
 patch=1,EE,11CE079E,extended,00000115 // Lamp Charm, Lamp Charm is now Magic Boost
-patch=1,EE,11CE08B2,extended,00000019 // Wishing Lamp, Wishing Lamp is now Ukulele Charm
+patch=1,EE,11CE08B2,extended,00000006 // Wishing Lamp, Wishing Lamp is now Elixir
 patch=1,EE,11CE0A4A,extended,00000114 // Lexaeus (Absent Silhouttes), Strength Beyond Strength is now Power Boost
 patch=1,EE,11CE0A86,extended,00000222 // Lexaeus (Data), Lost Illusion is now Centurion+
 patch=1,EE,E001000F,extended,0032C5DC // Lexaeus AS Defeated
@@ -2531,7 +2531,7 @@ patch=1,EE,21D10CE8,extended,00000000 // Replacement Reward #2: Replacement Rewa
 // Genie Jafar
 patch=1,EE,11D10972,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D10974,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10978,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
+patch=1,EE,21D10978,extended,00000019 // Replacement Reward #2: Replacement Reward #1:Ukulele Charm
 // Lexaeus (Absent Silhouette)
 patch=1,EE,11D11122,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11124,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
