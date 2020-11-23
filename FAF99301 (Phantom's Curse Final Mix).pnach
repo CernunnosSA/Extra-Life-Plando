@@ -6558,8 +6558,14 @@ patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
 //                Debug Codes
 //------------------------------------
 //Enter Atlantica then EXP = MAX
-patch=1,EE,E104000B,extended,0032BAE0 // If in Atlantica
+patch=1,EE,E10A000B,extended,0032BAE0 // If in Atlantica
 patch=1,EE,2032F210,extended,0098967F // Max Exp
 patch=1,EE,2032DF74,extended,00000000 // Reset Doom Clock
+patch=1,EE,0032EB00,extended,00000000
+patch=1,EE,2032F202,extended,00000000
+patch=1,EE,2032F206,extended,00000000
+patch=1,EE,2032F20A,extended,00000000
+patch=1,EE,2032F20E,extended,00000000
+patch=1,EE,2032F212,extended,00000000
 patch=1,EE,0032F195,extended,00000063 // 99 High Drive Recovery
 patch=1,EE,0032F0B6,extended,00000063 // 99 Megalixir
