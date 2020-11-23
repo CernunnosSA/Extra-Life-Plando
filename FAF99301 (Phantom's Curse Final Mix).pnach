@@ -342,7 +342,7 @@ patch=1,EE,11CE01CE,extended,000000E8 // Sunset Terrace, Potion is now Secret An
 patch=1,EE,11CE01DA,extended,00000083 // Mansion Foyer, Potion is now Tent
 patch=1,EE,11CE01E6,extended,0000022A // Mansion Foyer, Potion is now Joyous Mushroom
 patch=1,EE,11CE01F2,extended,00000131 // Mansion Foyer, Potion is now Champion Belt
-patch=1,EE,11CE01FE,extended,00000223 // Mansion Dining Room, Elven Bandana is now Plain Mushroom
+patch=1,EE,11CE01FE,extended,00000116 // Mansion Dining Room, Elven Bandana is now Defense Boost
 patch=1,EE,11CE020A,extended,00000005 // Mansion Dining Room, Potion is now Mega-Potion
 patch=1,EE,11CE0216,extended,00000020 // Mansion Library, Hi-Potion is now Torn Page
 patch=1,EE,11CE0222,extended,00000058 // Mansion Basement Corridor, Hi-Potion is now Reflect
@@ -355,7 +355,7 @@ patch=1,EE,11CE061E,extended,00000174 // Medal, Medal is now Cursed Medallion
 patch=1,EE,11CE062A,extended,00000046 // "The Struggle" Trophy, "The Struggle" Trophy is now Buster Band
 patch=1,EE,11CE0642,extended,000001E1 // Namine's Sketches, Namine's Sketches is now Hidden Dragon
 patch=1,EE,11CE064E,extended,0000021A // Mansion Map, Mansion Map is now Comet Staff
-patch=1,EE,11CE0B0A,extended,00000058 // Roxas (Data), Magic Boost is now Reflect
+patch=1,EE,11CE0B0A,extended,0000009D // Roxas (Data), Magic Boost is now Grand Ribbon
 
 //Bonus Rewards
 // Station of Serenity Nobodies
@@ -365,7 +365,7 @@ patch=1,EE,21D10FA8,extended,0000021B // Replacement Reward #2: Replacement Rewa
 // Twilight Thorn
 patch=1,EE,11D10CB2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10CB4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10CB8,extended,00000169 // Replacement Reward #2: Replacement Reward #1:Orichalcum+
+patch=1,EE,21D10CB8,extended,01160169 // Replacement Reward #2:Defense Boost Replacement Reward #1:Orichalcum+
 // Axel I
 patch=1,EE,11D11272,extended,00000505 // MP:5 HP:5
 patch=1,EE,21D11274,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -3064,7 +3064,7 @@ patch=1,EE,21D108C8,extended,00000000 // Replacement Reward #2: Replacement Rewa
 // Storm Rider
 patch=1,EE,11D10902,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10904,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10908,extended,01A60006 // Replacement Reward #2:MP Hastega Replacement Reward #1:Mega-Ether
+patch=1,EE,21D10908,extended,01A60058 // Replacement Reward #2:MP Hastega Replacement Reward #1:Reflect
 
 //Enemy Replacement
 // Encampment Fight
