@@ -74,10 +74,6 @@ patch=1,EE,E0030006,extended,0032BAE0
 patch=1,EE,E002008D,extended,0032BAE4
 patch=1,EE,E0010000,extended,01D48EFC
 patch=1,EE,21D48EFC,extended,00000063
-// A Blustery Rescue (Story)
-patch=1,EE,E0020609,extended,0032BAE0
-patch=1,EE,E0010037,extended,0032BAE4
-patch=1,EE,20349DE8,extended,00000000
 // Hunny Slider (Story)
 patch=1,EE,E0020709,extended,0032BAE0
 patch=1,EE,E0010039,extended,0032BAE4
@@ -929,7 +925,7 @@ patch=1,EE,21C6C1C4,extended,00646464
 patch=1,EE,E00702DF,extended,01C6BDB4 // Hostile Program in Slot 5
 patch=1,EE,11C6BDB0,extended,000000FF
 patch=1,EE,11C6BDB4,extended,000000FF
-patch=1,EE,11C6BFB8,extended,00000000
+patch=1,EE,11C6BDB8,extended,00000000
 patch=1,EE,11C6BF38,extended,00000005
 patch=1,EE,11C6BF3C,extended,00000006
 patch=1,EE,21C6BF58,extended,00646464
