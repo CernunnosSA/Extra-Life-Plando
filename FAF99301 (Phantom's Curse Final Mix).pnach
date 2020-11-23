@@ -328,7 +328,7 @@ patch=1,EE,1032EF1E,extended,00000000
 //                Worlds
 //------------------------------------
 //----- Data Twilight -----
-patch=1,EE,E1240002,extended,0032BAE0
+patch=1,EE,E024FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE016E,extended,0000019B // Station of Serenity, Potion is now Item Boost
 patch=1,EE,11CE017A,extended,00000002 // Station of Calling, Potion is now Hi-Potion
@@ -423,7 +423,7 @@ patch=1,EE,11C26DA4,extended,0000013E// Dusk Right
 patch=1,EE,E0060502,extended,0032BAE0
 patch=1,EE,E0050058,extended,0032BAE4
 patch=1,EE,E0040058,extended,0032BAE8
-patch=1,EE,11C2700C,extended,000008FB// Yuffie
+patch=1,EE,11C2700C,extended,000008FA// Tifa
 patch=1,EE,E0020D48,extended,21C6C4EC// If max HP is less than 3400
 patch=1,EE,21C6C4E8,extended,00000D48//
 patch=1,EE,21C6C4EC,extended,00000D48//
@@ -479,7 +479,7 @@ patch=1,EE,21C6C4EC,extended,0000041A
 
 
 //----- Space Paranoids -----
-patch=1,EE,E1220011,extended,0032BAE0
+patch=1,EE,E022FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFCEE,extended,00000112 // Pit Cell, Pit Cell Area Map is now Drive Recovery
 patch=1,EE,11CDFCFA,extended,00000225 // Pit Cell, Mythril Crystal is now Precious Mushroom
@@ -620,7 +620,7 @@ patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
 
 //----- Disney Castle -----
-patch=1,EE,E118000C,extended,0032BAE0
+patch=1,EE,E018FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF9B2,extended,00000052 // Courtyard, Mythril Shard is now Guard
 patch=1,EE,11CDF9BE,extended,00000001 // Courtyard, Star Recipe is now Potion
@@ -732,7 +732,7 @@ patch=1,EE,21A9BF2C,extended,00FFFFFF // "shiny" terra
 
 
 //----- Timeless River -----
-patch=1,EE,E110000D,extended,0032BAE0
+patch=1,EE,E010FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF95E,extended,00000179 // Cornerstone Hill, Cornerstone Hill Map is now Orichalcum
 patch=1,EE,11CDF96A,extended,0000022F // Cornerstone Hill, Frost Shard is now Flash Step
@@ -1009,7 +1009,7 @@ patch=1,EE,01CA298C,extended,00000003 // Revert Volcanic Lord into boss
 
 
 //----- Port Royal -----
-patch=1,EE,E12A0010,extended,0032BAE0
+patch=1,EE,E02AFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFE3E,extended,00000199 // Rampart, Naval Map is now Blizzard Boost
 patch=1,EE,11CDFE4A,extended,0000000A // Rampart, Mythril Stone is now Technician's Ring
@@ -1370,7 +1370,7 @@ patch=1,EE,11C5BD78,extended,00000138// Dancer
 
 
 //----- Hollow Bastion -----
-patch=1,EE,E12D0004,extended,0032BAE0
+patch=1,EE,E02DFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFF3A,extended,00000113 // Borough, Drive Recovery is now High Drive Recovery
 patch=1,EE,11CDFF46,extended,00000057 // Borough, AP Boost is now Magnet
@@ -1692,7 +1692,7 @@ patch=1,EE,11C24D24,extended,00000022//
 
 
 //----- Cavern of Remembrance -----
-patch=1,EE,E11B0004,extended,0032BAE0
+patch=1,EE,E01BFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE04E6,extended,00000108 // Depths, AP Boost is now Slide Dash
 patch=1,EE,11CE04F2,extended,00000184 // Depths, Power Crystal is now Auto Final
@@ -1729,7 +1729,7 @@ patch=1,EE,21D11248,extended,00070007 // Replacement Reward #2:Mega-Elixir Repla
 
 
 //----- Twilight Town -----
-patch=1,EE,E1380002,extended,0032BAE0
+patch=1,EE,E038FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE022E,extended,000000A2 // The Old Mansion, Potion is now Combo Plus
 patch=1,EE,11CE023A,extended,000000A3 // The Old Mansion, Mythril Shard is now Air Combo Plus
@@ -2173,7 +2173,7 @@ patch=1,EE,21C6C284,extended,00000096
 
 
 //----- Olympus Coliseum -----
-patch=1,EE,E13C0006,extended,0032BAE0
+patch=1,EE,E03CFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFB02,extended,00000182 // Underworld Entrance, Power Boost is now Auto Wisdom
 patch=1,EE,11CDFB0E,extended,00000006 // Passage, Mythril Shard is now Mega-Ether
@@ -2250,6 +2250,12 @@ patch=1,EE,21D11154,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D11158,extended,01290017 // Replacement Reward #2:Dark Anklet Replacement Reward #1:Thunder
 
 //Enemy Replacement
+//Hades Chamber
+patch=1,EE,E0040606,extended,0032BAE0
+patch=1,EE,E0030070,extended,0032BAE8
+patch=1,EE,11C48478,extended,000008FB
+patch=1,EE,21C6C1C0,extended,00000000// Yuffie God Mode
+patch=1,EE,21C6C1C4,extended,00000000// Yuffie God Mode
 //Hades Escape
 patch=1,EE,E01B0506,extended,0032BAE0
 patch=1,EE,E01A006F,extended,0032BAE8
@@ -2317,15 +2323,37 @@ patch=1,EE,11C48918,extended,00000137// Sniper (2nd Wave; Front-Left)
 patch=1,EE,11C48958,extended,00000137// Sniper (2nd Wave; Back-Left)
 
 //Boss Replacement
-//Boulder (Cerberus Fight)
-patch=1,EE,E0070706,extended,0032BAE0
-patch=1,EE,E0060072,extended,0032BAE8
+//Cerberus
+patch=1,EE,01D11296,extended,00000050
+patch=1,EE,E01C0706,extended,0032BAE0
+patch=1,EE,E01B0072,extended,0032BAE8
 patch=1,EE,11C4EDF8,extended,000008FB// Yuffie
 patch=1,EE,11C4EF2C,extended,0000007C// Boulder -> Crescendo
 patch=1,EE,11C4EF6C,extended,0000007C// Boulder -> Crescendo
-patch=1,EE,E002006E,extended,01C6C284// Yuffie's HP
-patch=1,EE,11C6C284,extended,0000015E// 350HP
-patch=1,EE,11C6C280,extended,0000015E// 350HP
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E00200DA,extended,21C6C284// Yuffie's HP
+patch=1,EE,11C6C280,extended,000000DA//
+patch=1,EE,11C6C284,extended,000000DA//
+patch=1,EE,E0030001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E0020111,extended,21C6C284// Yuffie's HP
+patch=1,EE,11C6C280,extended,00000111//
+patch=1,EE,11C6C284,extended,00000111//
+patch=1,EE,E0030002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E0020141,extended,21C6C284// Yuffie's HP
+patch=1,EE,11C6C280,extended,00000141//
+patch=1,EE,11C6C284,extended,00000141//
+patch=1,EE,E0030003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E002017D,extended,21C6C284// Yuffie's HP
+patch=1,EE,11C6C280,extended,0000017D//
+patch=1,EE,11C6C284,extended,0000017D//
+patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E00201B1,extended,21C6C284// Yuffie's HP
+patch=1,EE,11C6C280,extended,000001B1//
+patch=1,EE,11C6C284,extended,000001B1//
+patch=1,EE,E0030005,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E00201E7,extended,21C6C284// Yuffie's HP
+patch=1,EE,11C6C280,extended,000001E7//
+patch=1,EE,11C6C284,extended,000001E7//
 //Pete Fight (Olympus Coliseum; Part II)
 patch=1,EE,E00A0806,extended,0032BAE0
 patch=1,EE,E0090074,extended,0032BAE8
@@ -2355,7 +2383,7 @@ patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
 
 
 //----- Agrabah -----
-patch=1,EE,E1300007,extended,0032BAE0
+patch=1,EE,E030FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF826,extended,0000006B // Agrabah, Dark Shard is now Glide LV2
 patch=1,EE,11CDF832,extended,00000240 // Agrabah, Mythril Shard is now Remembrance Shard
@@ -2618,7 +2646,7 @@ patch=1,EE,11C6C018,extended,00000465// Current HP
 
 
 //----- Halloween Town -----
-patch=1,EE,E125000E,extended,0032BAE0
+patch=1,EE,E025FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFD96,extended,00000128 // Graveyard, Mythril Shard is now Shadow Anklet
 patch=1,EE,11CDFDA2,extended,0000011A // Graveyard, Serenity Gem is now Dark Gem
@@ -2730,7 +2758,7 @@ patch=1,EE,0035DE20,extended,000001F4
 
 
 //----- Beast's Castle -----
-patch=1,EE,E1260005,extended,0032BAE0
+patch=1,EE,E026FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFBF2,extended,00000249 // Courtyard, AP Boost is now Manifest Illusion
 patch=1,EE,11CDFBFE,extended,00000197 // Courtyard, Hi-Potion is now Lucky Lucky
@@ -2899,7 +2927,7 @@ patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
 
 
 //----- Land of Dragons -----
-patch=1,EE,E1230008,extended,0032BAE0
+patch=1,EE,E023FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF72A,extended,00000116 // Bamboo Grove, Dark Shard is now Defense Boost
 patch=1,EE,11CDF736,extended,00000149 // Bamboo Grove, Ether is now Power Shard
@@ -3159,7 +3187,7 @@ patch=1,EE,11C6B8E0,extended,000000C8
 
 
 //----- The World That Never Was -----
-patch=1,EE,E12F0012,extended,0032BAE0
+patch=1,EE,E02FFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE0402,extended,00000002 // Fragment Crossing, Mythril Stone is now Hi-Potion
 patch=1,EE,11CE040E,extended,00000003 // Fragment Crossing, Mythril Crystal is now Ether
@@ -3289,7 +3317,7 @@ patch=1,EE,0035DE20,extended,00000097
 
 
 //----- 100 Acre Wood -----
-patch=1,EE,E1180009,extended,0032BAE0
+patch=1,EE,E018FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFA12,extended,00000251 // Pooh Bear's House, Hundred Acre Wood Map is now Proof of Connection
 patch=1,EE,11CDFA1E,extended,00000252 // Pooh Bear's House, AP Boost is now Proof of Nonexistence
@@ -3320,7 +3348,7 @@ patch=1,EE,11CE092A,extended,00000217 // Orichalcum+, Orichalcum+ is now Munny P
 
 
 //----- Atlantica -----
-patch=1,EE,E104000B,extended,0032BAE0
+patch=1,EE,E004FFFF,extended,0032BAE0
 // Popups
 patch=1,EE,11CE0846,extended,00000116 // Undersea Kingdom Map, Undersea Kingdom Map is now Defense Boost
 patch=1,EE,11CE08E2,extended,00000257 // Mysterious Abyss, Mysterious Abyss is now Executive's Ring
@@ -3332,6 +3360,7 @@ patch=1,EE,11CE08FA,extended,000001F7 // Orichalcum+, Orichalcum+ is now Save Th
 //                Equipments
 //------------------------------------
 //----- Keyblades -----
+patch=1,EE,E078FFFF,extended,0032BAE0
 //Kingdom Key
 patch=1,EE,11CDF1D6,extended,00000186 // Combo Boost
 patch=1,EE,21CDF1D8,extended,00070707 // 7 STR, 7 MAG, 7 DEF
@@ -3484,6 +3513,7 @@ patch=1,EE,21CDF5CC,extended,64646464
 patch=1,EE,21CDF5D0,extended,00646464
 
 //----- Armors -----
+patch=1,EE,E0A7FFFF,extended,0032BAE0
 // Elven Bandanna
 patch=1,EE,11CDEDB6,extended,00000187 // Air Combo Boost
 patch=1,EE,21CDEDB8,extended,00030000 // +3 DEF
@@ -3687,6 +3717,7 @@ patch=1,EE,21CDEE4C,extended,64646401 // 99% Physical Resist (unlisted)
 patch=1,EE,21CDEE50,extended,00016464 // 99% Resist ALL (unlisted)
 
 //----- Accessories -----
+patch=1,EE,E0A3FFFF,extended,0032BAE0
 // Ability Ring
 patch=1,EE,11CDEFD6,extended,00000254 // Protect
 patch=1,EE,21CDEFD8,extended,05010001 // +1 STR, +1 DEF, +5 AP
@@ -3888,6 +3919,7 @@ patch=1,EE,21CDF1A0,extended,00C86464 // -100% Resist ALL (unlisted)
 //-----------------------------------------
 //                Level Ups
 //------------------------------------
+patch=1,EE,E0A7FFFF,extended,0032BAE0
 //2x Exp
 patch=1,EE,21D0B6A8,extended,00000014
 patch=1,EE,21D0B6B8,extended,00000032
@@ -4084,6 +4116,8 @@ patch=1,EE,11D0BCD4,extended,00000000 // Staff Reward: Empty
 //-----------------------------------------
 //                Drive Forms & Summons
 //------------------------------------
+patch=1,EE,E048FFFF,extended,0032BAE0
+
 patch=1,EE,11D1A1EE,extended,00000114 // Summon LV2, Power Boost
 patch=1,EE,11D1A1F6,extended,00000115 // Summon LV3, Magic Boost
 patch=1,EE,11D1A2FE,extended,00000116 // Summon LV4, Defense Boost
@@ -6557,7 +6591,6 @@ patch=1,EE,11C5A4B4,extended,000009C1// Land of Dragons Door
 //-----------------------------------------
 //                Debug Codes
 //------------------------------------
-//Enter Atlantica then EXP = MAX
 patch=1,EE,E10A000B,extended,0032BAE0 // If in Atlantica
 patch=1,EE,2032F210,extended,0098967F // Max Exp
 patch=1,EE,2032DF74,extended,00000000 // Reset Doom Clock
