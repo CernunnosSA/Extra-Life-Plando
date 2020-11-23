@@ -3,7 +3,7 @@ Disney Castle and Timeless River have been swallowed by the darkness. The follow
 -Blizzard Element
 -Fire Element
 -Rumbling Rose (Horizontal Slash)
--Reflect Element (Shared with another location...)
+-Reflect Element
 -Fantasia
 -Goofy Tornado
 -Guard
