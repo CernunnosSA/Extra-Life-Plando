@@ -2418,7 +2418,6 @@ patch=1,EE,11C48958,extended,00000137// Sniper (2nd Wave; Back-Left)
 
 //Boss Replacement
 //Cerberus
-patch=1,EE,01D11296,extended,00000050
 patch=1,EE,E01C0706,extended,0032BAE0
 patch=1,EE,E01B0072,extended,0032BAE8
 patch=1,EE,11C4EDF8,extended,000008FB// Yuffie
@@ -2679,64 +2678,64 @@ patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscene Fix
 patch=1,EE,0035DE20,extended,000000B5
 patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 0
 patch=1,EE,E00200A8,extended,01C6C4EC// Old Timey Pete's HP Slot 2
-patch=1,EE,11C6C4EC,extended,000001F8// Max HP
-patch=1,EE,11C6C4E8,extended,000001F8// Current HP
+patch=1,EE,11C6C4E8,extended,000001F8
+patch=1,EE,11C6C4EC,extended,000001F8
 patch=1,EE,E00200A8,extended,01C6C284// Old Timey Pete's HP Slot 3
-patch=1,EE,11C6C284,extended,000001F8// Max HP
-patch=1,EE,11C6C280,extended,000001F8// Current HP
+patch=1,EE,11C6C280,extended,000001F8
+patch=1,EE,11C6C284,extended,000001F8
 patch=1,EE,E00200A8,extended,01C6C01C// Old Timey Pete's HP Slot 4
-patch=1,EE,11C6C01C,extended,000001F8// Max HP
-patch=1,EE,11C6C018,extended,000001F8// Current HP
+patch=1,EE,11C6C018,extended,000001F8
+patch=1,EE,11C6C01C,extended,000001F8
 patch=1,EE,E0090001,extended,0032EB00// Doom Clock == 1
 patch=1,EE,E00200D2,extended,01C6C4EC// Old Timey Pete's HP Slot 2
-patch=1,EE,11C6C4EC,extended,00000276// Max HP
-patch=1,EE,11C6C4E8,extended,00000276// Current HP
+patch=1,EE,11C6C4E8,extended,00000276
+patch=1,EE,11C6C4EC,extended,00000276
 patch=1,EE,E00200D2,extended,01C6C284// Old Timey Pete's HP Slot 3
-patch=1,EE,11C6C284,extended,00000276// Max HP
-patch=1,EE,11C6C280,extended,00000276// Current HP
+patch=1,EE,11C6C280,extended,00000276
+patch=1,EE,11C6C284,extended,00000276
 patch=1,EE,E00200D2,extended,01C6C01C// Old Timey Pete's HP Slot 4
-patch=1,EE,11C6C01C,extended,00000276// Max HP
-patch=1,EE,11C6C018,extended,00000276// Current HP
+patch=1,EE,11C6C018,extended,00000276
+patch=1,EE,11C6C01C,extended,00000276
 patch=1,EE,E0090002,extended,0032EB00// Doom Clock == 2
 patch=1,EE,E00200FA,extended,01C6C4EC// Old Timey Pete's HP Slot 2
-patch=1,EE,11C6C4EC,extended,000002EE// Max HP
-patch=1,EE,11C6C4E8,extended,000002EE// Current HP
+patch=1,EE,11C6C4E8,extended,000002EE
+patch=1,EE,11C6C4EC,extended,000002EE
 patch=1,EE,E00200FA,extended,01C6C284// Old Timey Pete's HP Slot 3
-patch=1,EE,11C6C284,extended,000002EE// Max HP
-patch=1,EE,11C6C280,extended,000002EE// Current HP
+patch=1,EE,11C6C280,extended,000002EE
+patch=1,EE,11C6C284,extended,000002EE
 patch=1,EE,E00200FA,extended,01C6C01C// Old Timey Pete's HP Slot 4
-patch=1,EE,11C6C01C,extended,000002EE// Max HP
-patch=1,EE,11C6C018,extended,000002EE// Current HP
+patch=1,EE,11C6C018,extended,000002EE
+patch=1,EE,11C6C01C,extended,000002EE
 patch=1,EE,E0090003,extended,0032EB00// Doom Clock == 3
 patch=1,EE,E0020125,extended,01C6C4EC// Old Timey Pete's HP Slot 2
-patch=1,EE,11C6C4EC,extended,0000036F// Max HP
-patch=1,EE,11C6C4E8,extended,0000036F// Current HP
+patch=1,EE,11C6C4E8,extended,0000036F
+patch=1,EE,11C6C4EC,extended,0000036F
 patch=1,EE,E0020125,extended,01C6C284// Old Timey Pete's HP Slot 3
-patch=1,EE,11C6C284,extended,0000036F// Max HP
-patch=1,EE,11C6C280,extended,0000036F// Current HP
+patch=1,EE,11C6C280,extended,0000036F
+patch=1,EE,11C6C284,extended,0000036F
 patch=1,EE,E0020125,extended,01C6C01C// Old Timey Pete's HP Slot 4
-patch=1,EE,11C6C01C,extended,0000036F// Max HP
-patch=1,EE,11C6C018,extended,0000036F// Current HP
+patch=1,EE,11C6C018,extended,0000036F
+patch=1,EE,11C6C01C,extended,0000036F
 patch=1,EE,E0090004,extended,0032EB00// Doom Clock == 4
 patch=1,EE,E002014D,extended,01C6C4EC// Old Timey Pete's HP Slot 2
-patch=1,EE,11C6C4EC,extended,000003E7// Max HP
-patch=1,EE,11C6C4E8,extended,000003E7// Current HP
+patch=1,EE,11C6C4E8,extended,000003E7
+patch=1,EE,11C6C4EC,extended,000003E7
 patch=1,EE,E002014D,extended,01C6C284// Old Timey Pete's HP Slot 3
-patch=1,EE,11C6C284,extended,000003E7// Max HP
-patch=1,EE,11C6C280,extended,000003E7// Current HP
+patch=1,EE,11C6C280,extended,000003E7
+patch=1,EE,11C6C284,extended,000003E7
 patch=1,EE,E002014D,extended,01C6C01C// Old Timey Pete's HP Slot 4
-patch=1,EE,11C6C01C,extended,000003E7// Max HP
-patch=1,EE,11C6C018,extended,000003E7// Current HP
+patch=1,EE,11C6C018,extended,000003E7
+patch=1,EE,11C6C01C,extended,000003E7
 patch=1,EE,E0090005,extended,0032EB00// Doom Clock == 5
 patch=1,EE,E0020177,extended,01C6C4EC// Old Timey Pete's HP Slot 2
-patch=1,EE,11C6C4EC,extended,00000465// Max HP
-patch=1,EE,11C6C4E8,extended,00000465// Current HP
+patch=1,EE,11C6C4E8,extended,00000465
+patch=1,EE,11C6C4EC,extended,00000465
 patch=1,EE,E0020177,extended,01C6C284// Old Timey Pete's HP Slot 3
-patch=1,EE,11C6C284,extended,00000465// Max HP
-patch=1,EE,11C6C280,extended,00000465// Current HP
+patch=1,EE,11C6C280,extended,00000465
+patch=1,EE,11C6C284,extended,00000465
 patch=1,EE,E0020177,extended,01C6C01C// Old Timey Pete's HP Slot 4
-patch=1,EE,11C6C01C,extended,00000465// Max HP
-patch=1,EE,11C6C018,extended,00000465// Current HP
+patch=1,EE,11C6C018,extended,00000465
+patch=1,EE,11C6C01C,extended,00000465
 
 
 //----- Halloween Town -----
@@ -3020,54 +3019,150 @@ patch=1,EE,E002020D,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,0000041A
 patch=1,EE,21C6BDB4,extended,0000041A
 //Beast (Boss)
-patch=1,EE,E00D0305,extended,0032BAE0
-patch=1,EE,E00C0045,extended,0032BAE8
+patch=1,EE,E0400305,extended,0032BAE0
+patch=1,EE,E03F0045,extended,0032BAE8
 patch=1,EE,01C98F0C,extended,00000003// Dancer Boss Marker
 patch=1,EE,11C4CBA0,extended,00000138// Dancer (Beast)
-patch=1,EE,11C4CBE0,extended,000008F6// Water Clone (Cogsworth) (ally)
-patch=1,EE,E002003F,extended,01C6C284// Set HP Slot 3
-patch=1,EE,11C6C284,extended,000001F4
-patch=1,EE,11C6C280,extended,000001F4
-patch=1,EE,E002003F,extended,01C6C01C// Set HP Slot 4
-patch=1,EE,11C6C01C,extended,000001F4
-patch=1,EE,11C6C018,extended,000001F4
-patch=1,EE,E002003F,extended,01C6BDB4// Set HP Slot 5
-patch=1,EE,21C6BDB4,extended,000000F4
-patch=1,EE,21C6BDB0,extended,000000F4
+patch=1,EE,11C4CBE0,extended,0000031B// Demyx (Cogsworth)
+patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E002006C,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,21C6C280,extended,000003CC
+patch=1,EE,21C6C284,extended,000003CC
+patch=1,EE,E002006C,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,21C6C018,extended,000003CC
+patch=1,EE,21C6C01C,extended,000003CC
+patch=1,EE,E002006C,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,21C6BDB0,extended,000003CC
+patch=1,EE,21C6BDB4,extended,000003CC
+patch=1,EE,E0090001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E0020087,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,21C6C280,extended,000004BF
+patch=1,EE,21C6C284,extended,000004BF
+patch=1,EE,E0020087,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,21C6C018,extended,000004BF
+patch=1,EE,21C6C01C,extended,000004BF
+patch=1,EE,E0020087,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,21C6BDB0,extended,000004BF
+patch=1,EE,21C6BDB4,extended,000004BF
+patch=1,EE,E0090002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E00200A0,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,21C6C280,extended,000005A0
+patch=1,EE,21C6C284,extended,000005A0
+patch=1,EE,E00200A0,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,21C6C018,extended,000005A0
+patch=1,EE,21C6C01C,extended,000005A0
+patch=1,EE,E00200A0,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,21C6BDB0,extended,000005A0
+patch=1,EE,21C6BDB4,extended,000005A0
+patch=1,EE,E0090003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E00200BC,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,21C6C280,extended,0000069C
+patch=1,EE,21C6C284,extended,0000069C
+patch=1,EE,E00200BC,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,21C6C018,extended,0000069C
+patch=1,EE,21C6C01C,extended,0000069C
+patch=1,EE,E00200BC,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,21C6BDB0,extended,0000069C
+patch=1,EE,21C6BDB4,extended,0000069C
+patch=1,EE,E0090004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E00200D5,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,21C6C280,extended,0000069C
+patch=1,EE,21C6C284,extended,0000069C
+patch=1,EE,E00200D5,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,21C6C018,extended,0000077D
+patch=1,EE,21C6C01C,extended,0000077D
+patch=1,EE,E00200D5,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,21C6BDB0,extended,0000077D
+patch=1,EE,21C6BDB4,extended,0000077D
+patch=1,EE,E0090005,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E00200F0,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,21C6C280,extended,00000870
+patch=1,EE,21C6C284,extended,00000870
+patch=1,EE,E00200F0,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,21C6C018,extended,00000870
+patch=1,EE,21C6C01C,extended,00000870
+patch=1,EE,E00200F0,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,21C6BDB0,extended,00000870
+patch=1,EE,21C6BDB4,extended,00000870
 //Dancer Marker Fix
 patch=1,EE,E0030305,extended,0032BAE0
 patch=1,EE,E0020016,extended,0032BAE8
 patch=1,EE,E0010003,extended,01C98F0C
 patch=1,EE,01C98F0C,extended,00000004
+//Shadow Stalker Fight
+patch=1,EE,E0030505,extended,0032BAE0
+patch=1,EE,E002004E,extended,0032BAE8
+patch=1,EE,2032F078,extended,12128300// Sora and Beast only
+patch=1,EE,11C5A360,extended,00000162// Dark Thorn
 //Dark Thorn Fight
-patch=1,EE,E0120505,extended,0032BAE0
-patch=1,EE,E011004F,extended,0032BAE8
-patch=1,EE,11C5A16C,extended,0000001F// Cogsworth (Chandelier) (Dark Thorn)
-patch=1,EE,11C5A4D4,extended,000002CE// Beast (Dark Thorn)
-patch=1,EE,E004009C,extended,01C6C284// Set HP Slot 3
-patch=1,EE,11C6C284,extended,0000012C
-patch=1,EE,11C6C280,extended,0000012C
-patch=1,EE,01C6C408,extended,0000001E
-patch=1,EE,01C6C40C,extended,00000007
-patch=1,EE,E004009C,extended,01C6C01C// Set HP Slot 4
-patch=1,EE,11C6C01C,extended,0000012C
-patch=1,EE,11C6C018,extended,0000012C
-patch=1,EE,01C6BF38,extended,0000001E
-patch=1,EE,01C6BF3C,extended,00000007
-patch=1,EE,E004009C,extended,01C6BDB4// Set HP Slot 5
-patch=1,EE,11C6BDB4,extended,0000012C
-patch=1,EE,11C6BDB0,extended,0000012C
-patch=1,EE,01C6BDD0,extended,0000001E
-patch=1,EE,01C6BDD4,extended,00000007
+patch=1,EE,E0080505,extended,0032BAE0
+patch=1,EE,E007004F,extended,0032BAE8
+patch=1,EE,2032F078,extended,12128300// Sora and Beast only
+patch=1,EE,11C5A16C,extended,000002CE// Beast (Chandelier)
+patch=1,EE,11C5A4D4,extended,000005F8// Luxord (Dark Thorn)
+patch=1,EE,E0010001,extended,01C6C280// Can't kill Luxord normally
+patch=1,EE,21C6C280,extended,00000000//
+patch=1,EE,21C6C428,extended,64646464// Luxord's Resist 1
+patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resist 2
+//Xaldin->Riku Safety
+patch=1,EE,E0090323,extended,01CE0B6A// If Donald is DW Roxas
+patch=1,EE,E1040005,extended,0032BAE0// If in Beast's Castle
+patch=1,EE,E0030052,extended,1032BAE8// Not in fight (continuing from a loss)
+patch=1,EE,2032F078,extended,01020300// Restore Party
+patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
+patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
+patch=1,EE,E1030005,extended,1032BAE0// Not in Beast's Castle (after winning)
+patch=1,EE,2032F078,extended,02010300// Restore Party
+patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
+patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
 // Xaldin (Normal)
-patch=1,EE,E0080F05,extended,0032BAE0
-patch=1,EE,E0070052,extended,0032BAE8
+patch=1,EE,E02F0F05,extended,0032BAE0
+patch=1,EE,E02E0052,extended,0032BAE8
+patch=1,EE,2032F078,extended,12030201// Dolan Goffy Beast
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
-patch=1,EE,E0010302,extended,01C6C4EC// If Max HP Slot 2 = 770
+patch=1,EE,11CE0B6A,extended,00000323// Replace Dolan with DW Roxas
+patch=1,EE,11CE0B6C,extended,00000764// Replace Goffy with Mickey
+patch=1,EE,E0060000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E001029E,extended,01C6C4EC// If Max HP Slot 2 = 670
 patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0010302,extended,01C6C284// If Max HP Slot 3 = 770
+patch=1,EE,E001029E,extended,01C6C284// If Max HP Slot 3 = 670
 patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0010302,extended,01C6C01C// If Max HP Slot 4 = 770
+patch=1,EE,E001029E,extended,01C6C01C// If Max HP Slot 4 = 670
+patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0060001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E0010348,extended,01C6C4EC// If Max HP Slot 2 = 840
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010348,extended,01C6C284// If Max HP Slot 3 = 840
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010348,extended,01C6C01C// If Max HP Slot 4 = 840
+patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0060002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E00103E8,extended,01C6C4EC// If Max HP Slot 2 = 1000
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
+patch=1,EE,E00103E8,extended,01C6C284// If Max HP Slot 3 = 1000
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E00103E8,extended,01C6C01C// If Max HP Slot 4 = 1000
+patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0060003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E0010492,extended,01C6C4EC// If Max HP Slot 2 = 1170
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010492,extended,01C6C284// If Max HP Slot 3 = 1170
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010492,extended,01C6C01C// If Max HP Slot 4 = 1170
+patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0060004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E0010532,extended,01C6C4EC// If Max HP Slot 2 = 1330
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010532,extended,01C6C284// If Max HP Slot 3 = 1330
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0010532,extended,01C6C01C// If Max HP Slot 4 = 1330
+patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,E0060005,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E00105DC,extended,01C6C4EC// If Max HP Slot 2 = 1500
+patch=1,EE,11C6C4F0,extended,00000000// HP Gate = 0HP
+patch=1,EE,E00105DC,extended,01C6C284// If Max HP Slot 3 = 1500
+patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
+patch=1,EE,E00105DC,extended,01C6C01C// If Max HP Slot 4 = 1500
 patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
 
 
