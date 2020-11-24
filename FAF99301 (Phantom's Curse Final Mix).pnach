@@ -2908,19 +2908,19 @@ patch=1,EE,E0100044,extended,0032BAE8
 patch=1,EE,11C504CC,extended,000008F6// Water Clone
 patch=1,EE,11C5050C,extended,000008F6//
 patch=1,EE,11C5054C,extended,000008F6//
-patch=1,EE,11C5058C,extended,000008F6//
+patch=1,EE,11C5058C,extended,000009FA// Data
 patch=1,EE,11C505CC,extended,000008F6//
 patch=1,EE,11C5060C,extended,000008F6//
 patch=1,EE,11C5064C,extended,000008F6//
-patch=1,EE,11C5068C,extended,000008F6//
+patch=1,EE,11C5068C,extended,000009FA// Data
 patch=1,EE,11C506CC,extended,000008F6//
 patch=1,EE,11C5070C,extended,000008F6//
 patch=1,EE,11C5074C,extended,000008F6//
-patch=1,EE,11C5078C,extended,000008F6//
+patch=1,EE,11C5078C,extended,000009FA// Data
 patch=1,EE,11C507CC,extended,000008F6//
 patch=1,EE,11C5080C,extended,000008F6//
 patch=1,EE,11C5084C,extended,000008F6//
-patch=1,EE,11C5088C,extended,000008F6//
+patch=1,EE,11C5088C,extended,000009FA// Data
 //Ballroom Nobodies Fight
 patch=1,EE,E0060405,extended,0032BAE0
 patch=1,EE,E005004A,extended,0032BAE8
@@ -2943,8 +2943,8 @@ patch=1,EE,11C50310,extended,00000727// Hot Rod (3rd Wave; Right)
 
 //Boss Replacement
 //Thresholder Fight (Lies!!!!!)
-patch=1,EE,E0180B05,extended,0032BAE0
-patch=1,EE,E0170048,extended,0032BAE8
+patch=1,EE,E04B0B05,extended,0032BAE0
+patch=1,EE,E04A0048,extended,0032BAE8
 patch=1,EE,11C55204,extended,00000161// Thresholder
 patch=1,EE,11C55244,extended,00000164// Possessor
 patch=1,EE,11C552B0,extended,000005DF// Gargoyle Warrior (1st Wave; Right)
@@ -2959,15 +2959,66 @@ patch=1,EE,11C554B0,extended,000005DE// Shadow (3rd Wave; Back-Left)
 patch=1,EE,11C554F0,extended,000005DE// Magnum Loader (3rd Wave; Back-Right)
 patch=1,EE,11C55530,extended,000005DE// Magnum Loader(3rd Wave; Front-Middle)
 patch=1,EE,11C55570,extended,000005DE// Magnum Loader (3rd Wave; Back-Middle)
-patch=1,EE,E0020089,extended,01C6C284// Set HP Slot 3
-patch=1,EE,11C6C284,extended,000000FA
-patch=1,EE,11C6C280,extended,000000FA
-patch=1,EE,E0020089,extended,01C6C01C// Set HP Slot 4
-patch=1,EE,11C6C01C,extended,000000FA
-patch=1,EE,11C6C018,extended,000000FA
-patch=1,EE,E0020089,extended,01C6BDB4// Set HP Slot 5
-patch=1,EE,21C6BDB4,extended,000000FA
-patch=1,EE,21C6BDB0,extended,000000FA
+patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E00200EB,extended,01C6C284// Set HP Slot 3
+patch=1,EE,21C6C280,extended,000001D6
+patch=1,EE,21C6C284,extended,000001D6
+patch=1,EE,E00200EB,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,21C6C018,extended,000001D6
+patch=1,EE,21C6C01C,extended,000001D6
+patch=1,EE,E00200EB,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB0,extended,000001D6
+patch=1,EE,21C6BDB4,extended,000001D6
+patch=1,EE,E0090001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E0020126,extended,01C6C284// Set HP Slot 3
+patch=1,EE,21C6C280,extended,0000024C
+patch=1,EE,21C6C284,extended,0000024C
+patch=1,EE,E0020126,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,21C6C018,extended,0000024C
+patch=1,EE,21C6C01C,extended,0000024C
+patch=1,EE,E0020126,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB0,extended,0000024C
+patch=1,EE,21C6BDB4,extended,0000024C
+patch=1,EE,E0090002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E002015E,extended,01C6C284// Set HP Slot 3
+patch=1,EE,21C6C280,extended,000002BC
+patch=1,EE,21C6C284,extended,000002BC
+patch=1,EE,E002015E,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,21C6C018,extended,000002BC
+patch=1,EE,21C6C01C,extended,000002BC
+patch=1,EE,E002015E,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB0,extended,000002BC
+patch=1,EE,21C6BDB4,extended,000002BC
+patch=1,EE,E0090003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E002019A,extended,01C6C284// Set HP Slot 3
+patch=1,EE,21C6C280,extended,00000334
+patch=1,EE,21C6C284,extended,00000334
+patch=1,EE,E002019A,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,21C6C018,extended,00000334
+patch=1,EE,21C6C01C,extended,00000334
+patch=1,EE,E002019A,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB0,extended,00000334
+patch=1,EE,21C6BDB4,extended,00000334
+patch=1,EE,E0090004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E00201D2,extended,01C6C284// Set HP Slot 3
+patch=1,EE,21C6C280,extended,000003A4
+patch=1,EE,21C6C284,extended,000003A4
+patch=1,EE,E00201D2,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,21C6C018,extended,000003A4
+patch=1,EE,21C6C01C,extended,000003A4
+patch=1,EE,E00201D2,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB0,extended,000003A4
+patch=1,EE,21C6BDB4,extended,000003A4
+patch=1,EE,E0090005,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E002020D,extended,01C6C284// Set HP Slot 3
+patch=1,EE,21C6C280,extended,0000041A
+patch=1,EE,21C6C284,extended,0000041A
+patch=1,EE,E002020D,extended,01C6C01C// Set HP Slot 4
+patch=1,EE,21C6C018,extended,0000041A
+patch=1,EE,21C6C01C,extended,0000041A
+patch=1,EE,E002020D,extended,01C6BDB4// Set HP Slot 5
+patch=1,EE,21C6BDB0,extended,0000041A
+patch=1,EE,21C6BDB4,extended,0000041A
 //Beast (Boss)
 patch=1,EE,E00D0305,extended,0032BAE0
 patch=1,EE,E00C0045,extended,0032BAE8
