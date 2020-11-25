@@ -3570,8 +3570,8 @@ patch=1,EE,E0010041,extended,0032BAE8
 patch=1,EE,11C4F008,extended,000003E5// Xaldin
 //Luxord->Hades Safety
 patch=1,EE,E0020D12,extended,0032BAE0
-patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan
-patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy
+patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
+patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
 //Luxord (Normal)
 patch=1,EE,E0090E12,extended,0032BAE0
 patch=1,EE,E008003A,extended,0032BAE8
@@ -3587,11 +3587,15 @@ patch=1,EE,21C6C1C4,extended,00000000// God Mode
 patch=1,EE,E0020F12,extended,0032BAE0
 patch=1,EE,E0010038,extended,0032BAE8
 patch=1,EE,11C520AC,extended,00000951// Roxas
-// Xemnas (Normal) (kira)
+//Xemnas (Normal) (kira)
 patch=1,EE,E0031312,extended,0032BAE0
 patch=1,EE,E002003B,extended,0032BAE8
-patch=1,EE,20CB8BE0,extended,40000000 //tilts to be on his back
-patch=1,EE,20CB8BE4,extended,EF4C003C //tilts to be on his back
+patch=1,EE,20CB8BE0,extended,40000000//tilts to be on his back
+patch=1,EE,20CB8BE4,extended,EF4C003C//tilts to be on his back
+//Armor Xemnas I Fight
+patch=1,EE,E0021812,extended,0032BAE0
+patch=1,EE,E0010047,extended,0032BAE8
+patch=1,EE,11C5A9AC,extended,0000029C// Scar
 //Armor Xemnas II Fight
 patch=1,EE,E0031712,extended,0032BAE0
 patch=1,EE,E0020049,extended,0032BAE8
