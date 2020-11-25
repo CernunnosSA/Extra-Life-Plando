@@ -4,16 +4,19 @@
 //                Game Start Codes
 //------------------------------------
 //Starting Stats
-patch=1,EE,E0090003,extended,0032DFC8
-patch=1,EE,E0082002,extended,0032BAE0
-patch=1,EE,E0070001,extended,0032BAE4
-patch=1,EE,E0060001,extended,0032BAE6
-patch=1,EE,E0050001,extended,0032BAE8
+patch=1,EE,E00C2002,extended,0032BAE0
+patch=1,EE,E00B0001,extended,0032BAE4
+patch=1,EE,E00A0001,extended,0032BAE6
+patch=1,EE,E0090001,extended,0032BAE8
 patch=1,EE,01C6C754,extended,0000002D// 45HP
 patch=1,EE,01C6C750,extended,0000002D// 45HP
 patch=1,EE,01C6C8D4,extended,0000002D// 45MP
 patch=1,EE,01C6C8D0,extended,0000002D// 45MP
 patch=1,EE,1032E020,extended,000001F0// Mysterious Abyss
+patch=1,EE,0032EB00,extended,00000000// Reset Doom Clock
+patch=1,EE,21D1940A,extended,00000000
+patch=1,EE,21D1940E,extended,00000000
+patch=1,EE,11D19412,extended,00000000
 //Starting Stats
 patch=1,EE,21D0B6AC,extended,00030303// AP/Def/Mag/Str
 //Critical Bonus
@@ -510,9 +513,9 @@ patch=1,EE,11D10E12,extended,00000004 // MP:0 HP:4
 patch=1,EE,21D10E14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10E18,extended,00000000 // Replacement Reward #2: Replacement Reward #1:
 // Hostile Program
-patch=1,EE,11D10C32,extended,00000000 // MP:0 HP:0
+patch=1,EE,11D10C32,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D10C34,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D10C38,extended,0185017F // Replacement Reward #2:Auto Summon Replacement Reward #1:Baseball Charm
+patch=1,EE,21D10C38,extended,0000009F // Replacement Reward #2: Replacement Reward #1:Lamp Charm
 // Solar Sailor Heartless
 patch=1,EE,11D11072,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11074,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -593,7 +596,7 @@ patch=1,EE,11C59E90,extended,00000968// Reckless (3rd Wave; Mid-Right)
 patch=1,EE,E0030411,extended,0032BAE0 // SP: IO Tower (Hallway)
 patch=1,EE,E0020037,extended,0032BAE4 // Event 37
 patch=1,EE,E0010037,extended,0032BAE8 // Event 37
-patch=1,EE,11C56530,extended,0000015F // Cerberus
+patch=1,EE,11C56530,extended,0000097B // Zexion
 //Sark (Normal)
 patch=1,EE,E0070911,extended,0032BAE0
 patch=1,EE,E006003A,extended,0032BAE8
@@ -1086,7 +1089,7 @@ patch=1,EE,11CDFF2E,extended,00000083 // Seadrift Row, Mythril Crystal is now Te
 
 //Popups
 patch=1,EE,11CE077A,extended,00000083 // Isla de Muerta Map, Isla de Muerta Map is now Tent
-patch=1,EE,11CE0786,extended,0000009F // Follow the Wind, Follow the Wind is now Lamp Charm
+patch=1,EE,11CE0786,extended,0000019C // Follow the Wind, Follow the Wind is now MP Rage
 patch=1,EE,11CE086A,extended,00000080 // Cursed Medallion, Cursed Medallion is now Kanga's House Map
 patch=1,EE,11CE0876,extended,0000014F // Ship Graveyard Map, Ship Graveyard Map is now Lucid Gem
 patch=1,EE,11CE09DE,extended,00000006 // Grim Reaper 2, Secret Ansem's Report 6 is now Mega-Ether
@@ -1106,9 +1109,9 @@ patch=1,EE,11D10AA2,extended,00000004 // MP:0 HP:4
 patch=1,EE,21D10AA4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D10AA8,extended,00000196 // Replacement Reward #2: Replacement Reward #1:Jackpot
 // Grim Reaper I
-patch=1,EE,11D11022,extended,00000A00 // MP:10 HP:0
+patch=1,EE,11D11022,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11024,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
-patch=1,EE,21D11028,extended,0000019C // Replacement Reward #2: Replacement Reward #1:MP Rage
+patch=1,EE,21D11028,extended,0185017F // Replacement Reward #2:Auto Summon Replacement Reward #1:Baseball Charm
 // Grim Reaper II
 patch=1,EE,11D10AE2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D10AE4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
@@ -1191,23 +1194,17 @@ patch=1,EE,11C43018,extended,00000137// Sniper  (Left)
 patch=1,EE,11C43058,extended,00000137// Sniper  (Right)
 
 //Boss Replacement
-//Grim Reaper 1 Cleanup
-patch=1,EE,E0010B10,extended,0032BAE0
-patch=1,EE,21C9902C,extended,00000004
 //Grim Reaper I
-patch=1,EE,E0051210,extended,0032BAE0
-patch=1,EE,E0040055,extended,0032BAE8
-patch=1,EE,11C5BA78,extended,0000013C// Sorcerer
-patch=1,EE,21C9902C,extended,00000003// Sorcerer Marker
-patch=1,EE,E0010028,extended,0035DE20// GR1 Cutscene Skip
-patch=1,EE,0035DE20,extended,000000B5
+patch=1,EE,E0021210,extended,0032BAE0
+patch=1,EE,E0010055,extended,0032BAE8
+patch=1,EE,11C5BA78,extended,0000015F// Cerberus
 //Grim Reaper 2
 patch=1,EE,E0050110,extended,0032BAE0
 patch=1,EE,E0040036,extended,0032BAE8
-patch=1,EE,2032F0A4,extended,12121200// Solo Fight
-patch=1,EE,11C431CC,extended,00000764// Mickey (Medallion Chest)
+patch=1,EE,2032F0A4,extended,12128300// Solo Fight
+patch=1,EE,11C431CC,extended,00000000// (Medallion Chest)
 patch=1,EE,11C4320C,extended,00000000// (Group of Medallions)
-patch=1,EE,11C4318C,extended,000005D0// The Experiment(Grim Reaper)
+patch=1,EE,11C4318C,extended,000005D0// The Experiment (Grim Reaper)
 
 //Normal Enemy Replacement
 //Town
@@ -1397,7 +1394,8 @@ patch=1,EE,11C5B9B0,extended,00000138// Dancer
 patch=1,EE,11C5BA64,extended,00000137// Sniper
 patch=1,EE,11C5BAA4,extended,00000137// Sniper
 //Seadrift Row Gambler (From Interceptor Hold)
-patch=1,EE,E0010F10,extended,0032BAE0
+patch=1,EE,E0020F10,extended,0032BAE0
+patch=1,EE,E0010000,extended,0032BAE8//
 patch=1,EE,11C5B970,extended,00000138// Dancer
 //Isla De Muerta Cave Mouth Medallion Gambler
 patch=1,EE,E0020910,extended,0032BAE0//
@@ -3096,7 +3094,6 @@ patch=1,EE,E002004E,extended,0032BAE8
 patch=1,EE,2032F078,extended,12128300// Sora and Beast only
 patch=1,EE,11C5A360,extended,00000162// Dark Thorn
 //Dark Thorn Fight
-patch=1,EE,21D11295,extended,00000050
 patch=1,EE,E0460505,extended,0032BAE0
 patch=1,EE,E045004F,extended,0032BAE8
 patch=1,EE,2032F078,extended,12128300// Sora and Beast only
