@@ -1548,8 +1548,9 @@ patch=1,EE,E0020003,extended,0032BAE4//
 patch=1,EE,E0010008,extended,0032BAE8//
 patch=1,EE,0032F1FA,extended,00000008// Limit Form Enabled
 //Corridors Fight
-patch=1,EE,E0121404,extended,0032BAE0//
-patch=1,EE,E0110056,extended,0032BAE8//
+patch=1,EE,E0131404,extended,0032BAE0//
+patch=1,EE,E0120056,extended,0032BAE8//
+patch=1,EE,2032F074,extended,12121200// Solo Fight
 patch=1,EE,11C5B780,extended,00000077// Wight Knight (1st Wave; Front-Left)
 patch=1,EE,11C5B7C0,extended,00000077// Wight Knight (1st Wave; Front-Right)
 patch=1,EE,11C5B800,extended,0000007A// Morning Star (1st Wave; Front-Middle)
