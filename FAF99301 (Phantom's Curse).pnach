@@ -1747,7 +1747,7 @@ patch=1,EE,11C5B380,extended,0000012D// Soldier (2nd Wave; Mid-Right)
 patch=1,EE,11C5B3C0,extended,0000012D// Soldier (2nd Wave; Back-Right)
 patch=1,EE,11C5B400,extended,0000012D// Soldier (2nd Wave; Back-Middle)
 //Tower: Moon Chamber Heartless
-patch=1,EE,E00A1D02,extended,0032BAE0//
+patch=1,EE,E00A1E02,extended,0032BAE0//
 patch=1,EE,E0090099,extended,0032BAE8//
 patch=1,EE,11C5B0E8,extended,0000012D// Shadow (1st Wave; Front-Right)
 patch=1,EE,11C5B128,extended,0000012D// Soldier (1st Wave; Back-Middle)
