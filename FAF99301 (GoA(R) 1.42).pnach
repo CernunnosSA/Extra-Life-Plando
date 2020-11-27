@@ -2629,8 +2629,8 @@ patch=1,EE,E0020A06,extended,0032BAE0
 patch=1,EE,11C550D4,extended,00000974
 patch=1,EE,11C55148,extended,00000974
 //Zexion's Absent Silhouette Defeated
-patch=1,EE,E0022204,extended,0032BAE0
-patch=1,EE,E001007D,extended,0032BAE8
+patch=1,EE,E0020A06,extended,0032BAE0
+patch=1,EE,E0010015,extended,0032BAE2
 patch=1,EE,0032C44A,extended,0000000F
 //Data Zexion Spawned
 patch=1,EE,E0062204,extended,0032BAE0
