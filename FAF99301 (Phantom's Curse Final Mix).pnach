@@ -482,7 +482,7 @@ patch=1,EE,21C6C4EC,extended,0000041A
 
 
 //----- Space Paranoids -----
-patch=1,EE,E022FFFF,extended,0032BAE0
+patch=1,EE,E020FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFCEE,extended,00000112 // Pit Cell, Pit Cell Area Map is now Drive Recovery
 patch=1,EE,11CDFCFA,extended,00000225 // Pit Cell, Mythril Crystal is now Precious Mushroom
@@ -504,8 +504,6 @@ patch=1,EE,11CDFD8A,extended,00000001 // Central Computer Core, Central Computer
 patch=1,EE,11CE0816,extended,0000007D // Photon Debugger, Photon Debugger is now 100 Acre Wood Map
 patch=1,EE,11CE0A62,extended,00000016 // Larxene (Absent Silhouttes), Cloaked Thunder is now Blizzard
 patch=1,EE,11CE0A9E,extended,00000084 // Larxene (Data), Lost Illusion is now Shock Charm
-patch=1,EE,E001000F,extended,0032D4D0 // Larxene AS Defeated
-patch=1,EE,11CE0A9E,extended,0000009D // Larxene (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Dataspace Computers
@@ -528,6 +526,9 @@ patch=1,EE,21D10C78,extended,0000013D // Replacement Reward #2: Replacement Rewa
 patch=1,EE,11D111B2,extended,00000A00 // MP:10 HP:0
 patch=1,EE,21D111B4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D111B8,extended,0000019A // Replacement Reward #2: Replacement Reward #1:Thunder Boost
+
+patch=1,EE,E001000F,extended,0032D4D0 // Larxene AS Defeated
+patch=1,EE,11CE0A9E,extended,0000009D // Larxene (Data), Lost Illusion is now Grand Ribbon
 
 //Enemy Replacement
 //Datascape Computers Fight
@@ -672,9 +673,14 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E0020069,extended,01C6C01C// If Max HP Slot 4 = 105
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
+//Larxene AS
+patch=1,EE,E0022104,extended,0032BAE0
+patch=1,EE,E001008F,extended,0032BAE4
+patch=1,EE,11C5649C,extended,000004B8// Hostile Program
+
 
 //----- Disney Castle -----
-patch=1,EE,E018FFFF,extended,0032BAE0
+patch=1,EE,E016FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF9B2,extended,00000052 // Courtyard, Mythril Shard is now Guard
 patch=1,EE,11CDF9BE,extended,00000001 // Courtyard, Star Recipe is now Potion
@@ -691,8 +697,6 @@ patch=1,EE,11CE0B16,extended,00000058 // Proof of Connection, Proof of Connectio
 patch=1,EE,11CE0B22,extended,00000003 // Manifest Illusion, Manifest Illusion is now Ether
 patch=1,EE,11CE0A6E,extended,000001EA // Marluxia (Absent Silhouttes), Eternal Blossom is now Rumbling Rose
 patch=1,EE,11CE0AAA,extended,00000040 // Marluxia (Data), Lost Illusion is now Full Bloom
-patch=1,EE,E001000F,extended,0032CD5C // Marluxia AS Defeated
-patch=1,EE,11CE0AAA,extended,0000009D // Marluxia (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Escort Queen Minnie
@@ -707,6 +711,9 @@ patch=1,EE,21D11188,extended,00000000
 patch=1,EE,11D111F2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D111F4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D111F8,extended,01150114 // Replacement Reward #2:Magic Boost Replacement Reward #1:Power Boost
+
+patch=1,EE,E001000F,extended,0032CD5C // Marluxia AS Defeated
+patch=1,EE,11CE0AAA,extended,0000009D // Marluxia (Data), Lost Illusion is now Grand Ribbon
 
 //Enemy Replacement
 // Escort Queen Minnie Part I
@@ -759,7 +766,7 @@ patch=1,EE,11C583A4,extended,00000134 // Dragoon
 patch=1,EE,11C583E4,extended,00000134 // Dragoon
 
 //Boss Replacement
-// Marluxia Safety
+// Marluxia Cleanup
 patch=1,EE,E002050C,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan from Marluxia battle
 patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy from Marluxia battle
@@ -1151,7 +1158,7 @@ patch=1,EE,11C6BB48,extended,000001C2
 patch=1,EE,11C6BB4C,extended,000001C2
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
-// Revert from FF7 fight
+// Boat Pete -> FF7 Fight Marker Cleanup
 patch=1,EE,E007020D,extended,0032BAE0
 patch=1,EE,E0060034,extended,1032BAE4
 patch=1,EE,E0050004,extended,01CBAE6C
@@ -2320,7 +2327,7 @@ patch=1,EE,11C6C01C,extended,000009C4
 patch=1,EE,11C6C020,extended,00000000
 patch=1,EE,11C6C1A0,extended,00000045
 patch=1,EE,11C6C1A4,extended,0000002B
-// Experiment Cleanup
+// Experiment Marker Cleanup
 patch=1,EE,E003050A,extended,0032BAE0 // Cutscene
 patch=1,EE,E0020032,extended,0032BAE2 // After
 patch=1,EE,E0010001,extended,0032BAE6 // Fight
@@ -2490,7 +2497,7 @@ patch=1,EE,21C6C284,extended,00000096
 
 
 //----- Olympus Coliseum -----
-patch=1,EE,E03CFFFF,extended,0032BAE0
+patch=1,EE,E03AFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFB02,extended,00000182 // Underworld Entrance, Power Boost is now Auto Wisdom
 patch=1,EE,11CDFB0E,extended,00000006 // Passage, Mythril Shard is now Mega-Ether
@@ -2523,8 +2530,6 @@ patch=1,EE,11CE0882,extended,00000146 // Auron's Statue, Auron's Statue is now L
 patch=1,EE,11CE088E,extended,00000158 // Guardian Soul, Guardian Soul is now Twilight Crystal
 patch=1,EE,11CE0A56,extended,00000115 // Zexion (Absent Silhouettes), Book of Shadows is now Magic Boost
 patch=1,EE,11CE0A92,extended,00000039 // Zexion (Data), Lost Illusion is now Shadow Archive
-patch=1,EE,E001000F,extended,0032C44A // Zexion AS Defeated
-patch=1,EE,11CE0A92,extended,0000009D // Zexion (Data), Lost Illusion is now Grand Ribbon
 // Olympus Cups
 patch=1,EE,11CE073E,extended,00000007 // Protect Belt (Pain & Panic Cup), Protect Belt is now Mega-Elixir
 patch=1,EE,11CE074A,extended,00000007 // Serenity Gem (Pain & Panic Cup), Serenity Gem is now Mega-Elixir
@@ -2565,6 +2570,9 @@ patch=1,EE,21D10888,extended,000000A0 // Replacement Reward #2: Replacement Rewa
 patch=1,EE,11D11152,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11154,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D11158,extended,01290017 // Replacement Reward #2:Dark Anklet Replacement Reward #1:Thunder
+
+patch=1,EE,E001000F,extended,0032C44A // Zexion AS Defeated
+patch=1,EE,11CE0A92,extended,0000009D // Zexion (Data), Lost Illusion is now Grand Ribbon
 
 //Enemy Replacement
 //Hades Chamber
@@ -2670,10 +2678,26 @@ patch=1,EE,E0030005,extended,0032EB00// Doom Clock == 5
 patch=1,EE,E00201E7,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,000001E7//
 patch=1,EE,11C6C284,extended,000001E7//
+//Demyx Marker Cleanup
+patch=1,EE,E0030004,extended,01CBACEC// If Demyx is an Enemy
+patch=1,EE,E002007B,extended,1032BAE8// If NOT in fight
+patch=1,EE,01CBACEC,extended,00000003// Revert Demyx Marker
+patch=1,EE,01CA47EC,extended,00000004// Revert Water Clone Marker
+//Demyx
+patch=1,EE,E0081106,extended,0032BAE0
+patch=1,EE,E007007B,extended,0032BAE8
+patch=1,EE,20349DE8,extended,00000000// Stop Timer
+patch=1,EE,11C527FC,extended,000008F7// Demyx
+patch=1,EE,11C5281C,extended,00000001// Demyx Fix 1 (Can't stagger without this)
+patch=1,EE,01D48DEC,extended,00000002// Demyx Fix 2 (Can't actually fight without this)
+patch=1,EE,01CBACEC,extended,00000004// Demyx Marker into Enemy
+patch=1,EE,01CA47EC,extended,00000003// Water Clone Marker into Boss
+patch=1,EE,21D48EFC,extended,00000001// 1 Enemy Target
 //Pete Fight (Olympus Coliseum; Part II)
-patch=1,EE,E00A0806,extended,0032BAE0
-patch=1,EE,E0090074,extended,0032BAE8
+patch=1,EE,E00B0806,extended,0032BAE0
+patch=1,EE,E00A0074,extended,0032BAE8
 patch=1,EE,2032F07C,extended,12121200// Solo Fight
+patch=1,EE,20349DF4,extended,00001770// Base time == 100 seconds (10 seconds extra)
 patch=1,EE,11C4FB08,extended,000005CE// Prison Keeper
 patch=1,EE,11C4FB48,extended,000006C2// Eeyore (Ally)
 patch=1,EE,11C4FBB4,extended,00000170// Gargoyle Warrior (Front-Left)
@@ -2696,10 +2720,24 @@ patch=1,EE,E00300CA,extended,0032BAE8
 patch=1,EE,2032F07C,extended,12121200// Solo Fight
 patch=1,EE,11C5C0F0,extended,000006C4// Piglet (Hercules)
 patch=1,EE,11C5C0B0,extended,00000051// Axel 2 (Hades)
+//Zexion -> Hades Cleanup
+patch=1,EE,E003015E,extended,01CE0B6C
+patch=1,EE,E0020A06,extended,0032BAE0
+patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
+patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
+//Zexion AS
+patch=1,EE,E0072204,extended,0032BAE0
+patch=1,EE,E0060097,extended,0032BAE8
+patch=1,EE,11C597E0,extended,0000016A// Hercules (Ally)
+patch=1,EE,11C59800,extended,00000001// Aura Sphere AI
+patch=1,EE,11CE0B6A,extended,00000910// Replace Dolan with Irkules
+patch=1,EE,11CE0B6C,extended,0000015E// Replace Goffy with Hades
+patch=1,EE,21C6C1C0,extended,00000000// Irkules Resists 1
+patch=1,EE,21C6C1C4,extended,00000000// Irkules Resists 2
 
 
 //----- Agrabah -----
-patch=1,EE,E030FFFF,extended,0032BAE0
+patch=1,EE,E02EFFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDF826,extended,0000006B // Agrabah, Dark Shard is now Glide LV2
 patch=1,EE,11CDF832,extended,00000240 // Agrabah, Mythril Shard is now Remembrance Shard
@@ -2734,8 +2772,6 @@ patch=1,EE,11CE079E,extended,00000115 // Lamp Charm, Lamp Charm is now Magic Boo
 patch=1,EE,11CE08B2,extended,00000006 // Wishing Lamp, Wishing Lamp is now Elixir
 patch=1,EE,11CE0A4A,extended,00000114 // Lexaeus (Absent Silhouttes), Strength Beyond Strength is now Power Boost
 patch=1,EE,11CE0A86,extended,00000222 // Lexaeus (Data), Lost Illusion is now Centurion+
-patch=1,EE,E001000F,extended,0032C5DC // Lexaeus AS Defeated
-patch=1,EE,11CE0A86,extended,0000009D // Lexaeus (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Escort Abu
@@ -2758,6 +2794,9 @@ patch=1,EE,21D10978,extended,00000019 // Replacement Reward #2: Replacement Rewa
 patch=1,EE,11D11122,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D11124,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D11128,extended,00570007 // Replacement Reward #2:Magnet Replacement Reward #1:Mega-Elixir
+
+patch=1,EE,E001000F,extended,0032C5DC // Lexaeus AS Defeated
+patch=1,EE,11CE0A86,extended,0000009D // Lexaeus (Data), Lost Illusion is now Grand Ribbon
 
 //Enemy Replacement
 //Agrabah Heartless
@@ -2962,7 +3001,7 @@ patch=1,EE,11C6C01C,extended,00000465
 
 
 //----- Halloween Town -----
-patch=1,EE,E025FFFF,extended,0032BAE0
+patch=1,EE,E023FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CDFD96,extended,00000128 // Graveyard, Mythril Shard is now Shadow Anklet
 patch=1,EE,11CDFDA2,extended,0000011A // Graveyard, Serenity Gem is now Dark Gem
@@ -2986,8 +3025,6 @@ patch=1,EE,11CE08CA,extended,000001EE // Decoy Presents, Decoy Presents is now S
 patch=1,EE,11CE08D6,extended,000000EC // Decisive Pumpkin, Decisive Pumpkin is now Secret Ansem's Report 11
 patch=1,EE,11CE0A3E,extended,00000116 // Vexen (Absent Silhouttes), Road to Discovery is now Defense Boost
 patch=1,EE,11CE0A7A,extended,00000229 // Vexen (Data), Lost Illusion is now Frozen Pride+
-patch=1,EE,E001000F,extended,0032BF38 // Vexen AS Defeated
-patch=1,EE,11CE0A7A,extended,0000009D // Vexen (Data), Lost Illusion is now Grand Ribbon
 
 //Bonus Rewards
 // Prison Keeper
@@ -3010,6 +3047,9 @@ patch=1,EE,21D10A68,extended,00000000 // Replacement Reward #2: Replacement Rewa
 patch=1,EE,11D110F2,extended,00000000 // MP:0 HP:0
 patch=1,EE,21D110F4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Slot:+0 Drive Gauge:+0
 patch=1,EE,21D110F8,extended,020C0016 // Replacement Reward #2:Promise Charm Replacement Reward #1:Blizzard
+
+patch=1,EE,E001000F,extended,0032BF38 // Vexen AS Defeated
+patch=1,EE,11CE0A7A,extended,0000009D // Vexen (Data), Lost Illusion is now Grand Ribbon
 
 //Enemy Replacement
 //Halloween Town Square Heartless (Replaced Trick Ghosts [0002, 0723] with Wight Knights until I figure out why they don't spawn)
@@ -3306,7 +3346,7 @@ patch=1,EE,21C6C01C,extended,00000870
 patch=1,EE,E00200F0,extended,01C6BDB4// Dancer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,00000870
 patch=1,EE,21C6BDB4,extended,00000870
-//Dancer Marker Fix
+//Dancer Marker Cleanup
 patch=1,EE,E0030305,extended,0032BAE0
 patch=1,EE,E0020016,extended,0032BAE8
 patch=1,EE,E0010003,extended,01C98F0C
@@ -3388,7 +3428,7 @@ patch=1,EE,21C6C428,extended,64646464// Luxord's Resists 1
 patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
-//Xaldin->Riku Safety
+//Xaldin->Riku Cleanup
 patch=1,EE,E0090323,extended,01CE0B6A// If Donald is DW Roxas
 patch=1,EE,E1040005,extended,0032BAE0// If in Beast's Castle
 patch=1,EE,E0030052,extended,1032BAE8// Not in fight (continuing from a loss)
@@ -3639,7 +3679,7 @@ patch=1,EE,11C6BDB4,extended,0000015E
 patch=1,EE,E0020037,extended,01C6BB4C // Sniper or Samurai in Slot 6
 patch=1,EE,11C6BB48,extended,0000015E
 patch=1,EE,11C6BB4C,extended,0000015E
-//Samurai and Sniper Marker Fix
+//Samurai and Sniper Marker Cleanup
 patch=1,EE,E0030908,extended,0032BAE0
 patch=1,EE,E0020069,extended,0032BAE8
 patch=1,EE,11C98EAC,extended,00000004// Sniper Marker
@@ -3788,7 +3828,7 @@ patch=1,EE,11C5BD6C,extended,00000139// Berserker (2nd Wave)
 patch=1,EE,E0021512,extended,0032BAE0
 patch=1,EE,E0010041,extended,0032BAE8
 patch=1,EE,11C4F008,extended,000003E5// Xaldin
-//Luxord->Hades Safety
+//Luxord->Hades Cleanup
 patch=1,EE,E0020D12,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
