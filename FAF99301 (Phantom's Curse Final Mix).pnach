@@ -2159,17 +2159,17 @@ patch=1,EE,11C5B380,extended,0000012D// Soldier (2nd Wave; Mid-Right)
 patch=1,EE,11C5B3C0,extended,0000012D// Soldier (2nd Wave; Back-Right)
 patch=1,EE,11C5B400,extended,0000012D// Soldier (2nd Wave; Back-Middle)
 //Tower: Moon Chamber Heartless
-patch=1,EE,E00A1D02,extended,0032BAE0//
+patch=1,EE,E00A1E02,extended,0032BAE0//
 patch=1,EE,E0090099,extended,0032BAE8//
-patch=1,EE,11C5B0E8,extended,0000012D// Shadow (1st Wave; Front-Right)
-patch=1,EE,11C5B128,extended,0000012D// Soldier (1st Wave; Back-Middle)
-patch=1,EE,11C5B168,extended,0000012D// Shadow (1st Wave; Front-Left)
-patch=1,EE,11C5B1A8,extended,0000012D// Shadow (1st Wave; Back-Left)
-patch=1,EE,11C5B1E8,extended,0000012D// Shadow (1st Wave; Back-Right)
-patch=1,EE,11C5B228,extended,00000078// Soldier (2nd Wave; Front-Middle)
-patch=1,EE,11C5B268,extended,00000078// Soldier (2nd Wave; Back-Middle)
-patch=1,EE,11C5B2A8,extended,00000078// Soldier (2nd Wave; Mid-Right)
-patch=1,EE,11C5B2E8,extended,00000078// Soldier (2nd Wave; Mid-Left)
+patch=1,EE,11C5B0E8,extended,0000012D// Soldier (1st Wave; Front-Right)
+patch=1,EE,11C5B128,extended,00000754// Shadow Roxas (1st Wave; Back-Middle)
+patch=1,EE,11C5B168,extended,0000012D// Soldier (1st Wave; Front-Left)
+patch=1,EE,11C5B1A8,extended,0000012D// Soldier (1st Wave; Back-Left)
+patch=1,EE,11C5B1E8,extended,0000012D// Soldier (1st Wave; Back-Right)
+patch=1,EE,11C5B228,extended,00000754// Shadow Roxas (2nd Wave; Front-Middle)
+patch=1,EE,11C5B268,extended,00000754// Shadow Roxas (2nd Wave; Back-Middle)
+patch=1,EE,11C5B2A8,extended,00000754// Shadow Roxas (2nd Wave; Mid-Right)
+patch=1,EE,11C5B2E8,extended,00000754// Shadow Roxas (2nd Wave; Mid-Left)
 //Sandlot Nobodies Fight
 patch=1,EE,E00C0402,extended,0032BAE0//
 patch=1,EE,E00B0050,extended,0032BAE8//
