@@ -379,7 +379,7 @@ patch=1,EE,21D10CC4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D10CC8,extended,021A0177 // Replacement Reward #2:"The Struggle" Trophy Replacement Reward #1:Ice Cream
 
 //Enemy Replacement
-//General STT Cleanup
+//General STT DW Roxas Cleanup
 patch=1,EE,E0010323,extended,01CE0B74// If Limit Form is DW Roxas
 patch=1,EE,11CE0B74,extended,0000095D// Revert Limit Form
 patch=1,EE,E0010323,extended,01CE0C04// If Normal Roxas is DW Roxas
@@ -3471,53 +3471,29 @@ patch=1,EE,21C6C42C,extended,00C86464// Luxord's Resists 2
 patch=1,EE,E0010001,extended,01C6C280//
 patch=1,EE,21C6C280,extended,00000000//
 //Xaldin->Riku Cleanup
-patch=1,EE,E0090323,extended,01CE0B6A// If Donald is DW Roxas
-patch=1,EE,E1040005,extended,0032BAE0// If in Beast's Castle
-patch=1,EE,E0030052,extended,1032BAE8// Not in fight (continuing from a loss)
+patch=1,EE,E00B0009,extended,01CBCE4C// If Roxas is Partner
+patch=1,EE,E1050005,extended,0032BAE0// If in Beast's Castle
+patch=1,EE,E0040052,extended,1032BAE8// Not in fight (continuing from a loss)
 patch=1,EE,2032F078,extended,01020300// Restore Party
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
-patch=1,EE,E1030005,extended,1032BAE0// Not in Beast's Castle (after winning)
+patch=1,EE,01CBCE4C,extended,00000003// Roxas is Boss
+patch=1,EE,E1040005,extended,1032BAE0// Not in Beast's Castle (after winning)
 patch=1,EE,2032F078,extended,02010300// Restore Party
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
+patch=1,EE,01CBCE4C,extended,00000003// Roxas is Boss
 // Xaldin (Normal)
-patch=1,EE,E0230F05,extended,0032BAE0
-patch=1,EE,E0220052,extended,0032BAE8
-patch=1,EE,2032F078,extended,12030201// Dolan Goffy Beast
+patch=1,EE,E0090F05,extended,0032BAE0
+patch=1,EE,E0080052,extended,0032BAE8
+patch=1,EE,2032F078,extended,12020100// Sora Donald Goofy
 patch=1,EE,11C5A0A8,extended,0000063C// Riku
-patch=1,EE,11CE0B6A,extended,00000323// Replace Dolan with DW Roxas
+patch=1,EE,11CE0B6A,extended,00000951// Replace Dolan with Roxas
 patch=1,EE,11CE0B6C,extended,00000764// Replace Goffy with Mickey
-patch=1,EE,E0040000,extended,0032EB00// Doom Clock == 0
-patch=1,EE,E001029E,extended,01C6C284// If Max HP Slot 3 = 670
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E001029E,extended,01C6C01C// If Max HP Slot 4 = 670
+patch=1,EE,01CBCE4C,extended,00000009// Roxas is Partner
 patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0040001,extended,0032EB00// Doom Clock == 1
-patch=1,EE,E0010348,extended,01C6C284// If Max HP Slot 3 = 840
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0010348,extended,01C6C01C// If Max HP Slot 4 = 840
-patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0040002,extended,0032EB00// Doom Clock == 2
-patch=1,EE,E00103E8,extended,01C6C284// If Max HP Slot 3 = 1000
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E00103E8,extended,01C6C01C// If Max HP Slot 4 = 1000
-patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0040003,extended,0032EB00// Doom Clock == 3
-patch=1,EE,E0010492,extended,01C6C284// If Max HP Slot 3 = 1170
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0010492,extended,01C6C01C// If Max HP Slot 4 = 1170
-patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0040004,extended,0032EB00// Doom Clock == 4
-patch=1,EE,E0010532,extended,01C6C284// If Max HP Slot 3 = 1330
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0010532,extended,01C6C01C// If Max HP Slot 4 = 1330
-patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
-patch=1,EE,E0040005,extended,0032EB00// Doom Clock == 5
-patch=1,EE,E00105DC,extended,01C6C284// If Max HP Slot 3 = 1500
-patch=1,EE,11C6C288,extended,00000000// HP Gate = 0HP
-patch=1,EE,E00105DC,extended,01C6C01C// If Max HP Slot 4 = 1500
-patch=1,EE,11C6C020,extended,00000000// HP Gate = 0HP
+patch=1,EE,21C6C1C0,extended,64646432// Riku's Resists 1
+patch=1,EE,21C6C1C4,extended,00641919// Riku's Resists 2
 
 
 //----- Land of Dragons -----
