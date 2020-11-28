@@ -379,80 +379,121 @@ patch=1,EE,21D10CC4,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D10CC8,extended,021A0177 // Replacement Reward #2:"The Struggle" Trophy Replacement Reward #1:Ice Cream
 
 //Enemy Replacement
+//General STT Cleanup
+patch=1,EE,E0010323,extended,01CE0B74// If Limit Form is DW Roxas
+patch=1,EE,11CE0B74,extended,0000095D// Revert Limit Form
+patch=1,EE,E0010323,extended,01CE0C04// If Normal Roxas is DW Roxas
+patch=1,EE,11CE0C04,extended,0000005A// Revert Normal Roxas
+//Seifer
+patch=1,EE,E0020402,extended,0032BAE0
+patch=1,EE,E001004E,extended,0032BAE8
+patch=1,EE,11C36EC0,extended,0000000D// Hot Rod
 //Dusk (1st Fight with Struggle Bat)
 patch=1,EE,E0050E02,extended,0032BAE0
-patch=1,EE,E004007F,extended,0032BAE4
 patch=1,EE,E003007F,extended,0032BAE8
 patch=1,EE,11C443A4,extended,00000934// Anti Sora
 patch=1,EE,21C6C690,extended,00000000// God Mode
 patch=1,EE,21C6C694,extended,00000000// God Mode
 //Dusk (1st Fight with Kingdom Key)
-patch=1,EE,E0030E02,extended,0032BAE0
-patch=1,EE,E0020080,extended,0032BAE4
+patch=1,EE,E0020E02,extended,0032BAE0
 patch=1,EE,E0010080,extended,0032BAE8
-patch=1,EE,11C444D8,extended,00000078// Neo-Shadow
+patch=1,EE,11C444D8,extended,00000934// Anti Sora
 //Dusk (3rd Day; Sandlot)
-patch=1,EE,E0050402,extended,0032BAE0
-patch=1,EE,E004004F,extended,0032BAE4
+patch=1,EE,E0040402,extended,0032BAE0
 patch=1,EE,E003004F,extended,0032BAE8
 patch=1,EE,11C36FF4,extended,00000135// Assassin
 patch=1,EE,21C6C690,extended,00000000// God Mode
 patch=1,EE,21C6C694,extended,00000000// God Mode
 //Station of Serenity Nobodies
 patch=1,EE,E0052002,extended,0032BAE0
-patch=1,EE,E004009A,extended,0032BAE4
-patch=1,EE,E003009A,extended,0032BAE8
+patch=1,EE,E004009A,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C58C0C,extended,00000135// Assassin Right
 patch=1,EE,11C58C4C,extended,00000136// Samurai Middle
 patch=1,EE,11C58C8C,extended,0000013E// Dusk
 //Hayner (Struggle Tournament)
-patch=1,EE,E0030502,extended,0032BAE0
-patch=1,EE,E0020054,extended,0032BAE4
-patch=1,EE,E0010054,extended,0032BAE8
+patch=1,EE,E0040502,extended,0032BAE0
+patch=1,EE,E0030054,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C269AC,extended,0000086C// Vivi
+patch=1,EE,11C269CC,extended,00000001// Struggle AI
 //Vivi (Struggle Tournament)
 patch=1,EE,E0030502,extended,0032BAE0
-patch=1,EE,E0020055,extended,0032BAE4
-patch=1,EE,E0010055,extended,0032BAE8
+patch=1,EE,E0020055,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C26BF0,extended,0000082F// Setzer
 //Sandlot (Struggle Tournament) Nobodies
 patch=1,EE,E0050502,extended,0032BAE0
-patch=1,EE,E0040056,extended,0032BAE4
-patch=1,EE,E0030056,extended,0032BAE8
+patch=1,EE,E0040056,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C26D24,extended,00000754// Shadow Roxas
 patch=1,EE,11C26D64,extended,0000013E// Dusk Left
 patch=1,EE,11C26DA4,extended,0000013E// Dusk Right
 //Setzer (Struggle Tournament)
 patch=1,EE,E0060502,extended,0032BAE0
-patch=1,EE,E0050058,extended,0032BAE4
-patch=1,EE,E0040058,extended,0032BAE8
+patch=1,EE,E0050058,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C2700C,extended,000008FA// Tifa
 patch=1,EE,E0020D48,extended,21C6C4EC// If max HP is less than 3400
 patch=1,EE,21C6C4E8,extended,00000D48//
 patch=1,EE,21C6C4EC,extended,00000D48//
 //Back Alley Nobodies
 patch=1,EE,E0060302,extended,0032BAE0
-patch=1,EE,E0050049,extended,0032BAE4
-patch=1,EE,E0040049,extended,0032BAE8
+patch=1,EE,E0050049,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C5313C,extended,00000022// Someone who's not watching
 patch=1,EE,11C50104,extended,00000135// Assassin
 patch=1,EE,11C50144,extended,00000137// Sniper(Back)
 patch=1,EE,11C50184,extended,00000137// Sniper(Right)
 //Mansion: Basement Hall Nobodies
 patch=1,EE,E0081302,extended,0032BAE0
-patch=1,EE,E0070086,extended,0032BAE4
-patch=1,EE,E0060086,extended,0032BAE8
-patch=1,EE,11C55B94,extended,00000137// Sniper
-patch=1,EE,11C55BD4,extended,0000013E// Dusk
-patch=1,EE,11C55C14,extended,0000013E// Dusk
-patch=1,EE,11C55C54,extended,00000137// Sniper
+patch=1,EE,E0070086,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
+patch=1,EE,11C55B94,extended,0000013E// Dusk
+patch=1,EE,11C55BD4,extended,00000678// Dusk
+patch=1,EE,11C55C14,extended,00000137// Sniper
+patch=1,EE,11C55C54,extended,0000013E// Dusk
 patch=1,EE,11C55C94,extended,00000135// Assassin Wave2
-patch=1,EE,11C55CD4,extended,00000135// Assassin Wave2
+patch=1,EE,11C55CD4,extended,00000136// Samurai  Wave2
 
 //Boss Replacement
+//Twilight Thorn
+patch=1,EE,E01B2202,extended,0032BAE0
+patch=1,EE,E01A009D,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
+patch=1,EE,11C59E24,extended,0000090F// Pete
+patch=1,EE,E0030006,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E0020165,extended,31C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000165
+patch=1,EE,21C6C4EC,extended,00000165
+patch=1,EE,E0030001,extended,0032EB00// Doom Clock == 1
+patch=1,EE,E00201C0,extended,31C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000001C0
+patch=1,EE,21C6C4EC,extended,000001C0
+patch=1,EE,E0030002,extended,0032EB00// Doom Clock == 2
+patch=1,EE,E0020215,extended,31C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000215
+patch=1,EE,21C6C4EC,extended,00000215
+patch=1,EE,E0030003,extended,0032EB00// Doom Clock == 3
+patch=1,EE,E0020270,extended,31C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000270
+patch=1,EE,21C6C4EC,extended,00000270
+patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
+patch=1,EE,E00202C5,extended,31C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,000002C5
+patch=1,EE,21C6C4EC,extended,000002C5
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E0020320,extended,31C6C4EC// Set HP
+patch=1,EE,21C6C4E8,extended,00000320
+patch=1,EE,21C6C4EC,extended,00000320
+//Axel I
+patch=1,EE,E0030502,extended,0032BAE0
+patch=1,EE,E0020057,extended,0032BAE8
+patch=1,EE,11CE0C04,extended,00000323// DW Roxas
+patch=1,EE,11C26ED8,extended,00000051// Axel II
+patch=1,EE,11C26EF8,extended,00000000// Axel II AI Enable Firewall
 //Axel II
-patch=1,EE,E01B1402,extended,0032BAE0
-patch=1,EE,E01A0089,extended,0032BAE4
+patch=1,EE,E01A1402,extended,0032BAE0
 patch=1,EE,E0190089,extended,0032BAE8
 patch=1,EE,11C5AF88,extended,000008FA// Tifa
 patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 0
@@ -1931,7 +1972,7 @@ patch=1,EE,11C4DD9C,extended,00000078// NeoShadow (4th Wave)
 //Ravine Trail Heartless 4
 patch=1,EE,E02A1004,extended,0032BAE0//
 patch=1,EE,E0290041,extended,0032BAE8//
-patch=1,EE,11C4E664,extended,00000934// Butt (Ally) -> Anti-Sora
+patch=1,EE,11C4E664,extended,00000934// Butt (Ally) -> Anti Sora
 patch=1,EE,11C4DFC0,extended,00000132// Surveillance Bot (1st Wave; Back-Right)
 patch=1,EE,11C4E000,extended,00000078// NeoShadow (1st Wave; Mid-Left)
 patch=1,EE,11C4E040,extended,00000078// NeoShadow (1st Wave; Front-Left)
@@ -1971,7 +2012,7 @@ patch=1,EE,11C4EA08,extended,0000013E// Dusk
 patch=1,EE,11C4EA48,extended,0000013E// Dusk
 patch=1,EE,11C4EA88,extended,0000013E// Dusk
 patch=1,EE,11C4EAC8,extended,0000013E// Dusk
-patch=1,EE,11C4EB08,extended,00000934// Anti-Sora
+patch=1,EE,11C4EB08,extended,00000934// Anti Sora
 //1k Heartless Required Kills 255
 patch=1,EE,E0041104,extended,0032BAE0//
 patch=1,EE,E0030042,extended,0032BAE8//
@@ -2932,10 +2973,11 @@ patch=1,EE,11C50EF8,extended,00000049// Crimson Jazz (2nd Wave)
 
 //Boss Replacement
 //Volcano and Blizzard Lord Fight
-patch=1,EE,E0410307,extended,0032BAE0
-patch=1,EE,E040003B,extended,0032BAE8
+patch=1,EE,E0420307,extended,0032BAE0
+patch=1,EE,E041003B,extended,0032BAE8
 patch=1,EE,11C32934,extended,0000090F// Pete Boss
 patch=1,EE,11C32974,extended,00000647// Pete TR
+patch=1,EE,11C32994,extended,00000001// Pete TR AI Enable About Face
 patch=1,EE,E0010090,extended,0035DE20// Volcano Cutscene Fix
 patch=1,EE,0035DE20,extended,000000B5
 patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 0
