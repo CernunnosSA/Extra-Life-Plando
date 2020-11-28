@@ -1305,7 +1305,7 @@ patch=1,EE,11CDFE9E,extended,00000199 // Cave Mouth, Mythril Shard is now Blizza
 patch=1,EE,11CDFEAA,extended,000000A1 // Powder Store, AP Boost is now Staff of Detection
 patch=1,EE,11CDFEB6,extended,00000032 // Powder Store, AP Boost is now Detection Shield
 patch=1,EE,11CDFEC2,extended,00000002 // Moonlight Nook, Mythril Shard is now Hi-Potion
-patch=1,EE,11CDFECE,extended,0000017C // Moonlight Nook, Serenity Gem is now Frost Gem
+patch=1,EE,11CDFECE,extended,0000019C // Moonlight Nook, Serenity Gem is now MP Rage
 patch=1,EE,11CDFEDA,extended,0000017B // Moonlight Nook, Power Stone is now Frost Stone
 patch=1,EE,11CDFEE6,extended,00000196 // The Interceptor's Hold, Feather Charm is now Jackpot
 patch=1,EE,11CDFEF2,extended,00000112 // Seadrift Keep, AP Boost is now Drive Recovery
@@ -1317,7 +1317,7 @@ patch=1,EE,11CDFF2E,extended,00000083 // Seadrift Row, Mythril Crystal is now Te
 
 //Popups
 patch=1,EE,11CE077A,extended,00000083 // Isla de Muerta Map, Isla de Muerta Map is now Tent
-patch=1,EE,11CE0786,extended,0000019C // Follow the Wind, Follow the Wind is now MP Rage
+patch=1,EE,11CE0786,extended,0000017C // Follow the Wind, Follow the Wind is now Frost Gem
 patch=1,EE,11CE086A,extended,00000080 // Cursed Medallion, Cursed Medallion is now Kanga's House Map
 patch=1,EE,11CE0876,extended,0000014F // Ship Graveyard Map, Ship Graveyard Map is now Lucid Gem
 patch=1,EE,11CE09DE,extended,00000006 // Grim Reaper 2, Secret Ansem's Report 6 is now Mega-Ether
