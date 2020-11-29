@@ -1771,7 +1771,7 @@ patch=1,EE,11C37370,extended,0000013E// Dusk (2nd Wave; Middle)
 patch=1,EE,11C373B0,extended,0000013E// Dusk (2nd Wave; Right)
 patch=1,EE,11C373F0,extended,00000139// Berserker (3rd Wave; Left)
 patch=1,EE,11C37430,extended,00000139// Berserker (3rd Wave; Right)
-patch=1,EE,11C37470,extended,0000013C// Berserker (3rd Wave; Middle)
+patch=1,EE,11C37470,extended,0000013C// Sorcerer (3rd Wave; Middle)
 //The Old Mansion Nobodies Fight (I liked the enemies here. I just changed the last wave a bit.)
 patch=1,EE,E0032902,extended,0032BAE0//
 patch=1,EE,E00200BA,extended,0032BAE8//
