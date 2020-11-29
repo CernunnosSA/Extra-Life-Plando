@@ -389,7 +389,7 @@ patch=1,EE,E0020402,extended,0032BAE0
 patch=1,EE,E001004E,extended,0032BAE8
 patch=1,EE,11C36EC0,extended,0000000D// Hot Rod
 //Dusk (1st Fight with Struggle Bat)
-patch=1,EE,E0050E02,extended,0032BAE0
+patch=1,EE,E0040E02,extended,0032BAE0
 patch=1,EE,E003007F,extended,0032BAE8
 patch=1,EE,11C443A4,extended,00000934// Anti Sora
 patch=1,EE,21C6C690,extended,00000000// God Mode
@@ -462,7 +462,7 @@ patch=1,EE,E01B2202,extended,0032BAE0
 patch=1,EE,E01A009D,extended,0032BAE8
 patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C59E24,extended,0000090F// Pete
-patch=1,EE,E0030006,extended,0032EB00// Doom Clock == 0
+patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 0
 patch=1,EE,E0020165,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000165
 patch=1,EE,21C6C4EC,extended,00000165
@@ -482,13 +482,13 @@ patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
 patch=1,EE,E00202C5,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,000002C5
 patch=1,EE,21C6C4EC,extended,000002C5
-patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E0030005,extended,0032EB00// Doom Clock == 5
 patch=1,EE,E0020320,extended,31C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000320
 patch=1,EE,21C6C4EC,extended,00000320
 //Axel I
-patch=1,EE,E0030502,extended,0032BAE0
-patch=1,EE,E0020057,extended,0032BAE8
+patch=1,EE,E0040502,extended,0032BAE0
+patch=1,EE,E0030057,extended,0032BAE8
 patch=1,EE,11CE0C04,extended,00000323// DW Roxas
 patch=1,EE,11C26ED8,extended,00000051// Axel II
 patch=1,EE,11C26EF8,extended,00000000// Axel II AI Enable Firewall
@@ -635,8 +635,7 @@ patch=1,EE,11C59E90,extended,00000968// Reckless (3rd Wave; Mid-Right)
 
 //Boss Replacement
 // Hostile Program
-patch=1,EE,E0030411,extended,0032BAE0 // SP: IO Tower (Hallway)
-patch=1,EE,E0020037,extended,0032BAE4 // Event 37
+patch=1,EE,E0020411,extended,0032BAE0 // SP: IO Tower (Hallway)
 patch=1,EE,E0010037,extended,0032BAE8 // Event 37
 patch=1,EE,11C56530,extended,0000097B // Zexion
 //Sark (Normal)
@@ -704,7 +703,7 @@ patch=1,EE,21C6C42C,extended,00000000// Cannon Gun God Mode
 patch=1,EE,E002005E,extended,01C6C01C// If Max HP Slot 4 = 94
 patch=1,EE,21C6C1C0,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Cannon Gun God Mode
-patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E0090005,extended,0032EB00// Doom Clock == 5
 patch=1,EE,E0020069,extended,01C6C4EC// If Max HP Slot 2 = 105
 patch=1,EE,21C6C690,extended,00000000// Cannon Gun God Mode
 patch=1,EE,21C6C694,extended,00000000// Cannon Gun God Mode
@@ -812,8 +811,7 @@ patch=1,EE,E002050C,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C // Revert Dolan from Marluxia battle
 patch=1,EE,11CE0B6C,extended,0000005D // Revert Goffy from Marluxia battle
 // Marluxia
-patch=1,EE,E00B2604,extended,0032BAE0
-patch=1,EE,E00A0091,extended,0032BAE4
+patch=1,EE,E00A2604,extended,0032BAE0
 patch=1,EE,E0090091,extended,0032BAE8
 patch=1,EE,00347D34,extended,0000009C // Music
 patch=1,EE,11C6C674,extended,00000023 // Marly DEF
@@ -867,9 +865,7 @@ patch=1,EE,01CA4EAC,extended,00000003 // Make Hostile Program a Boss
 patch=1,EE,11C9415C,extended,0B01010D // Default Fat Bandit spawn limiter
 patch=1,EE,11C98BFC,extended,0B02010F // Default Large Body spawn limiter
 // Building Site Heartless
-patch=1,EE,E014050D,extended,0032BAE0
-patch=1,EE,E0130037,extended,0032BAE4
-patch=1,EE,E0120037,extended,0032BAE6
+patch=1,EE,E012050D,extended,0032BAE0
 patch=1,EE,E0110037,extended,0032BAE8
 patch=1,EE,11C98F5C,extended,0B010004 // Dancer has a spawn limiter of 4
 patch=1,EE,11C569D8,extended,00000138 // Dancer
@@ -889,9 +885,7 @@ patch=1,EE,11C56D44,extended,00000138 // Dancer
 patch=1,EE,11C56D84,extended,00000138 // Dancer
 patch=1,EE,11C56DC4,extended,00000138 // Dancer
 // Lilliput Heartless
-patch=1,EE,E010040D,extended,0032BAE0
-patch=1,EE,E00F0036,extended,0032BAE4
-patch=1,EE,E00E0036,extended,0032BAE6
+patch=1,EE,E00E040D,extended,0032BAE0
 patch=1,EE,E00D0036,extended,0032BAE8
 patch=1,EE,11C9415C,extended,0B010104 // Fat Bandit have spawn limiter of 04
 patch=1,EE,11C98BFC,extended,0B020104 // Large Body have spawn limiter of 04
@@ -907,9 +901,7 @@ patch=1,EE,11C57308,extended,0000012F // Large Body
 patch=1,EE,11C57348,extended,00000001 // Fat Bandit
 patch=1,EE,11C57388,extended,0000012F // Large Body
 // Scene of the Fire Heartless
-patch=1,EE,E010060D,extended,0032BAE0
-patch=1,EE,E00F0038,extended,0032BAE4
-patch=1,EE,E00E0038,extended,0032BAE6
+patch=1,EE,E00E060D,extended,0032BAE0
 patch=1,EE,E00D0038,extended,0032BAE8
 patch=1,EE,11C5734C,extended,0000004C // Fiery Globe
 patch=1,EE,11C5738C,extended,00000725 // Minute Bomb
@@ -925,9 +917,7 @@ patch=1,EE,11C57638,extended,0000004C // Fiery Globe
 patch=1,EE,11C576EC,extended,00000049 // Crimson Jazz
 patch=1,EE,11C5772C,extended,00000049 // Crimson Jazz
 // Mickey's House Heartless
-patch=1,EE,E013070D,extended,0032BAE0
-patch=1,EE,E0120039,extended,0032BAE4
-patch=1,EE,E0110039,extended,0032BAE6
+patch=1,EE,E011070D,extended,0032BAE0
 patch=1,EE,E0100039,extended,0032BAE8
 patch=1,EE,11C577E8,extended,00000004 // Hook Bat
 patch=1,EE,11C57828,extended,00000004 // Hook Bat
@@ -948,17 +938,13 @@ patch=1,EE,11C57C88,extended,00000004 // Hook Bat
 
 //Boss Replacement
 // Ensure Puzzle Pieces aren't Hostile Programs before Pete on Continue
-patch=1,EE,E007010D,extended,0032BAE0
-patch=1,EE,E0060001,extended,0032BAE4
-patch=1,EE,E0050000,extended,0032BAE6
-patch=1,EE,E0040001,extended,0032BAE8
-patch=1,EE,E00104B8,extended,01C56BB0
+patch=1,EE,E004010D,extended,0032BAE0
+patch=1,EE,E003003A,extended,1032BAE8
+patch=1,EE,E00204B8,extended,01C56BB0
 patch=1,EE,11C56BB0,extended,00000988
-patch=1,EE,E00104B8,extended,01C56B70
 patch=1,EE,11C56B70,extended,00000988
 // Past Pete
-patch=1,EE,E0F1010D,extended,0032BAE0
-patch=1,EE,E0F0003A,extended,0032BAE4
+patch=1,EE,E0F0010D,extended,0032BAE0
 patch=1,EE,E0EF003A,extended,0032BAE8
 patch=1,EE,01CA4EAC,extended,00000004 // Make Hostile Program a normal enemy
 patch=1,EE,10347D34,extended,0000006E // The Encounter
@@ -1201,7 +1187,7 @@ patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
 // Boat Pete -> FF7 Fight Marker Cleanup
 patch=1,EE,E007020D,extended,0032BAE0
-patch=1,EE,E0060034,extended,1032BAE4
+patch=1,EE,E0060034,extended,1032BAE8
 patch=1,EE,E0050004,extended,01CBAE6C
 patch=1,EE,01CBAE6C,extended,00000003 //Yuffie a Boss
 patch=1,EE,01CBAE0C,extended,00000003 //Tifa a Boss
@@ -1209,8 +1195,7 @@ patch=1,EE,11C56568,extended,00000338
 patch=1,EE,11C565A8,extended,00000338
 patch=1,EE,11C565E8,extended,00000338
 // Boat Pete
-patch=1,EE,E066020D,extended,0032BAE0
-patch=1,EE,E0650034,extended,0032BAE4
+patch=1,EE,E065020D,extended,0032BAE0
 patch=1,EE,E0640034,extended,0032BAE8
 patch=1,EE,2032F098,extended,12121200 // Solo Fight
 patch=1,EE,00347D34,extended,000000A4 // Olympus Music
@@ -1676,7 +1661,7 @@ patch=1,EE,11C58324,extended,00000138// Dancer
 //Gambler (Isla de Muerta: Powder Store)
 patch=1,EE,E0040C10,extended,0032BAE0//
 patch=1,EE,E0030000,extended,0032BAE8//
-patch=1,EE,11C5BC28,extended,00000138//
+patch=1,EE,11C5BC28,extended,00000138// Dancer
 patch=1,EE,11C5BB44,extended,00000139// Berserker (First Crate)
 patch=1,EE,11C5BCDC,extended,00000139// Berserker (Last Crate)
 //Gambler (Isla de Muerta: Moonlight Nook)
@@ -2013,10 +1998,10 @@ patch=1,EE,11C4EA48,extended,0000013E// Dusk
 patch=1,EE,11C4EA88,extended,0000013E// Dusk
 patch=1,EE,11C4EAC8,extended,0000013E// Dusk
 patch=1,EE,11C4EB08,extended,00000934// Anti Sora
-//1k Heartless Required Kills 255
+//1k Heartless
 patch=1,EE,E0041104,extended,0032BAE0//
 patch=1,EE,E0030042,extended,0032BAE8//
-patch=1,EE,11D48EE8,extended,000000FF//
+patch=1,EE,11D48EE8,extended,000000FF// Required Kills 255
 patch=1,EE,11CA7EA8,extended,00000556// Add Thrusters
 patch=1,EE,2032F074,extended,12020100// Add Dolan & Goffy
 
@@ -2046,7 +2031,7 @@ patch=1,EE,E0030004,extended,0032EB00// Doom Clock == 4
 patch=1,EE,E0020428,extended,01C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000A99
 patch=1,EE,21C6C4EC,extended,00000A99
-patch=1,EE,E0030000,extended,0032EB00// Doom Clock == 5
+patch=1,EE,E0030005,extended,0032EB00// Doom Clock == 5
 patch=1,EE,E00204B0,extended,01C6C4EC// Set HP
 patch=1,EE,21C6C4E8,extended,00000BF4
 patch=1,EE,21C6C4EC,extended,00000BF4
@@ -2263,7 +2248,7 @@ patch=1,EE,11C50D90,extended,0000013E// Dusk
 
 
 //----- Pride Lands -----
-patch=1,EE,E128000A,extended,0032BAE0
+patch=1,EE,E028FFFF,extended,0032BAE0
 //Chests
 patch=1,EE,11CE0042,extended,00000017 // Gorge, Savannah Map is now Thunder
 patch=1,EE,11CE004E,extended,0000019A // Gorge, Dark Gem is now Thunder Boost
@@ -2316,8 +2301,7 @@ patch=1,EE,21D10C18,extended,0000009F // Replacement Reward #2: Replacement Rewa
 
 //Enemy Replacement
 //Elephant Graveyard Heartless
-patch=1,EE,E033050A,extended,0032BAE0
-patch=1,EE,E0320038,extended,0032BAE4
+patch=1,EE,E032050A,extended,0032BAE0
 patch=1,EE,E0310038,extended,0032BAE8
 patch=1,EE,01D1129A,extended,00000032 // BL50 to adjust damage scaling in enemies favor
 patch=1,EE,01CA9EEC,extended,00000004 // Set The Experiment to normal enemy
@@ -2380,8 +2364,7 @@ patch=1,EE,01CA9EEC,extended,00000003 // Experiment to Boss
 // Slot 5 == Shenzi (Low STR, High Resists, Neutral DEF, Mid HP)
 // Slot 6 == Banzai (High STR, Neutral Resists, Low DEF, Low HP)
 // Slot 7 == Ed (Neutral STR, Low Resists, High DEF, High HP)
-patch=1,EE,E05E020A,extended,0032BAE0
-patch=1,EE,E05D0033,extended,0032BAE4
+patch=1,EE,E05D020A,extended,0032BAE0
 patch=1,EE,E05C0033,extended,0032BAE8
 patch=1,EE,01D1129A,extended,00000032
 patch=1,EE,00347D34,extended,00000045 // Deep Anxiety (Cavern of Remembrance Battle)
@@ -2476,8 +2459,7 @@ patch=1,EE,11C6B8E4,extended,00000578 // Slot 7 (Ed) Max HP
 patch=1,EE,11C6BA68,extended,00000028 // Slot 7 (Ed) STR
 patch=1,EE,11C6BA6C,extended,0000002E // Slot 7 (Ed) DEF
 //Scar
-patch=1,EE,E01B0E0A,extended,0032BAE0
-patch=1,EE,E01A0037,extended,0032BAE4
+patch=1,EE,E01A0E0A,extended,0032BAE0
 patch=1,EE,E0190037,extended,0032BAE8
 patch=1,EE,11C5A74C,extended,000008F8 // Leon
 patch=1,EE,E0030000,extended,0032EB00 // Doom Clock == 0
@@ -2505,8 +2487,7 @@ patch=1,EE,E00204B0,extended,21C6C01C // Set HP
 patch=1,EE,21C6C018,extended,000004B0
 patch=1,EE,21C6C01C,extended,000004B0
 //Groundshaker
-patch=1,EE,E01D0F0A,extended,0032BAE0
-patch=1,EE,E01C003B,extended,0032BAE4
+patch=1,EE,E01C0F0A,extended,0032BAE0
 patch=1,EE,E01B003B,extended,0032BAE8
 patch=1,EE,11C59F80,extended,000006C9 // Saix
 patch=1,EE,E0010001,extended,01C6C280 // If HP = 1 -> HP = 0
@@ -2619,7 +2600,7 @@ patch=1,EE,11CE0A92,extended,0000009D // Zexion (Data), Lost Illusion is now Gra
 //Hades Chamber
 patch=1,EE,E0040606,extended,0032BAE0
 patch=1,EE,E0030070,extended,0032BAE8
-patch=1,EE,11C48478,extended,000008FB
+patch=1,EE,11C48478,extended,000008FB// Yuffie
 patch=1,EE,21C6C1C0,extended,00000000// Yuffie God Mode
 patch=1,EE,21C6C1C4,extended,00000000// Yuffie God Mode
 //Hades Escape
@@ -2720,7 +2701,8 @@ patch=1,EE,E00201E7,extended,21C6C284// Yuffie's HP
 patch=1,EE,11C6C280,extended,000001E7//
 patch=1,EE,11C6C284,extended,000001E7//
 //Demyx Marker Cleanup
-patch=1,EE,E0030004,extended,01CBACEC// If Demyx is an Enemy
+patch=1,EE,E0040004,extended,01CBACEC// If Demyx is an Enemy
+patch=1,EE,E0031106,extended,0032BAE0
 patch=1,EE,E002007B,extended,1032BAE8// If NOT in fight
 patch=1,EE,01CBACEC,extended,00000003// Revert Demyx Marker
 patch=1,EE,01CA47EC,extended,00000004// Revert Water Clone Marker
@@ -3095,8 +3077,7 @@ patch=1,EE,11CE0A7A,extended,0000009D // Vexen (Data), Lost Illusion is now Gran
 
 //Enemy Replacement
 //Halloween Town Square Heartless (Replaced Trick Ghosts [0002, 0723] with Wight Knights until I figure out why they don't spawn)
-patch=1,EE,E016000E,extended,0032BAE0
-patch=1,EE,E0150033,extended,0032BAE4
+patch=1,EE,E015000E,extended,0032BAE0
 patch=1,EE,E0140033,extended,0032BAE8
 patch=1,EE,11C4A528,extended,0000096B// Necromancer  (1st Wave; Middle)
 patch=1,EE,11C4A568,extended,00000077// Wight Knight (1st Wave; Right)
@@ -3119,8 +3100,7 @@ patch=1,EE,11C4A968,extended,000006F1// Toy Soldier  (2nd Wave; Mid-Left)
 patch=1,EE,11C4A9A8,extended,000006EF// Graveyard    (2nd Wave; Back-Right)
 patch=1,EE,11C4A9E8,extended,000006EF// Graveyard    (2nd Wave; Back-Mid)
 //Candy Cane Lane Heartless
-patch=1,EE,E008060E,extended,0032BAE0
-patch=1,EE,E0070035,extended,0032BAE4
+patch=1,EE,E007060E,extended,0032BAE0
 patch=1,EE,E0060035,extended,0032BAE8
 patch=1,EE,11C4F634,extended,00000964// Beffudler     (1st Wave; Front-Right)
 patch=1,EE,11C4F674,extended,00000964// Beffudler     (1st Wave; Front-Left)
@@ -3129,8 +3109,7 @@ patch=1,EE,11C4F6F4,extended,00000964// Beffudler     (1st Wave; Mid-Right)
 patch=1,EE,11C4F734,extended,0000096B// Necromancer   (2nd Wave; Left)
 patch=1,EE,11C4F774,extended,0000073C// Emerald Blues (2nd Wave; Right)
 //Present Collecting Fight
-patch=1,EE,E009000E,extended,0032BAE0
-patch=1,EE,E008003C,extended,0032BAE4
+patch=1,EE,E008000E,extended,0032BAE0
 patch=1,EE,E007003C,extended,0032BAE8
 patch=1,EE,11C4ABB8,extended,00000723// Trick Ghost (1st Wave; Left)
 patch=1,EE,11C4ABF8,extended,00000723// Trick Ghost (1st Wave; Front)
@@ -3847,6 +3826,7 @@ patch=1,EE,E0021512,extended,0032BAE0
 patch=1,EE,E0010041,extended,0032BAE8
 patch=1,EE,11C4F008,extended,000003E5// Xaldin
 //Luxord->Hades Cleanup
+patch=1,EE,E0030965,extended,01CE0B6A
 patch=1,EE,E0020D12,extended,0032BAE0
 patch=1,EE,11CE0B6A,extended,0000005C// Revert Dolan
 patch=1,EE,11CE0B6C,extended,0000005D// Revert Goffy
