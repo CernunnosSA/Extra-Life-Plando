@@ -1186,9 +1186,9 @@ patch=1,EE,11C6BB4C,extended,000001C2
 patch=1,EE,11C6BB50,extended,00000000
 patch=1,EE,21C6BCF1,extended,64646464
 // Boat Pete -> FF7 Fight Marker Cleanup
-patch=1,EE,E007020D,extended,0032BAE0
-patch=1,EE,E0060034,extended,1032BAE8
-patch=1,EE,E0050004,extended,01CBAE6C
+patch=1,EE,E0070004,extended,01CBAE6C
+patch=1,EE,E106000D,extended,0032BAE0
+patch=1,EE,E0650034,extended,1032BAE8
 patch=1,EE,01CBAE6C,extended,00000003 //Yuffie a Boss
 patch=1,EE,01CBAE0C,extended,00000003 //Tifa a Boss
 patch=1,EE,11C56568,extended,00000338
@@ -2191,7 +2191,7 @@ patch=1,EE,11C37370,extended,0000013E// Dusk (2nd Wave; Middle)
 patch=1,EE,11C373B0,extended,0000013E// Dusk (2nd Wave; Right)
 patch=1,EE,11C373F0,extended,00000139// Berserker (3rd Wave; Left)
 patch=1,EE,11C37430,extended,00000139// Berserker (3rd Wave; Right)
-patch=1,EE,11C37470,extended,0000013C// Berserker (3rd Wave; Middle)
+patch=1,EE,11C37470,extended,0000013C// Sorcerer (3rd Wave; Middle)
 //The Old Mansion Nobodies Fight (I liked the enemies here. I just changed the last wave a bit.)
 patch=1,EE,E0032902,extended,0032BAE0//
 patch=1,EE,E00200BA,extended,0032BAE8//
@@ -2209,22 +2209,22 @@ patch=1,EE,11C504A4,extended,00000136// Samurai (Back-Right)
 //Betwixt and Between Nobodies Fight 2
 patch=1,EE,E0132802,extended,0032BAE0//
 patch=1,EE,E01200A1,extended,0032BAE8//
-patch=1,EE,11C50644,extended,0000013E// Dusk (Back-Middle)
+patch=1,EE,11C50644,extended,0000013C// Sorcerer (Back-Middle)
 patch=1,EE,11C50684,extended,0000013E// Dusk
 patch=1,EE,11C506C4,extended,00000137// Sniper
-patch=1,EE,11C507A0,extended,0000013E// Dusk (Back-Right)
+patch=1,EE,11C507A0,extended,0000013C// Sorcerer (Back-Right)
 patch=1,EE,11C507E0,extended,00000137// Sniper
 patch=1,EE,11C50820,extended,00000137// Sniper
-patch=1,EE,11C508FC,extended,0000013E// Dusk (Front-Right)
+patch=1,EE,11C508FC,extended,0000013C// Sorcerer (Front-Right)
 patch=1,EE,11C5093C,extended,00000137// Sniper
 patch=1,EE,11C5097C,extended,00000137// Sniper
-patch=1,EE,11C50A58,extended,0000013E// Dusk (Front-Middle)
+patch=1,EE,11C50A58,extended,0000013C// Sorcerer (Front-Middle)
 patch=1,EE,11C50A98,extended,0000013E// Dusk
 patch=1,EE,11C50AD8,extended,0000013E// Dusk
-patch=1,EE,11C50BB4,extended,0000013E// Dusk (Front-Left)
+patch=1,EE,11C50BB4,extended,0000013C// Sorcerer (Front-Left)
 patch=1,EE,11C50BF4,extended,0000013E// Dusk
 patch=1,EE,11C50C34,extended,0000013E// Dusk
-patch=1,EE,11C50D10,extended,0000013E// Dusk (Back-Left)
+patch=1,EE,11C50D10,extended,0000013C// Sorcerer (Back-Left)
 patch=1,EE,11C50D50,extended,00000137// Sniper
 patch=1,EE,11C50D90,extended,0000013E// Dusk
 
@@ -2282,6 +2282,11 @@ patch=1,EE,21D10C14,extended,00000000 // Armor Slot:+0 Accessory Slot:+0 Item Sl
 patch=1,EE,21D10C18,extended,0000009F // Replacement Reward #2: Replacement Reward #1:Lamp Charm
 
 //Enemy Replacement
+// Experiment Marker Cleanup
+patch=1,EE,E0030004,extended,01CA9EEC
+patch=1,EE,E102000A,extended,0032BAE0 // Cutscene
+patch=1,EE,E0010038,extended,1032BAE8
+patch=1,EE,01CA9EEC,extended,00000003 // Experiment to Boss
 //Elephant Graveyard Heartless
 patch=1,EE,E032050A,extended,0032BAE0
 patch=1,EE,E0310038,extended,0032BAE8
@@ -2334,11 +2339,6 @@ patch=1,EE,11C6C01C,extended,000009C4
 patch=1,EE,11C6C020,extended,00000000
 patch=1,EE,11C6C1A0,extended,00000045
 patch=1,EE,11C6C1A4,extended,0000002B
-// Experiment Marker Cleanup
-patch=1,EE,E003050A,extended,0032BAE0 // Cutscene
-patch=1,EE,E0020032,extended,0032BAE2 // After
-patch=1,EE,E0010001,extended,0032BAE6 // Fight
-patch=1,EE,01CA9EEC,extended,00000003 // Experiment to Boss
 
 //Boss Replacement
 // Hyenas 1
@@ -3283,77 +3283,78 @@ patch=1,EE,21C6C01C,extended,0000041A
 patch=1,EE,E002020D,extended,01C6BDB4// Set HP Slot 5
 patch=1,EE,21C6BDB0,extended,0000041A
 patch=1,EE,21C6BDB4,extended,0000041A
+//Sorcerer Marker Cleanup
+patch=1,EE,E0030003,extended,01C9902C
+patch=1,EE,E1020005,extended,0032BAE0
+patch=1,EE,E0010045,extended,1032BAE8
+patch=1,EE,01C9902C,extended,00000004
 //Beast (Boss)
-patch=1,EE,E0400305,extended,0032BAE0
-patch=1,EE,E03F0045,extended,0032BAE8
-patch=1,EE,01C98F0C,extended,00000003// Dancer Boss Marker
-patch=1,EE,11C4CBA0,extended,00000138// Dancer (Beast)
+patch=1,EE,E0410305,extended,0032BAE0
+patch=1,EE,E0400045,extended,0032BAE8
+patch=1,EE,2032F078,extended,12121200// Solo Fight
+patch=1,EE,01C9902C,extended,00000003// Sorcerer Boss Marker
+patch=1,EE,11C4CBA0,extended,0000013C// Sorcerer (Beast)
 patch=1,EE,11C4CBE0,extended,0000031B// Demyx (Cogsworth)
 patch=1,EE,E0090000,extended,0032EB00// Doom Clock == 0
-patch=1,EE,E002006C,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,E002006C,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000003CC
 patch=1,EE,21C6C284,extended,000003CC
-patch=1,EE,E002006C,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,E002006C,extended,01C6C01C// Sorcerer's HP Slot 4
 patch=1,EE,21C6C018,extended,000003CC
 patch=1,EE,21C6C01C,extended,000003CC
-patch=1,EE,E002006C,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,E002006C,extended,01C6BDB4// Sorcerer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,000003CC
 patch=1,EE,21C6BDB4,extended,000003CC
 patch=1,EE,E0090001,extended,0032EB00// Doom Clock == 1
-patch=1,EE,E0020087,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,E0020087,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000004BF
 patch=1,EE,21C6C284,extended,000004BF
-patch=1,EE,E0020087,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,E0020087,extended,01C6C01C// Sorcerer's HP Slot 4
 patch=1,EE,21C6C018,extended,000004BF
 patch=1,EE,21C6C01C,extended,000004BF
-patch=1,EE,E0020087,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,E0020087,extended,01C6BDB4// Sorcerer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,000004BF
 patch=1,EE,21C6BDB4,extended,000004BF
 patch=1,EE,E0090002,extended,0032EB00// Doom Clock == 2
-patch=1,EE,E00200A0,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,E00200A0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,000005A0
 patch=1,EE,21C6C284,extended,000005A0
-patch=1,EE,E00200A0,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,E00200A0,extended,01C6C01C// Sorcerer's HP Slot 4
 patch=1,EE,21C6C018,extended,000005A0
 patch=1,EE,21C6C01C,extended,000005A0
-patch=1,EE,E00200A0,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,E00200A0,extended,01C6BDB4// Sorcerer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,000005A0
 patch=1,EE,21C6BDB4,extended,000005A0
 patch=1,EE,E0090003,extended,0032EB00// Doom Clock == 3
-patch=1,EE,E00200BC,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,E00200BC,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E00200BC,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,E00200BC,extended,01C6C01C// Sorcerer's HP Slot 4
 patch=1,EE,21C6C018,extended,0000069C
 patch=1,EE,21C6C01C,extended,0000069C
-patch=1,EE,E00200BC,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,E00200BC,extended,01C6BDB4// Sorcerer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,0000069C
 patch=1,EE,21C6BDB4,extended,0000069C
 patch=1,EE,E0090004,extended,0032EB00// Doom Clock == 4
-patch=1,EE,E00200D5,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,E00200D5,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,0000069C
 patch=1,EE,21C6C284,extended,0000069C
-patch=1,EE,E00200D5,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,E00200D5,extended,01C6C01C// Sorcerer's HP Slot 4
 patch=1,EE,21C6C018,extended,0000077D
 patch=1,EE,21C6C01C,extended,0000077D
-patch=1,EE,E00200D5,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,E00200D5,extended,01C6BDB4// Sorcerer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,0000077D
 patch=1,EE,21C6BDB4,extended,0000077D
 patch=1,EE,E0090005,extended,0032EB00// Doom Clock == 5
-patch=1,EE,E00200F0,extended,01C6C284// Dancer's HP Slot 3
+patch=1,EE,E00200F0,extended,01C6C284// Sorcerer's HP Slot 3
 patch=1,EE,21C6C280,extended,00000870
 patch=1,EE,21C6C284,extended,00000870
-patch=1,EE,E00200F0,extended,01C6C01C// Dancer's HP Slot 4
+patch=1,EE,E00200F0,extended,01C6C01C// Sorcerer's HP Slot 4
 patch=1,EE,21C6C018,extended,00000870
 patch=1,EE,21C6C01C,extended,00000870
-patch=1,EE,E00200F0,extended,01C6BDB4// Dancer's HP Slot 5
+patch=1,EE,E00200F0,extended,01C6BDB4// Sorcerer's HP Slot 5
 patch=1,EE,21C6BDB0,extended,00000870
 patch=1,EE,21C6BDB4,extended,00000870
-//Dancer Marker Cleanup
-patch=1,EE,E0030305,extended,0032BAE0
-patch=1,EE,E0020016,extended,0032BAE8
-patch=1,EE,E0010003,extended,01C98F0C
-patch=1,EE,01C98F0C,extended,00000004
 //Shadow Stalker Fight
 patch=1,EE,E0030505,extended,0032BAE0
 patch=1,EE,E002004E,extended,0032BAE8
