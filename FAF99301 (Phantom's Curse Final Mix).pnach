@@ -3506,9 +3506,12 @@ patch=1,EE,21D10908,extended,01A60058 // Replacement Reward #2:MP Hastega Replac
 
 //Enemy Replacement
 // Encampment Fight
-patch=1,EE,E00B0108,extended,0032BAE0
-patch=1,EE,E00A0044,extended,0032BAE4
-patch=1,EE,E0090044,extended,0032BAE8
+patch=1,EE,E00C0108,extended,0032BAE0
+patch=1,EE,E00B0044,extended,0032BAE4
+patch=1,EE,E00A0044,extended,0032BAE8
+patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
+// Can still lose to Morale if it would be completely depleted by a single hit
+// Morning Star RC attack against low level Ping usually results in loss by Morale
 patch=1,EE,11C48CD4,extended,00000004
 patch=1,EE,11C48D14,extended,00000004
 patch=1,EE,11C48D54,extended,00000004
@@ -3519,9 +3522,10 @@ patch=1,EE,11C491C4,extended,0000045A
 patch=1,EE,11C49278,extended,0000007A
 patch=1,EE,11C492B8,extended,0000007A
 // Mission 1
-patch=1,EE,E0110208,extended,0032BAE0
-patch=1,EE,E0100045,extended,0032BAE4
-patch=1,EE,E00F0045,extended,0032BAE8
+patch=1,EE,E0120208,extended,0032BAE0
+patch=1,EE,E0110045,extended,0032BAE4
+patch=1,EE,E0100045,extended,0032BAE8
+patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
 patch=1,EE,11C5B09C,extended,00000076
 patch=1,EE,11C5B0DC,extended,00000076
 patch=1,EE,11C5B11C,extended,00000076
@@ -3538,9 +3542,10 @@ patch=1,EE,11C5B39C,extended,0000000D
 patch=1,EE,11C5B3DC,extended,0000000D
 patch=1,EE,11C5B41C,extended,00000966
 // Mission 2
-patch=1,EE,E00E0208,extended,0032BAE0
-patch=1,EE,E00D0050,extended,0032BAE4
-patch=1,EE,E00C0050,extended,0032BAE8
+patch=1,EE,E00F0208,extended,0032BAE0
+patch=1,EE,E00E0050,extended,0032BAE4
+patch=1,EE,E00D0050,extended,0032BAE8
+patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
 patch=1,EE,11C5B760,extended,00000004
 patch=1,EE,11C5B7A0,extended,00000004
 patch=1,EE,11C5B7E0,extended,00000004
@@ -3554,9 +3559,10 @@ patch=1,EE,11C5BA0C,extended,00000076
 patch=1,EE,11C5BA4C,extended,00000010
 patch=1,EE,11C5BA8C,extended,00000048
 // Mission 3
-patch=1,EE,E00A0108,extended,0032BAE0
-patch=1,EE,E0090046,extended,0032BAE4
-patch=1,EE,E0080046,extended,0032BAE8
+patch=1,EE,E00B0108,extended,0032BAE0
+patch=1,EE,E00A0046,extended,0032BAE4
+patch=1,EE,E0090046,extended,0032BAE8
+patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
 patch=1,EE,11C49504,extended,00000008
 patch=1,EE,11C49544,extended,00000008
 patch=1,EE,11C49584,extended,00000008
@@ -3566,9 +3572,10 @@ patch=1,EE,11C49644,extended,00000008
 patch=1,EE,11C49684,extended,00000965
 patch=1,EE,11C496C4,extended,00000008
 // Mountain Trail
-patch=1,EE,E0160308,extended,0032BAE0
-patch=1,EE,E0150047,extended,0032BAE4
-patch=1,EE,E0140047,extended,0032BAE8
+patch=1,EE,E0170308,extended,0032BAE0
+patch=1,EE,E0160047,extended,0032BAE4
+patch=1,EE,E0150047,extended,0032BAE8
+patch=1,EE,21D48FA4,extended,42C80000 // Lock Morale to 100%
 patch=1,EE,2032F084,extended,12121200 // Solo Fight
 patch=1,EE,11C58528,extended,0000007B // Wave 1
 patch=1,EE,11C58568,extended,0000007B
@@ -3640,30 +3647,23 @@ patch=1,EE,E0020001,extended,0032BAE8
 patch=1,EE,11C4C714,extended,00000428// (Shan Yu)
 patch=1,EE,11C4C678,extended,00000022// (Emperor)
 //Shan Yu Fight
-patch=1,EE,E0120908,extended,0032BAE0
-patch=1,EE,E011004B,extended,0032BAE4
-patch=1,EE,E010004B,extended,0032BAE8
-patch=1,EE,11C4BEB0,extended,00000137// Sniper (Hayabusa)
-patch=1,EE,11C4BE70,extended,00000136// Samurai(Shan Yu)
-patch=1,EE,11C98EAC,extended,00000003// Sniper Marker
-patch=1,EE,11C98E4C,extended,00000003// Samurai Marker
-patch=1,EE,E0020037,extended,01C6C284 // Sniper or Samurai in Slot 3
-patch=1,EE,11C6C280,extended,0000015E
-patch=1,EE,11C6C284,extended,0000015E
-patch=1,EE,E0020037,extended,01C6C01C // Sniper or Samurai in Slot 4
-patch=1,EE,11C6C018,extended,0000015E
-patch=1,EE,11C6C01C,extended,0000015E
-patch=1,EE,E0020037,extended,01C6BDB4 // Sniper or Samurai in Slot 5
-patch=1,EE,11C6BDB0,extended,0000015E
-patch=1,EE,11C6BDB4,extended,0000015E
-patch=1,EE,E0020037,extended,01C6BB4C // Sniper or Samurai in Slot 6
-patch=1,EE,11C6BB48,extended,0000015E
-patch=1,EE,11C6BB4C,extended,0000015E
+patch=1,EE,E0XX0908,extended,0032BAE0
+patch=1,EE,E0XX004B,extended,0032BAE4
+patch=1,EE,E0XX004B,extended,0032BAE8
+patch=1,EE,11C4BEB0,extended,00000137 // Sniper (Hayabusa)
+patch=1,EE,11C4BE70,extended,00000136 // Samurai(Shan Yu)
+patch=1,EE,11C98E4C,extended,00000003 // Samurai Marker
+patch=1,EE,11D129E4,extended,000000FA // Increase Samurai Base HP to differentiate between enemies
+// TODO: Work out new Samurai/Sniper HP values to do Slot adjustments.
+// TODO: Set Samurai resists to 99% (RC might t-pose at 100%, worth checking) by default based on new HP in Slots.
+// TODO: Determine what slot Sniper is in and use that HP value hitting 0 to adjust Samurai Resists to normal Boss spread of 50% All Elements, 0% Physical
+// Is this gonna be more than 255 lines? Probably after scaling for Doom Clock.
+
 //Samurai and Sniper Marker Cleanup
 patch=1,EE,E0030908,extended,0032BAE0
 patch=1,EE,E0020069,extended,0032BAE8
-patch=1,EE,11C98EAC,extended,00000004// Sniper Marker
-patch=1,EE,11C98E4C,extended,00000004// Samurai Marker
+patch=1,EE,11C98E4C,extended,00000004 // Samurai Marker
+patch=1,EE,11D129E4,extended,000000A0 // Reset Samurai Base HP
 //Remove Riku Thrusters
 patch=1,EE,E0020708,extended,0032BAE0
 patch=1,EE,E001004C,extended,0032BAE8
